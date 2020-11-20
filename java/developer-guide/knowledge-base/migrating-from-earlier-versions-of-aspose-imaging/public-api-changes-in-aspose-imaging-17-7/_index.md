@@ -11,15 +11,29 @@ This document describes the changes made in Aspose.Imaging for Java 17.7 that ma
 
 {{% /alert %}} 
 
-Please see corresponding cumulative [API changes in Aspose.Imaging for .Net 17.7](https://docs.aspose.com/display/imagingnet/Public+API+Changes+in+Aspose.Imaging++for+.NET+17.7).
-### **Java specific**
-#### **Added APIs:**
+## **Added APIs:**
+Method com.aspose.imaging.extensions.FontExtensions.toGdiFont(com.aspose.imaging.Font,int)
 
+Method com.aspose.imaging.fileformats.png.PngImage.onPaletteChanged(com.aspose.imaging.IColorPalette,com.aspose.imaging.IColorPalette)
 
+Method com.aspose.imaging.fileformats.psd.layers.Layer.hasAlpha
+
+Method com.aspose.imaging.fileformats.psd.PsdImage.hasAlpha
+
+Method com.aspose.imaging.Image.isAutoAdjustPalette
+
+Method com.aspose.imaging.Image.setAutoAdjustPalette(boolean value)
+
+## **Removed APIs:**
 Nothing
 
 
-#### **Deleted APIs:**
+### **Java specific**
 
+#### **Added APIs:**
+
+Nothing
+
+#### **Deleted APIs:**
 
 Method com.aspose.imaging.extensions.ImageExtensions.toGdiImage(com.aspose.imaging.Image)

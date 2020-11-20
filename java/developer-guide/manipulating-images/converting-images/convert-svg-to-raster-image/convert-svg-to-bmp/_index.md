@@ -6,7 +6,7 @@ url: /java/convert-svg-to-bmp/
 ---
 
 ## **Convert SVG to BMP**
-Using Aspose.Imaging for .NET, developers can convert SVG to BMP format. This topic explains the approach to load existing SVG and convert it to BMP using **BmpOptions** and **SvgRasterizationOptions**.
+Using Aspose.Imaging for Java, developers can convert SVG to BMP format. This topic explains the approach to load existing SVG and convert it to BMP using **BmpOptions** and **SvgRasterizationOptions**.
 
 Below provided sample code demonstrate how to convert SVG to BMP.
 

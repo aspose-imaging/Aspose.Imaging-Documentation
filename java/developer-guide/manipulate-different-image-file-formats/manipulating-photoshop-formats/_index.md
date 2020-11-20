@@ -31,7 +31,7 @@ Additional resources can be added, such as thumbnail resources for PSD v4.0, v5.
 
 The code below opens a BMP file from disk and saves it to PSD with RLE compression and RGB color mode.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-export-ExportImageToPSD-ExportImageToPSD.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-export-ExportImageToPSD-ExportImageToPSD.java" >}}
 ## **Importing image to PSD layer**
 This article demonstrates the usage of Aspose.Imaging for Java to add or import an image to a PSD layer. Aspose.Imaging API have exposed efficient & easy to use methods to achieve this goal.
 
@@ -48,7 +48,7 @@ The steps to import image into PSD layer are as simple as below:
 
 The following code example demonstrates how to import an image.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ImportanImageToPSDLayer-ImportanImageToPSDLayer.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ImportanImageToPSDLayer-ImportanImageToPSDLayer.java" >}}
 ## **Color replacement in PSD layers**
 This article demonstrates the usage of Aspose.Imaging for Java to replace color in PSD layers. Aspose.Imaging APIs have exposed efficient & easy to use methods to achieve this goal.The steps to replacement into PSD layer are as simple as below:
 
@@ -60,7 +60,7 @@ The following code snippet shows you how to import image to PSD layer.
 
 The following code example demonstrates how to import an image.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-ColorReplacement-ColorReplacement.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-ColorReplacement-ColorReplacement.java" >}}
 ## **Creating Thumbnails from PSD Files**
 PSD is the native document format of Adobe's Photoshop application. Adobe Photoshop (version 5.0 and later) stores thumbnail information for preview display in an image resource block that consists of an initial 28-byte header, followed by a JFIF thumbnail in RGB (red, green, blue) order.
 
@@ -68,7 +68,7 @@ Aspose.Imaging for Java API provides an easy to use mechanism to access the reso
 
 The following code snippet demonstrates the usage of Aspose.Imaging for Java API to achieve the same.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-CreateThumbnailsfromPSDFiles-CreateThumbnailsfromPSDFiles.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-CreateThumbnailsfromPSDFiles-CreateThumbnailsfromPSDFiles.java" >}}
 ## **Creating Indexed PSD Files**
 Aspose.Imaging for Java API can create Indexed PSD files from scratch. This article demonstrates the use of PsdOptions and PsdImage classes to create an Indexed PSD while drawing some shapes over the newly created canvas.
 
@@ -82,7 +82,7 @@ The following simple steps are required to create an Indexed PSD file.
 1. Draw graphics or perform other operations as per requirement.
 1. Call PsdImage.save method to commit all changes.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-CreatIndexedPSDFiles-CreatIndexedPSDFiles.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-CreatIndexedPSDFiles-CreatIndexedPSDFiles.java" >}}
 ## **Exporting PSD Layer to Raster Image**
 Aspose.Imaging allows you to export layers in a PSD file into raster images. Please use the com.aspose.imaging.fileformats.psd.layers.Layer.save method to export the layer to image.
 
@@ -90,7 +90,7 @@ The following sample code loads a PSD file and exports each of its layer into a 
 
 Here is sample code.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ExportPSDLayertoRasterImage-ExportPSDLayertoRasterImage.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ExportPSDLayertoRasterImage-ExportPSDLayertoRasterImage.java" >}}
 ## **Update Text Layer In PSD File**
 Aspose.Imaging for Java allows you to manipulate the text in the text layer of a PSD file. Please use the com.aspose.imaging.fileformats.psd.Layers.TextLayer class to update text in PSD layer.
 ### **Exporting PSD Layer to Raster Image**
@@ -98,7 +98,7 @@ The following sample code loads a PSD file, access the text layer, update the te
 
 Here is sample code.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ExportPSDLayertoRasterImage-ExportPSDLayertoRasterImage.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-ExportPSDLayertoRasterImage-ExportPSDLayertoRasterImage.java" >}}
 ## **Detecting Flattened PSD**
 Aspose.Imaging for Java allows you to detect whether a given PSD file is flatten or not. IsFlatten property has been introduced in the com.aspose.imaging.fileformats.psd.PsdImage class to achieve this functionality.
 
@@ -106,7 +106,7 @@ The following sample code loads a PSD file and access the property isFlatten.
 
 Here is sample code.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-DetectFlattenedPSD-DetectFlattenedPSD.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-DetectFlattenedPSD-DetectFlattenedPSD.java" >}}
 ## **Merge PSD layers While Converting PSD to JPG**
 This article shows how to merge layers in a PSD file while converting a PSD file to JPG with Aspose.Imaging.
 
@@ -114,29 +114,29 @@ In the example below, an existing PSD file is loaded by passing the file path to
 
 Here is sample code.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-MergPSDlayers-MergPSDlayers.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-MergPSDlayers-MergPSDlayers.java" >}}
 ## **Grayscale Support with Alpha for PSD**
-This article shows how to support Grayscale with alpha for PSD file while converting a PSD file to PNG with Aspose.Imaging. In the example below, an existing PSD file is loaded by passing the file path to the Image class static Load method. Once it is loaded, convert/cast the image to PsdImage. Create an instance of the PngOptions class. Set the color property to PNG file . Now call the [Save](http://www.aspose.com/api/net/imaging/aspose.imaging/image/methods/save/index) method of the PngOptions instance. The following code snippet shows you how to support Grayscale with Alpha.
+This article shows how to support Grayscale with alpha for PSD file while converting a PSD file to PNG with Aspose.Imaging. In the example below, an existing PSD file is loaded by passing the file path to the Image class static Load method. Once it is loaded, convert/cast the image to PsdImage. Create an instance of the PngOptions class. Set the color property to PNG file . Now call the [Save](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#save--) method of the PngOptions instance. The following code snippet shows you how to support Grayscale with Alpha.
 
 Here is sample code.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportGrayScaleWithAlpha-SupportGrayScaleWithAlpha.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportGrayScaleWithAlpha-SupportGrayScaleWithAlpha.java" >}}
 ## **Support for Subscript PSD**
 This article shows how to add the Subscript option parsing and rendering for PSD text layer. The following code snippet shows you how to support Subscript.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportForSubscript-SupportForSubscript.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportForSubscript-SupportForSubscript.java" >}}
 ## **Support for EPS Format**
 This article shows how to support Formats like EPS in Aspose.Imaging. The following code snippet shows you how to support EPS.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-EPS-SupportForEPS-SupportForEPS.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-EPS-SupportForEPS-SupportForEPS.java" >}}
 ## **Support for SmallCap PSD**
 This article shows how to add the SmallCap option parsing and rendering for PSD text layer. The following code snippet shows you how to support SmallCap.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportForSmallCap-SupportForSmallCap.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportForSmallCap-SupportForSmallCap.java" >}}
 ## **Support Layer Effects For PSD**
 This article shows how support different effects like **Blur, Inner Glow, Outer Glow** for PSD layer. The following code snippet shows you how to support layer effects.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-SupportEffectsforPSD-SupportEffectsforPSD.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-SupportEffectsforPSD-SupportEffectsforPSD.java" >}}
 ## **Specifying a Font Folder**
 The **FontSettings.** **addFontsFolder()** method is used to indicate where Aspose.Imaging should look for fonts. When a valid path is passed to this method, Aspose.Imaging no longer looks in the registry or the Windows\Font folder to look for fonts and only scans for fonts within the specified folder. When a custom font folder is set using this method, the folder is checked that it exists and is accessible. If the folder cannot be found, then it sets the default folder.
 
