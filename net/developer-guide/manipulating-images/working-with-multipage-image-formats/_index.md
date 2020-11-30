@@ -172,3 +172,17 @@ Below presented *example of export from/to different multipage image formats*:
  }
 
 {{< /highlight >}}
+
+## **Support of making gifs and other multi-page (multi-frame) files from set of images**
+
+### Create multipage images using AddPage method
+
+You can create multipage image using AddPage() method. The following code shows how you can create animated images using image frames from the folder:
+
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-create-multipage-image-using-addPage.cs" >}}
+
+### Create multipage image from vector images
+
+In order to use vector images as animation frames you need to rasterize them first. The following source code sample shows how to create TIFF image using vector images:
+
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-create-multipage-image-from-vector-images.cs" >}}
