@@ -1,7 +1,7 @@
 ---
 title: Manipulating Images
 type: docs
-weight: 50
+weight: 20
 url: /java/manipulating-images/
 ---
 
