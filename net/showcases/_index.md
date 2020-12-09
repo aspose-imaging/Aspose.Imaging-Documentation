@@ -23,3 +23,5 @@ Here we collected examples for these kinds of tasks. More features with examples
 [Image masking](/imaging/net/image-masking/)
 
 [Sequential multi-page image export (batch) mode](/imaging/net/sequential-multi-page-image-export-batch-mode/)
+
+[Remove background from images](/imaging/net/remove-background-from-images/)
