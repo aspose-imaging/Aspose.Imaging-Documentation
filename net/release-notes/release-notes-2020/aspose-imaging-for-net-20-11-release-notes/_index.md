@@ -4,11 +4,12 @@ weight: '60'
 url: /net/aspose-imaging-for-net-20-11-release-notes/
 title: Aspose.Imaging for .NET 20.11 - Release notes | Remove background, making gifs
 ---
-**Summary:**
 
-This release contains new features and enhancements:
-* Remove background supports improved Graph Cut image segmentation algorithm with precalculated initial background/foreground brushstrokes
-* Supported export of the set of single page images to any supported multipage image format (ie GIF, DICOM etc)
+## New features and enhancements:
+
+- Remove background supports improved Graph Cut image segmentation algorithm with precalculated initial background/foreground brushstrokes
+
+- Supported export of the set of single page images to any supported multipage image format (ie GIF, DICOM etc)
 
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
