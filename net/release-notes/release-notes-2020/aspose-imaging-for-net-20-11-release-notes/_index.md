@@ -4,28 +4,30 @@ weight: '60'
 url: /net/aspose-imaging-for-net-20-11-release-notes/
 title: Aspose.Imaging for .NET 20.11 - Release notes | Remove background, making gifs
 ---
-
-## New features and enhancements:
+**New features and enhancements**
+-----------------------
 
 - Remove background supports improved Graph Cut image segmentation algorithm with precalculated initial background/foreground brushstrokes
 
 - Supported export of the set of single page images to any supported multipage image format (ie GIF, DICOM etc)
 
+  
 
-| **Key**         | **Summary**                                                                                                                                                              | **Category** |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGNET-4087 | Improve Remove background : Add initial precalculated background/foreground brushstrokes for GraphCut image segmentation algorithm                                                                                                                                   | Feature      |
-| IMAGINGNET-3654 | Support of making gifs and other multi-page (multi-frame) files from set of images                                                                                                                                  | Feature      |
-| IMAGINGNET-4181 | Fix color conversion between 16Bpp565, 16Bpp555 and 32BppRgb formats                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4165 | Invalid results of the export from PNG to SVG format                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4160 | Wrong processing of SVG image                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4143 | Saving jpg after watermark throwing exception                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4115 | Exception on exporting EMF to PDF                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4113 | Exception on loading CDR file                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4108 | Enhance EPS fileformat inherinance to support rotate, resize, flip etc operations as vector images support                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4088 | SVGZ result image damaged in PDF conversion and other conversions                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4077 | ColorPaletteHelper produces incorrect palette for BMP RGB565 images                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4031 | Index was outside the bounds of the array exception when loading DNG                                                                                                                                  | Enhancement      |
+
+| **Key**         | **Summary**                                                  | **Category** |
+| --------------- | ------------------------------------------------------------ | ------------ |
+| IMAGINGNET-4087 | Improve Remove background : Add initial precalculated background/foreground brushstrokes for GraphCut image segmentation algorithm | Feature      |
+| IMAGINGNET-3654 | Support of making gifs and other multi-page (multi-frame) files from set of images | Feature      |
+| IMAGINGNET-4181 | Fix color conversion between 16Bpp565, 16Bpp555 and 32BppRgb formats | Enhancement  |
+| IMAGINGNET-4165 | Invalid results of the export from PNG to SVG format         | Enhancement  |
+| IMAGINGNET-4160 | Wrong processing of SVG image                                | Enhancement  |
+| IMAGINGNET-4143 | Saving jpg after watermark throwing exception                | Enhancement  |
+| IMAGINGNET-4115 | Exception on exporting EMF to PDF                            | Enhancement  |
+| IMAGINGNET-4113 | Exception on loading CDR file                                | Enhancement  |
+| IMAGINGNET-4108 | Enhance EPS fileformat inherinance to support rotate, resize, flip etc operations as vector images support | Enhancement  |
+| IMAGINGNET-4088 | SVGZ result image damaged in PDF conversion and other conversions | Enhancement  |
+| IMAGINGNET-4077 | ColorPaletteHelper produces incorrect palette for BMP RGB565 images | Enhancement  |
+| IMAGINGNET-4031 | Index was outside the bounds of the array exception when loading DNG | Enhancement  |
 
 **Public API changes:**
 -----------------------
