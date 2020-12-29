@@ -131,7 +131,6 @@ Method    Aspose.Imaging.FileFormats.Eps.EpsInterchangeImage.UpdateDimensions(Sy
 **IMAGINGNET-4181 Fix color conversion between 16Bpp565, 16Bpp555 and 32BppRgb formats**
 
 ```
-<code>
 using (var image = (RasterImage)Image.Load("decHex_16Bpp565.bmp"))
 {
     var palette = ColorPaletteHelper.GetCloseImagePalette((RasterImage)image, 256);
@@ -154,19 +153,16 @@ using (var image = (RasterImage)Image.Load("decHex_16Bpp565.bmp"))
     image.Save("out.bmp", bmpOptions);
     image.Save("out.png", pngOptions);
 }
-</code>
 ```
 
 **IMAGINGNET-4165 Invalid results of the export from PNG to SVG format**
 
 ```
-<code>
 using (Image image = Image.Load("lena_16g_lin.png"))
 {
     var options = new SvgOptions();
     image.Save("lena_16g_lin.png.svg", options);
 }
-</code>
 ```
 
 **IMAGINGNET-4160 Wrong processing of SVG image**
@@ -232,9 +228,17 @@ using (Image image = Image.Load(inputFilePath))
 ```
 ### What is EPS image format?
 
-EPS file format is short for Encapsulated PostScript. It was created by Adobe back in 1992. It's a standard graphics file format intended for placing images or drawings within a PostScript Document. Basically it's a postscript program saved as a single file. EPS file also includes a low-resolution preview of the graphics inside which makes it accessible with programs not capable of editing the script inside. EPS file format is widely used by publishers because of its compatibility across different operating systems.
+EPS file format is short for Encapsulated PostScript. It was created by Adobe back in 1992. 
+It's a standard graphics file format intended for placing images or drawings within a PostScript Document. 
+Basically it's a postscript program saved as a single file. EPS file also includes a low-resolution preview 
+of the graphics inside which makes it accessible with programs not capable of editing the script inside. 
+EPS file format is widely used by publishers because of its compatibility across different operating systems.
 
-An EPS file can contain any combination of text, graphics, and images. Since it is actually a PostScript file, it is one of the most versatile file formats that are available. The files are supported by several different drawing programs and vector graphic editing applications. Many image converter programs can create EPS files containing the pixels of the image. An EPS file is a stream of generic PostScript printing commands. Thus many PostScript printer drivers have an option to save as EPS.
+An EPS file can contain any combination of text, graphics, and images. Since it is actually a PostScript file, 
+it is one of the most versatile file formats that are available. The files are supported by several different 
+drawing programs and vector graphic editing applications. Many image converter programs can create EPS files 
+containing the pixels of the image. An EPS file is a stream of generic PostScript printing commands. Thus many 
+PostScript printer drivers have an option to save as EPS.
 
 ### How to resize EPS image?
 **Image** class contains several **Resize** methods which allow to resize any image type including EPS image. The following source code sample shows how you can load, resize and export EPS image to PNG format:
@@ -263,7 +267,8 @@ using (var image = Image.Load("AstrixObelix.eps"))
 }
 
 ### Resize EPS image using advanced settings
-In case if you need a full control on resize operation, you can specify an advanced resize settings. The following code shows how you can set Filter Type, Color Compare Method and other settings:
+In case if you need a full control on resize operation, you can specify an advanced resize settings. 
+The following code shows how you can set Filter Type, Color Compare Method and other settings:
 
 // Load EPS image
 using (var image = Image.Load("AstrixObelix.eps"))
