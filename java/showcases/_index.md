@@ -23,3 +23,5 @@ Here we collected examples for these kinds of tasks. More features with examples
 [Image masking](/imaging/java/image-masking/)
 
 [Sequential multi-page image export (batch) mode](/imaging/java/sequential-multi-page-image-export-batch-mode/)
+
+[Remove background from images](/imaging/java/remove-background-from-images/)
