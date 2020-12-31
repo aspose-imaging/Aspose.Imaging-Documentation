@@ -6,6 +6,7 @@ title: Aspose.Imaging for .NET 20.12 - Release notes
 ---
 **Competitive features:**
 -----------------------
+
 * Implement the ability to create animation from an array of images
 * Support for access to missing Exif properties	
 
