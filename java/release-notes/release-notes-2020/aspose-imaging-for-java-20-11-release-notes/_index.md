@@ -41,7 +41,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.
 
 **IMAGINGJAVA-1924 Improve Remove background : Add initial precalculated background/foreground brushstrokes for GraphCut image segmentation algorithm**
 
-```
+``` java
 ### Using Graph Cut auto masking with feathering.
 To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end.
 
@@ -81,11 +81,18 @@ for (MaskingResult result : results)
 {
     result.close();
 }
-
+```
 
 ### Modifying default strokes for repeated auto masking 
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size, modifying obtained default strokes, and using it for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking result, applied background/foreground strokes are modified and another masking iteration is performed using the new GraphCutMaskingOptions instance.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the image masking results with feathering based on image size, 
+modifying obtained default strokes, and using it for the new masking iteration. Image masking is performed using 
+auto calculated default strokes. Additionally, the data of the two assumed objects is also specified in the 
+AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking result, applied 
+background/foreground strokes are modified and another masking iteration is performed using the new 
+GraphCutMaskingOptions instance.
 
+``` java
 // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
 java.util.List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 // THe object type and the area containing that object should be specified.
@@ -184,10 +191,17 @@ for (MaskingResult maskingResult : results)
 {
     maskingResult.close();
 }
+```
 
 ### Re-using default strokes in repeated auto masking with new points
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking results, applied background/foreground strokes are modified and another masking iteration is performed.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the image masking results with feathering based on image size and 
+re-using masking options for the new masking iteration. Image masking is performed using auto calculated default 
+strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of 
+the AutoMaskingGraphCutOptions. After getting the initial masking results, applied background/foreground strokes 
+are modified and another masking iteration is performed.
 
+``` java
 // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
 java.util.List<AssumedObjectData> assumedObjects = new ArrayList<AssumedObjectData>(2);
 // THe object type and the area containing that object should be specified.
@@ -274,11 +288,15 @@ for (MaskingResult maskingResult : results)
 {
     maskingResult.close();
 }
+```
 
 ### Using Graph Cut auto masking with specified assumed objects data.
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following 
+example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed 
+using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the 
+AssumedObjects property of the AutoMaskingGraphCutOptions.
 
-
+``` java
 // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
 java.util.List<AssumedObjectData> assumedObjects = new ArrayList<AssumedObjectData>(2);
 // THe object type and the area containing that object should be specified.
@@ -321,10 +339,14 @@ for (MaskingResult maskingResult : results)
 {
     maskingResult.close();
 }
+```
 
 ### Performing Graph Cut segmentation with user-defined point and feathering radius.
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the Graph Cut image masking result with feathering set to 3. Image masking is performed using the user-defined Point array.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the Graph Cut image masking result with feathering set to 3. 
+Image masking is performed using the user-defined Point array.
 
+``` java
 MaskingResult[] results;
 try (RasterImage image = (RasterImage)Image.load("input.jpg"))
 {
@@ -374,16 +396,26 @@ for (MaskingResult maskingResult : results)
 
 **IMAGINGJAVA-1907 Enhance EPS fileformat inherinance to support rotate, resize, flip etc operations as vector images support**
 
-```
+
 ### What is EPS image format?
 
-EPS file format is short for Encapsulated PostScript. It was created by Adobe back in 1992. It's a standard graphics file format intended for placing images or drawings within a PostScript Document. Basically it's a postscript program saved as a single file. EPS file also includes a low-resolution preview of the graphics inside which makes it accessible with programs not capable of editing the script inside. EPS file format is widely used by publishers because of its compatibility across different operating systems.
+EPS file format is short for Encapsulated PostScript. It was created by Adobe back in 1992. 
+It's a standard graphics file format intended for placing images or drawings within a PostScript Document. 
+Basically it's a postscript program saved as a single file. EPS file also includes a low-resolution preview 
+of the graphics inside which makes it accessible with programs not capable of editing the script inside. 
+EPS file format is widely used by publishers because of its compatibility across different operating systems.
 
-An EPS file can contain any combination of text, graphics, and images. Since it is actually a PostScript file, it is one of the most versatile file formats that are available. The files are supported by several different drawing programs and vector graphic editing applications. Many image converter programs can create EPS files containing the pixels of the image. An EPS file is a stream of generic PostScript printing commands. Thus many PostScript printer drivers have an option to save as EPS.
+An EPS file can contain any combination of text, graphics, and images. Since it is actually a PostScript file, 
+it is one of the most versatile file formats that are available. The files are supported by several different 
+drawing programs and vector graphic editing applications. Many image converter programs can create EPS files 
+containing the pixels of the image. An EPS file is a stream of generic PostScript printing commands. Thus many 
+PostScript printer drivers have an option to save as EPS.
 
 ### How to resize EPS image?
-**Image** class contains several **Resize** methods which allow to resize any image type including EPS image. The following source code sample shows how you can load, resize and export EPS image to PNG format:
+**Image** class contains several **Resize** methods which allow to resize any image type including EPS image. 
+The following source code sample shows how you can load, resize and export EPS image to PNG format:
 
+``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
 {
@@ -393,10 +425,12 @@ try (Image image = Image.load("AstrixObelix.eps"))
     // Export image to PNG format
     image.save("ExportResult1.png", new PngOptions());
 }
+```
 
 ### Resize image using special Resize Type
 **Aspose.Imaging** library allows you to specify the Resize Type. The following source code sample is using the Mitchell cubic interpolation method:
 
+``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
 {
@@ -406,10 +440,13 @@ try (Image image = Image.load("AstrixObelix.eps"))
     // Export image to PNG format
     image.save("ExportResult2.png", new PngOptions());
 }
+```
 
 ### Resize EPS image using advanced settings
-In case if you need a full control on resize operation, you can specify an advanced resize settings. The following code shows how you can set Filter Type, Color Compare Method and other settings:
+In case if you need a full control on resize operation, you can specify an advanced resize settings. 
+The following code shows how you can set Filter Type, Color Compare Method and other settings:
 
+``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
 {
@@ -433,10 +470,9 @@ try (Image image = Image.load("AstrixObelix.eps"))
 
 **IMAGINGJAVA-1901 Index was outside the bounds of the array exception when loading DNG**
 
-```
 ### Load and export a DNG image as a PNG image
 
-
+``` java
 try (Image image = Image.load("sample.dng"))
 {
     image.save("sample.dng.png", new PngOptions());
@@ -445,12 +481,19 @@ try (Image image = Image.load("sample.dng"))
 
 **IMAGINGJAVA-1900 Support of making gifs and other multi-page (multi-frame) files from set of images**
 
-```
-### Multipage image formats
-**Aspose.Imaging** has proved to be a powerful API for working with a variety of image formats. Along with single-page images, **Aspose.Imaging** also supports manipulating multipage images including Gif, Tiff, Psd, Dicom, WebP etc. Using **Aspose.Imaging** library the image can be exported also to multipage PDF document. You can access pages of a multipage image and export them to a single page or another multipage image format. But its possible to save a set of single page images to any supported multipage image format. This article describes how you can do that.
-### Create multipage images using addPage method
-You can create multipage image using **addPage()** method. The following code shows how you can create animated images using image frames from the folder:
 
+### Multipage image formats
+**Aspose.Imaging** has proved to be a powerful API for working with a variety of image formats. Along with 
+single-page images, **Aspose.Imaging** also supports manipulating multipage images including Gif, Tiff, Psd, 
+Dicom, WebP etc. Using **Aspose.Imaging** library the image can be exported also to multipage PDF document. 
+You can access pages of a multipage image and export them to a single page or another multipage image format. 
+But its possible to save a set of single page images to any supported multipage image format. 
+This article describes how you can do that.
+### Create multipage images using addPage method
+You can create multipage image using **addPage()** method. The following code shows how you can create animated 
+images using image frames from the folder:
+
+``` java
 static void main(String[] args)
 {
 	// Load frames
@@ -556,10 +599,13 @@ private static java.util.List<RasterImage> loadFrames(String directory)
 	}
 	return l;
 }
+```
 
 ### Create multipage image from vector images
-In order to use vector images as animation frames you need to rasterize them first. The following source code sample shows how to create TIFF image using vector images:
+In order to use vector images as animation frames you need to rasterize them first. 
+The following source code sample shows how to create TIFF image using vector images:
 
+``` java
 static void multipageFromVector()
 {
 	// Rasterize vector images
@@ -630,7 +676,7 @@ private static void rasterizeSvgToPng(String inputPath, String outputPath)
 
 **IMAGINGJAVA-1895 Fix color conversion between 16Bpp565, 16Bpp555 and 32BppRgb formats**
 
-```
+``` java
 try (RasterImage image = (RasterImage)Image.load("decHex_16Bpp565.bmp"))
 {
 	IColorPalette palette = ColorPaletteHelper.getCloseImagePalette(image, 256);
@@ -653,7 +699,7 @@ try (RasterImage image = (RasterImage)Image.load("decHex_16Bpp565.bmp"))
 
 **IMAGINGJAVA-1894 Exception on exporting EMF to PDF**
 
-```
+``` java
 try (EmfImage image = (EmfImage)Image.load("1.emf"))
 {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -668,7 +714,7 @@ try (EmfImage image = (EmfImage)Image.load("1.emf"))
 
 **IMAGINGJAVA-1893 SVGZ result image damaged in PDF conversion and other conversions**
 
-```
+``` java
 String baseFolder = "D:\\";
 String fileName = "sample.svgz";
 String inputFileName = baseFolder + fileName;
@@ -683,7 +729,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFileNam
 
 **IMAGINGJAVA-1892 Exception on loading CDR file**
 
-```
+``` java
 String fileName = "ANGEL03.CDR";
 String baseFolder = "D:\\";
 String inputFilePath = baseFolder + fileName;
@@ -696,7 +742,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-1891 Wrong processing of SVG image**
 
-```
+``` java
 String baseFolder = "D:\\";
 String fileName = "chartReport.svg";
 String inputFileName = baseFolder + fileName;
@@ -709,7 +755,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-1890 Saving jpg after watermark throwing exception**
 
-```
+``` java
 try (JpegImage image = (JpegImage)Image.load("aECO117390_Hebrew.jpg", new LoadOptions()))
 {
 	image.save("Result.jpg");
@@ -719,7 +765,7 @@ try (JpegImage image = (JpegImage)Image.load("aECO117390_Hebrew.jpg", new LoadOp
 
 **IMAGINGJAVA-1889 Invalid results of the export from PNG to SVG format**
 
-```
+``` java
 try (Image image = Image.load("lena_16g_lin.png"))
 {
     SvgOptions options = new SvgOptions();
@@ -729,7 +775,7 @@ try (Image image = Image.load("lena_16g_lin.png"))
 
 **IMAGINGJAVA-1873 ColorPaletteHelper produces incorrect palette for BMP RGB565 images**
 
-```
+``` java
 try (Image image = Image.load("decHex_16Bpp565.bmp"))
 {
 	BmpOptions bmpOptions = new BmpOptions();
@@ -748,4 +794,3 @@ try (Image image = Image.load("decHex_16Bpp565.bmp"))
 	image.save("output.png", pngOptions);
 }
 ```
-

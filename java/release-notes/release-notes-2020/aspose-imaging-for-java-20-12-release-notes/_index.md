@@ -39,12 +39,11 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.
 
 **IMAGINGJAVA-1964 Improve GraphCutHelper performance and async implementation**
 
-```
 ### GraphCutHelper async operations
 Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, 
 IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
 
-
+``` java
 String inputFilePath = "fileName";
 String outputFilePath1 = "outputfileName_1.png";
 String outputFilePath2 = "outputfileName_2.png";
@@ -184,12 +183,12 @@ try (RasterImage image = (RasterImage)Image.load(inputFilePath))
 }
 
 // All result images should be identical.
-
+```
 
 ### GraphCutHelper progress reporting
 Test GraphCutHelper progress reporting support.
 
-
+``` java
 final StringBuilder eventLog = new StringBuilder();
 ProgressEventHandler eventHandler = new ProgressEventHandler()
 {
@@ -244,12 +243,12 @@ boolean isProgressLogged = eventLog.toString().equals("1 / 1 : Initialization\n"
 		"9 / 9 : Finalization\n");
 
 System.out.println(isProgressLogged);
-
+```
 
 ### GraphCutHelper with OrphanedPoints specified
 Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does have an effect on the masking result in a MaskingSession.
 
-
+``` java
 String inputFilePath = "Gorilla.bmp";
 String tempFilePath = "temp.png";
 String initialOutputFilePath = "initialOutput.png";
@@ -314,8 +313,6 @@ try (RasterImage image = (RasterImage)Image.load(inputFilePath))
 	}
 }
 
-
-
 // Return all points that belongs to the specified rectangles.
 Point[] getRectanglePoints(Rectangle ... rectangles)
 {
@@ -344,7 +341,7 @@ Point[] getRectanglePoints(Rectangle ... rectangles)
 
 **IMAGINGJAVA-1957 Rework multipage image related methods and properties to be user-friendly**
 
-```
+``` java
 String baseFolder = "D:\\test\\");
 String outFileName = "MultipageImageCreateTest.tif";
 String outputFilePath = baseFolder + outFileName;
@@ -375,11 +372,9 @@ finally
 ```
 
 **IMAGINGJAVA-1955 Implement the ability to create animation from an array of images**
-
-```
 input files in [test.zip](https://issue.kharkov.dynabic.com/attachments/13110)
 
-
+``` java
 string baseFolder = Path.Combine(@"D:\", "test");
 string outFileName = "MultipageImageCreateTest.tif";
 string outputFilePath = Path.Combine(baseFolder, outFileName);
@@ -400,7 +395,7 @@ using (Image image = Image.Create(images.ToArray(), true))
 
 **IMAGINGJAVA-1946 EMF to PNG conversion: Performance degradation on Linux OS**
 
-```
+``` java
 int i;
 long total = 0;
 long run_time;
@@ -440,7 +435,7 @@ if (run_avg > 5000)
 
 **IMAGINGJAVA-1945 Support for access to missing Exif properties**
 
-```
+``` java
 try (JpegImage image = (JpegImage)Image.load("Sample.jpg"))
 {
 	for (MakerNote makerNote : image.getExifData().getMakerNotes())
@@ -452,7 +447,7 @@ try (JpegImage image = (JpegImage)Image.load("Sample.jpg"))
 
 **IMAGINGJAVA-1939 Implement public API to determine if the palette is used by the image**
 
-```
+``` java
 try (Image image = Image.load("Sample.bmp"))
 {
 	if (image.isUsePalette())
@@ -464,9 +459,9 @@ try (Image image = Image.load("Sample.bmp"))
 
 **IMAGINGJAVA-1938 Tga Creator always creates corrupted images**
 
-```
 ### Creating new Tga image with a centered red circle 
 
+``` java
 try (TgaOptions options = new TgaOptions())
 {
 	options.setSource(new FileCreateSource("output.tga", false));
@@ -482,7 +477,7 @@ try (TgaOptions options = new TgaOptions())
 
 **IMAGINGJAVA-1937 Exception during the export from EMF to PNG file format**
 
-```
+``` java
 try (Image image = Image.load("LetterHeadWW.emf"))
 {
     image.save("result.png", new PngOptions());
@@ -491,40 +486,39 @@ try (Image image = Image.load("LetterHeadWW.emf"))
 
 **IMAGINGJAVA-1936 Resize, Crop, RotateFlip and Rotate methods of TgaImage don't work**
 
-```
 ### Cropping a TGA image
 
-
+``` java
 try (RasterImage sampleTgaImage = (RasterImage)Image.load("test.tga"))
 {
 	sampleTgaImage.crop(10, 10, 10, 10);
 	sampleTgaImage.save("crop.tga");
 }
-
+```
 
 ### Rotating a TGA image
 
-
+``` java
 try (RasterImage sampleTgaImage = (RasterImage)Image.load("test.tga"))
 {
 	sampleTgaImage.rotate(30);
 	sampleTgaImage.save("rotate.tga");
 }
-
+```
 
 ### Resizing a TGA image
 
-
+``` java
 try (RasterImage sampleTgaImage = (RasterImage)Image.load("test.tga"))
 {
 	sampleTgaImage.resize(100, 100);
 	sampleTgaImage.save("resize.tga");
 }
-
+```
 
 ### Flip-rotating a TGA image
 
-
+``` java
 try (RasterImage sampleTgaImage = (RasterImage)Image.load("test.tga"))
 {
 	sampleTgaImage.rotateFlip(RotateFlipType.Rotate270FlipXY);
@@ -534,7 +528,7 @@ try (RasterImage sampleTgaImage = (RasterImage)Image.load("test.tga"))
 
 **IMAGINGJAVA-1935 Exception on combining Tiff**
 
-```
+``` java
 try (TiffImage page1 = (TiffImage)Image.load("Image1.tif"))
 {
     try (TiffImage page2 = (TiffImage)Image.load("Image2.tif"))
@@ -548,11 +542,9 @@ try (TiffImage page1 = (TiffImage)Image.load("Image1.tif"))
 
 **IMAGINGJAVA-1932 Image export failed exception when converting BMP to PNG**
 
-```
 ### Receiving a detailed error message loading corrupted image
 
-
-
+``` java
 try
 {
     try (Image image = Image.load("design.bmp"))
@@ -570,4 +562,3 @@ catch (ImageSaveException e)
     }
 }
 ```
-
