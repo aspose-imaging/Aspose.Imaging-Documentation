@@ -186,3 +186,8 @@ You can create multipage image using AddPage() method. The following code shows 
 In order to use vector images as animation frames you need to rasterize them first. The following source code sample shows how to create TIFF image using vector images:
 
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-create-multipage-image-from-vector-images.cs" >}}
+
+### Create animation from an array of images
+
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-create-animation-from-set-of-images.cs" >}}
+
