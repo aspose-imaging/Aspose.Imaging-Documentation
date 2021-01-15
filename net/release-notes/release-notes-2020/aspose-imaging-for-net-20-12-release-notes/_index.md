@@ -325,8 +325,10 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 }
 
 // All result images should be identical.
+```
 
 
+```
 ### GraphCutHelper progress reporting
 Test GraphCutHelper progress reporting support.
 
@@ -382,8 +384,10 @@ bool isProgressLogged = eventLog.ToString() == "1 / 1 : Initialization\r\n" +
     "7 / 9 : RelativeProgress\r\n" +
     "8 / 9 : RelativeProgress\r\n" +
     "9 / 9 : Finalization\r\n";
+```
 
 
+```
 ### GraphCutHelper with OrphanedPoints specified
 Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does 
 have an effect on the masking result in a MaskingSession.
@@ -617,21 +621,6 @@ using (var image = (JpegImage)Image.Load("Sample.jpg"))
     }
 
     Console.ReadKey();
-}
-
-
-**IMAGINGNET-4155 Exception on combining Tiff**
-
-{{code}}
-
-using (var page1 = (TiffImage)Image.Load("Image1.tif"))
-{
-    using (var page2 = (TiffImage)Image.Load("Image2.tif"))
-    {
-        page1.AddFrame(TiffFrame.CopyFrame(page2.ActiveFrame));
-    }
-
-    page1.Save("Result.tif");
 }
 ```
 
