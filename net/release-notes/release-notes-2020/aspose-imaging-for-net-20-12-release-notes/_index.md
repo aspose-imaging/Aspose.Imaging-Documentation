@@ -173,9 +173,9 @@ Property    Aspose.Imaging.Masking.Result.MaskingResult.ObjectNumber
 
 **IMAGINGNET-4233 Tga Creator always creates corrupted images**
 
-```
-### Creating new Tga image with a centered red circle 
+{{< highlight csharp >}}
 
+// Creating new Tga image with a centered red circle 
 var options = new TgaOptions
                   {
                       Source = new FileCreateSource("output.tga", false)
@@ -187,12 +187,14 @@ using (var image = Image.Create(options, 1000, 1000))
     graphics.FillEllipse(new SolidBrush(Color.Red), 300, 300, 400, 400);
     image.Save();
 }
-```
+
+{{< /highlight >}}
 
 **IMAGINGNET-4227 Improve GraphCutHelper performance and async implementation**
 
 {{< highlight csharp >}}
-### GraphCutHelper async operations
+
+// GraphCutHelper async operations
 Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, 
 IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
 
@@ -332,10 +334,7 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 }
 
 // All result images should be identical.
-```
 
-
-```
 ### GraphCutHelper progress reporting
 Test GraphCutHelper progress reporting support.
 
@@ -391,10 +390,7 @@ bool isProgressLogged = eventLog.ToString() == "1 / 1 : Initialization\r\n" +
     "7 / 9 : RelativeProgress\r\n" +
     "8 / 9 : RelativeProgress\r\n" +
     "9 / 9 : Finalization\r\n";
-```
 
-
-```
 ### GraphCutHelper with OrphanedPoints specified
 Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does 
 have an effect on the masking result in a MaskingSession.
