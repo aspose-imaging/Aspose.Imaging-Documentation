@@ -5,6 +5,11 @@ url: /net/aspose-imaging-for-net-20-12-release-notes/
 title: Aspose.Imaging for .NET 20.12 - Release notes
 ---
 
+**Competitive features:**
+-----------------------
+
+**Changes:**
+
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | IMAGINGNET-4215 | Implement public API to determine if the palette is used by the image                                                                                                                                  | Feature      |
