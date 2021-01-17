@@ -241,7 +241,8 @@ containing the pixels of the image. An EPS file is a stream of generic PostScrip
 PostScript printer drivers have an option to save as EPS.
 
 ### How to resize EPS image?
-**Image** class contains several **Resize** methods which allow to resize any image type including EPS image. The following source code sample shows how you can load, resize and export EPS image to PNG format:
+**Image** class contains several **Resize** methods which allow to resize any image type including EPS image. 
+The following source code sample shows how you can load, resize and export EPS image to PNG format:
 
 // Load EPS image
 using (var image = Image.Load("AstrixObelix.eps"))
@@ -267,8 +268,9 @@ using (var image = Image.Load("AstrixObelix.eps"))
 }
 
 ### Resize EPS image using advanced settings
-In case if you need a full control on resize operation, you can specify an advanced resize settings. 
-The following code shows how you can set Filter Type, Color Compare Method and other settings:
+In case if you need a full control on resize operation, you can specify 
+an advanced resize settings. The following code shows how you can set Filter 
+Type, Color Compare Method and other settings:
 
 // Load EPS image
 using (var image = Image.Load("AstrixObelix.eps"))
@@ -313,12 +315,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFileName))
 
 ```
 ### Graph Cut auto masking using Imaging.Cloud API
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates usage of the Imaging.Cloud API's detected objects as an input for Graph Cut auto masking to further improve masking results. DetectedObjectList's data is converted into an AssumedObjectData collection first so that it can be passed into the AutoMaskingGraphCutOptions. Please note that you need free Aspose.Cloud account to perform detected objects requests (more can be read https://docs.aspose.cloud/imaging/evaluate-aspose-imaging/)
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates usage of the Imaging.Cloud API's detected objects as an input for Graph Cut 
+auto masking to further improve masking results. DetectedObjectList's data is converted into an AssumedObjectData 
+collection first so that it can be passed into the AutoMaskingGraphCutOptions. Please note that you need free 
+Aspose.Cloud account to perform detected objects requests (more can be read https://docs.aspose.cloud/imaging/evaluate-aspose-imaging/)
 
 
-            // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
+            // To improve masking results, data of the specific objects that should be 
+            // included in the foreground masking result could be provided.
             List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
-            // Imaging.Cloud API could be used get objects located on the image and using that data to further improve masking results.
+            // Imaging.Cloud API could be used get objects located on the 
+            // image and using that data to further improve masking results.
             using (var stream = File.OpenRead("input.jpg"))
             {
                 var request = new CreateObjectBoundsRequest()
@@ -334,7 +342,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
                 ImagingApi api = new ImagingApi("AppSid", "AppKey", "BaseURL");
                 DetectedObjectList detectedObjectList = api.CreateObjectBounds(request);
 
-                if (detectedObjectList != null && detectedObjectList.DetectedObjects != null && detectedObjectList.DetectedObjects.Count > 0)
+                if (detectedObjectList != null && detectedObjectList.DetectedObjects != null 
+                      && detectedObjectList.DetectedObjects.Count > 0)
                 {
                     // Detected object's data from the DetectedObjectList should be converted to the 
                     // AssumedObjectData to be fit to use with the AutoMaskingGraphCutOptions.
@@ -364,7 +373,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
                 AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
                                                          {
                                                             AssumedObjects = assumedObjects,
-                                                            // Indicating that a new calculation of the default strokes should be performed during the image decomposition.
+                                                            // Indicating that a new calculation of the default strokes 
+                                                            // should be performed during the image decomposition.
                                                             CalculateDefaultStrokes = true,
                                                             // Setting post-process feathering radius based on the image size.
                                                             FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
@@ -390,7 +400,10 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
 
 
 ### Using Graph Cut auto masking with feathering.
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the image masking results with feathering based on image size. 
+Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions 
+can be omitted since default strokes are placed there in the end.
 
 
         MaskingResult[] results;
@@ -399,7 +412,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
             // To use Graph Cut with auto calculated strokes, AutoMaskingGraphCutOptions is used.
             AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
                                                         {
-                                                            // Indicating that a new calculation of the default strokes should be performed during the image decomposition.
+                                                            // Indicating that a new calculation of the default strokes should 
+                                                            // be performed during the image decomposition.
                                                             CalculateDefaultStrokes = true,
                                                             // Setting post-process feathering radius based on the image size.
                                                             FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
@@ -424,10 +438,16 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
 
 
 ### Modifying default strokes for repeated auto masking 
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size, modifying obtained default strokes, and using it for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking result, applied background/foreground strokes are modified and another masking iteration is performed using the new GraphCutMaskingOptions instance.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The 
+following example demonstrates saving of the image masking results with feathering based on image size, modifying 
+obtained default strokes, and using it for the new masking iteration. Image masking is performed using auto 
+calculated default strokes. Additionally, the data of the two assumed objects is also specified in the AssumedObjects 
+property of the AutoMaskingGraphCutOptions. After getting the initial masking result, applied background/foreground 
+strokes are modified and another masking iteration is performed using the new GraphCutMaskingOptions instance.
 
 
-        // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
+        // To improve masking results, data of the specific objects that should be included in 
+        // the foreground masking result could be provided.
         List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
         // THe object type and the area containing that object should be specified.
         assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
@@ -441,7 +461,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
             options = new AutoMaskingGraphCutOptions
                             {
                                 AssumedObjects = assumedObjects,
-                                // Indicating that a new calculation of the default strokes should be performed during the image decomposition.
+                                // Indicating that a new calculation of the default strokes should 
+                                // be performed during the image decomposition.
                                 CalculateDefaultStrokes = true,
                                 // Setting post-process feathering radius.
                                 FeatheringRadius = 3,
@@ -517,10 +538,16 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
 
 
 ### Re-using default strokes in repeated auto masking with new points
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking results, applied background/foreground strokes are modified and another masking iteration is performed.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the image masking results with feathering based on image size 
+and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default 
+strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the 
+AutoMaskingGraphCutOptions. After getting the initial masking results, applied background/foreground strokes are 
+modified and another masking iteration is performed.
 
 
-        // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
+        // To improve masking results, data of the specific objects that 
+        // should be included in the foreground masking result could be provided.
         List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
         // THe object type and the area containing that object should be specified.
         assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -535,7 +562,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
             options = new AutoMaskingGraphCutOptions
                             {
                                 AssumedObjects = assumedObjects,
-                                // Indicating that a new calculation of the default strokes should be performed during the image decomposition.
+                                // Indicating that a new calculation of the default strokes 
+                                // should be performed during the image decomposition.
                                 CalculateDefaultStrokes = true,
                                 // Setting post-process feathering radius.
                                 FeatheringRadius = 3,
@@ -563,7 +591,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
             resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
 
-        // Second masking iteration is performed to further improve masking quality by adding new manually chosen foreground/background points.
+        // Second masking iteration is performed to further improve masking quality by 
+        // adding new manually chosen foreground/background points.
         using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
         {
             // Re-using AutoMaskingGraphCutOptions there is no need to perform default stroke calculations a second time.
@@ -596,7 +625,10 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
 
 
 ### Using Graph Cut auto masking with specified assumed objects data.
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the image masking results with feathering based on image size. 
+Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed 
+objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
 
 
         // To improve masking results, data of the specific objects that should be included in the foreground masking result could be provided.
@@ -612,7 +644,8 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
             AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
                                                         {
                                                             AssumedObjects = assumedObjects,
-                                                            // Indicating that a new calculation of the default strokes should be performed during the image decomposition.
+                                                            // Indicating that a new calculation of the default strokes 
+                                                            // should be performed during the image decomposition.
                                                             CalculateDefaultStrokes = true,
                                                             // Setting post-process feathering radius based on the image size.
                                                             FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
@@ -638,7 +671,9 @@ To get better image masking results, Graph Cut segmentation with pre-calculated 
 
 
 ### Performing Graph Cut segmentation with user-defined point and feathering radius.
-To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. The following example demonstrates saving of the Graph Cut image masking result with feathering set to 3. Image masking is performed using the user-defined Point array.
+To get better image masking results, Graph Cut segmentation with pre-calculated brushstrokes can be used. 
+The following example demonstrates saving of the Graph Cut image masking result with feathering set to 3. 
+Image masking is performed using the user-defined Point array.
 
 
         MaskingResult[] results;
@@ -716,9 +751,14 @@ using (Image image = Image.Load("sample.dng"))
 
 ```
 ### Multipage image formats
-**Aspose.Imaging** has proved to be a powerful API for working with a variety of image formats. Along with single-page images, **Aspose.Imaging** also supports manipulating multipage images including Gif, Tiff, Psd, Dicom, WebP etc. Using **Aspose.Imaging** library the image can be exported also to multipage PDF document. You can access pages of a multipage image and export them to a single page or another multipage image format. But its possible to save a set of single page images to any supported multipage image format. This article describes how you can do that.
+**Aspose.Imaging** has proved to be a powerful API for working with a variety of image formats. Along with single-page images, 
+**Aspose.Imaging** also supports manipulating multipage images including Gif, Tiff, Psd, Dicom, WebP etc. Using **Aspose.Imaging** 
+library the image can be exported also to multipage PDF document. You can access pages of a multipage image and export them to a 
+single page or another multipage image format. But its possible to save a set of single page images to any supported multipage 
+image format. This article describes how you can do that.
 ### Create multipage images using AddPage method
-You can create multipage image using **AddPage()** method. The following code shows how you can create animated images using image frames from the folder:
+You can create multipage image using **AddPage()** method. The following code shows how you can create animated 
+images using image frames from the folder:
 
 static void Main(string[] args)
 {
@@ -810,7 +850,8 @@ private static IEnumerable<RasterImage> LoadFrames(string directory)
 }
 
 ### Create multipage image from vector images
-In order to use vector images as animation frames you need to rasterize them first. The following source code sample shows how to create TIFF image using vector images:
+In order to use vector images as animation frames you need to rasterize them first. 
+The following source code sample shows how to create TIFF image using vector images:
 
 private static void MultipageFromVector()
 {
