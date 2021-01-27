@@ -24,7 +24,6 @@ title: Aspose.Imaging for .NET 20.12 - Release notes
 | IMAGINGNET-4010 | Rework multipage image related methods and properties to be user-friendly                                                                                                                                  | Enhancement      |
 
 ## Public API changes:
------------------------
 
 ### Added APIs:
 
@@ -42,27 +41,35 @@ Field/Enum    Aspose.Imaging.Masking.Result.MaskingResult.OriginImage
 
 Method    Aspose.Imaging.AsyncTask.IAsyncTaskState.IncrementProgressMaxValue(System.Int32)
 
-Method    Aspose.Imaging.AsyncTask.IAsyncTaskState.IndicateProgress(Aspose.Imaging.ProgressManagement.EventType)
+Method    Aspose.Imaging.AsyncTask.IAsyncTaskState.IndicateProgress
+(Aspose.Imaging.ProgressManagement.EventType)
 
 Method    Aspose.Imaging.Exif.MakerNote.ToString
 
 Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Crop(Aspose.Imaging.Rectangle)
 
-Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Crop(System.Int32,System.Int32,System.Int32,System.Int32)
+Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Crop
+(System.Int32,System.Int32,System.Int32,System.Int32)
 
-Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Resize(System.Int32,System.Int32,Aspose.Imaging.ImageResizeSettings)
+Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Resize
+(System.Int32,System.Int32,Aspose.Imaging.ImageResizeSettings)
 
-Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Resize(System.Int32,System.Int32,Aspose.Imaging.ResizeType)
+Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Resize
+(System.Int32,System.Int32,Aspose.Imaging.ResizeType)
 
-Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Rotate(System.Single,System.Boolean,Aspose.Imaging.Color)
+Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Rotate
+(System.Single,System.Boolean,Aspose.Imaging.Color)
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.CopyInstanceData(Aspose.Imaging.FileFormats.Tiff.TiffDataType)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.CopyInstanceData
+(Aspose.Imaging.FileFormats.Tiff.TiffDataType)
 
 Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.CreateInstance
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.ReadData(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamReader,System.Int64,System.Int64)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.ReadData
+(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamReader,System.Int64,System.Int64)
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.WriteTagValueOrOffset(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamWriter,System.Int64)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.WriteTagValueOrOffset
+(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamWriter,System.Int64)
 
 Method    Aspose.Imaging.Image.Create(Aspose.Imaging.Image[])
 
@@ -70,7 +77,8 @@ Method    Aspose.Imaging.Image.Create(Aspose.Imaging.Image[],System.Boolean)
 
 Method    Aspose.Imaging.ImageOptions.TimeInterval.#ctor(System.UInt32,System.UInt32)
 
-Method    Aspose.Imaging.Masking.ImageMasking.ApplyMask(Aspose.Imaging.RasterImage,Aspose.Imaging.RasterImage,Aspose.Imaging.Masking.Options.MaskingOptions)
+Method    Aspose.Imaging.Masking.ImageMasking.ApplyMask
+(Aspose.Imaging.RasterImage,Aspose.Imaging.RasterImage,Aspose.Imaging.Masking.Options.MaskingOptions)
 
 Method    Aspose.Imaging.Masking.ImageMasking.LoadSession(System.IO.Stream)
 
@@ -84,7 +92,8 @@ Method    Aspose.Imaging.Masking.Result.IMaskingLayer.GetImage
 
 Method    Aspose.Imaging.Masking.Result.IMaskingLayer.GetMask
 
-Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor(Aspose.Imaging.Masking.Options.MaskingOptions,Aspose.Imaging.RasterImage,Aspose.Imaging.Rectangle)
+Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor
+(Aspose.Imaging.Masking.Options.MaskingOptions,Aspose.Imaging.RasterImage,Aspose.Imaging.Rectangle)
 
 Method    Aspose.Imaging.Masking.Result.MaskingResult.GetEnumerator
 
@@ -148,13 +157,15 @@ Field/Enum    Aspose.Imaging.Masking.Options.DetectedObjectType.Umbrella
 
 Field/Enum    Aspose.Imaging.Masking.Options.DetectedObjectType.Vase
 
-Method    Aspose.Imaging.AsyncTask.IAsyncTask.SetProgressCallback(Aspose.Imaging.AsyncTask.ProgressCallback)
+Method    Aspose.Imaging.AsyncTask.IAsyncTask.SetProgressCallback
+(Aspose.Imaging.AsyncTask.ProgressCallback)
 
 Method    Aspose.Imaging.AsyncTask.IAsyncTaskState.SetProgress(System.Int32)
 
 Method    Aspose.Imaging.FileFormats.Gif.GifImage.RotateFlipAll(Aspose.Imaging.RotateFlipType)
 
-Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor(Aspose.Imaging.Masking.Options.MaskingOptions,System.Int32)
+Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor
+(Aspose.Imaging.Masking.Options.MaskingOptions,System.Int32)
 
 Method    Aspose.Imaging.Masking.Result.MaskingResult.GetImage
 
@@ -191,8 +202,9 @@ using (var image = Image.Create(options, 1000, 1000))
 
 {{< highlight csharp >}}
 
-### GraphCutHelper async operations
-Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
+GraphCutHelper async operations
+Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, 
+IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
 
 
 string inputFilePath = "fileName";
@@ -225,7 +237,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
     {
         using (RasterImage resultImage = (RasterImage)results[1].GetImage())
         {
-            resultImage.Save(outputFilePath1, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(outputFilePath1, 
+		new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
     }
 }
@@ -256,7 +269,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
     {
         using (RasterImage resultImage = (RasterImage)results[1].GetImage())
         {
-            resultImage.Save(outputFilePath2, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(outputFilePath2, 
+		new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
     }
 }
@@ -286,7 +300,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
         {
             using (RasterImage resultImage = (RasterImage)results[1].GetImage())
             {
-                resultImage.Save(outputFilePath3, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                resultImage.Save(outputFilePath3, 
+                   new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
         }
     }
@@ -320,7 +335,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
         {
             using (RasterImage resultImage = (RasterImage)results[1].GetImage())
             {
-                resultImage.Save(outputFilePath4, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                resultImage.Save(outputFilePath4, 
+                        new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
         }
     }
@@ -329,14 +345,15 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 // All result images should be identical.
 
 
-### GraphCutHelper progress reporting
+GraphCutHelper progress reporting
 Test GraphCutHelper progress reporting support.
 
 
 StringBuilder eventLog = new StringBuilder();
 ProgressEventHandler eventHandler = delegate(ProgressEventHandlerInfo info)
 {
-    eventLog.AppendLine(string.Format("{0} / {1} : {2}", info.Value, info.MaxValue, info.EventType));
+    eventLog.AppendLine(string.Format("{0} / {1} : {2}", 
+         info.Value, info.MaxValue, info.EventType));
 };
 
 string inputFilePath = "fileName";
@@ -386,8 +403,9 @@ bool isProgressLogged = eventLog.ToString() == "1 / 1 : Initialization\r\n" +
     "9 / 9 : Finalization\r\n";
 
 
-### GraphCutHelper with OrphanedPoints specified
-Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does have an effect on the masking result in a MaskingSession.
+GraphCutHelper with OrphanedPoints specified
+Test that OrphanedPoints specification in the 
+AutoMaskingGraphCutOptions does have an effect on the masking result in a MaskingSession.
 
 
 string inputFilePath = "Gorilla.bmp";
@@ -419,13 +437,15 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
         FeatheringRadius = 2
     };
 
-    using (IMaskingSession maskingSession = new ImageMasking(image).CreateSession(maskingOptions))
+    using (IMaskingSession maskingSession = 
+       new ImageMasking(image).CreateSession(maskingOptions))
     {
         MaskingResult maskingResult = maskingSession.Decompose();
 
         using (RasterImage resultImage = (RasterImage)maskingResult[1].GetImage())
         {
-            resultImage.Save(initialOutputFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(initialOutputFilePath, 
+		new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
 
         // At this point initial masking results can be viewed and analyzed.
@@ -445,7 +465,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 
         using (RasterImage resultImage = (RasterImage)maskingResult[1].GetImage())
         {
-            resultImage.Save(improvedOutputFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(improvedOutputFilePath, 
+ 		new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
 
         // At this point we can check that the result image has changed.
@@ -510,7 +531,7 @@ using (var image = Image.Load("LetterHeadWW.emf"))
 
 {{< highlight csharp >}}
 
-### Receiving a detailed error message loading corrupted image
+Receiving a detailed error message loading corrupted image
 
 
 
@@ -524,7 +545,8 @@ try
 }
 catch (ImageSaveException e)
 {
-    bool hasExpectedExceptionMessage = e.InnerException.InnerException.Message == "Required palette is missing. Image data loading failed.";
+    bool hasExpectedExceptionMessage = e.InnerException.InnerException.Message 
+	== "Required palette is missing. Image data loading failed.";
     if (!hasExpectedExceptionMessage)
     {
         throw;
@@ -598,13 +620,11 @@ using (var page1 = (TiffImage)Image.Load("Image1.tif"))
 
 {{< highlight csharp >}}
 
-input files in test.zip
-
-
 string baseFolder = Path.Combine(@"D:\", "test");
 string outFileName = "MultipageImageCreateTest.tif";
 string outputFilePath = Path.Combine(baseFolder, outFileName);
-string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
+string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", 
+				"eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
 List<Image> images = new List<Image>();
 foreach (var file in files)
 {
@@ -633,10 +653,11 @@ using (var image = (JpegImage)Image.Load("Sample.jpg"))
     Console.ReadKey();
 }
 
+{{< /highlight >}}
 
 **IMAGINGNET-4155 Exception on combining Tiff**
 
-{{code}}
+{{< highlight csharp >}}
 
 using (var page1 = (TiffImage)Image.Load("Image1.tif"))
 {
@@ -657,7 +678,8 @@ using (var page1 = (TiffImage)Image.Load("Image1.tif"))
 string baseFolder = Path.Combine(@"D:\", "test");
 string outFileName = "MultipageImageCreateTest.tif";
 string outputFilePath = Path.Combine(baseFolder, outFileName);
-string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
+string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", 
+                               "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
 List<Image> images = new List<Image>();
 foreach (var file in files)
 {
