@@ -4,11 +4,11 @@ weight: '60'
 url: /net/aspose-imaging-for-net-20-12-release-notes/
 title: Aspose.Imaging for .NET 20.12 - Release notes
 ---
-
 ## Competitive features:
 
+- Implement public API to determine if the palette is used by the image
 - Implement the ability to create animation from an array of images
-- Support for access to missing Exif properties	
+- Support for access to missing Exif properties
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -24,6 +24,7 @@ title: Aspose.Imaging for .NET 20.12 - Release notes
 | IMAGINGNET-4010 | Rework multipage image related methods and properties to be user-friendly                                                                                                                                  | Enhancement      |
 
 ## Public API changes:
+-----------------------
 
 ### Added APIs:
 
@@ -55,16 +56,13 @@ Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Resize(System.Int32,System.Int
 
 Method    Aspose.Imaging.FileFormats.Tga.TgaImage.Rotate(System.Single,System.Boolean,Aspose.Imaging.Color)
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.
-          CopyInstanceData(Aspose.Imaging.FileFormats.Tiff.TiffDataType)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.CopyInstanceData(Aspose.Imaging.FileFormats.Tiff.TiffDataType)
 
 Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.CreateInstance
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.ReadData
-          (Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamReader,System.Int64,System.Int64)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.ReadData(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamReader,System.Int64,System.Int64)
 
-Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.WriteTagValueOrOffset
-          (Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamWriter,System.Int64)
+Method    Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffUndefinedType.WriteTagValueOrOffset(Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamWriter,System.Int64)
 
 Method    Aspose.Imaging.Image.Create(Aspose.Imaging.Image[])
 
@@ -72,8 +70,7 @@ Method    Aspose.Imaging.Image.Create(Aspose.Imaging.Image[],System.Boolean)
 
 Method    Aspose.Imaging.ImageOptions.TimeInterval.#ctor(System.UInt32,System.UInt32)
 
-Method    Aspose.Imaging.Masking.ImageMasking.ApplyMask(Aspose.Imaging.RasterImage,
-          Aspose.Imaging.RasterImage,Aspose.Imaging.Masking.Options.MaskingOptions)
+Method    Aspose.Imaging.Masking.ImageMasking.ApplyMask(Aspose.Imaging.RasterImage,Aspose.Imaging.RasterImage,Aspose.Imaging.Masking.Options.MaskingOptions)
 
 Method    Aspose.Imaging.Masking.ImageMasking.LoadSession(System.IO.Stream)
 
@@ -87,8 +84,7 @@ Method    Aspose.Imaging.Masking.Result.IMaskingLayer.GetImage
 
 Method    Aspose.Imaging.Masking.Result.IMaskingLayer.GetMask
 
-Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor
-          (Aspose.Imaging.Masking.Options.MaskingOptions,Aspose.Imaging.RasterImage,Aspose.Imaging.Rectangle)
+Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor(Aspose.Imaging.Masking.Options.MaskingOptions,Aspose.Imaging.RasterImage,Aspose.Imaging.Rectangle)
 
 Method    Aspose.Imaging.Masking.Result.MaskingResult.GetEnumerator
 
@@ -158,8 +154,7 @@ Method    Aspose.Imaging.AsyncTask.IAsyncTaskState.SetProgress(System.Int32)
 
 Method    Aspose.Imaging.FileFormats.Gif.GifImage.RotateFlipAll(Aspose.Imaging.RotateFlipType)
 
-Method    Aspose.Imaging.Masking.Result.MaskingResult.
-          #ctor(Aspose.Imaging.Masking.Options.MaskingOptions,System.Int32)
+Method    Aspose.Imaging.Masking.Result.MaskingResult.#ctor(Aspose.Imaging.Masking.Options.MaskingOptions,System.Int32)
 
 Method    Aspose.Imaging.Masking.Result.MaskingResult.GetImage
 
@@ -171,11 +166,13 @@ Property    Aspose.Imaging.Masking.Result.MaskingResult.ObjectNumber
 
 ## Usage Examples:
 
+
 **IMAGINGNET-4233 Tga Creator always creates corrupted images**
 
 {{< highlight csharp >}}
 
-// Creating new Tga image with a centered red circle 
+### Creating new Tga image with a centered red circle 
+
 var options = new TgaOptions
                   {
                       Source = new FileCreateSource("output.tga", false)
@@ -194,9 +191,8 @@ using (var image = Image.Create(options, 1000, 1000))
 
 {{< highlight csharp >}}
 
-// GraphCutHelper async operations
-Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, 
-IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
+### GraphCutHelper async operations
+Test that all types of masking operations (ImageMasking.Decompose, ImageMasking.DecomposeAsync, IMaskingSession.Decompose, IMaskingSession.DecomposeAsync) produce the same result.
 
 
 string inputFilePath = "fileName";
@@ -229,8 +225,7 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
     {
         using (RasterImage resultImage = (RasterImage)results[1].GetImage())
         {
-            resultImage.Save(outputFilePath1, new PngOptions() 
-            { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(outputFilePath1, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
     }
 }
@@ -291,8 +286,7 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
         {
             using (RasterImage resultImage = (RasterImage)results[1].GetImage())
             {
-                resultImage.Save(outputFilePath3, new PngOptions() 
-                { ColorType = PngColorType.TruecolorWithAlpha });
+                resultImage.Save(outputFilePath3, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
         }
     }
@@ -326,14 +320,14 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
         {
             using (RasterImage resultImage = (RasterImage)results[1].GetImage())
             {
-                resultImage.Save(outputFilePath4, new PngOptions() 
-                { ColorType = PngColorType.TruecolorWithAlpha });
+                resultImage.Save(outputFilePath4, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
         }
     }
 }
 
 // All result images should be identical.
+
 
 ### GraphCutHelper progress reporting
 Test GraphCutHelper progress reporting support.
@@ -391,9 +385,9 @@ bool isProgressLogged = eventLog.ToString() == "1 / 1 : Initialization\r\n" +
     "8 / 9 : RelativeProgress\r\n" +
     "9 / 9 : Finalization\r\n";
 
+
 ### GraphCutHelper with OrphanedPoints specified
-Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does 
-have an effect on the masking result in a MaskingSession.
+Test that OrphanedPoints specification in the AutoMaskingGraphCutOptions does have an effect on the masking result in a MaskingSession.
 
 
 string inputFilePath = "Gorilla.bmp";
@@ -431,8 +425,7 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 
         using (RasterImage resultImage = (RasterImage)maskingResult[1].GetImage())
         {
-            resultImage.Save(initialOutputFilePath, new PngOptions() 
-            { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(initialOutputFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
 
         // At this point initial masking results can be viewed and analyzed.
@@ -452,8 +445,7 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 
         using (RasterImage resultImage = (RasterImage)maskingResult[1].GetImage())
         {
-            resultImage.Save(improvedOutputFilePath, new PngOptions() 
-            { ColorType = PngColorType.TruecolorWithAlpha });
+            resultImage.Save(improvedOutputFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
         }
 
         // At this point we can check that the result image has changed.
@@ -486,11 +478,13 @@ Point[] GetRectanglePoints(params Rectangle[] rectangles)
 
     return pointArray;
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4215 Implement public API to determine if the palette is used by the image**
 
 {{< highlight csharp >}}
+
 using (var image = Image.Load(folder + "Sample.bmp"))
 {
      if (image.UsePalette)
@@ -498,20 +492,24 @@ using (var image = Image.Load(folder + "Sample.bmp"))
           Console.WriteLine("The palette is used by the image");
      }
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4194 Exception during the export from EMF to PNG file format**
 
 {{< highlight csharp >}}
+
 using (var image = Image.Load("LetterHeadWW.emf"))
 {
     image.Save("result.png", new PngOptions());
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4190 Image export failed exception when converting BMP to PNG**
 
 {{< highlight csharp >}}
+
 ### Receiving a detailed error message loading corrupted image
 
 
@@ -526,18 +524,19 @@ try
 }
 catch (ImageSaveException e)
 {
-    bool hasExpectedExceptionMessage = e.InnerException.InnerException.Message 
-       == "Required palette is missing. Image data loading failed.";
+    bool hasExpectedExceptionMessage = e.InnerException.InnerException.Message == "Required palette is missing. Image data loading failed.";
     if (!hasExpectedExceptionMessage)
     {
         throw;
     }
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4187 Resize, Crop, RotateFlip and Rotate methods of TgaImage don't work**
 
 {{< highlight csharp >}}
+
 ### Cropping a TGA image
 
 
@@ -576,11 +575,13 @@ catch (ImageSaveException e)
                 sampleTgaImage.RotateFlip(RotateFlipType.Rotate270FlipXY);
                 sampleTgaImage.Save("rotate_flip.tga");
             }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4155 Exception on combining Tiff**
 
 {{< highlight csharp >}}
+
 using (var page1 = (TiffImage)Image.Load("Image1.tif"))
 {
     using (var page2 = (TiffImage)Image.Load("Image2.tif"))
@@ -590,19 +591,20 @@ using (var page1 = (TiffImage)Image.Load("Image1.tif"))
 
     page1.Save("Result.tif");
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4154 Implement the ability to create animation from an array of images**
 
 {{< highlight csharp >}}
 
+input files in test.zip
+
 
 string baseFolder = Path.Combine(@"D:\", "test");
 string outFileName = "MultipageImageCreateTest.tif";
 string outputFilePath = Path.Combine(baseFolder, outFileName);
-string[] files = new string[]{ "33266.tif", 
-                     "Animation.gif", "elephant.png", "Input.jp2", 
-		     "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
+string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
 List<Image> images = new List<Image>();
 foreach (var file in files)
 {
@@ -614,11 +616,13 @@ using (Image image = Image.Create(images.ToArray(), true))
 {
    image.Save(outputFilePath, new TiffOptions(TiffExpectedFormat.TiffJpegRgb));
 }
+
 {{< /highlight >}}
 
 **IMAGINGNET-4144 Support for access to missing Exif properties**
 
 {{< highlight csharp >}}
+
 using (var image = (JpegImage)Image.Load("Sample.jpg"))
 {
     foreach (var makerNote in image.ExifData.MakerNotes)
@@ -628,16 +632,32 @@ using (var image = (JpegImage)Image.Load("Sample.jpg"))
 
     Console.ReadKey();
 }
+
+
+**IMAGINGNET-4155 Exception on combining Tiff**
+
+{{code}}
+
+using (var page1 = (TiffImage)Image.Load("Image1.tif"))
+{
+    using (var page2 = (TiffImage)Image.Load("Image2.tif"))
+    {
+        page1.AddFrame(TiffFrame.CopyFrame(page2.ActiveFrame));
+    }
+
+    page1.Save("Result.tif");
+}
+
 {{< /highlight >}}
 
 **IMAGINGNET-4010 Rework multipage image related methods and properties to be user-friendly**
 
 {{< highlight csharp >}}
+
 string baseFolder = Path.Combine(@"D:\", "test");
 string outFileName = "MultipageImageCreateTest.tif";
 string outputFilePath = Path.Combine(baseFolder, outFileName);
-string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", 
-"eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
+string[] files = new string[]{ "33266.tif", "Animation.gif", "elephant.png", "Input.jp2", "eye.wmf", "tiger.bmp", "MultiPage.cdr", "juanmontoya_lingerie.svg" };
 List<Image> images = new List<Image>();
 foreach (var file in files)
 {
@@ -649,5 +669,6 @@ using (Image image = Image.Create(images.ToArray(), true))
 {
    image.Save(outputFilePath, new TiffOptions(TiffExpectedFormat.TiffJpegRgb));
 }
+
 {{< /highlight >}}
 
