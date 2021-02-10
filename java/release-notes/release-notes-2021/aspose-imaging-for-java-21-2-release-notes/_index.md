@@ -29,10 +29,15 @@ title: Aspose.Imaging for JAVA 21.2 - Release notes
 | IMAGINGJAVA-1979 | WMF to PNG conversion within Linux environment                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-1554 | QA Java 20.1 1543 No watermark is drawn when converting CMX to PDF.                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-1338 | Watermark is missed on Emf save                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-1972 | How to Binarize a Color image to a Black and White image                                                                                                                                 | Enhancement      |
 
 ## Public API changes:
 
 ### Added APIs:
+
+**Java specific**
+Method com.aspose.imaging.extensions.ImageExtensions.toJava(Image image, int bufferedImageType)
+Method com.aspose.imaging.extensions.ImageExtensions.toJava(Image image, Rectangle subImageRect, int bufferedImageType)
 
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.2](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-21-2-release-notes/) version
 
@@ -44,7 +49,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-2014 Support feathering feature in ImageMasking.ApplyMask method**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 ### Applying mask to the image with edges feathering
 
@@ -84,7 +89,7 @@ try (RasterImage targetImage = (RasterImage)Image.load("Blue hills.png"))
 
 **IMAGINGJAVA-2010 Unable to rasterize CMX images**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String[] files = new String[] {"500DDEF.cmx", "500DEFFR.cmx", "3703.cmx", "304, 305, 306.cmx", 
         "Graphic2.CMX", "Oxford flex.CMX", "Parasiya RIB.cmx", "kta depan jurnaltime.cmx" };
@@ -103,7 +108,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-2009 Explore the file format (CMX v11) and add support for it**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String[] files = new String[] { "Aspose2.cmx", "asposenet_457_src02.cmx" };
 String baseFolder = "D:\\test\\";
@@ -121,7 +126,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-2008 EMF/WMF to PNG: Incorrect conversion, partial output**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image.wmf"))
 {
@@ -139,7 +144,7 @@ try (Image image = Image.load("image.wmf"))
 
 **IMAGINGJAVA-1997 Exception while converting GIF to DICOM**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("little-dogs.gif"))
 {
@@ -150,7 +155,7 @@ try (Image image = Image.load("little-dogs.gif"))
 
 **IMAGINGJAVA-1995 Support BMP RLE4 compressed images in BmpLoader**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Rle4.bmp"))
 {
@@ -165,7 +170,7 @@ try (Image image = Image.load("Rle4.bmp"))
 
 **IMAGINGJAVA-1992 Use BorderX, BorderY, BackgroundColor properties during the export from EPS to raster formats**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 {
@@ -187,7 +192,7 @@ try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 
 **IMAGINGJAVA-1991 Cannot save specific EMF to SVG or PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image2.emf"))
 {
@@ -198,7 +203,7 @@ try (Image image = Image.load("image2.emf"))
 
 **IMAGINGJAVA-1990 Aspose.Imaging 20.9: Cannot load particular Cdr**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "ParticipationCertificate.cdr";
 String baseFolder = "D:\\";
@@ -218,7 +223,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-1989 Aspose.Imaging 20.11: Cannot save Tiff**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("r1.tif"))
 {
@@ -229,7 +234,7 @@ try (Image image = Image.load("r1.tif"))
 
 **IMAGINGJAVA-1985 "Image export failed." exception when rendering to PNG JP2 file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("the_shining_-jack-frozen.jpg.jp2", new Jpeg2000LoadOptions()))
 {
@@ -241,7 +246,7 @@ try (Image image = Image.load("the_shining_-jack-frozen.jpg.jp2", new Jpeg2000Lo
 
 **IMAGINGJAVA-1984 Aspose.Imaging 20.9: Cannot load particular Webp**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("NaoticlogoSTDBlancTOTALDET.webp"))
 {
@@ -255,7 +260,7 @@ try (Image image = Image.load("NaoticlogoSTDBlancTOTALDET.webp"))
 **IMAGINGJAVA-1981 "Page size incorrect. Please specify positive values for CmxRasterizationOptions.
 PageWidth and CmxRasterizationOptions.PageHeight" exception when rendering CMX file to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "KARNATAKA_20CHURCH_20_2019-11-20_20_201.cmx";
 String baseFolder = "D:\\";
@@ -270,7 +275,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-1980 "Image export failed." exception when rendering CDR file to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "Final.cdr";
 String baseFolder = "D:\\";
@@ -285,7 +290,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-1979 WMF to PNG conversion within Linux environment**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 public void testConvert() throws IOException
 {
@@ -311,7 +316,7 @@ public void convertWmfImage(InputStream input, OutputStream os) {
 
 **IMAGINGJAVA-1554 QA Java 20.1 1543 No watermark is drawn when converting CMX to PDF.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // Reset a license to Evaluation
 License l = new License();
@@ -339,7 +344,7 @@ try {
 
 **IMAGINGJAVA-1338 Watermark is missed on Emf save**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 License l = new License();
 l.setLicense("");
@@ -355,3 +360,25 @@ finally
 
 {{< /highlight >}}
 
+**IMAGINGJAVA-1972 How to Binarize a Color image to a Black and White image**
+
+{{< highlight java >}}
+
+final String inputFile = "in32bit.png";
+BufferedImage rgbImage = ImageIO.read(new File(inputFile));
+RasterImage rasterImage = ImageExtensions.fromJava(rgbImage);
+try
+{
+    rasterImage.binarizeBradley(8.0);
+    BufferedImage binaryImage = ImageExtensions.toJava(rasterImage, BufferedImage.TYPE_BYTE_BINARY);
+
+    assert binaryImage.getColorModel().getPixelSize() == 1;
+
+    ImageIO.write(binaryImage, "PNG", new File("out1bit.png"));
+}
+finally
+{
+    rasterImage.close();
+}
+
+{{< /highlight >}}
