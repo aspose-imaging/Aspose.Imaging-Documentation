@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-21-3-release-notes/
-title: Aspose.Imaging for JAVA 21.3 - Release notes
+title: Aspose.Imaging for Java 21.3 - Release notes
 ---
 
 ## Competitive features:
@@ -35,11 +35,16 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-21-3-release-notes/) version
 
+**Java specific**
+Type com.aspose.imaging.imageloadoptions.MetafileLoadOptions
+Type com.aspose.imaging.coreexceptions.imageformats.MetafilesException
+
+
 ## Usage Examples:
 
 **IMAGINGJAVA-2044 ArgumentOutOfRange exception during the export from WMF to PNG format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("8th floor.wmf"))
 {
@@ -50,7 +55,7 @@ try (Image image = Image.load("8th floor.wmf"))
 
 **IMAGINGJAVA-2036 Aspose.Imaging 20.11: Cannot convert Gif**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Money-Receipt-Template-Word-Free-Download1.gif"))
 {
@@ -61,7 +66,7 @@ try (Image image = Image.load("Money-Receipt-Template-Word-Free-Download1.gif"))
 
 **IMAGINGJAVA-2035 Improve InterruptMonitor class to interact with task cancellation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 final CustomCancellationToken customCancellationToken = new CustomCancellationToken();
 
@@ -129,7 +134,7 @@ private static final class CustomCancellationToken
 
 **IMAGINGJAVA-2034 Support to set DPI for exported PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "AFREY-Original.tif";
@@ -148,7 +153,7 @@ try (TiffImage tiffImage = (TiffImage)Image.load(inputFileName))
 
 **IMAGINGJAVA-2033 Exception on converting SVG to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "logo.svg";
@@ -163,7 +168,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-2030 Interrupting the JPEG2000 image loading operation does not work**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 final InterruptMonitor interruptMonitor = new InterruptMonitor();
 
@@ -216,7 +221,7 @@ boolean isInterruptedSuccessfully = conversionTask.isFaulted()
 
 **IMAGINGJAVA-2029 ImageMasking GraphCut produces incorrect result with CalculateDefaultStrokes option**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage)Image.load("sample-15.jpg"))
 {
@@ -258,7 +263,7 @@ try (RasterImage image = (RasterImage)Image.load("sample-15.jpg"))
 
 **IMAGINGJAVA-2028 Incorrect memory allocations leading to AccessViolationException**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 int w = 5 * 1024;
 int h = 1024 * 1024;
@@ -286,7 +291,7 @@ finally
 
 **IMAGINGJAVA-2027 Dicom loader throws an OverflowException**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFile = "MultiframePage1.dicom";
 String outputDicomFile = "Jpeg2000Compressed.dicom";
@@ -318,7 +323,7 @@ try (Image outputImage = Image.load(outputDicomFile))
 
 **IMAGINGJAVA-2025 Aspose.Imaging 20.10: Cannot convert Emf to Pdf**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "FIG8_.emf";
@@ -340,7 +345,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-2024 ImageLoadException on exporting CDR to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "test.cdr";
@@ -355,7 +360,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-2015 Aspose.Imaging 20.12: Incorrect saving SVG to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "SVG_1.svg";
@@ -370,7 +375,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-1337 Watermarks missed for crop operations in trial mode**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 License l = new License();
 l.setLicense("");
@@ -402,4 +407,3 @@ finally
 }
 
 {{< /highlight >}}
-
