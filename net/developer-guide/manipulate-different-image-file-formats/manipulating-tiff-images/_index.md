@@ -166,7 +166,7 @@ Aspose.Imaging library supports possibility of batch conversion before saving (e
 
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Tiff-batch-mode-example.cs" >}}
 
-## **Export tiff to pdf (set dpi for exported pdf) **
+## **Export tiff to pdf (set dpi for exported pdf)**
 Aspose.Imaging library supports possibility to convert image to pdf and specify DPI for exported pdf
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-set-dpi-in-exported-pdf.cs" >}}
 
