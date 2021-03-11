@@ -200,6 +200,11 @@ Loading and saving of Tiff images can be proceeded using memory strategy optimiz
 Aspose.Imaging library supports possibility of batch conversion before saving (exporting) Tiff images. This makes it possible not to keep in memory the resources of all processed pages at the same time, which will certainly give a significant performance boost with a lack of memory. With enough memory, the performance in standard mode and batch mode is the same, but the memory consumption in batch mode is much lower for multi-page tiff images (see illustrations below).
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Tiff-batch-mode-example.java" >}}
+
+## **Export tiff to pdf (set dpi for exported pdf)**
+Aspose.Imaging library supports possibility to convert image to pdf and specify DPI for exported pdf
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-set-dpi-in-exported-pdf.java" >}}
+
 ## **Support for extracting paths from TIFF**
 #### **Clipping Path**
 Clipping path is the Photoshop technique to remove the background from an image. Photoshop allows you to select a part of an image using Clipping Path and save the path within a file. Clipping Paths allow you to hide the part of an image you don't want to appear. Anything inside the clipping path will be visible, but anything outside of it will be transparent.
