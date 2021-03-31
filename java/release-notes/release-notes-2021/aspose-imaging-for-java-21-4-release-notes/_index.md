@@ -10,12 +10,12 @@ title: Aspose.Imaging for JAVA 21.4 - Release notes
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGJAVA-7750 | "Image export failed." exception when rendering to PNG SVG file                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-2050 | Improve default font option usage on Linux                                                                                                                                  | Feature      |
 | IMAGINGJAVA-2063 | Exception while converting WMZ to PDF                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2058 | Incorrect export from CDR to PSD                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2052 | Exception while saving EMF image                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2051 | Output SVG is not valid when converting EMF                                                                                                                                  | Enhancement      |
-| IMAGINGJAVA-2050 | Replacing the default font doesn't work on Linux                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-7750 | "Image export failed." exception when rendering to PNG SVG file                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2049 | Exception while converting EMZ to JPG                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2048 | "Image export failed." exception when rendering to PNG SVG file                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-2047 | Exception while converting GIF to APNG                                                                                                                                  | Enhancement      |
@@ -36,6 +36,37 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.4](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-21-4-release-notes/) version
 
 ## Usage Examples:
+
+**IMAGINGJAVA-2050 Improve default font option usage on Linux**
+
+{{< highlight csharp >}}
+
+Please create folder - "fonts" in project, and add in this folder required fonts.
+And execute this code:
+
+
+FontSettings.setFontsFolder("fonts");
+FontSettings.setGetSystemAlternativeFont(false);
+exportToPng("missing-font2.odg", "Arial", "arial.png");
+exportToPng("missing-font2.odg", "Courier New", "courier.png");
+
+
+
+private static void exportToPng(String filePath, String defaultFontName, String outfileName)
+{
+  FontSettings.setDefaultFontName(defaultFontName);
+  try (Image document = Image.load(filePath))
+  {
+     PngOptions saveOptions = new PngOptions();
+	 odgOptions = new OdgRasterizationOptions()
+     saveOptions.setVectorRasterizationOptions(odgOptions);
+     odgOptions.setPageWidth(1000);
+     odgOptions.setPageHeight(1000);
+     document.save(outfileName, saveOptions);
+  }
+}
+
+{{< /highlight >}}
 
 **IMAGINGJAVA-7750 "Image export failed." exception when rendering to PNG SVG file**
 
@@ -176,37 +207,6 @@ try (Image image = Image.load("sample.emf"))
 {
 	SvgOptions saveOptions = new SvgOptions();
 	image.save("output.svg", saveOptions);
-}
-
-{{< /highlight >}}
-
-**IMAGINGJAVA-2050 Replacing the default font doesn't work on Linux**
-
-{{< highlight csharp >}}
-
-Please create folder - "fonts" in project, and add in this folder required fonts.
-And execute this code:
-
-
-FontSettings.setFontsFolder("fonts");
-FontSettings.setGetSystemAlternativeFont(false);
-exportToPng("missing-font2.odg", "Arial", "arial.png");
-exportToPng("missing-font2.odg", "Courier New", "courier.png");
-
-
-
-private static void exportToPng(String filePath, String defaultFontName, String outfileName)
-{
-  FontSettings.setDefaultFontName(defaultFontName);
-  try (Image document = Image.load(filePath))
-  {
-     PngOptions saveOptions = new PngOptions();
-	 odgOptions = new OdgRasterizationOptions()
-     saveOptions.setVectorRasterizationOptions(odgOptions);
-     odgOptions.setPageWidth(1000);
-     odgOptions.setPageHeight(1000);
-     document.save(outfileName, saveOptions);
-  }
 }
 
 {{< /highlight >}}

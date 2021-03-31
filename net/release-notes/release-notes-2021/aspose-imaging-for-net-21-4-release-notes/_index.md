@@ -36,6 +36,37 @@ Property    Aspose.Imaging.ImageOptions.CdrRasterizationOptions.ScaleY
 
 ## Usage Examples:
 
+**IMAGINGNET-4057 Improve default font option usage on Linux**
+
+{{< highlight csharp >}}
+
+Please create folder - "fonts" in project, and add in this folder required fonts.
+And execute this code:
+
+
+string currentFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+FontSettings.SetFontsFolder(Path.Combine(currentFolder, "fonts"));
+FontSettings.GetSystemAlternativeFont = false;
+ExportToPng("missing-font2.odg", "Arial", "arial.png");
+ExportToPng("missing-font2.odg", "Courier New", "courier.png");
+
+
+
+private static void ExportToPng(string filePath, string defaultFontName, string outfileName)
+{
+  FontSettings.DefaultFontName = defaultFontName;  
+  using (Aspose.Imaging.Image document = Aspose.Imaging.Image.Load(filePath))
+  {
+     PngOptions saveOptions = new PngOptions();
+     saveOptions.VectorRasterizationOptions = new OdgRasterizationOptions();
+     saveOptions.VectorRasterizationOptions.PageWidth = 1000;
+     saveOptions.VectorRasterizationOptions.PageHeight = 1000;
+     document.Save(outfileName, saveOptions);
+  }
+}
+
+{{< /highlight >}}
+
 **IMAGINGNET-4353 Fix Cdr format rendering bugs**
 
 {{< highlight csharp >}}
@@ -272,37 +303,6 @@ string outputFileName = inputFileName + ".png";
 using (Image image = Image.Load(inputFileName))
 {
      image.Save(outputFileName, new PngOptions());
-}
-
-{{< /highlight >}}
-
-**IMAGINGNET-4057 Replacing the default font doesn't work on Linux**
-
-{{< highlight csharp >}}
-
-Please create folder - "fonts" in project, and add in this folder required fonts.
-And execute this code:
-
-
-string currentFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-FontSettings.SetFontsFolder(Path.Combine(currentFolder, "fonts"));
-FontSettings.GetSystemAlternativeFont = false;
-ExportToPng("missing-font2.odg", "Arial", "arial.png");
-ExportToPng("missing-font2.odg", "Courier New", "courier.png");
-
-
-
-private static void ExportToPng(string filePath, string defaultFontName, string outfileName)
-{
-  FontSettings.DefaultFontName = defaultFontName;  
-  using (Aspose.Imaging.Image document = Aspose.Imaging.Image.Load(filePath))
-  {
-     PngOptions saveOptions = new PngOptions();
-     saveOptions.VectorRasterizationOptions = new OdgRasterizationOptions();
-     saveOptions.VectorRasterizationOptions.PageWidth = 1000;
-     saveOptions.VectorRasterizationOptions.PageHeight = 1000;
-     document.Save(outfileName, saveOptions);
-  }
 }
 
 {{< /highlight >}}
