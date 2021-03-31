@@ -7,7 +7,7 @@ title: Aspose.Imaging for .NET 21.4 - Release notes
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGNET-4353 | Fix Cdr format rendering bugs                                                                                                                                  | Enhancement      |
+| IMAGINGNET-4057 | Improve default font option usage on Linux                                                                                                                                  | Feature      |
 | IMAGINGNET-4337 | Incorrect export from CDR to PSD                                                                                                                                  | Enhancement      |
 | IMAGINGNET-4335 | EMF to PNG: Output is missing characters                                                                                                                                   | Enhancement      |
 | IMAGINGNET-4268 | Exception while converting GIF to APNG                                                                                                                                  | Enhancement      |
@@ -17,7 +17,7 @@ title: Aspose.Imaging for .NET 21.4 - Release notes
 | IMAGINGNET-4249 | Exception while converting EMZ to JPG                                                                                                                                  | Enhancement      |
 | IMAGINGNET-4223 | Exception while saving EMF image                                                                                                                                  | Enhancement      |
 | IMAGINGNET-4200 | "Image export failed." exception when rendering to PNG SVG file                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4057 | Replacing the default font doesn't work on Linux                                                                                                                                  | Enhancement      |
+| IMAGINGNET-4353 | Fix Cdr format rendering bugs                                                                                                                                  | Enhancement      |
 | IMAGINGNET-3940 | Exception on converting SVG to TIFF                                                                                                                                  | Enhancement      |
 
 ## Public API changes:
