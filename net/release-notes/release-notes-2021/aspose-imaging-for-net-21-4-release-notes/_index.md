@@ -24,17 +24,11 @@ title: Aspose.Imaging for .NET 21.4 - Release notes
 
 ### Added APIs:
 
-Class    Aspose.Imaging.Multithreading.IInterruptMonitor
-
-Method    Aspose.Imaging.Multithreading.IInterruptMonitor.Interrupt
-
 Property    Aspose.Imaging.FontSettings.GetSystemAlternativeFont
 
 Property    Aspose.Imaging.ImageOptions.CdrRasterizationOptions.ScaleX
 
 Property    Aspose.Imaging.ImageOptions.CdrRasterizationOptions.ScaleY
-
-Property    Aspose.Imaging.Multithreading.IInterruptMonitor.IsInterrupted
 
 
 
