@@ -39,7 +39,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-2050 Improve default font option usage on Linux**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Please create folder - "fonts" in project, and add in this folder required fonts.
 And execute this code:
@@ -70,7 +70,7 @@ private static void exportToPng(String filePath, String defaultFontName, String 
 
 **IMAGINGJAVA-7750 "Image export failed." exception when rendering to PNG SVG file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Slice.svg";
@@ -85,7 +85,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-2063 Exception while converting WMZ to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String basePath = "D:\\wmz\\";
 String outputPath = basePath + "output\\";
@@ -120,7 +120,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-2058 Incorrect export from CDR to PSD**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 output files in attachment:output.zip
 Variant #1, without VectorRasterizationOptions
@@ -180,7 +180,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-2052 Exception while saving EMF image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "1.emf";
@@ -201,7 +201,7 @@ using (Image image = Image.load(outputFileNameEmf))
 
 **IMAGINGJAVA-2051 Output SVG is not valid when converting EMF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sample.emf"))
 {
@@ -213,7 +213,7 @@ try (Image image = Image.load("sample.emf"))
 
 **IMAGINGJAVA-2049 Exception while converting EMZ to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String basePath = "D:\\emz\\";
 String outputPath = basePath + "output\\";
@@ -248,7 +248,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-2048 "Image export failed." exception when rendering to PNG SVG file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Slice.svg";
@@ -263,7 +263,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-2047 Exception while converting GIF to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("loader.gif"))
 {
@@ -277,7 +277,7 @@ try (Image image = Image.load("loader.gif"))
 
 **IMAGINGJAVA-2046 Blank PDF created of CDR file using Aspose Imaging for .net**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String[] fileNames = new String[] { "67wvjwo2.cdr", "bright-gas-seeklogo.com.cdr", "joedv5d1.cdr", 
@@ -301,7 +301,7 @@ for (String fileName : fileNames)
 
 **IMAGINGJAVA-2021 EMF to PNG: Output is missing characters**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Input.emf"))
 {
@@ -316,7 +316,7 @@ try (Image image = Image.load("Input.emf"))
 
 **IMAGINGJAVA-1700 Exception on converting SVG to TIFF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("map2.svg"))
 {
@@ -330,7 +330,7 @@ try (Image image = Image.load("map2.svg"))
 
 **IMAGINGJAVA-1557 QA Java 20.1 1543 No text inside shapes when converting ODG to SVG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // Do not set a license!
 String inputFilePath = this.getTestDirectory() + "VariousObjectsMultiPage.odg";
@@ -366,7 +366,7 @@ finally
 
 **IMAGINGJAVA-1552 QA Java 20.1 1543 Text is not drawn when converting ODG, ODT to SVG.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // Do not set a license!
 String inputFilePath = this.getTestDirectory() + "VariousObjectsMultiPage.odg";
@@ -399,4 +399,3 @@ finally
 }
 
 {{< /highlight >}}
-

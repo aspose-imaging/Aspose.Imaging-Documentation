@@ -1,12 +1,15 @@
 ---
-title: JPG to JPG merge
+title: How to merge JPG to JPG programmatically
 type: docs
 weight: 30
 url: /java/jpg-to-jpg-merge/
 ---
-## **JPG to JPG merge**
-Aspose.Imaging allows to merge images from, **JPG to JPG merge**. Below example shows how to perform it for *horizontal merge*
+## **Compose horizontal layout**
+Aspose.Imaging allows to process **JPG to JPG merge** programmatically using Aspose.Imaging API. Below example shows how to perform  JPG to JPG *horizontal merge* 
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "JPG-to-JPG-merge.java" >}}
-and *vertical merge*
+
+## **Compose vertical layout**
+Below example shows how to perform  JPG to JPG *vertical merge* 
+
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "JPG-to-JPG-merge-vertically.java" >}}
