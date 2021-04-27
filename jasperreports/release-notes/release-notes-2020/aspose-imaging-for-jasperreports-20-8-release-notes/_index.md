@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging for JasperReports 20.8 Release Notes
 type: docs
-weight: 10
+weight: 1
 url: /jasperreports/aspose-imaging-for-jasperreports-20-8-release-notes/
 ---
 
