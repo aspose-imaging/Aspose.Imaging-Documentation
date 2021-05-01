@@ -41,7 +41,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7786 Support export to Dxf format in Aspose.Imaging**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFileName = "Pooh group.eps";
 String outputFilePath = "result.dxf";
@@ -58,7 +58,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7771 Eps can not be converted to vectorized APS (to svg for example)**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "Pooh group.eps";
 String baseFolder = "D:\\";
@@ -73,7 +73,7 @@ try (EpsImage image = (EpsImage)Image.load(inputFileName))
 
 **IMAGINGJAVA-7769 Fix exception with reading CDR**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 java
 String baseFolder = "D:\\cdr\\";
@@ -103,7 +103,7 @@ for (int i = 0; i < files.length; i++)
 
 **IMAGINGJAVA-7768 ImageLoad exception on loading TGA image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TgaImage image = (TgaImage)Image.load("GoldBorder.tga"))
 {
@@ -114,7 +114,7 @@ try (TgaImage image = (TgaImage)Image.load("GoldBorder.tga"))
 
 **IMAGINGJAVA-7767 Unable to rasterize CMX images**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cmx\\";
 String[] files = new string[] { "App police cmx.cmx", "amc- sky ways travels.cmx"};
@@ -132,7 +132,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-7765 NullReferenceException on exporting WMZ to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String basePath = "D:\\";
 String fileName = "image009.wmz";
@@ -147,7 +147,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7764 GIF is not properly converted to TGA**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("little-dogs.gif"))
 {
@@ -158,7 +158,7 @@ try (Image image = Image.load("little-dogs.gif"))
 
 **IMAGINGJAVA-7760 Improve compression quality in 8 Bpp Indexed format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load(sourceFilePath))
 {
@@ -174,7 +174,7 @@ try (Image image = Image.load(sourceFilePath))
 
 **IMAGINGJAVA-7754 Investigate and implement the object of the CDR - PowerClip**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String[] files = new String[] { "powerclip.cdr", "powerclip1.cdr", "powerclip2.cdr", "powerclip3.cdr"};
@@ -192,7 +192,7 @@ for (String fileName : files)
 
 **IMAGINGJAVA-7742 Incorrect export from CDR to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "GSTSK_Banner.cdr";
@@ -213,7 +213,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7741 System.ArgumentOutOfRangeException while converting particular CDR to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String fileName = "Font error.cdr";
@@ -228,7 +228,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-2054 Problem converting TIFF to JPG after upgrading Aspose library**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 java
 java.util.List<byte[]> originalJpegs = new ArrayList<byte[]>();
@@ -255,7 +255,7 @@ finally
 
 **IMAGINGJAVA-2032 Exception on saving EMF to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String f = "sample.emf";
 
@@ -275,4 +275,3 @@ catch (ImageLoadException e)
 System.out.println("Everything is OK!");
 
 {{< /highlight >}}
-
