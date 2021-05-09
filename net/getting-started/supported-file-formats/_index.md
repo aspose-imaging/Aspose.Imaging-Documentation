@@ -22,6 +22,7 @@ url: /net/supported-file-formats/
 |[Png](https://wiki.fileformat.com/image/png/)|Version 1.0 and later|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Apng](https://en.wikipedia.org/wiki/APNG)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Psd](https://wiki.fileformat.com/image/psd/)|Adobe Photoshop 2.0 and later| |{{< emoticons/tick >}}|
+|[Dxf](https://docs.fileformat.com/cad/dxf/)|Dxf 6 and later| |{{< emoticons/tick >}}|
 |[Svg](https://wiki.fileformat.com/page-description-language/svg/)|Version 1.1|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Tiff](https://wiki.fileformat.com/image/tiff/)|Version 6.0*|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Dib](https://en.wikipedia.org/wiki/BMP_file_format)|BMP Specification v5|{{< emoticons/tick >}}| |
