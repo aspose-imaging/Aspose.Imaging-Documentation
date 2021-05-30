@@ -96,6 +96,11 @@ Members of ResizeType Enumeration
 |LancrosResample|5|Resample using lancros algorithm using 7x7 mask.|
 |NearestNeighbourResample|6|Resample using nearest neighbour algorithm.|
 
+### **Resize webp image**
+Using Aspose.Imaging you can easizy resize webp image. Below we provide example of such convertion.
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-resize-webp-image.cs" >}}
+  
+
 
 ## **Resizing vector Images**
 This article demonstrates the usage of Aspose.Imaging for .NET to perform **Resize** operation on vector image. As example **svg image resize** provided.
