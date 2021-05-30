@@ -5,7 +5,7 @@ weight: 50
 url: /net/crop-rotate-and-resize-images/
 ---
 
-## **Cropping Images**
+## **Cropping Raster Images**
 **Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Cropping may also be used for to cut out some portion of an image to increase the focus on a particular area. From Aspose.Imaging 2.3.0, the API supports two different approaches to image cropping: by [shifts](http://www.aspose.com/docs/display/imagingnet/Crop%2C+Rotate+and+Resize+Images#Crop%2CRotateandResizeImages-CroppingbyShifts) and [rectangle](http://www.aspose.com/docs/display/imagingnet/Crop%2C+Rotate+and+Resize+Images#Crop%2CRotateandResizeImages-CroppingbyRectangle).
 ### **Cropping by Shifts**
 The [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class provides an overloaded version of the [Crop](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage/methods/crop/index) method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the [Crop](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage/methods/crop/index) method moves the image boundaries toward the center of the image while discarding the outer portion. The code snippet below demonstrates how to crop an image by shifts.
@@ -17,6 +17,14 @@ The [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterima
 The [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class provides another overloaded version of the [Crop](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage/methods/crop/index) method that accepts an instance of the [Rectangle](http://www.aspose.com/api/net/imaging/aspose.imaging/rectangle) class. You can cut out any portion of an image by providing the desired boundaries to the [Rectangle](http://www.aspose.com/api/net/imaging/aspose.imaging/rectangle) object. The code snippet below demonstrates how to Crop any image by Rectangle.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-JPEG-CroppingByRectangle-CroppingByRectangle.cs" >}}
+
+## **Cropping Vector Images**
+**Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Aspose.Imaging supports cropping of vector images. Below we demonstrate cropping of svg image.
+
+### **Crop svg Image**
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-crop-svg-image.cs" >}}
+
+
 
 
 ## **Rotate and Flip an Image**
@@ -51,8 +59,8 @@ The code snippet below demonstrates the usage of RasterImage.Rotate method.
 
 
 From version 2.5.0, the Aspose.Imaging for .NET API has exposed the RasterImage.Rotate method to facilitate its users who wish to rotate an image on a specific angle.
-## **Resizing Images**
-This article demonstrates the usage of Aspose.Imaging for .NET to perform **Resize** operation on an image. Aspose.Imaging APIs have exposed efficient & easy to use methods to achieve this goal. Aspose.Imaging for .NET has exposed the Resize method for the [Image](http://www.aspose.com/api/net/imaging/aspose.imaging/image) class that can be used to re-size existing images on the fly. There are two overloads of the Resize method to suit the application needs.
+## **Resizing raster Images**
+This article demonstrates the usage of Aspose.Imaging for .NET to perform **Resize** operation on raster image. Aspose.Imaging APIs have exposed efficient & easy to use methods to achieve this goal. Aspose.Imaging for .NET has exposed the Resize method for the [Image](http://www.aspose.com/api/net/imaging/aspose.imaging/image) class that can be used to re-size existing images on the fly. There are two overloads of the Resize method to suit the application needs.
 ### **Resizing Images : Simple Resizing**
 The steps to perform **Resize** are as simple as below,
 
@@ -87,8 +95,13 @@ Members of ResizeType Enumeration
 |CenterToCenter|4|Center of the new image will coincide with the center of the original image. Crop will occur if required.|
 |LancrosResample|5|Resample using lancros algorithm using 7x7 mask.|
 |NearestNeighbourResample|6|Resample using nearest neighbour algorithm.|
-### **Resizing Images : Svg native resize**
+
+
+## **Resizing vector Images**
+This article demonstrates the usage of Aspose.Imaging for .NET to perform **Resize** operation on vector image. As example **svg image resize** provided.
+### **Resize svg Image**
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "SvgNativeResize.cs" >}}
+
 ## **Resize Image Proportionally**
 You can [resize images]() by passing new height & width values as parameters to the Image.Resize method but in that case you have to calculate the aspect ratio yourself. This is because when the width or height of an image is altered, the image is either scaled or shrinked to fill the new size . If the changes to the width and height of an image are not in proportion this can lead to stretched and distorted result. This article demonstrates the use of Aspose.Imaging for .NET API to resize images by passing either new height or width while allowing the API to automatically calculate the other proportional value.
 
