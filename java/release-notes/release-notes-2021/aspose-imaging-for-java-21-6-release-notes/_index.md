@@ -2,16 +2,16 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-21-6-release-notes/
-title: Aspose.Imaging for JAVA 21.6 - Release notes
+title: Aspose.Imaging for Java 21.6 - Release notes
 ---
 
 ## Competitive features:
 
-- **Implement ApngImage.GetOriginalOptions, ApngImage.GetDefaultOptions and ApngImage.GetModifyDate methods**
+- **Implement ApngImage.getOriginalOptions, ApngImage.getDefaultOptions and ApngImage.getModifyDate methods**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGJAVA-7796 | Implement ApngImage.GetOriginalOptions, ApngImage.GetDefaultOptions and ApngImage.GetModifyDate methods                                                                                                                                  | Feature      |
+| IMAGINGJAVA-7796 | Implement ApngImage.getOriginalOptions, ApngImage.getDefaultOptions and ApngImage.getModifyDate methods                                                                                                                                  | Feature      |
 | IMAGINGJAVA-7801 | Incorrect conversion from animated Gif to APNG                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-7800 | Resizing the image crops the output image                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-7799 | System.NotImplementedException while converting JPEG YCbCr to BMP indexed 4 bit                                                                                                                                  | Enhancement      |
@@ -41,7 +41,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7801 Incorrect conversion from animated Gif to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("92fd31b9becf4ecccfcce765db9d6d02.gif"))
 {
@@ -56,7 +56,7 @@ try (Image image = Image.load("92fd31b9becf4ecccfcce765db9d6d02.gif"))
 
 **IMAGINGJAVA-7800 Resizing the image crops the output image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputPath = "C:\\Temp\\Errors\\";
 String inputFile = "original.jpg";
@@ -77,7 +77,7 @@ try (Image image = Image.load(inputPath + inputFile))
 
 **IMAGINGJAVA-7799 System.NotImplementedException while converting JPEG YCbCr to BMP indexed 4 bit**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage)Image.load(INPUT_FILE))
 {
@@ -93,7 +93,7 @@ try (RasterImage image = (RasterImage)Image.load(INPUT_FILE))
 
 **IMAGINGJAVA-7796 Implement ApngImage.GetOriginalOptions, ApngImage.GetDefaultOptions and ApngImage.GetModifyDate methods**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (ApngImage image = (ApngImage)Image.load("SteamEngine.png"))
 {
@@ -107,7 +107,7 @@ try (ApngImage image = (ApngImage)Image.load("SteamEngine.png"))
 
 **IMAGINGJAVA-7795 Fix set of CDR file text reading issues**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String[] files = new String[]
@@ -140,7 +140,7 @@ for (int i = 0; i < files.length; i++)
 
 **IMAGINGJAVA-7794 NullReferenceException during the export from EMF to PNG format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Sample.emf"))
 {
@@ -151,7 +151,7 @@ try (Image image = Image.load("Sample.emf"))
 
 **IMAGINGJAVA-7793 Exception on loading SVG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Artes - NvDPEMA.svg"))
 {
@@ -162,7 +162,7 @@ try (Image image = Image.load("Artes - NvDPEMA.svg"))
 
 **IMAGINGJAVA-7792 Cannot load particular WEBP image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "UI_Test_Small.webp";
 String basePath = "D:\\";
@@ -177,7 +177,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7791 Overflow exception during the export from TIFF to PNG format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // License required!
 String fileName = "200501_010203.tiff";
@@ -191,7 +191,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName))
 
 **IMAGINGJAVA-7790 ResizeWidthProportionally crops the image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sample.jpf"))
 {
@@ -205,7 +205,7 @@ try (Image image = Image.load("sample.jpf"))
 
 **IMAGINGJAVA-7759 ResizeWidthProportionally crops the image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sample.jpf"))
 {
@@ -219,7 +219,7 @@ try (Image image = Image.load("sample.jpf"))
 
 **IMAGINGJAVA-2060 A code hangs in the Linux but works in Windows**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "C:\\Temp\\";
 String fileName = "test.cdr";
@@ -234,7 +234,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-2047 Exception while converting GIF to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String dir = "D:\\Images\\";
 
@@ -258,7 +258,7 @@ for (String fileName : new String[] {"92fd31b9becf4ecccfcce765db9d6d02.gif", "li
 
 **IMAGINGJAVA-1709 Save the Jpeg file with the ICCProfile embedded**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 JpegImage img = (JpegImage) Image.load("CMYK.jpg");
 try
@@ -289,7 +289,7 @@ finally
 
 **IMAGINGJAVA-1708 20.5 WMF to PNG rasterization leads to empty black image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String[] fileNames = new String[] {"test.wmf", "input1.wmf", "input2.wmf"};
 String baseFolder = "D:\\wmf\\";
