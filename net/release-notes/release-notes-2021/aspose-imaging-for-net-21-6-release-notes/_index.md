@@ -2,12 +2,12 @@
 type: docs
 weight: '60'
 url: /net/aspose-imaging-for-net-21-6-release-notes/
-title: Aspose.Imaging for .NET 21.6 - Release notes | Aspose.Imaging supports NET5
+title: Aspose.Imaging for .NET 21.6 - Release notes | NET5 supported
 ---
 
 ## Competitive features:
 
-- **Add NET5 configuration for Aspose.Imaging .NET**
+- **Support NET5 configuration for Aspose.Imaging .NET**
 - **Implement ApngImage.GetOriginalOptions, ApngImage.GetDefaultOptions and ApngImage.GetModifyDate methods**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
@@ -90,15 +90,15 @@ using (Image image = Image.Load(inputFilePath))
 
 {{< /highlight >}}
 
-**IMAGINGNET-4446 Incorrect conversion from animated Gif to APNG
+**IMAGINGNET-4446 Incorrect conversion from animated Gif to APNG**
 {{code}}
 using (var image = Image.Load("92fd31b9becf4ecccfcce765db9d6d02.gif"))
 {
     image.Save("output.png", new ApngOptions() { DefaultFrameTime = 500, ColorType = PngColorType.TruecolorWithAlpha });
 }
-{{/code}}**
+{{/code}}
 
-IMAGINGNET-4434 Exception on exporting CDR to PDF**
+**IMAGINGNET-4434 Exception on exporting CDR to PDF**
 
 {{< highlight csharp >}}
 
@@ -322,3 +322,20 @@ foreach (var fileName in fileNames)
 
 {{< /highlight >}}
 
+**IMAGINGNET-4290 Add NET5 configuration for Aspose.Imaging .NET**
+{{< highlight csharp >}}
+
+// It's unbelievable, but this code snippet is the full code of .NET5 top-level program. 
+// Just create .NET5 console application and fill Program.cs by the code below
+using Aspose.Imaging;
+using Aspose.Imaging.ImageOptions;
+
+using (var image = Image.Load(@"auto.svg"))
+{
+    image.Save(@"auto.html", new Html5CanvasOptions
+    {
+        VectorRasterizationOptions = new SvgRasterizationOptions() { PageWidth = image.Width, PageHeight = image.Height }
+    });  
+} 
+
+{{< /highlight >}}
