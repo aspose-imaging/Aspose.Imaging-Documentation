@@ -91,12 +91,15 @@ using (Image image = Image.Load(inputFilePath))
 {{< /highlight >}}
 
 **IMAGINGNET-4446 Incorrect conversion from animated Gif to APNG**
-{{code}}
+
+{{< highlight csharp >}}
+
 using (var image = Image.Load("92fd31b9becf4ecccfcce765db9d6d02.gif"))
 {
     image.Save("output.png", new ApngOptions() { DefaultFrameTime = 500, ColorType = PngColorType.TruecolorWithAlpha });
 }
-{{/code}}
+
+{{< /highlight >}}
 
 **IMAGINGNET-4434 Exception on exporting CDR to PDF**
 
