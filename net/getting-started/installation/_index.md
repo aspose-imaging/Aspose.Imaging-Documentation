@@ -44,7 +44,7 @@ Internet Service Providers hosting multiple applications from different companie
 
 For these reasons specified above, it is recommended that Aspose.Imaging to run on Full Trust permissions. You may find that some features of library will work when performing different tasks in Medium trust while some won't (rendering for example) which may due to calls to GDI+ image processing.
 ## **Working with .NET Core DLLs in Non-Windows Environment**
-As Aspose.Imaging for .NET provides .NET Standard 2.0 (.NET Core 2.0) support, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. However, there are some following operations which we recommend our customers to perform, in order to get better results while using features of Aspose.Imaging for .NET:
+As Aspose.Imaging for .NET provides .NET Standard 2.0 (.NET Core 2.0, .NET Core 3.1 and .NET5) support, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. However, there are some following operations which we recommend our customers to perform, in order to get better results while using features of Aspose.Imaging for .NET:
 
 Please install:
 
