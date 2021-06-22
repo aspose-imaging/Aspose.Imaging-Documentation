@@ -84,7 +84,7 @@ The getWatermarkDrawer method returns an instance of Graphics2D object which all
 
 The following code example demonstrates how to watermark EMF images and store the result in raster image format.
 
-{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-metafile-WatermarkMetafiles-WatermarkMetafiles.java" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "watermark-emf-image.java" >}}
 
 {{% alert color="primary" %}} 
 
