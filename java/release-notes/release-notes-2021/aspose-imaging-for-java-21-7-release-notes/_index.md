@@ -44,7 +44,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7848 When converting to JPG/PNG full frames of gif it contains an evaluation message**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String sourceFileName = "gify-wszedzie.gif";
 try (GifImage image = (GifImage)Image.load(sourceFileName))
@@ -69,7 +69,7 @@ try (GifImage image = (GifImage)Image.load(sourceFileName))
 
 **IMAGINGJAVA-7847 Support the option of the number of cycles in the GIF animation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (GifImage image = (GifImage)Image.load(filepath))
 {      
@@ -80,7 +80,7 @@ try (GifImage image = (GifImage)Image.load(filepath))
 
 **IMAGINGJAVA-7840 Generated PNG image with color palette throws an ArgumentOutOfRangeException when resized**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 static byte getPaletteBitDepth(IColorPalette palette)
 {
@@ -123,7 +123,7 @@ try (Image pngImage = Image.load("output.png"))
 
 **IMAGINGJAVA-7839 TiffImageException on resize EPS image or export EPS to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // example 1. Resize EPS image
 Image image = Image.load("Vertical Princial.eps");
@@ -152,7 +152,7 @@ finally
 
 **IMAGINGJAVA-7830 Implement support clip a raster image in the cdr format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String fileName = "test.cdr";
@@ -167,7 +167,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-7829 Stackoverflow exception on loading JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 using (Image image = Image.Load("input 2.jpg"))
 {
@@ -178,7 +178,7 @@ using (Image image = Image.Load("input 2.jpg"))
 
 **IMAGINGJAVA-7828 Chart missing when exporting SVG to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Verguetung5.svg";
@@ -193,7 +193,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-7827 CDR file not properly converted to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("transformations.cdr"))
 {
@@ -212,7 +212,7 @@ try (Image image = Image.load("transformations.cdr"))
 
 **IMAGINGJAVA-7825 Fix bug with fills for correctly rendering this CDR**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String fileName = "Alter.cdr";
@@ -231,7 +231,7 @@ try (CdrImage image = (CdrImage) Image.load(inputFilePath))
 
 **IMAGINGJAVA-7823 Implement support a tables in the cdr format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String[] files = new String[] { "TableTest.cdr", "TableTest14_2.cdr", "TableTest14_3.cdr" };
@@ -250,7 +250,7 @@ for (var i = 0; i < files.length; i++)
 
 **IMAGINGJAVA-7819 ImageSave exception on saving EMF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "credit-card-svg.emf";
@@ -265,7 +265,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-7817 Fix bugs with text positioning in CDR**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (CdrImage image = (CdrImage)Image.load("Table14CD.cdr"))
 {
@@ -276,7 +276,7 @@ try (CdrImage image = (CdrImage)Image.load("Table14CD.cdr"))
 
 **IMAGINGJAVA-7813 Stackoverflow exception on loading JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input 3.jpg"))
 {
@@ -287,7 +287,7 @@ try (Image image = Image.load("input 3.jpg"))
 
 **IMAGINGJAVA-7812 API hangs on loading image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input 3.jpg"))
 {
@@ -298,7 +298,7 @@ try (Image image = Image.load("input 3.jpg"))
 
 **IMAGINGJAVA-7776 Support the same DPI when export raster image to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image images = Image.load("BMCBMCHEMD2100079369b7dbbGrapgicalAbstract1jpg_Grapgical Abstract-1.jpg"))
 {
@@ -314,7 +314,7 @@ try (Image images = Image.load("BMCBMCHEMD2100079369b7dbbGrapgicalAbstract1jpg_G
 
 **IMAGINGJAVA-7770 Problem loading an image with Aspose.Imaging (Java)**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Image image = null;
 try
@@ -344,7 +344,7 @@ finally
 
 **IMAGINGJAVA-1803 DPI is not properly update to pdf output while converting tiff file as input**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image images = Image.load("file_example_TIFF_10MB.tiff"))
 {
