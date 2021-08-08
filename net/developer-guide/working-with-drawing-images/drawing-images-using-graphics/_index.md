@@ -49,6 +49,10 @@ Next, draw a polygon using the LinearGradientBrush and an array of points. The [
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawAFilledPolygon-DrawAFilledPolygon.cs" >}}
 
+#### **Measure string using Aspose.Graphics**
+Aspose.Imaging Graphics supports method to measure string. Here the sample code for it is provided.
+
+{{< gist "aspose-imaging" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-graphics-measure-string.cs" >}}
 
 ### **Drawing Images using Graphics : Complete Source**
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawingUsingGraphics-DrawingUsingGraphics.cs" >}}
