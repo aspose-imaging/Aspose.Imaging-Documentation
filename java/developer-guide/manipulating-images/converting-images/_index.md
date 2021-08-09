@@ -85,7 +85,7 @@ See
 ## **Converting dicom images**
 [Convert dicom images](/imaging/java/convert-dicom-images/)
 ## **Exporting Images**
-Along with a rich set of image processing routines, Aspose.Imaging provides specialized classes to convert images to other formats. Using this library, image format conversion is as simple as changing the file extension to desired format in the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class [save](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#save--) method and by specifying the appropriate [ImageOptionsBase ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/ImageOptionsBase)values. Below are some specialized classes for this purpose in [imageoptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-frame) package.
+Along with a rich set of image processing routines, Aspose.Imaging provides specialized classes to convert images to other formats. Using this library, image format conversion is as simple as changing the file extension to desired format in the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class [save](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#save--) method and by specifying the appropriate [ImageOptionsBase ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/ImageOptionsBase) values. Below are some specialized classes for this purpose in [imageoptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-frame) package.
 
 - [BmpOptions]()
 - [GifOptions]()
@@ -104,14 +104,14 @@ Aspose.Imaging supports next compressed vector formats: Emz(compressed emf), Wmz
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Compressed-Vector-Formats.java" >}}
 ## **Combining Images**
-This example uses [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class and shows how to combine two or more images into a single complete image.To demonstrate the operation, the example creates a new [Image](http://www.aspose.com/api/net/imaging/aspose.imaging/image) canvas in JPEG format and draw images on the canvas surface using [Draw Image ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics#drawImage-com.aspose.imaging.Image-com.aspose.imaging.Point-)method exposed by [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class. Using [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class two or more images can be combine in such a way that the resultant image will look as a complete image with no space between the image parts and no pages. The **canvas** size must be equal to the size of resultant image. Following is the code demonstration that shows how to use [Draw Image ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics#drawImage-com.aspose.imaging.Image-com.aspose.imaging.Point-)method of the [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class to combine images in a single image.
+This example uses [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class and shows how to combine two or more images into a single complete image.To demonstrate the operation, the example creates a new [Image](http://www.aspose.com/api/net/imaging/aspose.imaging/image) canvas in JPEG format and draw images on the canvas surface using [Draw Image ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics#drawImage-com.aspose.imaging.Image-com.aspose.imaging.Point-) method exposed by [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class. Using [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class two or more images can be combine in such a way that the resultant image will look as a complete image with no space between the image parts and no pages. The **canvas** size must be equal to the size of resultant image. Following is the code demonstration that shows how to use [Draw Image ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics#drawImage-com.aspose.imaging.Image-com.aspose.imaging.Point-) method of the [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Graphics) class to combine images in a single image.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-CombineImagesUsingGraphicsClass.java" >}}
 ## **Expand and Crop Images**
 Aspose.Imaging API allows you to expand or crop an image during image conversion process. Developer needs to create a rectangle with X and Y coordinates and specify the width and height of the rectangle box. The X,Y and Width, Height of rectangle will depict the expansion or cropping of the loaded image. If it is required to expand or crop the image during image conversion, perform the following steps:
 
 1. Create an instance of [RasterImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RasterImage) class and load the existing image.
-1. Create an Instance of [ImageOptionsBase ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/ImageOptionsBase)class.
+1. Create an Instance of [ImageOptionsBase ](https://apireference.aspose.com/imaging/java/com.aspose.imaging/ImageOptionsBase) class.
 1. Create an instance of [Rectangle](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Rectangle) class and initialize the X,Y and Width, Height of the rectangle
 1. Call Save method of the [RasterImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RasterImage) class while passing output file name, image options and the rectangle object as parameters.
 
@@ -130,7 +130,3 @@ Aspose.Imaging for Java now supports converting images in multi threaded environ
 Aspose.Imaging now supports **SyncRoot** property while working in multi-threaded environment. Developer can use this property to synchronize access to the source stream. Following code snippet demonstrates how the **SyncRoot** property can be used.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ConvertingImages-SyncRootProperty-ExportImagesInMultiThreadedEnvironment.java" >}}
-
-
-
-

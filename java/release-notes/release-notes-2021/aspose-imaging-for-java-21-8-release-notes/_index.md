@@ -39,7 +39,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7887 Incorrect number of cycles in exported GIF animation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String path = "ezgif.com-gif-maker(1)___.gif";
 try (GifImage image = (GifImage)Image.load(path))
@@ -51,7 +51,7 @@ try (GifImage image = (GifImage)Image.load(path))
 
 **IMAGINGJAVA-7886 Cannot set number of cycles in exported GIF animation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String path = "ezgif.com-gif-maker(1)___.gif";
 try (GifImage image = (GifImage)Image.load(path))
@@ -66,7 +66,7 @@ try (GifImage image = (GifImage)Image.load(path))
 
 **IMAGINGJAVA-7884 Incorrect export from CDR to PSD**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "yo calender.CDR";
@@ -87,7 +87,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-7877 Particular CDR file cannot be opened/rasterized**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "LETTER HEAD.cdr";
@@ -108,7 +108,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-7875 Image saving failed when converting WMF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("1480 HANGER FORM AND DIE SCHEMATIC.WMF"))
 {
@@ -126,7 +126,7 @@ try (Image image = Image.load("1480 HANGER FORM AND DIE SCHEMATIC.WMF"))
 
 **IMAGINGJAVA-7874 Text in saved EMF is garbled**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String inputFileName = baseFolder + "original.emf";
@@ -140,7 +140,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7872 Measure String for Graphics.DrawString method**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image backgoundImage = Image.load("image1.png"))
 {
@@ -157,7 +157,7 @@ try (Image backgoundImage = Image.load("image1.png"))
 
 **IMAGINGJAVA-7871 Backport of Aspose.PSD to Aspose.Imaging**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 // This code should successfully export a PSD image
 try (JpegImage image = (JpegImage)Image.load("3.jpg"))
@@ -175,7 +175,7 @@ try (Image image = Image.load("output.psd"))
 
 **IMAGINGJAVA-7852 Memory leak when saving EPS to PSD**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFilePath = "file_2.eps";
 String outputFilePath = inputFilePath + ".psd";
@@ -202,7 +202,7 @@ while (true)
 
 **IMAGINGJAVA-7851 Improve original (prior to Version 2.0) TGA file format support**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("envanter.tga"))
 {
@@ -213,7 +213,7 @@ try (Image image = Image.load("envanter.tga"))
 
 **IMAGINGJAVA-7850 Exception on exporting DCM to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFilePath = "1.3.12.2.1107.5.3.33.1214.11.202105032002480765.dcm";
 String outputFilePath = inputFilePath + ".png";
@@ -227,7 +227,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7814 Exception on loading image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sankey1a.png"))
 {
@@ -238,7 +238,7 @@ try (Image image = Image.load("sankey1a.png"))
 
 **IMAGINGJAVA-7772 Convert EMF to PNG will generate too many font files under TempFontsGraphics**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 File f = new File(System.getProperty("java.io.tmpdir") + "/TempFontsGraphics");
 if (!f.exists())
@@ -267,7 +267,7 @@ Assert.assertEquals(wasFiles, nowFiles, "Incorrect work of the font subsystem!")
 
 **IMAGINGJAVA-628 Calling resize method of SvgImage class is throwing exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image svg = Image.load("gump-bench.svg"))
 {
@@ -276,4 +276,3 @@ try (Image svg = Image.load("gump-bench.svg"))
 }
 
 {{< /highlight >}}
-
