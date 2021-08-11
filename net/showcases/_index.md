@@ -18,7 +18,7 @@ Here we collected examples for these kinds of tasks. More features with examples
 
 [Full frame gif support](/imaging/net/full-frame-gif-support/)
 
-[HTML5 canvas](/imaging/net/html5-canvas/)
+[HTML5 canvas](/imaging/net/html5-canvas/) 
 
 [Image masking](/imaging/net/image-masking/)
 
