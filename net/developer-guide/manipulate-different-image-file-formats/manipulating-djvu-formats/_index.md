@@ -27,9 +27,7 @@ A DjVu image may have more than one pages like a multipage TIFF or multiframe GI
 
 Here is the source code to convert first 2 pages of DjVu to TIFF format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-ConvertRangeOfDjVuPages-ConvertRangeOfDjVuPages.cs" >}}
-
-
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertRangeOfDjVuPages-ConvertRangeOfDjVuPages.cs" >}}
 
 Following code snippet converts the first 2 pages of DjVu to GIF format.
 
@@ -47,7 +45,7 @@ It is possible to [convert only a specific range of DjVu pages to multipage TIFF
 
 Here is the source code to convert first 2 pages of DjVu to BMP format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
 
 
 ## **Converting Specific Portion of DjVu Page**
@@ -60,7 +58,7 @@ Aspose.Imaging APIs provides an easy to use mechanism to export only a specific 
 
 Here is the source code to convert a portion of 1st page of DjVu to PNG format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
 
 
 ## **Converting DjVu to PDF Format**
