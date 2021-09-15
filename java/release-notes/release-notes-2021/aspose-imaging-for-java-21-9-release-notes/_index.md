@@ -37,7 +37,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7911 Blurred output GIF to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Referral Elsa A_LI (1).gif";
@@ -52,7 +52,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7907 Exception on converting WMZ to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "image001 (1).wmz";
 String baseFolder = "D:\\";
@@ -67,7 +67,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7906 "Image loading failed." exception when open document CDR file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "SI-13.cdr";
@@ -82,7 +82,7 @@ try (CdrImage image = (CdrImage) Image.load(inputFilePath))
 
 **IMAGINGJAVA-7903 Fix bugs in the PowerClip objects rendering and implement support two-color raster image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String[] files = new String[] { "Qurve.cdr", "Lakshaya School Brochures.cdr"};
@@ -109,7 +109,7 @@ for (int i = 0; i < files.length; i++)
 
 **IMAGINGJAVA-7902 SVG to PNG, output image distorted**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String[] fileNames = {"logo1.svg", "logo2.svg", "logo3.svg", "input.svg" };
@@ -127,7 +127,7 @@ for (String fileName : fileNames)
 
 **IMAGINGJAVA-7898 Aspose.Imaging 21.6: DICOM Image loading failed**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("test.dcm"))
 {
@@ -138,7 +138,7 @@ try (Image image = Image.load("test.dcm"))
 
 **IMAGINGJAVA-7897 Incorrect watermark when saving GIF frame**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (GifImage image = (GifImage)Image.load("2086.gif"))
 {
@@ -149,7 +149,7 @@ try (GifImage image = (GifImage)Image.load("2086.gif"))
 
 **IMAGINGJAVA-7896 Implement support a "PANTONE goe coated" pallete in the CDR format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "test.cdr";
@@ -170,7 +170,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-7895 WebP Image Loads with incorrect color**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "Control.webp";
 String basePath = "D:\\";
@@ -185,7 +185,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7894 "Image export failed." exception when rendering CDR to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\cdr\\";
 String fileName = "Áåçûìÿííûé-1.cdr";
@@ -200,7 +200,7 @@ try (CdrImage image = (CdrImage) Image.load(inputFilePath))
 
 **IMAGINGJAVA-7892 Fix default Tiff saving**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TiffImage source = (TiffImage)Image.load("image.tiff"))
 {
