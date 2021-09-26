@@ -28,10 +28,8 @@ url: /java/aspose-imaging-for-java-18-2-release-notes/
 |IMAGINGJAVA-829|Coordinate of left top corner is incorrect at update|Enhancement|
 |IMAGINGJAVA-762|Improper export of SVG export to PNG, JPEG and BMP formats|Enhancement|
 # **Public API changes:**
-## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.2](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.2+-+Release+Notes) version
-## **Removed APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.2](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.2+-+Release+Notes) version
+## **Added and Remmoved APIs:**
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 18.2](/imaging/java/aspose-imaging-for-java-18-2-release-notes/) version
 # **Usage examples:**
 **IMAGINGJAVA-896 Implement [Jpeg DCT extended sequental, Huffman. 12-bit] decoder. [Java]**
 
