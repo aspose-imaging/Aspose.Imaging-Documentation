@@ -39,7 +39,7 @@ Following releases of running examples are available to download on below mentio
 
 - [Aspose.Imaging Java for PHP](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Plugins/Aspose_Imaging_Java_for_PHP)
   **CodePlex**
-- [Aspose.Imaging Java for PHP](https://asposeimagingjavaphp.codeplex.com/)
+- [Aspose.Imaging Java for PHP](https://archive.codeplex.com/?p=asposeimagingjavaphp)
 # **Installation And Usage**
 ## **Installing**
 It is very simple and easy to install Aspose.Imaging Java for PHP, please follow these simple steps:

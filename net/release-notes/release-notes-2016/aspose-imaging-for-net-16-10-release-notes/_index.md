@@ -12,13 +12,13 @@ The following is a list of changes in this version of Aspose.Imaging.
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |IMAGINGNET-2048 |Creating wmf files by calling Graphics methods (drawImage,drawLine, etc.) |Feature |
-|IMAGINGNET-1858 |[Support for WMF for possible conversion to SVG](http://www.aspose.com/community/forums/thread/761027/convert-emf-and-wmf-to-svg.aspx)|Feature |
-|IMAGINGNET-2086 |[Converting GIF to TIFF is generating incorrect TIFF images](http://www.aspose.com/community/forums/thread/742821/convert-gif-to-multiframe-tiff.aspx)|Enhancement |
+|IMAGINGNET-1858 |[Support for WMF for possible conversion to SVG](https://forum.aspose.com/t/convert-emf-and-wmf-to-svg/4104/1)|Feature |
+|IMAGINGNET-2086 |[Converting GIF to TIFF is generating incorrect TIFF images](https://forum.aspose.com/t/convert-gif-to-multiframe-tiff/4073/1)|Enhancement |
 |IMAGINGNET-2079 |Emf image differs from C# after saving |Enhancement |
 |IMAGINGNET-2078 |Save() operation for psd file does not update changed layers(including text layers) in application, but on disk all is saved. |Enhancement |
-|IMAGINGNET-2061 |[Calling ResizeHeightProportionally method is halting the program](http://www.aspose.com/community/forums/thread/774815/resizeheightproportionally-using-resizetype-hangs-on-certain-picture.aspx)|Enhancement |
+|IMAGINGNET-2061 |[Calling ResizeHeightProportionally method is halting the program](https://forum.aspose.com/t/resizeheightproportionally-using-resizetype-hangs-on-certain-picture/4114/1)|Enhancement |
 |IMAGINGNET-2046 |Updating text in text layers of a PSD file is not generating expected output and also throwing exception |Enhancement |
-|IMAGINGNET-2045 |[Aspose.Imaging 3.9.0 is throwing Out of memory exception when converting WMF to PNG](http://www.aspose.com/community/forums/thread/768240/aspose.imaging-3.9.0-failed-to-convert-wmf-file-to-image-in-asp.net-application.aspx)|Enhancement |
+|IMAGINGNET-2045 |[Aspose.Imaging 3.9.0 is throwing Out of memory exception when converting WMF to PNG](https://forum.aspose.com/)|Enhancement |
 |IMAGINGNET-2019 |Optimize Dicom to reduce memory usage while load from the specified stream. |Enhancement |
 |IMAGINGNET-1819 |Exporting Emf+ metafile in pdf works incorrect. |Enhancement |
 # **Usage examples**

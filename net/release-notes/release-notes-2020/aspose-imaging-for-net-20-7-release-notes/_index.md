@@ -8,7 +8,7 @@ title: Aspose.Imaging for .NET 20.7 - Release notes
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | IMAGINGNET-3931 | Support of convertion to 1 bitdepth PNG                                                                                                                                  | Feature      |
-| IMAGINGNET-3965 | [Support path extraction from tiff to psd](https://docs.aspose.com/display/imagingnet/Manipulating+TIFF+Images#ManipulatingTIFFImages-SupportforextractingpathsfromTIFF) | Enhancement  |
+| IMAGINGNET-3965 | [Support path extraction from tiff to psd](https://docs.aspose.com/imaging/net/manipulating-tiff-images/#ManipulatingTIFFImages-SupportforextractingpathsfromTIFF) | Enhancement  |
 | IMAGINGNET-3960 | Incorrect image size after applying Crop/Resize/RotateFlipAll operations on Gif image with subsequent export to WebP                                                     | Enhancement  |
 | IMAGINGNET-3947 | Black output after resizing JPG                                                                                                                                          | Enhancement  |
 | IMAGINGNET-3941 | Image saving failed exception when converting EMF                                                                                                                        | Enhancement  |

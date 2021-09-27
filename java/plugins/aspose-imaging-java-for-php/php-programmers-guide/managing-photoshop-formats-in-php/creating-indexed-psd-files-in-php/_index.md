@@ -70,5 +70,5 @@ print "Created PSD successfully!".PHP_EOL;
 ## **Download Running Code**
 Download **Creating Indexed PSD Files (Aspose.Imaging)** from any of the below mentioned social coding sites:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ManagingPhotoshopFormats/CreadPSD.php)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/SourceControl/latest#src/aspose/imaging/ManagingPhotoshopFormats/CreadPSD.php)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ManagingPhotoshopFormats/CreadPSD.php)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp#src/aspose/imaging/ManagingPhotoshopFormats/CreadPSD.php)

@@ -12,8 +12,8 @@ The following is a list of changes in this version of Aspose.Imaging.
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |IMAGINGNET-2060 |Multiple save of Wmf file produce wrong results |Enhancement |
-|IMAGINGNET-2036 |[Aspose.Imaging is not returning correct Height & Width of WMF image](http://www.aspose.com/community/forums/thread/766508/aspose.imaging-3.9.0-wmf-file-dimmensions-are-different-from-dimmensions-in-the-ms-paint.aspx)|Enhancement |
-|IMAGINGNET-2028 |[Static method GetFileFormat of Image class is returning incorrect information](http://www.aspose.com/community/forums/thread/763078/aspose.imaging-3.8.0.0-determines-a-.wmf-file-as-dicom.aspx)|Enhancement |
+|IMAGINGNET-2036 |[Aspose.Imaging is not returning correct Height & Width of WMF image](https://forum.aspose.com/)|Enhancement |
+|IMAGINGNET-2028 |[Static method GetFileFormat of Image class is returning incorrect information](https://forum.aspose.com/t/aspose-imaging-3-8-0-0-determines-a-wmf-file-as-dicom/4107)|Enhancement |
 |IMAGINGNET-2025 |Updating text in text layers of a file is not generating expected output and also throwing exception |Enhancement |
 |IMAGINGNET-2003 |Incorrect layer names returned from a file with multiple layers and nested layers |Enhancement |
 |IMAGINGNET-1982 |Import from Internal format to WMF |Enhancement |
