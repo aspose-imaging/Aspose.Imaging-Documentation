@@ -30,13 +30,11 @@ url: /java/aspose-imaging-for-java-17-12-release-notes/
 |IMAGINGJAVA-510|EMF image export error|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 17.12](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+17.12+-+Release+Notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 17.12](/imaging/net/aspose-imaging-for-net-17-12-release-notes/) version
 ## **Removed APIs:**
 ` `Nothing
 # **Usage examples:**
 **IMAGINGJAVA-849 Support for converting CMYK PSD to CMYK Tiff [Java]** 
-input files: [cmyk.psd](https://kiev.dynabic.com/jira/secure/attachment/22854/22854_cmyk.psd) - source file, [JapanWebCoated.icc](https://kiev.dynabic.com/jira/secure/attachment/22857/22857_JapanWebCoated.icc) - Icc profile.
-output files: [cmyk_False.tiff](https://kiev.dynabic.com/jira/secure/attachment/22855/22855_cmyk_False.tiff) - cmyk tiff without Icc profile, [cmyk_True.tiff](https://kiev.dynabic.com/jira/secure/attachment/22856/22856_cmyk_True.tiff) - cmyk tiff with Icc profile.
 
 {{< highlight java >}}
 
@@ -184,8 +182,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-867 Improve Djvu performance [Java]** 
-Please download this file: [superhero.djvu](https://kiev.dynabic.com/jira/secure/attachment/22892/22892_superhero.djvu)
-And execute follow code with current library and 17.10 library.
 Time of execute in the current library less by 20% than in library 17.10.
 
 {{< highlight java >}}
@@ -330,7 +326,6 @@ image2.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-865 Gif image is not properly converted to Png [Java]** 
-input file: [gif.zip](https://kiev.dynabic.com/jira/secure/attachment/22757/gif.zip)
 
 {{< highlight java >}}
 
@@ -366,9 +361,7 @@ m_oDocument.dispose();
 
 {{< /highlight >}}
 
-**IMAGINGJAVA-864 Incorrect number conversion in** [**OpenDocument**](/pages/createpage.action?spaceKey=imagingjava&title=OpenDocument&linkCreation=true&fromPageId=60229174) **support class:** [**OdEnhancedGeometryReader**](/pages/createpage.action?spaceKey=imagingjava&title=OdEnhancedGeometryReader&linkCreation=true&fromPageId=60229174)**.[ReadEnd](/pages/createpage.action?spaceKey=imagingjava&title=ReadEnd&linkCreation=true&fromPageId=60229174). [Java]** 
-input file: [modifierTest.odg](https://kiev.dynabic.com/jira/secure/attachment/22852/modifiersTest.odg), this file contained a modifier with float value (decimal separator - ".")
-output file: [modifierTest.pdf](https://kiev.dynabic.com/jira/secure/attachment/22853/modifiersTest.pdf)
+**IMAGINGJAVA-864 Incorrect number conversion in **OpenDocument**
 
 {{< highlight java >}}
 
@@ -413,8 +406,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-862 Image exception on load Tiff image [Java]** 
-input file: [posterUfficio_crop.tif](https://kiev.dynabic.com/jira/secure/attachment/22773/22773_posterUfficio_crop.tif)
-output file: [posterUfficio_crop.png](https://kiev.dynabic.com/jira/secure/attachment/22796/22796_posterUfficio_crop.png)
 
 {{< highlight java >}}
 
@@ -443,7 +434,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-859 Image saving failed when saving JPEG2000 as PNG [Java]** 
-input file: [Input.jp2](https://kiev.dynabic.com/jira/secure/attachment/22889/22889_Input.jp2)
 
 {{< highlight java >}}
 
@@ -472,7 +462,7 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-858 Exception on converting emf to svg [Java]** 
-input file: [powerpoint_emf.zip](https://kiev.dynabic.com/jira/secure/attachment/22851/powerpoint_emf.zip)
+
 
 {{< highlight java >}}
 
@@ -513,7 +503,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-857 Fix PSD crop operation [Java]** 
-input file: [MSFT_DevEva_Web_Twitter-800x320_2-DVG.PSD](https://kiev.dynabic.com/jira/secure/attachment/22872/MSFT_DevEva_Web_Twitter-800x320_2-DVG.PSD)
 
 {{< highlight java >}}
 
@@ -547,7 +536,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-856 Fix PSD test rendering for specific case [Java]** 
-input file: [1.psd](https://kiev.dynabic.com/jira/secure/attachment/22858/1.psd)
 
 {{< highlight java >}}
 
@@ -573,7 +561,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-855 Exception on saving Tiff Image [Java]** 
-input file: [Carelogic-1-11082017-3016-CH.tif](https://kiev.dynabic.com/jira/secure/attachment/22862/Carelogic-1-11082017-3016-CH.tif)
 
 {{< highlight java >}}
 
@@ -618,7 +605,7 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-854 Gif not properly converted to png [Java]** 
-input file: [6.gif](https://kiev.dynabic.com/jira/secure/attachment/22867/6.gif)
+
 
 {{< highlight java >}}
 
@@ -645,7 +632,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-834 When PSD is converted to PNG, an** [**ArgumentOutOfRangeException**](/pages/createpage.action?spaceKey=imagingjava&title=ArgumentOutOfRangeException&linkCreation=true&fromPageId=60229174) **occurs** 
-Input and output: [2620.zip](https://kiev.dynabic.com/jira/secure/attachment/22869/22869_2620.zip)
 
 {{< highlight java >}}
 
@@ -1016,7 +1002,7 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-510 Emf image export error** 
-input file: [Picture1.zip](https://kiev.dynabic.com/jira/secure/attachment/20863/Picture1.zip)
+
 
 {{< highlight java >}}
 

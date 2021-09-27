@@ -36,7 +36,6 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.
 # **Usage examples:**
 **IMAGINGJAVA-934 Conversion of RGB Color System to CMYK for Tiff File Format [Java]** 
 Please use the following code to convert a tiled Rgb Tiff to a striped Cmyk Tiff:
-Files: [testTileDeflate.tif](https://kiev.dynabic.com/jira/secure/attachment/23099/testTileDeflate.tif)
 
 {{< highlight java >}}
 
@@ -68,9 +67,6 @@ image.dispose();
 {{< /highlight >}}
 
 Please use the following code to convert a tiled RGB Tiff to a striped CMYK Tiff using specified Icc profile:
-Files:
-[testTileDeflate.tif](https://kiev.dynabic.com/jira/secure/attachment/23099/testTileDeflate.tif)
-[RSWOP.ICM](https://kiev.dynabic.com/jira/secure/attachment/23102/RSWOP.ICM)
 
 {{< highlight java >}}
 
@@ -127,7 +123,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-933 Add support for Subscript PSD option [Java]** 
-Files: [2803.zip](https://kiev.dynabic.com/jira/secure/attachment/23103/2803.zip)
 
 {{< highlight java >}}
 
@@ -170,7 +165,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-932 Add support for SmallCap PSD option [Java]** 
-Files: [2804.zip](https://kiev.dynabic.com/jira/secure/attachment/23105/23105_2804.zip)
 
 {{< highlight java >}}
 
@@ -195,8 +189,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-849 Support for converting CMYK PSD to CMYK Tiff [Java]** 
-input files: [cmyk.psd](https://kiev.dynabic.com/jira/secure/attachment/22854/22854_cmyk.psd) - source file, [JapanWebCoated.icc](https://kiev.dynabic.com/jira/secure/attachment/22857/22857_JapanWebCoated.icc) - Icc profile.
-output files: [cmyk_False.tiff](https://kiev.dynabic.com/jira/secure/attachment/22855/22855_cmyk_False.tiff) - cmyk tiff without Icc profile, [cmyk_True.tiff](https://kiev.dynabic.com/jira/secure/attachment/22856/22856_cmyk_True.tiff) - cmyk tiff with Icc profile.
 
 {{< highlight java >}}
 
@@ -280,7 +272,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-839 Support Bmp header OS22XBITMAPHEADER** 
-Files: [test.bmp](https://kiev.dynabic.com/jira/secure/attachment/22877/test_pattern.bmp)
 
 {{< highlight java >}}
 
@@ -305,7 +296,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-941 Concatenating TIFF images into single TIFF image is throwing exception [Java]** 
-Please unpack source TIFF images ([Files.zip](https://kiev.dynabic.com/jira/secure/attachment/21459/TWAIN-6130%2BA4%2B%2B600%2BDUP%2B256COL_00003.zip)) and use the following code to compose a new TIFF image from three unpacked TIFF images (case #1):
 
 {{< highlight java >}}
 
@@ -476,7 +466,6 @@ mf.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-939 Odg to jpeg not properly converted [Java]** 
-File: [example.odg](https://kiev.dynabic.com/jira/secure/attachment/23043/example.odg)
 
 {{< highlight java >}}
 
@@ -511,7 +500,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-938 Tiff rotation without changing bpp [Java]** 
-File: [original_1bpp.png](https://kiev.dynabic.com/jira/secure/attachment/23200/original_1bpp.png)
 
 {{< highlight java >}}
 
@@ -540,7 +528,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-937 SVG with external resources not loaded [Java]** 
-File : [with-text-and-image.emf](https://kiev.dynabic.com/jira/secure/attachment/23153/with-text-and-image.emf)
 
 {{< highlight java >}}
 
@@ -968,7 +955,6 @@ image.dispose();
 
 **IMAGINGJAVA-935 Some public properties of ReaderDicomFileInfo class are missing in newest versions of Aspose.Imaging (starting from v16.12) [Java]** 
 File:
-[MonochromeSample16_2.zip](https://kiev.dynabic.com/jira/secure/attachment/23193/MonochromeSample16_2.zip)
 
 {{< highlight java >}}
 
@@ -1584,7 +1570,6 @@ args.setFontFileUri("./" + this.getLink() + "/" + name);
 {{< /highlight >}}
 
 **IMAGINGJAVA-838 Exception on loading BMP Images** 
-File: [test_pattern.bmp](https://kiev.dynabic.com/jira/secure/attachment/22877/test_pattern.bmp)
 
 {{< highlight java >}}
 

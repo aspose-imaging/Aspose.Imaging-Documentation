@@ -16,7 +16,7 @@ Please see corresponding cumulative [API changes in Aspose.Imaging for .Net 17.9
 #### **Added APIs:**
 
 
-Method [ImageExtensions](https://kiev.dynabic.com/wiki/pages/createpage.action?spaceKey=support&title=ImageExtensions&linkCreation=true&fromPageId=6979668).fromJava([BufferedImage](https://kiev.dynabic.com/wiki/pages/createpage.action?spaceKey=support&title=BufferedImage&linkCreation=true&fromPageId=6979668) image, Rectangle rect)
+Method ImageExtensions.fromJava(BufferedImage image, Rectangle rect)
 
 
 #### **Deleted APIs:**

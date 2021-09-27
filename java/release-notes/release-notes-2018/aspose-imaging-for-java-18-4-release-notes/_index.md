@@ -268,7 +268,6 @@ epsImage.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-977 Convert png and jpeg images to pdf [Java]** 
-Input file: [result.jpg](https://kiev.dynabic.com/jira/secure/attachment/23445/result.jpg)
 
 {{< highlight java >}}
 
@@ -298,7 +297,6 @@ image.close();
 
 {{< /highlight >}}
 
-Input file: [multipage_specificColor_.djvu4_ethalon.png](https://kiev.dynabic.com/jira/secure/attachment/23445/multipage_specificColor_.djvu4_ethalon.png)
 
 {{< highlight java >}}
 
@@ -329,7 +327,6 @@ image.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-971 BMP to PDF conversion [Java]** 
-Input file: [balloon_ethalon.bmp](https://kiev.dynabic.com/jira/secure/attachment/23444/balloon_ethalon.bmp)
 
 {{< highlight java >}}
 
@@ -363,7 +360,6 @@ image.close();
 
 **IMAGINGJAVA-964 The saving TIFF image in a grayscaled format** 
 Look at IMAGINGJAVA-982 issue.**IMAGINGJAVA-931** [**InterruptMonitor**](/pages/createpage.action?spaceKey=imagingjava&title=InterruptMonitor&linkCreation=true&fromPageId=64456197) **support for Java** 
-Input file: [big.jpg](https://kiev.dynabic.com/jira/secure/attachment/23558/big.jpg)
 
 {{< highlight java >}}
 
@@ -556,7 +552,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-982 TIFF Codec can't save 16-bit channel image [Java]** 
-Input file: [Alpha.png](https://kiev.dynabic.com/jira/secure/attachment/23149/Alpha.png)
 
 {{< highlight java >}}
 
@@ -998,7 +993,6 @@ return extention;
 {{< /highlight >}}
 
 **IMAGINGJAVA-976 Fix watermark on export metafile (EMF, WMF) to SVG [Java]** 
-Input file: [source.zip](https://kiev.dynabic.com/jira/secure/attachment/23162/source.zip)
 Output: [^result.zip](/imaging/java/aspose-imaging-for-java-18-4-release-notes-html/)
 tiger.emf.false.svg - exported a emf file without license, must have watermark
 tiger.emf.true.svg - exported a emf file with license, should not contain watermark
@@ -1102,7 +1096,6 @@ lic.setLicense("pathToLicense.lic");
 {{< /highlight >}}
 
 **IMAGINGJAVA-975 Exception on updating text layers [Java]** 
-Input file: [update_issues.zip](https://kiev.dynabic.com/jira/secure/attachment/23139/update_issues.zip)
 
 {{< highlight java >}}
 
@@ -1157,7 +1150,6 @@ image.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-974 Fix duplication of resolution settings for BMP (check other formats as well) [Java]** 
-Input file: [TestEmfMetaRgn.emf](https://kiev.dynabic.com/jira/secure/attachment/23206/TestEmfMetaRgn.emf)
 
 {{< highlight java >}}
 
@@ -1270,7 +1262,6 @@ obsoleteApiImage.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-973 Fix saving of multiple WEBP frames [Java]** 
-Input file: [Animation1.webp](https://kiev.dynabic.com/jira/secure/attachment/23207/Animation1.webp)
 
 {{< highlight java >}}
 
@@ -1419,7 +1410,6 @@ image.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-969 Evaluation watermark is missing when saving as SVG [Java]** 
-Input file: [input.svg](https://kiev.dynabic.com/jira/secure/attachment/23448/input.svg)
 
 {{< highlight java >}}
 
@@ -1478,7 +1468,6 @@ image.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-968 Fix 24bpp options setting for export to BMP [Java]** 
-Input file: [test.jpg](https://kiev.dynabic.com/jira/secure/attachment/23208/test.jpg)
 
 {{< highlight java >}}
 
@@ -1507,7 +1496,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-907 SVG to raster has missing image parts** 
-Input file: [svg_with_preserve_aspect_ratio.svg.png](https://kiev.dynabic.com/jira/secure/attachment/23443/svg_with_preserve_aspect_ratio.svg.png)
 
 {{< highlight java >}}
 
@@ -1556,7 +1544,6 @@ image.close();
 {{< /highlight >}}
 
 **IMAGINGJAVA-829 Coordinate of left top corner is incorrect at update** 
-Input file: [2635.zip](https://kiev.dynabic.com/jira/secure/attachment/22944/2635.zip)
 
 {{< highlight java >}}
 

@@ -655,7 +655,6 @@ finally
 
 **IMAGINGJAVA-1025 Color radiance issues in images**
 
-input file: [image34.emf](https://kiev.dynabic.com/jira/secure/attachment/24043/24043_image34.emf)
 
 {{< highlight java >}}
 

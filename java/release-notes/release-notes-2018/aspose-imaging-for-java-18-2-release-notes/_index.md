@@ -231,7 +231,7 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-748 Psd to pdf conversion** 
-Input file: [FromRasterImageEthalon.psd](https://kiev.dynabic.com/jira/secure/attachment/23104/FromRasterImageEthalon.psd)
+
 
 {{< highlight java >}}
 
@@ -266,7 +266,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-902 Converting EMF to SVG format is not working properly. It is generating SVG file but SVG file is empty [Java]** 
-Input files: [images.zip](https://kiev.dynabic.com/jira/secure/attachment/22951/images.zip)
 
 {{< highlight java >}}
 
@@ -319,8 +318,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-901 Converting WMF to SVG format is not working properly. It is generating SVG file but SVG file is empty [Java]** 
-Input file: [000096_image73.wmf](https://kiev.dynabic.com/jira/secure/attachment/21489/21489_000096_image73.wmf)
-Output file: [000096_image73.wmf.svg]()
 
 {{< highlight java >}}
 
@@ -357,7 +354,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-900 Applying MedianFilterOptions on an image is bluring the resultant image [Java]** 
-Input file: [skewpng.tiff](https://kiev.dynabic.com/jira/secure/attachment/21540/skewpng.tiff)
 
 {{< highlight java >}}
 
@@ -398,7 +394,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-899 System.IndexOutOfRangeException when load pixels from Tiff image [Java]** 
-Input file: [UnspecifiedAlpha.tif](https://kiev.dynabic.com/jira/secure/attachment/21559/UnspecifiedAlpha.tif)
 
 {{< highlight java >}}
 
@@ -443,7 +438,6 @@ BlackBoxTestsController.setMaxAllocatedBytesCount(0);
 {{< /highlight >}}
 
 **IMAGINGJAVA-898 chart axis values are improperly positioned when exporting SVG to PNG [Java]** 
-Input file : [SvgData.svg](https://kiev.dynabic.com/jira/secure/attachment/22953/22953_SvgData.svg)
 
 {{< highlight java >}}
 
@@ -645,7 +639,6 @@ return m_isRunning;
 |testBig.j2k|99.95|98.76|1.2%|
 |multi.jpx|105.8|94.08|12.4%|
 **IMAGINGJAVA-895 Incorrect exporting Emf+ to Svg [Java]** 
-Input file: [22955_powerpoint_emf.emf](https://kiev.dynabic.com/jira/secure/attachment/22955/22955_powerpoint_emf.emf)
 
 {{< highlight java >}}
 
@@ -684,7 +677,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-894 Support the [interlaced Gif to non-interlaced Png] conversion [Java]** 
-Input files: [6.gif](https://kiev.dynabic.com/jira/secure/attachment/23087/6.gif), [transbugs.gif](https://kiev.dynabic.com/jira/secure/attachment/23088/transbugs.gif)
 
 {{< highlight java >}}
 
@@ -759,7 +751,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-893 Fix PSD export of multiple styles for a single text layer [Java]** 
-Input file and ethalon: [2664.zip](https://kiev.dynabic.com/jira/secure/attachment/23050/2664.zip)
 
 {{< highlight java >}}
 
@@ -792,7 +783,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-863 Emf to pdf generated blank document** 
-Input file: [IMAGINGNET-2654_example.zip](https://kiev.dynabic.com/jira/secure/attachment/23093/IMAGINGNET-2654_example.zip)
 
 {{< highlight java >}}
 
@@ -869,7 +859,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-829 Coordinate of left top corner is incorrect at update** 
-Input file: [2635.zip](https://kiev.dynabic.com/jira/secure/attachment/22944/2635.zip)
 
 {{< highlight java >}}
 
@@ -1115,7 +1104,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-762 Improper export of SVG export to PNG, Jpeg and BMP formats** 
-Input file: [file1.svg](https://kiev.dynabic.com/jira/secure/attachment/22949/22949_file1.svg)
 
 {{< highlight java >}}
 
