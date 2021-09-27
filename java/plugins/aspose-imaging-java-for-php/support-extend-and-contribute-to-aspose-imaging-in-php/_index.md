@@ -12,12 +12,12 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Imaging Java for PHP using any of the following platforms:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/issues)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/workitem/list/basic)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/issues)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphpworkitem/list/basic)
 ## **Extend and Contribute**
 Aspose.Imaging Java for PHP is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 ## **Source Code**
 You can get the latest source code from one of the following locations:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/tree/master/Plugins/Aspose_Imaging_Java_for_PHP)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Plugins/Aspose_Imaging_Java_for_PHP)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp)

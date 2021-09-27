@@ -20,9 +20,9 @@ url: /java/aspose-imaging-for-java-18-9-release-notes/
 |IMAGINGJAVA-1024|Exception on converting image|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.9](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.9+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.9](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-9-release-notes/) version 
 ## **Removed APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.9](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.9+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.9](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-9-release-notes/) version 
 # **Usage examples:**
 **IMAGINGJAVA-1085 SVG to EMF Conversion**
 

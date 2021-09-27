@@ -28,7 +28,7 @@ This page contains release notes for Aspose.Imaging for Java 19.4
 |IMAGINGJAVA-1250|Saving EMF as SVG the resulting transformation is incorrect|Bug|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.4](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.4+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.4](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-4-release-notes/) version 
 ## **Removed APIs:**
 No Change 
 # **Usage examples:**

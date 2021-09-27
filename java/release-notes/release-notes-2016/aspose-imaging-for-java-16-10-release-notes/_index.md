@@ -7,15 +7,15 @@ url: /java/aspose-imaging-for-java-16-10-release-notes/
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|IMAGINGJAVA-527 |[Support for WMF for possible conversion to SVG](http://www.aspose.com/community/forums/thread/762277/convert-emf-wmf-to-svg-using-aspose.imaging.aspx)|Feature |
-|IMAGINGJAVA-476 |[Support for GIMP2 format \[JAVA\]](http://www.aspose.com/community/forums/thread/737354/psd-import-support.aspx)|Feature |
-|IMAGINGJAVA-475 |[Support for SAI format \[JAVA\]](http://www.aspose.com/community/forums/thread/737354/psd-import-support.aspx)|Feature |
+|IMAGINGJAVA-527 |[Support for WMF for possible conversion to SVG](https://forum.aspose.com/t/exception-image-saving-failed-when-converting-emf-to-svg-using-aspose-imaging-for-java/4106)|Feature |
+|IMAGINGJAVA-476 |[Support for GIMP2 format \[JAVA\]](https://forum.aspose.com/t/psd-import-support/4056/1)|Feature |
+|IMAGINGJAVA-475 |[Support for SAI format \[JAVA\]](https://forum.aspose.com/t/psd-import-support/4056/1)|Feature |
 |IMAGINGJAVA-560 |Emf image differs from C# after saving |Enhancement |
-|IMAGINGJAVA-487 |[Incorrect layer names returned from a PSD file with multiple layers and nested layers](http://www.aspose.com/community/forums/thread/746602/do-not-support-to-display-chinese-code-correctly.aspx)|Enhancement |
-|IMAGINGJAVA-479 |[Out of Memory Error Exception when trying to process TIFF image of size 500MB](http://www.aspose.com/community/forums/thread/740360/large-tiff-to-jpeg-outofmemoryerror.aspx)|Enhancement |
-|IMAGINGJAVA-478 |[Exception when trying to get RGB pixels of Jpeg2000Image -JP2 image](http://www.aspose.com/community/forums/thread/737860/error-converting-jpeg2000-image-to-awt-image.aspx)|Enhancement |
-|IMAGINGJAVA-128 |[PSD file has 6 layers while Aspose.Imaging shows 0 layers \[JAVA\]](http://www.aspose.com/community/forums/thread/729593/adobe-photoshop-psd-support.aspx)|Enhancement |
-|IMAGINGJAVA-34 |[EMF to PNG conversion is causing issues](http://www.aspose.com/community/forums/thread/320518/emf-to-png-conversion.aspx)|Enhancement |
+|IMAGINGJAVA-487 |[Incorrect layer names returned from a PSD file with multiple layers and nested layers](https://forum.aspose.com/t/do-not-support-to-display-chinese-code-correctly/4083/1)|Enhancement |
+|IMAGINGJAVA-479 |[Out of Memory Error Exception when trying to process TIFF image of size 500MB](https://forum.aspose.com/t/large-tiff-to-jpeg-outofmemoryerror/4066/1)|Enhancement |
+|IMAGINGJAVA-478 |[Exception when trying to get RGB pixels of Jpeg2000Image -JP2 image](https://forum.aspose.com/t/error-converting-jpeg2000-image-to-awt-image/4057/1)|Enhancement |
+|IMAGINGJAVA-128 |[PSD file has 6 layers while Aspose.Imaging shows 0 layers \[JAVA\]](https://forum.aspose.com/t/adobe-photoshop-psd-support/4034/1)|Enhancement |
+|IMAGINGJAVA-34 |[EMF to PNG conversion is causing issues](https://forum.aspose.com/)|Enhancement |
 # **Usage examples:**
 **IMAGINGJAVA-527 Support for WMF for possible conversion to SVG**
 

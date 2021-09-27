@@ -267,7 +267,7 @@ finally
 {{< /highlight >}}
 
 
-**IMAGINGJAVA-1119 [Write character in PSD file](https://forum.aspose.com/t/how-to-write-character-to-psd-file/178754/3)**
+**IMAGINGJAVA-1119 [Write character in PSD file](https://forum.aspose.com/t/how-to-write-character-to-psd-file-using-aspose-imaging-for-net/178754/3)**
 
 {{< highlight java >}}
 

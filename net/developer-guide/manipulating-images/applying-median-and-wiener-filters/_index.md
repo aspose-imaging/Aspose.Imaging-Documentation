@@ -8,11 +8,11 @@ url: /net/applying-median-and-wiener-filters/
 ## **Applying Median and Wiener Filters**
 The median filter is a nonlinear digital filtering technique, often used to remove noise. Such noise reduction is a typical pre-processing step to improve the results of later processing. The Wiener filter is the MSE(mean squared error) optimal stationary linearfilter for images degraded by additive noise and blurring. Using Aspose.Imaging for .NET API developers can apply median filter to denoise the image and can apply gauss wiener filter on images. This article demonstrates how median filter and gauss wiener filter can be applied to images.
 ### **Applying Median Filter**
-Aspose.Imaging provides [Medianfilteroptions](http://www.aspose.com/api/net/imaging/aspose.imaging.imagefilters.filteroptions/medianfilteroptions) class to apply filter on a [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply median filter to a raster image.
+Aspose.Imaging provides [Medianfilteroptions](http://www.aspose.com/api/net/imaging/aspose.imaging.imagefilters.filteroptions/medianfilteroptions) class to apply filter on a [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply median filter to a raster image.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ApplyMedianAndWienerFilters-ApplyMedianAndWienerFilters.cs" >}}
 ### **Applying Gauss Wiener Filter**
-Aspose.Imaging provides [GaussWienerFilterOptions](http://www.aspose.com/api/net/imaging/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class to apply filter on a [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply gauss wiener filter to a raster image.
+Aspose.Imaging provides [GaussWienerFilterOptions](http://www.aspose.com/api/net/imaging/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class to apply filter on a [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply gauss wiener filter to a raster image.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ApplyGaussWienerFilter-ApplyGaussWienerFilter.cs" >}}
 
@@ -20,7 +20,7 @@ Applying Gauss Wiener Filter For Colored image
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ApplyGaussWienerFilterForColoredImage-ApplyGaussWienerFilterForColoredImage.cs" >}}
 ### **Applying Motion Wiener Filter**
-Aspose.Imaging provides MotionWienerFilterOptions class to apply filter on a [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply motion wiener filter to a raster image.
+Aspose.Imaging provides MotionWienerFilterOptions class to apply filter on a [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage). The code snippet provided below demonstrates how to apply motion wiener filter to a raster image.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ApplyingMotionWienerFilter-ApplyingMotionWienerFilter.cs" >}}
 

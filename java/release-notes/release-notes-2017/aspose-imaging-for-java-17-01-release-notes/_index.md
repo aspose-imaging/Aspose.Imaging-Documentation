@@ -8,11 +8,11 @@ url: /java/aspose-imaging-for-java-17-01-release-notes/
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |IMAGINGJAVA-598|DNG format support|New Feature|
-|IMAGINGJAVA-597|[ThreadSafe API support stage 1](http://www.aspose.com/community/forums/thread/732525/multithreading-export-image-may-result-in-exception-due-to-race-condition.aspx)|New Feature|
+|IMAGINGJAVA-597|[ThreadSafe API support stage 1](https://forum.aspose.com/t/multithreading-export-image-may-result-in-exception-due-to-race-condition/4044)|New Feature|
 |IMAGINGJAVA-599|Thread safe API for TIFF images|Enhancement|
-|IMAGINGJAVA-594|[Updating text layer with non-English characters using Aspose, the characters are replaced by box](https://www.aspose.com/community/forums/thread/757369.aspx)|Enhancement|
-|IMAGINGJAVA-593|[Updating text layer with many more characters than the source is showing incorrect results](https://www.aspose.com/community/forums/thread/757369.aspx)|Enhancement|
-|IMAGINGJAVA-592|[Converting PSD layer to PNG have lager font size then a PNG saved through Photoshop natively](https://www.aspose.com/community/forums/thread/757369.aspx)|Enhancement|
+|IMAGINGJAVA-594|[Updating text layer with non-English characters using Aspose, the characters are replaced by box](https://forum.aspose.com/)|Enhancement|
+|IMAGINGJAVA-593|[Updating text layer with many more characters than the source is showing incorrect results](https://forum.aspose.com/)|Enhancement|
+|IMAGINGJAVA-592|[Converting PSD layer to PNG have lager font size then a PNG saved through Photoshop natively](https://forum.aspose.com/)|Enhancement|
 # **Usage examples:**
 **IMAGINGJAVA-598 DNG format support [Java]**
 

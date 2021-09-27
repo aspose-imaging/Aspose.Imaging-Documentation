@@ -38,5 +38,5 @@ print "Saved crop emf image to PNG successfully!".PHP_EOL;
 ## **Download Running Code**
 Download **Cropping Metafiles (Aspose.Imaging)** from any of the below mentioned social coding sites:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/CropMetafile.php)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/SourceControl/latest#src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/CropMetafile.php)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/CropMetafile.php)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp#src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/CropMetafile.php)
