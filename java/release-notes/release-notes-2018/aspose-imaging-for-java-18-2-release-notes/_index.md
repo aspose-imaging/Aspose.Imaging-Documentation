@@ -96,7 +96,6 @@ image.dispose();
 {{< /highlight >}}
 
 **IMAGINGJAVA-892 Support tiff deflate images with alpha [Java]** 
-input file: [Alpha.png](https://kiev.dynabic.com/jira/secure/attachment/23076/23076_Alpha.png)
 
 {{< highlight java >}}
 
