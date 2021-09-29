@@ -26,7 +26,7 @@ This page contains release notes for Aspose.Imaging for Java 19.3
 |IMAGINGJAVA-1208|Incorrect converting EMF to PNG|Bug|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.3](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.3+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-3-release-notes/) version 
 ## **Removed APIs:**
 No Change 
 # **Usage examples:**

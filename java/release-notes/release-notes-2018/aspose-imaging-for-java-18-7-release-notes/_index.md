@@ -25,9 +25,9 @@ url: /java/aspose-imaging-for-java-18-7-release-notes/
 |IMAGINGJAVA-961|The conversion of PSD file with a layer overflowing the canvas gives corrupted TIFF output|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.7](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.7+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-7-release-notes/) version 
 ## **Removed APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.7](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.7+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-7-release-notes/) version 
 # **Usage examples:**
 **IMAGINGJAVA-1041 Support for writing SVG file for possible conversion of other formats to SVG**
 

@@ -31,7 +31,7 @@ Aspose.Imaging for Java is an easy to use library because it provides simple met
 ### **Rotating an Image**
 The Image.rotateFlip method can be used to rotate the image by 90/180/270-degrees and flip the image horizontally or vertically. Image.rotateFlip method accepts a parameter of [RotateFlipType](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RotateFlipType) that specifies the type of rotation and flip to apply to the image. The steps to perform **Rotate & Flip** are as simple as below,
 
-1. Load in image using the factory method [Load](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image/methods/load/index) exposed by [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class.
+1. Load in image using the factory method [Load](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#load-java.io.InputStream-) exposed by [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class.
 1. Call the Image.RotateFlip method while specifying the appropriate [RotateFlipType](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RotateFlipType).
 1. Save the results.
 
@@ -65,7 +65,7 @@ More information see [here](https://apireference.aspose.com/imaging/java/com.asp
 
 
 ## **Rotating an Image on a Specific Angle**
-From version 2.5.0, the Aspose.Imaging for Java API has exposed the RasterImage.Rotate method to facilitate its users who wish to rotate an image on a specific angle. Unlike the [RasterImage.rotateFlip](http://www.aspose.com/api/java/imaging/aspose.imaging/image/methods/rotateflip) method, the RasterImage.rotate method accepts three parameters:
+From version 2.5.0, the Aspose.Imaging for Java API has exposed the RasterImage.Rotate method to facilitate its users who wish to rotate an image on a specific angle. Unlike the [RasterImage.rotateFlip](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#rotateFlip-int-) method, the RasterImage.rotate method accepts three parameters:
 
 1. Rotation angle: A float type parameter that specifies the rotation angle to which the image has to be rotated. A positive value rotates the image clockwise; a negative value performs an anticlockwise rotation.
 1. Resize proportionally: A Boolean type parameter specifies if the image size has to changed according to the rotated rectangle (corner points) projections. If set to false, the image dimensions would be untouched and only internal image contents are rotated.

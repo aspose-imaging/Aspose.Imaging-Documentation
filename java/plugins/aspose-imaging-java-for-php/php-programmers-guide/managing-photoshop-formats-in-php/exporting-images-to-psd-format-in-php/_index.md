@@ -48,5 +48,5 @@ print "Image exported to PSD successfully!".PHP_EOL;
 ## **Download Running Code**
 Download **Exporting Images to PSD Format (Aspose.Imaging)** from any of the below mentioned social coding sites:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ManagingPhotoshopFormats/ExportImageToPSD.php)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/SourceControl/latest#src/aspose/imaging/ManagingPhotoshopFormats/ExportImageToPSD.php)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ManagingPhotoshopFormats/ExportImageToPSD.php)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp#src/aspose/imaging/ManagingPhotoshopFormats/ExportImageToPSD.php)

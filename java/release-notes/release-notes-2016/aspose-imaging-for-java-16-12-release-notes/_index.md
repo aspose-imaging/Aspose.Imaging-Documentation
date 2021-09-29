@@ -7,21 +7,21 @@ url: /java/aspose-imaging-for-java-16-12-release-notes/
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|IMAGINGJAVA-596|[Convert EMF to WMF \[Java\]](http://www.aspose.com/community/forums/thread/538949/convert-emf-to-wmf.aspx)|New Feature|
-|IMAGINGJAVA-79|[Converting WMF to PNG format destroying vertical text on Y-axis \[JAVA\]](http://www.aspose.com/community/forums/thread/666275/text-looks-bad-in-png-image-generated-from-wmf.aspx)|Enhancement|
-|IMAGINGJAVA-575|[Converting WMF to PNG format is not showing correct output](http://www.aspose.com/community/forums/thread/798004/wmf-to-png.aspx)|Enhancement|
-|IMAGINGJAVA-477|[Size and processing speed is different Aspose.Imaging VS javax.imageio](http://www.aspose.com/community/forums/thread/739219/questions-about-the-image-loading-speed.aspx)|Enhancement|
-|IMAGINGJAVA-128|[PSD file has 6 layers while Aspose.Imaging shows 0 layers \[JAVA\]](http://www.aspose.com/community/forums/thread/729593/adobe-photoshop-psd-support.aspx)|Enhancement|
+|IMAGINGJAVA-596|[Convert EMF to WMF \[Java\]](https://forum.aspose.com/t/convert-emf-to-wmf/2652)|New Feature|
+|IMAGINGJAVA-79|[Converting WMF to PNG format destroying vertical text on Y-axis \[JAVA\]](https://forum.aspose.com/t/text-looks-bad-in-png-image-generated-from-wmf/3717)|Enhancement|
+|IMAGINGJAVA-575|[Converting WMF to PNG format is not showing correct output](https://forum.aspose.com/t/wmf-to-png/4127)|Enhancement|
+|IMAGINGJAVA-477|[Size and processing speed is different Aspose.Imaging VS javax.imageio](https://forum.aspose.com/t/questions-about-the-image-loading-speed/4061/1)|Enhancement|
+|IMAGINGJAVA-128|[PSD file has 6 layers while Aspose.Imaging shows 0 layers \[JAVA\]](https://forum.aspose.com/t/adobe-photoshop-psd-support/4034)|Enhancement|
 |IMAGINGJAVA-612|Unify Metered API usage. [Java]|Enhancement|
-|IMAGINGJAVA-611|[Random ImageSaveException: Cannot decode strip 0. Details:, at TiffFrame.Save \[Java\]](http://www.aspose.com/community/forums/thread/585846/tiff-splitting-very-slow.aspx)|Enhancement|
+|IMAGINGJAVA-611|[Random ImageSaveException: Cannot decode strip 0. Details:, at TiffFrame.Save \[Java\]](https://forum.aspose.com/t/tiff-splitting-very-slow/3019)|Enhancement|
 |IMAGINGJAVA-610|Exception in PNG encoder [Java]|Enhancement|
 |IMAGINGJAVA-609|Can't do subsequent resizing of rotated WEBP image [Java]|Enhancement|
 |IMAGINGJAVA-608|Incorrect saving result while using Image.Save(string path, ImageOptionsBase options, Rectangle boundsRectangle). [Java]|Enhancement|
-|IMAGINGJAVA-607|[Aspose.Imaging is not showing correct resolution of PSD image \[Java\]](http://www.aspose.com/community/forums/thread/779313/600-dpi-file-in.psd-loads-as-96-dpi.aspx)|Enhancement|
+|IMAGINGJAVA-607|[Aspose.Imaging is not showing correct resolution of PSD image \[Java\]](https://forum.aspose.com/t/600-dpi-file-in-psd-loads-as-96-dpi/4115)|Enhancement|
 |IMAGINGJAVA-606|Improve performance of jpeg file format [Java]|Enhancement|
 |IMAGINGJAVA-605|[Aspose.Imaging 4.0.0: Image.Load method is not thread-safe \[Java\]](http://www.aspose.com/community/forums/thread/789178.aspx)|Enhancement|
 |IMAGINGJAVA-604|[Exception when opening image in separate thread \[Java\]](http://www.aspose.com/community/forums/thread/794155/aspose.imaging-4.0.0-exception-when-opening-image-in-multithread.aspx)|Enhancement|
-|IMAGINGJAVA-603|Iamprovements of performance and memory usage for Dicom [Java]|Enhancement|
+|IMAGINGJAVA-603|Iamprovements of performance and memory usage for Dicom [Java]|Enhancement|s
 |IMAGINGJAVA-602|Remove Imaging Drawing engine [Java]|Enhancement|
 |IMAGINGJAVA-601|JPEG format performance improvements [Java]|Enhancement|
 |IMAGINGJAVA-600|[Could not read layers in PSD file. \[Java\]](https://www.aspose.com/community/forums/thread/807425/aspose.imaging-could-not-read-layers-in-psd-file.aspx)|Enhancement|

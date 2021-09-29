@@ -10,16 +10,16 @@ Aspose.Imaging for .Java allows developers to create their own images. Use the s
 
 To create an image file, first create an instance of one of the classes from the ImageOptions namespace. These classes determine output image format.
 
-Below are some classes from the [ImageOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/index) namespace:
+Below are some classes from the [ImageOptions](https://apireference.aspose.com/imaging/java) namespace:
 
 - [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) sets the options for creating a BMP file
-- [GifOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/GifOptions) sets the options for creating a GIF file
-- [JpegOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/JpegOptions) sets the options for creating a JPEG file
-- [PngOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/PngOptions) sets the options for creating a PNG file
-- [TiffOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/TiffOptions) sets the options for creating a TIFF file
-- [PsdOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/PsdOptions) sets the options for creating a PSD file
+- [GifOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/gifoptions) sets the options for creating a GIF file
+- [JpegOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/jpegoptions) sets the options for creating a JPEG file
+- [PngOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/pngoptions) sets the options for creating a PNG file
+- [TiffOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/tiffoptions) sets the options for creating a TIFF file
+- [PsdOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/psdoptions) sets the options for creating a PSD file
 
-Image files can be created [setting an output path](http://www.aspose.com/docs/display/imagingnet/Drawing+and+Formatting+Images#DrawingandFormattingImages-CreatingbySettingPath) or by [setting a stream](http://www.aspose.com/docs/display/imagingnet/Drawing+and+Formatting+Images#DrawingandFormattingImages-CreatingUsingStream). Both examples are described below.
+Image files can be created [setting an output path](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingbySettingPath) or by [setting a stream](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingUsingStream). Both examples are described below.
 
 Aspose.Imaging for Java allows developers to create their own images. Use the static create method exposed by the Image class to create new images. All you need to do is to supply the appropriate object of one of the classes from the imageoptions namespace for the desired output image format.
 ### **Creating an Image by Setting a Path**

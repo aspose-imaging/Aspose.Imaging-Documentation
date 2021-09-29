@@ -6,7 +6,7 @@ url: /java/licensing/
 ---
 
 ## **Evaluation Version Limitations**
-You can download an evaluation version of Aspose.Imaging for Java from the [download page](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-imaging/). The evaluation version provides the same features as the fully licensed version of the component with a couple of restrictions. When you buy Aspose.Imaging, simply applying the license removes any restrictions from the installed evaluation.
+You can download an evaluation version of Aspose.Imaging for Java from the [download page](https://repository.aspose.com/repo/com/aspose/aspose-imaging/). The evaluation version provides the same features as the fully licensed version of the component with a couple of restrictions. When you buy Aspose.Imaging, simply applying the license removes any restrictions from the installed evaluation.
 
 The evaluation version of Aspose.Imaging for Java provides full product functionality, with only two limitations:
 

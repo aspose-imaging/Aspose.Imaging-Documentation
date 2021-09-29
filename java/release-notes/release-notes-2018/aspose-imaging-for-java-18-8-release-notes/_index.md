@@ -24,9 +24,9 @@ url: /java/aspose-imaging-for-java-18-8-release-notes/
 |IMAGINGJAVA-1014|Exception on converting EMF to PNG|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.8](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.8+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.8](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-8-release-notes/) version 
 ## **Removed APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.8](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.8+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.8](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-8-release-notes/) version 
 # **Usage examples:**
 **IMAGINGJAVA-1057 How to change window size s in BinarizeBradley method**
 

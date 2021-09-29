@@ -23,7 +23,7 @@ url: /java/aspose-imaging-for-java-19-12-release-notes/
 # **Public AI changes:**
 **Added APIs:**
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.12](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.12+-+Release+notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.12](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-12-release-notes/) version 
 
 **h2. Removed APIs:**
 

@@ -6,7 +6,7 @@ url: /java/how-to-use-the-examples/
 ---
 
 ### **Download from GitHub**
-All of the Aspose.Imaging for Java examples are hosted on [Github](https://github.com/asposeimaging/Aspose.Imaging-for-Java). You can either clone the repository using Github client or download the ZIP file from [here](https://github.com/asposeimaging/Aspose.Imaging-for-Java/archive/master.zip).
+All of the Aspose.Imaging for Java examples are hosted on [Github](https://github.com/aspose-imaging/Aspose.Imaging-for-Java). You can either clone the repository using Github client or download the ZIP file from [here](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/archive/refs/heads/master.zip).
 
 Extract the contents of ZIP file on your computer. You will find the **Examples** folder. All the examples are located in the **Examples** folder.
 

@@ -22,12 +22,12 @@ The following is a list of changes in this version of Aspose.Imaging.
 |IMAGINGJAVA-652|The PNG codec research regarding increase in productivity - Java|Enhancement|
 |IMAGINGJAVA-651|Syncronize access to mutually exclusive image operations for JPEG images - Java|Enhancement|
 |IMAGINGJAVA-650|Exporting JPEG image into BMP file format fails -Java|Enhancement|
-|IMAGINGJAVA-649|[Investigate problem with saving TIFF image frames in multithreading environment - Java](https://www.aspose.com/community/forums/thread/732525/multithreading-export-image-may-result-in-exception-due-to-race-condition.aspx)|Enhancement|
-|IMAGINGJAVA-648|[Modifying and updatding TIFF image stream is not working properly - Java](https://www.aspose.com/community/forums/thread/819431/tiff-images-not-compliant-with-baseline-6.0-standard.aspx)|Enhancement|
+|IMAGINGJAVA-649|[Investigate problem with saving TIFF image frames in multithreading environment - Java](https://forum.aspose.com/t/multithreading-export-image-may-result-in-exception-due-to-race-condition/4044)|Enhancement|
+|IMAGINGJAVA-648|[Modifying and updatding TIFF image stream is not working properly - Java](https://forum.aspose.com/t/tiff-images-not-compliant-with-baseline-6-0-standard/8531)|Enhancement|
 |IMAGINGJAVA-647|Memory leak when load multiple images from MemoryStream - Java|Enhancement|
-|IMAGINGJAVA-629|[Converting PSD to image is throwing exception](https://www.aspose.com/community/forums/thread/822144/converting-psd-to-tif-current-layer-can-not-be-exported-to-raster-format.aspx)|Enhancement|
-|IMAGINGJAVA-584|[Aspose.Imaging for Java halts while loading PSD file](https://www.aspose.com/community/forums/thread/811470.aspx)|Enhancement|
-|IMAGINGJAVA-472|[Unable to add layers to PSD file - JAVA](http://www.aspose.com/community/forums/thread/734549/how-to-add-new-layer-to-psd-file.aspx)|Enhancement|
+|IMAGINGJAVA-629|[Converting PSD to image is throwing exception](https://forum.aspose.com/t/converting-psd-to-tif-current-layer-can-not-be-exported-to-raster-format/4165)|Enhancement|
+|IMAGINGJAVA-584|[Aspose.Imaging for Java halts while loading PSD file](https://forum.aspose.com/t/psd-document-doesnt-open/4136/1)|Enhancement|
+|IMAGINGJAVA-472|[Unable to add layers to PSD file - JAVA](https://forum.aspose.com/t/how-to-add-new-layer-to-psd-file/4048)|Enhancement|
 # **Usage examples**
 **IMAGINGJAVA-660 Subsequent reading of scan line data for PNG image produces a different results [Java]**
 
