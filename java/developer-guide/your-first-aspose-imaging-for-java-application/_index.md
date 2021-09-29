@@ -15,12 +15,12 @@ All Aspose components, when installed, work in [evaluation mode](/pages/createpa
 ### **Creating an Application that Uses Aspose.Imaging**
 To work with Aspose.Imaging in your applications:
 
-1. [Download Aspose.Imaging](https://downloads.aspose.com/).
+1. [Download Aspose.Imaging](https://downloads.aspose.com/imaging).
 1. [Create a project](/imaging/java/your-first-aspose-imaging-for-java-application-html/).
 1. [Add a reference to the Aspose.Imaging API](/imaging/java/your-first-aspose-imaging-for-java-application-html/).
 1. [Write the code](/imaging/java/your-first-aspose-imaging-for-java-application-html/).
 #### **Download Aspose.Imaging for Java**
-1. [Download Aspose.Imaging for Java](https://downloads.aspose.com/).
+1. [Download Aspose.Imaging for Java](https://downloads.aspose.com/imaging/java).
 1. Unzip the downloaded ZIP archive on your development computer, for example D:\Java.Imaging-API.
 #### **Create Project**
 1. Launch the MyEclipse IDE.

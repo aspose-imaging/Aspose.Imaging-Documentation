@@ -35,7 +35,7 @@ Project Aspose.Imaging Java for Jython shows how different tasks can be performe
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
 
 - [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavajython)
-- [Github](https://github.com/aspose-imaging/Aspose.imaging-for-Java/releases/tag/Aspose.imaging_Java_for_Jython-v1.0.0)
+- [Github](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/releases/tag/20.11)
 
 **Download Aspose.Imaging for Java component**
 

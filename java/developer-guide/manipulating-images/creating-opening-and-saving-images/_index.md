@@ -6,13 +6,13 @@ url: /java/creating-opening-and-saving-images/
 ---
 
 ## **Creating Image Files**
-Aspose.Imaging for .Java allows developers to create their own images. Use the static [Create](https://apireference.aspose.com/imaging//java/com.aspose.imaging/image/methods/create\(com.aspose.imaging.ImageOptionsBase,int,int\)/) method exposed by the [Image](https://apireference.aspose.com/imaging//java/com.aspose.imaging/image) class to create new images. All you need to do is to supply the appropriate object of one of the classes from the [ImageOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/index) namespace for the desired output image format.
+Aspose.Imaging for .Java allows developers to create their own images. Use the static [Create](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.Image:A-) method exposed by the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/image) class to create new images. All you need to do is to supply the appropriate object of one of the classes from the [ImageOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-summary) namespace for the desired output image format.
 
 To create an image file, first create an instance of one of the classes from the ImageOptions namespace. These classes determine output image format.
 
 Below are some classes from the [ImageOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/index) namespace:
 
-- [BmpOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/bmpoptions) sets the options for creating a BMP file
+- [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) sets the options for creating a BMP file
 - [GifOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/GifOptions) sets the options for creating a GIF file
 - [JpegOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/JpegOptions) sets the options for creating a JPEG file
 - [PngOptions](http://www.aspose.com/api/java/imaging/com.aspose.imaging.imageoptions/classes/PngOptions) sets the options for creating a PNG file

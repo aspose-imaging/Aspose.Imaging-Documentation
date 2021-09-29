@@ -6,9 +6,9 @@ url: /java/drawing-images/
 ---
 
 ## **Drawing Lines**
-This example uses [Graphics](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphics) class to draw the line shapes on the Image surface. To demonstrate the operation, the example creates a new image in BMP format and draws lines on the image using the Graphics class' drawLine method.
+This example uses [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphics) class to draw the line shapes on the Image surface. To demonstrate the operation, the example creates a new image in BMP format and draws lines on the image using the Graphics class' drawLine method.
 
-First, we will create an object of the BmpOptions class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging/java) package and set its various properties. The most important property is the setSource property, the setSource property actually determines where the image data will reside (file or stream) and in this case it is a stream. After setting these properties, pass this object to the static create method of image class.
+First, we will create an object of the BmpOptions class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-summary) package and set its various properties. The most important property is the setSource property, the setSource property actually determines where the image data will reside (file or stream) and in this case it is a stream. After setting these properties, pass this object to the static create method of image class.
 
 Once the image has been created, we will use the clear method exposed by the Graphics class to set its background color.
 
@@ -25,43 +25,43 @@ The SolidBrush class is used for drawing continuously with specific color. The o
 |![todo:image_alt_text](https://i.imgur.com/BOi0QP7.png)| |
 | :- | :- |
 ## **Drawing Ellipse**
-This example uses the [Graphics](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphics) class to draw an ellipse shape on the image surface. To demonstrate the operation, the example creates a new image in BMP format and draws ellipse shape using the Graphics class' drawEllipse method.
+This example uses the [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphics) class to draw an ellipse shape on the image surface. To demonstrate the operation, the example creates a new image in BMP format and draws ellipse shape using the Graphics class' drawEllipse method.
 
 The drawEllipse method of the Graphics class is used to draw an ellipse shape on an image surface specified by the bounding rectangle structure. This method has several overloads that accept an instances of the Pen and Rectangle/RectangleF classes or a pair of coordinates, a height, and a width as arguments.
 
-The [Pen](https://apireference.aspose.com/imaging//java/com.aspose.imaging/pen) class defines an object used to draw lines, curves and figures. The Pen class has several overloaded constructors to draw lines with specified color, width & brush.
+The [Pen](https://apireference.aspose.com/imaging/java/com.aspose.imaging/pen) class defines an object used to draw lines, curves and figures. The Pen class has several overloaded constructors to draw lines with specified color, width & brush.
 
-The Rectangle class stores a set of four integers that represent the location and size of a rectangle. The [Rectangle](https://apireference.aspose.com/imaging//java/com.aspose.imaging/rectangle) class has several overloaded constructors that can draw a rectangle structure with specified size and location.
+The Rectangle class stores a set of four integers that represent the location and size of a rectangle. The [Rectangle](https://apireference.aspose.com/imaging/java/com.aspose.imaging/rectangle) class has several overloaded constructors that can draw a rectangle structure with specified size and location.
 
 The process is as follows:
 
 1. Create an object of the BmpOptions class from the com.aspose.imaging.imageoptions package and set its properties.
    The most important property is the setSource property which determines where the image data resides (file or stream). In the example below, it is a stream.
-1. Pass the BmpOptions object to the [Image](https://apireference.aspose.com/imaging//java/com.aspose.imaging/image) class' static create method.
+1. Pass the BmpOptions object to the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/image) class' static create method.
 1. Once the image has been created, use the clear method exposed by the Graphics class to set its background color.
 
 {{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-images-DrawingEllipse-DrawingEllipse.java" >}}
 
 
 
-**Note**: The [SolidBrush](https://apireference.aspose.com/imaging//java/com.aspose.imaging.brushes/solidbrush) class is used to draw continuously with a specific color.
+**Note**: The [SolidBrush](https://apireference.aspose.com/imaging/java/com.aspose.imaging.brushes/solidbrush) class is used to draw continuously with a specific color.
 
 The SolidBrush class is used for drawing continuously with specific color. The output of the above source code sample is as below,
 
 |![todo:image_alt_text](https://i.imgur.com/HLg2FjF.png)| |
 | :- | :- |
 ## **Drawing Rectangle**
-This example uses the [Graphics](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphics) class to draw the rectangle shape on the image surface. To demonstrate the operation, the example creates a new image in BMP format and draws a rectangle the image using the Graphics class' drawRectangle method.
+This example uses the [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphics) class to draw the rectangle shape on the image surface. To demonstrate the operation, the example creates a new image in BMP format and draws a rectangle the image using the Graphics class' drawRectangle method.
 
-The [Graphics](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphics) class' drawRectangle method is used to draw a rectangle shape on an image specified by the rectangle structure. This method has several overloads that accept instances of the [Pen](https://apireference.aspose.com/imaging//java/com.aspose.imaging/pen) and [Rectangle](https://apireference.aspose.com/imaging//java/com.aspose.imaging/rectangle) and [RectangleF](https://apireference.aspose.com/imaging//java/com.aspose.imaging/rectangleF) classes or coordinate pair, a width, and a height as arguments.
+The [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphics) class' drawRectangle method is used to draw a rectangle shape on an image specified by the rectangle structure. This method has several overloads that accept instances of the [Pen](https://apireference.aspose.com/imaging/java/com.aspose.imaging/pen) and [Rectangle](https://apireference.aspose.com/imaging/java/com.aspose.imaging/rectangle) and [RectangleF](https://apireference.aspose.com/imaging/java/com.aspose.imaging/rectangleF) classes or coordinate pair, a width, and a height as arguments.
 
 The Pen class defines an object used to draw lines, curves and figures. The Pen class has several overloaded constructors for drawing lines with specified color, width and brush.
 
-The [Rectangle](https://apireference.aspose.com/imaging//java/com.aspose.imaging/rectangle) class Stores a set of four integers that represent the location and size of a rectangle. The Rectangle class has several overloaded constructors to draw the rectangle structure with specified size and location.
+The [Rectangle](https://apireference.aspose.com/imaging/java/com.aspose.imaging/rectangle) class Stores a set of four integers that represent the location and size of a rectangle. The Rectangle class has several overloaded constructors to draw the rectangle structure with specified size and location.
 
 The process is as follows:
 
-1. Create an object of the [BmpOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/bmpoptions) class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging/java) package and set its properties.
+1. Create an object of the [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-summary) package and set its properties.
    The most important property is the setSource property which determines where the image data will reside (file or stream). Here, it is a stream.
 1. Pass the BmpOptions object to the Image class' static create method.
 1. Once the image has been created, use the Graphics class' clear method to set its background color.
@@ -70,7 +70,7 @@ The process is as follows:
 
 
 
-**Note**: The [SolidBrush](https://apireference.aspose.com/imaging//java/com.aspose.imaging.brushes/solidbrush) class is used for drawing continuously with specific color.
+**Note**: The [SolidBrush](https://apireference.aspose.com/imaging/java/com.aspose.imaging.brushes/solidbrush) class is used for drawing continuously with specific color.
 
 |![todo:image_alt_text](https://i.imgur.com/eW9CFYe.png)| |
 | :- | :- |
@@ -81,7 +81,7 @@ The drawArc method of the Graphics class is used to draw arc shape on an image s
 
 The process is as follows:
 
-1. Create an object of the [BmpOptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/bmpoptions) class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging//java/com.aspose.imaging.imageoptions/bmpoptions) package and set its properties.
+1. Create an object of the [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) class from the [com.aspose.imaging.imageoptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) package and set its properties.
    The most important property is the setSource property which determines where the image data will reside (file or stream). Here, it is a stream.
 1. Pass the BmpOptions object to the Image class' static create method.
 1. Once the image has been created, use the Graphics class' clear method to set its background color.
@@ -160,7 +160,7 @@ Each steps is shown below. The output image looks like the one below.
 
 **Drawing Images using GraphicsPath**
 
-The [GraphicsPath](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphicsPath) class is responsible for creating and maintaining a graphics path. The [GraphicsPath](https://apireference.aspose.com/imaging//java/com.aspose.imaging/graphicsPath) has no reference to an image and does not change the image itself, instead, it can be considered an object that contains metadata that describes the paths that the Graphics class can draw.
+The [GraphicsPath](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphicsPath) class is responsible for creating and maintaining a graphics path. The [GraphicsPath](https://apireference.aspose.com/imaging/java/com.aspose.imaging/graphicsPath) has no reference to an image and does not change the image itself, instead, it can be considered an object that contains metadata that describes the paths that the Graphics class can draw.
 
 The GraphicsPath class uses figures; each figure is either composed of a sequence of connected lines and curves or a geometric shape primitive. Each shape may be split into shape segments. You can add, remove and change different figures or shapes in a GraphicsPath object.
 
