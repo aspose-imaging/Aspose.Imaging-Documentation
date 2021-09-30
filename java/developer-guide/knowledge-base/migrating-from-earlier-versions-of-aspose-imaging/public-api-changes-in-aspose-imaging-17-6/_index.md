@@ -11,7 +11,7 @@ This document describes the changes made in Aspose.Imaging for Java 17.6 that ma
 
 {{% /alert %}} 
 
-Please see corresponding cumulative [API changes in Aspose.Imaging for .Net 17.6](https://docs.aspose.com/display/imagingnet/Public+API+Changes+in+Aspose.Imaging++for+.NET+17.6).
+Please see corresponding cumulative [API changes in Aspose.Imaging for .Net 17.6](https://docs.aspose.com/imaging/net/public-api-changes-in-aspose-imaging-for-net-17-6/).
 ### **Java specific**
 #### **Added APIs:**
 
