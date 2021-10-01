@@ -22,5 +22,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for SharePoint Release Notes](/imaging/sharepoint/release-notes/)
 - [Aspose.Imaging for SharePoint Product Page](https://products.aspose.com/imaging/sharepoint)
 - [Download Aspose.Imaging for SharePoint](https://downloads.aspose.com/imaging/sharepoint)
-- [Aspose.Imaging for SharePoint Free Support Forum](https://forum.aspose.com/c/imaging)
+- [Aspose.Imaging for SharePoint Free Support Forum](https://forum.aspose.com/c/imaging/14)
 - [Aspose.Imaging for SharePoint Paid Support Helpdesk](https://helpdesk.aspose.com/)

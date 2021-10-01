@@ -21,7 +21,7 @@ Aspose provides unlimited free technical support for all its products. The suppo
 
 If you need help with Aspose.Imaging, consider the following:
 
-- The main avenue for support is the [Aspose Forums](https://forum.aspose.com/). Post your question in the [Aspose.Imaging Support Forum](https://forum.aspose.com/c/imaging) and it will be answered within a few hours.
+- The main avenue for support is the [Aspose Forums](https://forum.aspose.com/). Post your question in the [Aspose.Imaging Support Forum](https://forum.aspose.com/c/imaging/14) and it will be answered within a few hours.
 - Please note, Aspose does not provide technical support over the phone. Phone support is only available for sales and purchase questions.
 - When expecting a reply in the forums, please allow for time zone differences.
 

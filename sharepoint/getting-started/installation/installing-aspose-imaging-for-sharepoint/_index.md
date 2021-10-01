@@ -7,7 +7,7 @@ url: /sharepoint/installing-aspose-imaging-for-sharepoint/
 
 {{% alert color="primary" %}} 
 
-Aspose.Imaging for SharePoint is contained in a ZIP archive, **Aspose.Imaging.SharePoint.zip**, which can be downloaded from the [download page](http://www.aspose.com/community/files/73/sharepoint-components/aspose-imaging-for-sharepoint/default.aspx). 
+Aspose.Imaging for SharePoint is contained in a ZIP archive, **Aspose.Imaging.SharePoint.zip**, which can be downloaded from the [download page](https://downloads.aspose.com/imaging/sharepoint). 
 
 {{% /alert %}} 
 #### **Archive Content**

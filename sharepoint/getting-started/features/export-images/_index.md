@@ -7,7 +7,7 @@ url: /sharepoint/export-images/
 
 {{% alert color="primary" %}} 
 
-To process images, Aspose.Imaging for SharePoint relies on a built-in version of [Aspose.Imaging for .NET](http://www.aspose.com/.net/imaging-component.aspx). 
+To process images, Aspose.Imaging for SharePoint relies on a built-in version of Aspose.Imaging for .NET. 
 
 {{% /alert %}} 
 

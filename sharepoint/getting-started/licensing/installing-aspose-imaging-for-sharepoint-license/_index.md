@@ -7,7 +7,7 @@ url: /sharepoint/installing-aspose-imaging-for-sharepoint-license/
 
 {{% alert color="primary" %}} 
 
-Once you are happy with your evaluation, you can [buy a license](http://www.aspose.com/purchase/default.aspx). Before purchasing make sure you understand and agree to the license terms. 
+Once you are happy with your evaluation, you can [buy a license](https://purchase.aspose.com/buy). Before purchasing make sure you understand and agree to the license terms. 
 
 {{% /alert %}} 
 

@@ -13,8 +13,8 @@ With Aspose.Imaging for SharePoint it is easy to resize an image (PNG, JPG, BMP,
 ### **Resizing Image**
 Aspose.Imaging for SharePoint provides the resize feature from the Image Conversion dialog. It allows you to specify a resampling option for the image too:
 
-- [Nearest neighbour](http://en.wikipedia.org/wiki/Nearest-neighbor_interpolation)
-- [Lanczos resample](http://en.wikipedia.org/wiki/Lanczos_resampling)
+- [Nearest neighbour](https://en.wikipedia.org/wiki/Nearest-neighbor_interpolation)
+- [Lanczos resample](https://en.wikipedia.org/wiki/Lanczos_resampling)
 
 To resize an image:
 

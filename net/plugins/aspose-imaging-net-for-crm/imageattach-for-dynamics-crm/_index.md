@@ -105,7 +105,7 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET ImageAttach using any of the following platforms:
 
-- [Codeplex](http://goo.gl/rm1kdU)
+- [Codeplex](https://archive.codeplex.com/?p=asposenetcrm)
 - [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-ImageAttach)
 - [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20ImageAttach/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20ImageAttach)

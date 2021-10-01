@@ -6,7 +6,7 @@ url: /net/umbraco-image-resizer/
 ---
 
 ## **Introduction**
-Aspose Image resizer is an Umbraco datatype which allow automatic image resizing on save. It uses powerful image processing features provided by [Aspose.Imaging](http://www.aspose.com/.net/imaging-component.aspx). Aspose.Imaging for .NET is an imaging library that lets developers create, edit, draw or convert images in their .NET applications.
+Aspose Image resizer is an Umbraco datatype which allow automatic image resizing on save. It uses powerful image processing features provided by Aspose.Imaging. Aspose.Imaging for .NET is an imaging library that lets developers create, edit, draw or convert images in their .NET applications.
 ### **Module Features**
 This initial version of the datatype have the following features
 
@@ -29,8 +29,8 @@ The module is supported on all versions of
 ## **Downloading**
 You can download Aspose Image Resizer from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/releases/view/616640)
-- [Github ](https://github.com/asposeimaging/Aspose.Imaging-for-.NET/releases)
+- [CodePlex ](https://archive.codeplex.com/?p=asposeumbraco)
+- [Github ](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET/releases)
 ## **Installing**
 After you have installed the Aspose Image Resizer it is really simple to start using it. Please follow these simple steps to get started:
 
@@ -86,14 +86,14 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose Image Resizer Modules using any of the following platforms
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/workitem/list/basic)
-- [Github ](https://github.com/asposeimaging/Aspose.Imaging-for-.NET/issues)
+- [CodePlex ](https://archive.codeplex.com/?p=asposeumbraco)
+- [Github ](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET/issues)
 ### **Extend and Contribute**
 Aspose Image Resizer datatype is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/SourceControl/latest)
+- [CodePlex ](https://archive.codeplex.com/?p=asposeumbraco)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code
 
