@@ -9,13 +9,13 @@ url: /net/how-to-run-the-examples/
 Please make sure you meet the following requirements before downloading and running the examples.
 
 1. Visual Studio 2010 or higher
-1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <http://docs.nuget.org/ndocs/guides/install-nuget>
+1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools>
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
 1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/imaging/net/installation/) to add reference to Aspose.Imaging.dll in the example project.
 ## **Download from GitHub**
 All examples of Aspose.Imaging for .NET are hosted on [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET).
 
-- You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/asposeimaging/Aspose.Imaging-for-.NET/archive/master.zip).
+- You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools).
 - Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
 - There is a Visual Studio solution file for C#.
 - The projects are created in Visual Studio 2013, but the solution files are compatible with Visual Studio 2010 SP1 and higher.

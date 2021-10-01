@@ -51,11 +51,11 @@ This add-on will work with all version of Microsoft Dynamics CRM:
 ## **Downloading**
 The addon is provided in the form of a solution. You can download the latest solution from:
 
-- [CodePlex](https://asposenetcrm.codeplex.com/releases).
+- [CodePlex](https://archive.codeplex.com/?p=asposenetcrm).
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/releases).
-- [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/downloads).
+- [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/downloads/).
 - [SourceForge](https://sourceforge.net/projects/asposenetcrm/files/Aspose%20.NET%20ImageAttach/).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Net-ImageAttach-for-7583245a).
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples).
 ## **Installing or Uninstalling**
 ### **Installing Aspose .NET ImageAttach**
 - Download the Solution File.
@@ -98,7 +98,7 @@ The addon is provided in the form of a solution. You can download the latest sol
 
 ![todo:image_alt_text](imageattach-for-dynamics-crm_3)
 ## **Video Demo**
-Please check [the video](http://youtu.be/k_QVup-N3c8) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=k_QVup-N3c8&feature=youtu.be) below to see the plugin in action.
 ## **Support, Extend and Contribute**
 ### **Support**
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
@@ -106,18 +106,18 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose .NET ImageAttach using any of the following platforms:
 
 - [Codeplex](http://goo.gl/rm1kdU)
-- [Github](http://goo.gl/UBvjIV)
-- [Sourceforge](http://goo.gl/EqZmTC)
-- [Bitbucket](http://goo.gl/tzcGGP)
-- [Code.MSDN](http://goo.gl/EiG9W0)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-ImageAttach)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20ImageAttach/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20ImageAttach)
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 ### **Extend and Contribute**
 You can download the latest source code at:
 
-- [CodePlex](https://asposenetcrm.codeplex.com/SourceControl/latest#Aspose .NET Document Merger/).
+- [CodePlex](https://archive.codeplex.com/?p=asposenetcrm#Aspose .NET Document Merger/).
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/tree/master/Aspose%20.NET%20ImageAttach/Source%20Code).
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/src/7ce93ebc181bba2b22539bfe183c68872f812070/Aspose%20.NET%20ImageAttach/Source%20Code/?at=master).
-- [SourceForge](http://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.NET%20ImageAttach/Source%20Code/).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Net-ImageAttach-for-7583245a/view/SourceCode#content).
+- [SourceForge](https://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.NET%20ImageAttach/Source%20Code/).
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples/view/SourceCode#content).
 
 {{< highlight java >}}
 

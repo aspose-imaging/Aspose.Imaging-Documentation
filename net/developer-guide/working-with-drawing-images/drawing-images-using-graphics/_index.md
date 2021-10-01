@@ -21,25 +21,25 @@ Below is a code example demonstrating the use of the [Graphics](http://www.aspos
 1. Draw a filled polygon and save the image.
 ### **Programming Samples**
 #### **Creating an Image**
-Start by creating an image using any of the methods described in [Creating Files](http://www.aspose.com/docs/display/imagingnet/Drawing+and+Formatting+Images#DrawingandFormattingImages-CreatingImageFiles).
+Start by creating an image using any of the methods described in [Creating Files](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingImageFiles).
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-CreateAnImage.cs" >}}
 
 
 #### **Create and Initialize a Graphics Object**
-Then create and initialize a [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) object by passing the [Image](http://www.aspose.com/api/net/imaging/aspose.imaging/image) object to its constructor.
+Then create and initialize a [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) object by passing the [Image](https://apireference.aspose.com/imaging/net/aspose.imaging/image) object to its constructor.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-InitializeGraphicsObjects-InitializeGraphicsObjects.cs" >}}
 
 
 #### **Clear the Surface**
-Clear the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) surface by calling the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class [Clear](http://www.aspose.com/api/net/imaging/aspose.imaging/graphics/methods/clear) method and pass a color as a parameter. This method fills the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) surface with the color passed in as argument.
+Clear the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) surface by calling the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class [Clear](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics/methods/clear) method and pass a color as a parameter. This method fills the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) surface with the color passed in as argument.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-ClearTheSurface-ClearTheSurface.cs" >}}
 
 
 #### **Draw an Ellipse**
-You may notice that the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the [Aspose.Imaging for .NET API Reference](http://www.aspose.com/docs/display/imagingnet/Aspose.Imaging+for+.NET++API+Reference). There are several overloaded versions of the [DrawEllipse](http://www.aspose.com/api/net/imaging/aspose.imaging/graphics/methods/drawellipse/index) method exposed by the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class. All these methods accept a [Pen](http://www.aspose.com/api/net/imaging/aspose.imaging/pen) object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a [Rectangle](http://www.aspose.com/api/net/imaging/aspose.imaging/rectangle) object as the second parameter to draw an ellipse using the [Pen](http://www.aspose.com/api/net/imaging/aspose.imaging/pen) object in your desired color.
+You may notice that the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the [Aspose.Imaging for .NET API Reference](http://www.aspose.com/docs/display/imagingnet/Aspose.Imaging+for+.NET++API+Reference). There are several overloaded versions of the [DrawEllipse](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics/methods/drawellipse/index) method exposed by the [Graphics](http://www.aspose.com/api/search/net/imaging/Graphics) class. All these methods accept a [Pen](https://apireference.aspose.com/imaging/net/aspose.imaging/pen) object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a [Rectangle](https://apireference.aspose.com/imaging/net/aspose.imaging/rectangle) object as the second parameter to draw an ellipse using the [Pen](https://apireference.aspose.com/imaging/net/aspose.imaging/pen) object in your desired color.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawAnEllipse-DrawAnEllipse.cs" >}}
 

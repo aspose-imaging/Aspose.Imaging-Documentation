@@ -18,8 +18,8 @@ If you have installed Visual Studio 2010 there is no need to install the Silverl
 ### **The Demo Application**
 To show how Aspose.Imaging for .NET can work with Silverlight, we have written a Silverlight 3 application that creates an image using Aspose.Imaging for .NET. The image is then exported out to the client’s machine in PSD format.
 #### **Download and Install Aspose.Imaging**
-1. [Download Aspose.Imaging for .NET](http://www.aspose.com/community/files/51/.net-components/aspose.imaging-for-.net/default.aspx).
-1. [Install Aspose.Imaging for .NET](http://www.aspose.com/docs/display/imagingnet/Install+Aspose.Imaging+for+.NET).
+1. [Download Aspose.Imaging for .NET](https://downloads.aspose.com/imaging/net).
+1. [Install Aspose.Imaging for .NET](https://docs.aspose.com/imaging/net/installation/).
 
 All Aspose components run in evaluation mode until you apply a license. The evaluation mode has no time limit but adds watermarks to the images you output. Aspose components installed with an MSI installer are, by default, installed to:
 
