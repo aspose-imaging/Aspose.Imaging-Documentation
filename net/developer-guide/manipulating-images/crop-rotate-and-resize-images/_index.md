@@ -6,7 +6,7 @@ url: /net/crop-rotate-and-resize-images/
 ---
 
 ## **Cropping Raster Images**
-**Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Cropping may also be used for to cut out some portion of an image to increase the focus on a particular area. From Aspose.Imaging 2.3.0, the API supports two different approaches to image cropping: by [shifts](http://www.aspose.com/docs/display/imagingnet/Crop%2C+Rotate+and+Resize+Images#Crop%2CRotateandResizeImages-CroppingbyShifts) and [rectangle](http://www.aspose.com/docs/display/imagingnet/Crop%2C+Rotate+and+Resize+Images#Crop%2CRotateandResizeImages-CroppingbyRectangle).
+**Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Cropping may also be used for to cut out some portion of an image to increase the focus on a particular area. From Aspose.Imaging 2.3.0, the API supports two different approaches to image cropping: by shifts and rectangle.
 ### **Cropping by Shifts**
 The [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) class provides an overloaded version of the [Crop](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the [Crop](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method moves the image boundaries toward the center of the image while discarding the outer portion. The code snippet below demonstrates how to crop an image by shifts.
 

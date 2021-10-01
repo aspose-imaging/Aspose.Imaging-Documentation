@@ -6,7 +6,7 @@ url: /net/modifying-images/
 ---
 
 ## **Dithering for Raster Images**
-Dithering is a technique of creating the illusion of new colors and shades by varying the pattern of dots that actually create an image. It is the most common means of reducing the color range of images down to the 256 (or fewer) colors. Aspose.Imaging provides the dithering support for [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class by introducing [Dither](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) method that accepts two parameters. First is of type DitheringMethod to be applied with two possible options FloydSteinbergDithering and ThresholdDithering. The second parameter to [Dither](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) method is the BitCount in integer. BitCount defines the sampling size for the dithering result. Default value is 1 that represents black and white, whereas allowed values are 1, 4, 8 generating palettes with 2, 4 and 256 colors respectively.
+Dithering is a technique of creating the illusion of new colors and shades by varying the pattern of dots that actually create an image. It is the most common means of reducing the color range of images down to the 256 (or fewer) colors. Aspose.Imaging provides the dithering support for [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) class by introducing [Dither](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) method that accepts two parameters. First is of type DitheringMethod to be applied with two possible options FloydSteinbergDithering and ThresholdDithering. The second parameter to [Dither](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) method is the BitCount in integer. BitCount defines the sampling size for the dithering result. Default value is 1 that represents black and white, whereas allowed values are 1, 4, 8 generating palettes with 2, 4 and 256 colors respectively.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DitheringRasterImages-DitheringRasterImages.cs" >}}
 ## **Adjusting Brightness, Contrast and Gamma**
@@ -16,14 +16,14 @@ Color adjustments in digital images is one of the core features that most of the
 1. **Contrast** refers to making the objects or details within an image more obvious. Increasing the contrast of an image increases the difference between light and dark areas so that the light areas becomes lighter and dark areas becomes darker. Decreasing the contrast will make lighter and darker areas stay approximately the same but the overall image becomes more homogeneous.
 1. **Gamma** optimizes the contrast and brightness of the indirect lighting that is illuminating an object in the image.
 ### **Adjusting Brightness**
-Aspose.Imaging for .NET API provide [Adjustbrightness](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage/methods/adjustbrightness) method for the [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class that can be used to adjust the **Brightness** by passing an integer value as parameter. Highest parameter value denotes to a brighter image. Here is the original image and the resultant image for comparison.
+Aspose.Imaging for .NET API provide [Adjustbrightness](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/adjustbrightness) method for the [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) class that can be used to adjust the **Brightness** by passing an integer value as parameter. Highest parameter value denotes to a brighter image. Here is the original image and the resultant image for comparison.
 
 |**Input File**|**Output File**|
 | :- | :- |
 |![todo:image_alt_text](modifying-images_1.jpg)|![todo:image_alt_text](modifying-images_2.jpg)|
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-AdjustBrightness-AdjustBrightness.cs" >}}
 ### **Adjusting Contrast**
-The AdjustContrast method exposed by the [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class can be used to adjust the **Contrast** of an image by passing a float value as parameter.
+The AdjustContrast method exposed by the [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) class can be used to adjust the **Contrast** of an image by passing a float value as parameter.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-AdjustContrast-AdjustContrast.cs" >}}
 
@@ -35,7 +35,7 @@ Highest parameter value denotes to a higher contrast in the given image. Here is
 | :- | :- |
 |![todo:image_alt_text](modifying-images_3.jpg)|![todo:image_alt_text](modifying-images_4.jpg)|
 ### **Adjusting Gamma**
-The AdjustGamma method exposed by the [RasterImage](http://www.aspose.com/api/net/imaging/aspose.imaging/rasterimage) class has two versions. One of the overloads accept one float value and performs the **Gamma** correction for red, blue & green channel coefficients. Whereas the other overload accepts three float parameters representing each color coefficient separately. The following code example demonstrates how to AdjustGamma on an image.
+The AdjustGamma method exposed by the [RasterImage](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage) class has two versions. One of the overloads accept one float value and performs the **Gamma** correction for red, blue & green channel coefficients. Whereas the other overload accepts three float parameters representing each color coefficient separately. The following code example demonstrates how to AdjustGamma on an image.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-AdjustGamma-AdjustGamma.cs" >}}
 

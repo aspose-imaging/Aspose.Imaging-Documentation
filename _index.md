@@ -21,10 +21,10 @@ The component supports the most common raster file formats and offers a wide ran
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for .NET Online Documentation](https://docs.aspose.com/imaging/net/)
-- [Aspose.Imaging for .NET Features](https://docs.aspose.com/imaging/net/features/)
-- [Aspose.Imaging for .NET Limitations](https://docs.aspose.com/imaging/net/known-issues/)
-- [Aspose.Imaging for .NET Release Notes](https://docs.aspose.com/imaging/net/release-notes/)
+- [Aspose.Imaging for .NET Online Documentation](/imaging/net/)
+- [Aspose.Imaging for .NET Features](/imaging/net/features/)
+- [Aspose.Imaging for .NET Limitations](/imaging/net/known-issues/)
+- [Aspose.Imaging for .NET Release Notes](/imaging/net/release-notes/)
 - [Aspose.Imaging for .NET Product Page](https://products.aspose.com/imaging/net)
 - [Install Aspose.Imaging for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Imaging/)
 - [Aspose.Imaging for .NET API Reference Guide](https://apireference.aspose.com/imaging/net)
@@ -54,7 +54,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for Java Release Notes](/imaging/java/release-notes/)
 - [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/java)
 - [Download Aspose.Imaging for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging)
-- [Install Aspose.Imaging for Java from Maven Repository](https://docs.aspose.com/imaging/java/installation/)
+- [Install Aspose.Imaging for Java from Maven Repository](/imaging/java/installation/)
 - [Aspose.Imaging for Java API Reference Guide](https://apireference.aspose.com/imaging/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Java)
 - [Aspose.Imaging for Java Free Support Forum](https://forum.aspose.com/c/imaging/14)
@@ -74,9 +74,9 @@ Aspose.Imaging for SharePoint is a solution that allows the users to convert ima
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for SharePoint Online Documentation](https://docs.aspose.com/imaging/sharepoint/)
-- [Aspose.Imaging for SharePoint Features](https://docs.aspose.com/imaging/sharepoint/features/)
-- [Aspose.Imaging for SharePoint Release Notes](https://docs.aspose.com/imaging/sharepoint/release-notes/)
+- [Aspose.Imaging for SharePoint Online Documentation](/imaging/sharepoint/)
+- [Aspose.Imaging for SharePoint Features](/imaging/sharepoint/features/)
+- [Aspose.Imaging for SharePoint Release Notes](/imaging/sharepoint/release-notes/)
 - [Aspose.Imaging for SharePoint Product Page](https://products.aspose.com/imaging/sharepoint)
 - [Download Aspose.Imaging for SharePoint](https://downloads.aspose.com/imaging/sharepoint)
 - [Aspose.Imaging for SharePoint Free Support Forum](https://forum.aspose.com/c/imaging/14)
