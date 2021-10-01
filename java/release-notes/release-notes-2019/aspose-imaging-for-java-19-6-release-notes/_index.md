@@ -35,7 +35,7 @@ This page contains release notes for [ Aspose.Imaging for Java 19.6](https://r
 |IMAGINGJAVA-1335|Fix enormous WebP animation RAM consumption in case of self-update|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.6](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.6+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.6](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-6-release-notes/) version 
 ## **Removed APIs:**
 No Change 
 # **Usage examples:**

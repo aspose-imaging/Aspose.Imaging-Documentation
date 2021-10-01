@@ -11,19 +11,19 @@ The following is a list of changes in this version of Aspose.Imaging.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|IMAGINGNET-1830|[Convert EMF to WMF](http://www.aspose.com/community/forums/thread/538949/convert-emf-to-wmf.aspx)|Feature|
-|IMAGINGNET-1824|[ThreadSafe API support stage 1](http://www.aspose.com/community/forums/thread/732525/multithreading-export-image-may-result-in-exception-due-to-race-condition.aspx)|Feature|
+|IMAGINGNET-1830|[Convert EMF to WMF](https://forum.aspose.com/t/convert-emf-to-wmf/2652/1)|Feature|
+|IMAGINGNET-1824|[ThreadSafe API support stage 1](https://forum.aspose.com/t/multithreading-export-image-may-result-in-exception-due-to-race-condition/4044)|Feature|
 |IMAGINGNET-1669|DNG format support|Feature|
 |IMAGINGNET-2145|Thread safe API for TIFF images|Enhancement|
 |IMAGINGNET-2134|[Could not read layers in PSD file.](https://www.aspose.com/community/forums/thread/807425/aspose.imaging-could-not-read-layers-in-psd-file.aspx)|Enhancement|
 |IMAGINGNET-2133|JPEG format performance improvents|Enhancement|
 |IMAGINGNET-2129|Remove Imaging Drawing engine|Enhancement|
 |IMAGINGNET-2127|Iamprovements of performance and memory usage for Dicom|Enhancement|
-|IMAGINGNET-2121|[Converting WMF to PNG format is not showing correct output \[.Net\]](http://www.aspose.com/community/forums/thread/798004/wmf-to-png.aspx)|Enhancement|
+|IMAGINGNET-2121|[Converting WMF to PNG format is not showing correct output \[.Net\]](https://forum.aspose.com/t/wmf-to-png/4127/1)|Enhancement|
 |IMAGINGNET-2108|[Exception when opening image in separate thread](http://www.aspose.com/community/forums/thread/794155/aspose.imaging-4.0.0-exception-when-opening-image-in-multithread.aspx)|Enhancement|
 |IMAGINGNET-2096|[Aspose.Imaging 4.0.0: Image.Load method is not thread-safe](http://www.aspose.com/community/forums/thread/789178.aspx)|Enhancement|
 |IMAGINGNET-2080|Improve performance of jpeg file format|Enhancement|
-|IMAGINGNET-2075|[Aspose.Imaging is not showing correct resolution of PSD image](http://www.aspose.com/community/forums/thread/779313/600-dpi-file-in.psd-loads-as-96-dpi.aspx)|Enhancement|
+|IMAGINGNET-2075|[Aspose.Imaging is not showing correct resolution of PSD image](https://forum.aspose.com/t/600-dpi-file-in-psd-loads-as-96-dpi/4115/1)|Enhancement|
 |IMAGINGNET-2072|License as Embedded resource is not working|Enhancement|
 |IMAGINGNET-2067|Incorrect saving result while using Image.Save(string path, ImageOptionsBase options, Rectangle boundsRectangle).|Enhancement|
 |IMAGINGNET-2062|Unify Metered API usage. Enable COMPACT configuration for Dynabic.Metering module.|Enhancement|
@@ -32,7 +32,7 @@ The following is a list of changes in this version of Aspose.Imaging.
 |IMAGINGNET-1995|Exception in PNG encoder|Enhancement|
 |IMAGINGNET-1601|Jpeg pixels read by Aspose.Imaging differs from pixels read by System.Drawing|Enhancement|
 |IMAGINGNET-1600|Saved jpeg is displayed incorrectly on Windows 8|Enhancement|
-|IMAGINGNET-1803|[Random ImageSaveException: Cannot decode strip 0. Details:, at TiffFrame.Save](http://www.aspose.com/community/forums/thread/585846/tiff-splitting-very-slow.aspx)|Enhancement|
+|IMAGINGNET-1803|[Random ImageSaveException: Cannot decode strip 0. Details:, at TiffFrame.Save](https://forum.aspose.com/t/tiff-splitting-very-slow/3019)|Enhancement|
 # **Usage examples**
 **IMAGINGNET-1830 Convert EMF to WMFF**
 

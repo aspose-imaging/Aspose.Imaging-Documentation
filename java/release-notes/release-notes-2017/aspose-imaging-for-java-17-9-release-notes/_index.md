@@ -23,7 +23,7 @@ url: /java/aspose-imaging-for-java-17-9-release-notes/
 |IMAGINGJAVA-716|Updating text makes text layer to move|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 17.9](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+17.9+-+Release+Notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 17.9](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-17-9-release-notes/) version
 ## **Removed APIs:**
 ` `Nothing
 # **Usage examples:**

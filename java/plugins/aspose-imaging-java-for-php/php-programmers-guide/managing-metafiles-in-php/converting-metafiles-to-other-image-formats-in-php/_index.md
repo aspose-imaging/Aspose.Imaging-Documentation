@@ -46,5 +46,5 @@ print "Converted EMF to BMP, JPEG, PNG, GIF and TIFF formats successfully!".PHP_
 ## **Download Running Code**
 Download **Converting Metafiles to Other Image Formats (Aspose.Imaging)** from any of the below mentioned social coding sites:
 
-- [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/ConvertMetafileToOtherFormats.php)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/SourceControl/latest#src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/ConvertMetafileToOtherFormats.php)
+- [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/ConvertMetafileToOtherFormats.php)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp#src/aspose/imaging/ConvertingMetafilestoOtherImageFormats/ConvertMetafileToOtherFormats.php)

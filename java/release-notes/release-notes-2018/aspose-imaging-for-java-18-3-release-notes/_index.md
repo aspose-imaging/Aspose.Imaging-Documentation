@@ -30,9 +30,9 @@ url: /java/aspose-imaging-for-java-18-3-release-notes/
 |IMAGINGJAVA-783|Darker colors and color reproducibility|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.3](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.3+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-3-release-notes/) version 
 ## **Removed APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.3](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.3+-+Release+Notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-3-release-notes/) version
 # **Usage examples:**
 **IMAGINGJAVA-934 Conversion of RGB Color System to CMYK for Tiff File Format [Java]** 
 Please use the following code to convert a tiled Rgb Tiff to a striped Cmyk Tiff:

@@ -20,11 +20,11 @@ url: /java/aspose-imaging-for-java-20-2-release-notes/
 # **Public AI changes:**
 **Added APIs:**
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.2](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.2+-+Release+notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.2](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-20-2-release-notes/) version
 
 **h2. Removed APIs:**
 
-` `Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.2](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.2+-+Release+notes) version
+` `Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.2](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-20-2-release-notes/) version
 # **Usage Examples:**
 [Edit](https://wiki.kharkov.dynabic.com/bin/edit/Support.Imaging/Release%20Notes/Aspose.Imaging/Aspose.Imaging%20for%20Java%20Release%20Notes/Aspose.Imaging%20for%20Java%2020.1%20-%20Jan%202020/Aspose.Imaging%20for%20Java%2018.9%20-%20Release%20notes/WebHome?section=3)
 

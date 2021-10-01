@@ -20,7 +20,7 @@ url: /java/aspose-imaging-for-java-19-11-release-notes/
 # **Public API changes:**
 **Added APIs:**
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.10+-+Release+notes)[19.1](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.10+-+Release+notes)[0](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.11+-+Release+notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-10-release-notes/)[19.1](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-10-release-notes/)[0](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-11-release-notes/) version 
 
 **h2. Removed APIs:**
 

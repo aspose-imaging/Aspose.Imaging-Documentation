@@ -17,7 +17,7 @@ url: /java/aspose-imaging-for-java-19-1-release-notes/
 |IMAGINGJAVA-1156|A4 page size of TIFF gets distorted when flipping 270 degrees|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 19.1](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.1+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 19.1](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-1-release-notes/) version 
 ## **Removed APIs:**
 No Change 
 # **Usage examples:**

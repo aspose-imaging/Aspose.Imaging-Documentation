@@ -39,7 +39,7 @@ Following releases of running examples are available to download on all of the b
 
 **Download Aspose.Imaging for Java component**
 
-- [Aspose.Imaging for Java](http://www.aspose.com/community/files/72/java-components/aspose.imaging-for-java/default.aspx)
+- [Aspose.Imaging for Java](https://downloads.aspose.com/imaging/java)
 ### **Installing**
 - Place downloaded Aspose.Imaging for Java jar file into "lib" directory.
 - Replace "your-lib" with the downloaded jar filename in _*init*_.py file.

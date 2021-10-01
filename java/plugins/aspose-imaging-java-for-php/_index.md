@@ -31,7 +31,7 @@ Project Aspose.Imaging Java for PHP shows how different tasks can be performed u
 ## **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Imaging Java for PHP examples.
 
-- [Aspose.Imaging for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.imaging-for-java/default.aspx)
+- [Aspose.Imaging for Java Component](hhttps://downloads.aspose.com/imaging/java)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 
@@ -53,7 +53,7 @@ It is very simple and easy to install Aspose.Imaging Java for PHP, please follow
 {{< /highlight >}}
 
 1. Download required Aspose.Imaging for Java Component from following link.
-   <http://www.aspose.com/community/files/72/java-components/aspose.imaging-for-java/default.aspx>
+   <hhttps://downloads.aspose.com/imaging/java>
 1. Create "jars" folder at root of the Aspose.Imaging Java for PHP and copy downloaded component into it.
 ## **Using**
 Include the required files to export image to different formats.

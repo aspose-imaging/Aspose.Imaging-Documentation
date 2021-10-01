@@ -13,10 +13,10 @@ This document describes the changes made in Aspose.Imaging for Java 17.12 that m
 #### **Added APIs:**
 
 
-Please see corresponding cumulative API changes for [Aspose.Imaging for .Net 17.12](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+17.12+-+Release+Notes) for your convenience. 
+Please see corresponding cumulative API changes for [Aspose.Imaging for .Net 17.12](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-17-12-release-notes/) for your convenience. 
 
 
 #### **Deleted APIs:**
 
 
-Please see corresponding cumulative API changes for [Aspose.Imaging for .Net 17.12](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+17.12+-+Release+Notes) for your convenience.
+Please see corresponding cumulative API changes for [Aspose.Imaging for .Net 17.12](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-17-12-release-notes/) for your convenience.

@@ -8,16 +8,16 @@ url: /net/aspose-imaging-for-net-17-03-release-notes/
 Aspose.Imaging for .Net has been updated to version 17.03 and we are pleased to announce it.
 The following is a list of changes in this version of Aspose.Imaging.
 ### **Features and Improvements**
-
+ 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |IMAGINGNET-2239|Improve loading DNG file format|Enhancement|
 |IMAGINGNET-2221|Converting PSD to image is throwing exception|Enhancement|
-|IMAGINGNET-2209|[Modifying and updatding TIFF image stream is not working properly](https://www.aspose.com/community/forums/thread/819431/tiff-images-not-compliant-with-baseline-6.0-standard.aspx)|Enhancement|
-|IMAGINGNET-2203|[Investigate problem with saving TIFF image frames in multithreading environment](https://www.aspose.com/community/forums/thread/732525/multithreading-export-image-may-result-in-exception-due-to-race-condition.aspx)|Enhancement|
+|IMAGINGNET-2209|[Modifying and updatding TIFF image stream is not working properly](https://forum.aspose.com/t/tiff-images-not-compliant-with-baseline-6-0-standard/8531)|Enhancement|
+|IMAGINGNET-2203|[Investigate problem with saving TIFF image frames in multithreading environment](https://forum.aspose.com/t/multithreading-export-image-may-result-in-exception-due-to-race-condition/4044/1)|Enhancement|
 |IMAGINGNET-2153|Exporting JPEG image into BMP file format fails|Enhancement|
 |IMAGINGNET-2146|Syncronize access to mutually exclusive image operations for JPEG images|Enhancement|
-|IMAGINGNET-2142|[Aspose.Imaging halts while loading PSD file](https://www.aspose.com/community/forums/thread/811470.aspx)|Enhancement|
+|IMAGINGNET-2142|[Aspose.Imaging halts while loading PSD file](https://forum.aspose.com/t/psd-document-doesnt-open/4136/1)|Enhancement|
 |IMAGINGNET-2139|The PNG codec research regarding increase in productivity|Enhancement|
 |IMAGINGNET-2120|Syncronize access to mutually exclusive image operations for GIF images|Enhancement|
 |IMAGINGNET-2119|Syncronize access to mutually exclusive image operations for BMP images|Enhancement|

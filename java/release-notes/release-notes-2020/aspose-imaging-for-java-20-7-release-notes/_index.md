@@ -23,11 +23,11 @@ title: Aspose.Imaging for Java 20.7 - Release notes
 
 **Added APIs:**
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.7](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.7+-+Release+notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-20-7-release-notes/) version
 
 **Removed APIs:**
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.7](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.7+-+Release+notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 20.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-20-7-release-notes/) version
 
 **Usage Examples:**
 ===================

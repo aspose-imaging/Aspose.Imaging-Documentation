@@ -21,7 +21,7 @@ url: /java/aspose-imaging-for-java-18-6-release-notes/
 |IMAGINGJAVA-950|PSD to TIFF - white image|Enhancement|
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.6](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+18.6+-+Release+Notes) version 
+Please see corresponding cumulative [API changes for Aspose.Imaging for .Net 18.6](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-18-6-release-notes/) version 
 ## **Removed APIs:**
 No changes in API. 
 # **Usage examples:**

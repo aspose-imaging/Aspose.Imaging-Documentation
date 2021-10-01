@@ -11,10 +11,10 @@ url: /java/aspose-imaging-java-for-intellij-idea-maven/
 
 In a 2010 **Infoworld** report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and Oracle JDeveloper.
 ### **Aspose.Imaging for Java**
-[Aspose.Imaging](http://www.aspose.com/java/imaging-component.aspx) for Java is an imaging library that lets developers create, edit, draw or convert images in their Java applications with ease and performance. It offers broad spectrum of traditional image processing operations as well as most demanded features that makes it most widely used imaging engine.
+[Aspose.Imaging](https://products.aspose.com/imaging/java) for Java is an imaging library that lets developers create, edit, draw or convert images in their Java applications with ease and performance. It offers broad spectrum of traditional image processing operations as well as most demanded features that makes it most widely used imaging engine.
 ### **Aspose.Imaging Java for IntelliJ IDEA - Maven**
-- Aspose.Imaging Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Imaging for Java API maven dependency) and download source code examples of the API for using [Aspose.Imaging for Java API](http://www.aspose.com/java/imaging-component.aspx).
-- This plugin helps you to work with [Aspose.Imaging for Java API](http://www.aspose.com/java/imaging-component.aspx) inside your favorite IntelliJ IDEA. 
+- Aspose.Imaging Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Imaging for Java API maven dependency) and download source code examples of the API for using [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java).
+- This plugin helps you to work with [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) inside your favorite IntelliJ IDEA. 
 
 ![todo:image_alt_text](https://i.imgur.com/KWKGljg.png)
 
@@ -24,9 +24,9 @@ The plugin contains two wizards -----
 
 **Wizard 1:** Aspose.Imaging Maven Project
 
-- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Imaging for Java API](http://www.aspose.com/java/imaging-component.aspx) Maven project.
-- The reference of [Aspose.Imaging for Java API](http://www.aspose.com/java/imaging-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and gets added in the pom.xml.
-- The created project will always contain most recent available version Maven Dependency for [Aspose.Imaging for Java API](http://www.aspose.com/java/imaging-component.aspx).
+- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) Maven project.
+- The reference of [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and gets added in the pom.xml.
+- The created project will always contain most recent available version Maven Dependency for [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Imaging for Java API](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples)
 
 **Wizard 2:** Aspose.Imaging Examples
@@ -68,11 +68,11 @@ To download IntellliJ IDEA
   - In Search Box type: "Aspose"
   - Select "**Aspose.Imaging Java for IntelliJ IDEA Maven**" plugin to install.
 ## **Installing**
-[Installing Aspose.Imaging for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/imagingjava/Installing+and+Using+Aspose.Imaging+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.ImagingforIntelliJIDEA-Maven-Installing)
+[Installing Aspose.Imaging for IntelliJ IDEA - Maven](https://docs.aspose.com/imaging/java/installing-and-using-aspose-imaging-for-intellij-idea-maven/#InstallingandUsingAspose.ImagingforIntelliJIDEA-Maven-Installing)
 ## **Using**
-[Using Aspose.Imaging for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/imagingjava/Installing+and+Using+Aspose.Imaging+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.ImagingforIntelliJIDEA-Maven-Using)
+[Using Aspose.Imaging for IntelliJ IDEA - Maven](https://docs.aspose.com/imaging/java/installing-and-using-aspose-imaging-for-intellij-idea-maven/#InstallingandUsingAspose.ImagingforIntelliJIDEA-Maven-Using)
 ## **Video Demo**
-Please check [the video](https://youtu.be/w4qqaxwk9P4) below to see Aspose.Imaging Maven Project Wizard and Aspose.Imaging Example Wizard in action.
+Please check [the video](https://www.youtube.com/watch?v=w4qqaxwk9P4) below to see Aspose.Imaging Maven Project Wizard and Aspose.Imaging Example Wizard in action.
 ## **Support, Extend and Contribute**
 ### **Support**
 - If you like to see known / reported issues (by the users or Q.A team) in the plugin.
@@ -88,5 +88,5 @@ Please check [the video](https://youtu.be/w4qqaxwk9P4) below to see Aspose.Imagi
 ### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://asposeimagingjavaintellij.codeplex.com)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaintellij)
 - [Github](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Plugins/Aspose.Imaging-for-Java_for_IntelliJ%28Maven%29)

@@ -83,4 +83,4 @@ print "Lines have been drawn in image successfully!".PHP_EOL;
 Download **Drawing Lines (Aspose.Imaging)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposeimaging/Aspose.Imaging-for-Java/blob/master/Plugins/Aspose_Imaging_Java_for_PHP/src/aspose/imaging/DrawingImages/DrawingLines.php)
-- [CodePlex](https://asposeimagingjavaphp.codeplex.com/SourceControl/latest#src/aspose/imaging/DrawingImages/DrawingLines.php)
+- [CodePlex](https://archive.codeplex.com/?p=asposeimagingjavaphp#src/aspose/imaging/DrawingImages/DrawingLines.php)

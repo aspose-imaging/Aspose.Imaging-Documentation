@@ -21,7 +21,7 @@ url: /java/aspose-imaging-for-java-19-7-release-notes/
 ##### **Please switch to Aspose.PSD for PSD loading functionality. The functionality will be removed in the nearest releases of Aspose.Imaging**
 # **Public API changes:**
 ## **Added APIs:**
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.7](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+19.7+-+Release+Notes) version
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-7-release-notes/) version
 ## **Removed APIs:**
 No Change
 
