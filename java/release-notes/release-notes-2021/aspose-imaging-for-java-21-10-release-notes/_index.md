@@ -38,7 +38,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7950 The trouble with Tiff file from the GIS team**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 HashMap<String, byte[]> map = new HashMap<String, byte[]>();
 map.put("SentinelBand8A.tif", new byte[] { 25, 0, 0, 0, 0, 0, 31 });
@@ -104,7 +104,7 @@ class RawTiffLoader implements IPartialRawDataLoader
 
 **IMAGINGJAVA-7949 BUG - RasterImage.Filter GaussianFilterOptions Black pixel and border creation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.RasterImage;
@@ -125,7 +125,7 @@ try (RasterImage image = (RasterImage)Image.load(inputFileName))
 
 **IMAGINGJAVA-7942 Support Image scoped fonts**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.*;
 import com.aspose.imaging.customfonthandler.CustomFontData;
@@ -211,7 +211,7 @@ private String getNameNoExt(String fileName)
 
 **IMAGINGJAVA-7935 Negative image height on converting WMF to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String dir = "C:\\Data\\";
 final File[] files = new File(dir).listFiles();
@@ -241,7 +241,7 @@ for (File file : files)
 
 **IMAGINGJAVA-7933 Property Image.Size for eps images is not optimized**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.Size;
@@ -261,7 +261,7 @@ for (int i = 0; i < 100; i++)
 
 **IMAGINGJAVA-7932 Fix bugs in a figures fill color**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.CdrRasterizationOptions;
@@ -288,7 +288,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7930 Fix bugs in CDR style reader for v14**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.CdrRasterizationOptions;
@@ -315,7 +315,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-7924 Support of GetOriginalOptions for Gif, Jpeg2000 formats**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String path = "source.gif";
 String outputPath = "result.gif";
@@ -330,7 +330,7 @@ try (GifImage image = (GifImage)Image.load(path))
 
 **IMAGINGJAVA-7918 Exception when converting EMZ to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.JpegOptions;
@@ -349,7 +349,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7888 Occasionally an exception occurs when running Image.save in multiple threads**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.*;
 import com.aspose.imaging.imageoptions.*;
@@ -389,7 +389,7 @@ for (int i = 0; i < 10; i++)
 
 **IMAGINGJAVA-7885 Exception saving WMF to JPEG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFilePath = "1014094.wmf";
 //String inputFilePath = "1109822.wmf";
@@ -410,7 +410,7 @@ finally
 
 **IMAGINGJAVA-7876 TIFF to PDF: Large output size PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Input.tif";
