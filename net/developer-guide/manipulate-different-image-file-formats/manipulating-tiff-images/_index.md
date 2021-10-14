@@ -161,6 +161,12 @@ Most of the process is the same as discussed above with a minor change, that is;
 Loading of Tiff images can be proceeded using memory strategy optimization - ie limiting memory buffer size for operation.
 
 {{< gist "aspose-com-gists" "7c81f4ab364d8398de3d9d7f5edbc48c" "MemoryStrategyOptimizationTiff.cs" >}}
+
+## **Get tiff original options from image**
+Aspose.Imaging .NET API allows to save tiff images in original format keeping all original settings.
+
+{{< gist "aspose-com-gists" "2bb8d93135a90199b0eea4a5374d1ab2" "get-tiff-original-options.cs" >}}
+
 ## **Tiff image export in batch mode**
 Aspose.Imaging library supports possibility of batch conversion before saving (exporting) Tiff images. This makes it possible not to keep in memory the resources of all processed pages at the same time, which will certainly give a significant performance boost with a lack of memory. With enough memory, the performance in standard mode and batch mode is the same, but the memory consumption in batch mode is much lower for multi-page tiff images (see illustrations below).
 
