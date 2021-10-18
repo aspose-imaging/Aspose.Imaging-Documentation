@@ -31,7 +31,13 @@ Below is the code demonstration of the said functionality.
 
 Below is the code demonstration of the said functionality.
 
-
-
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportOfTextRenderingHint-SupportOfTextRenderingHint.java" >}}
 
+
+## **Support of image scoped fonts**
+Aspose.Imaging Java API allows the custom font source providing to use the specific font(s) for image rendering. 
+Unlike FontSettings.setFontsFolders method works in the image scope and allowing to provide the fonts in multi-user scenarios.
+
+Below is the code demonstration of the said functionality.
+
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "custom-fonts.java" >}}
