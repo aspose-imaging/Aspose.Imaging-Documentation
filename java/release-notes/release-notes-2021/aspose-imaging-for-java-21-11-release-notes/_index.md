@@ -37,7 +37,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-7980 Regression in compression methods when exporting to PSD format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("p2.png"))
 {
@@ -48,7 +48,7 @@ try (Image image = Image.load("p2.png"))
 
 **IMAGINGJAVA-7979 EPS image Load method throws an exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Main.eps"))
 {
@@ -59,7 +59,7 @@ try (Image image = Image.load("Main.eps"))
 
 **IMAGINGJAVA-7978 Cannot load particular EPS image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("WCC4J0AUX0NU.eps"))
 {
@@ -70,7 +70,7 @@ try (Image image = Image.load("WCC4J0AUX0NU.eps"))
 
 **IMAGINGJAVA-7977 EPS image Size property throws an exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image.eps"))
 {
@@ -81,7 +81,7 @@ try (Image image = Image.load("image.eps"))
 
 **IMAGINGJAVA-7976 Support of FlateDecode decoder in EPS**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Main.eps"))
 {
@@ -92,7 +92,7 @@ try (Image image = Image.load("Main.eps"))
 
 **IMAGINGJAVA-7975 Property Size of EPS image throws an exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image.eps"))
 {
@@ -103,7 +103,7 @@ try (Image image = Image.load("image.eps"))
 
 **IMAGINGJAVA-7974 "Unknown name 'rectfill'" exception thrown when calling "Size" property for EPS image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Happy New Year 2021 White.eps"))
 {
@@ -114,7 +114,7 @@ try (Image image = Image.load("Happy New Year 2021 White.eps"))
 
 **IMAGINGJAVA-7966 Convert SVG to PNG Problem**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Halle_2.svg";
@@ -129,7 +129,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-7965 Memory Leaking due to cyclic references in Image classes.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import java.lang.ref.WeakReference;
@@ -162,7 +162,7 @@ private WeakReference<Image> justLoad(String fileName)
 
 **IMAGINGJAVA-7964 Incorrect output when decompressing the BMP with DXT1 compression**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("CompressedTiger.bmp"))
 {
@@ -173,7 +173,7 @@ try (Image image = Image.load("CompressedTiger.bmp"))
 
 **IMAGINGJAVA-7960 Unable to open the Tiff file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.PngOptions;
