@@ -9,7 +9,7 @@ url: /sharepoint/convert-image/
 
 Aspose.Imaging for SharePoint enable users to convert an image, that is export it to another image format (PNG, JPG, BMP, GIF, TIFF and PSD) with reliability and high performance.
 
-This task is done from the Image Conversion dialog. The Image Conversion dialog is also where you specify how to [crop](/imaging/sharepoint/crop-image-html/), [resize](/imaging/sharepoint/resize-image-html/) and [rotate or flip](/imaging/sharepoint/rotate-image-html/) an image. 
+This task is done from the Image Conversion dialog. The Image Conversion dialog is also where you specify how to [crop](/imaging/sharepoint/crop-image/), [resize](/imaging/sharepoint/resize-image/) and [rotate or flip](/imaging/sharepoint/rotate-image/) an image. 
 
 {{% /alert %}} 
 ### **Converting Image**

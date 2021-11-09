@@ -7,5 +7,5 @@ url: /java/managing-metafiles-in-php/
 
 **This section includes the following topics:**
 
-- [Converting Metafiles to Other Image Formats in PHP](/imaging/java/converting-metafiles-to-other-image-formats-in-php-html/)
-- [Cropping Metafiles in PHP](/imaging/java/cropping-metafiles-in-php-html/)
+- [Converting Metafiles to Other Image Formats in PHP](/imaging/java/converting-metafiles-to-other-image-formats-in-php/)
+- [Cropping Metafiles in PHP](/imaging/java/cropping-metafiles-in-php/)

@@ -7,7 +7,7 @@ url: /java/public-api-changes-in-aspose-imaging-3-1-0/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Imaging API from version 3.0.2 to 3.1.0 that may be of interest to module/application developers. It includes new and updated public methods, [added APIs](/imaging/java/public-api-changes-in-aspose-imaging-3-1-0-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Imaging.
+This document describes the changes to the Aspose.Imaging API from version 3.0.2 to 3.1.0 that may be of interest to module/application developers. It includes new and updated public methods, [added APIs](/imaging/java/public-api-changes-in-aspose-imaging-3-1-0/), but also a description of any changes in the behavior behind the scenes in Aspose.Imaging.
 
 {{% /alert %}} 
 ## **Added Methods**

@@ -18,4 +18,4 @@ Aspose Imaging services are best used with Microsoft Dynamics CRM using Silverli
 
 This section includes the following topics
 
-- [ImageAttach for Dynamics CRM](/imaging/net/imageattach-for-dynamics-crm-html/)
+- [ImageAttach for Dynamics CRM](/imaging/net/imageattach-for-dynamics-crm/)

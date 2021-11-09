@@ -39,23 +39,23 @@ Sometimes it is needed to extract and convert layers of a GIF Image into another
 ## **Converting SVG to Raster Format**
 See : 
 
-[Convert SVG to Raster image](/imaging/net/convert-svg-to-raster-image-html/)
+[Convert SVG to Raster image](/imaging/net/convert-svg-to-raster-image/)
 
-[Convert SVG to PNG](/imaging/net/convert-svg-to-png-html/)
+[Convert SVG to PNG](/imaging/net/convert-svg-to-png/)
 
-[Convert SVG to Bmp](/imaging/net/convert-svg-to-bmp-html/)
+[Convert SVG to Bmp](/imaging/net/convert-svg-to-bmp/)
 ## **Converting Raster Image to PDF**
 See : 
 
-[Convert Raster Image to PDF](/imaging/net/convert-raster-image-to-pdf-html/)
+[Convert Raster Image to PDF](/imaging/net/convert-raster-image-to-pdf/)
 
-[Convert BMP to PDF](/imaging/net/convert-bmp-to-pdf-html/)  
+[Convert BMP to PDF](/imaging/net/convert-bmp-to-pdf/)  
 
-[Converting PNG to PDF](/imaging/net/convert-png-to-pdf-html/)
+[Converting PNG to PDF](/imaging/net/convert-png-to-pdf/)
 ## **Converting Raster Image to Svg**
 See
 
-[Convert Raster Image to Svg](/imaging/net/convert-raster-image-to-svg-html/)
+[Convert Raster Image to Svg](/imaging/net/convert-raster-image-to-svg/)
 ## **Converting RGB color system to CMYK for Tiff file Format**
 Using Aspose.Imaging for .NET, developers can convert RGB color system file to CMYK tiff format. This article shows how to export/convert RGB color system file to CMYK tiff format with Aspose.Imaging. Using Aspose.Imaging for .NET you can load image of any format and than you can set various properties using **TiffOptions** class and save the image. The following code snippet shows you how to achieve this feature.
 
@@ -63,13 +63,13 @@ Using Aspose.Imaging for .NET, developers can convert RGB color system file to C
 ## **Working with animation**
 See
 
-` `[Convert APNG files](/imaging/net/convert-apng-files-html/)
+` `[Convert APNG files](/imaging/net/convert-apng-files/)
 ## **Converting Open document graphics**
 See
 
-[Convert ODG files](/imaging/net/convert-odg-files-html/)
+[Convert ODG files](/imaging/net/convert-odg-files/)
 
-[Convert OTG files](/imaging/net/convert-otg-files-html/)
+[Convert OTG files](/imaging/net/convert-otg-files/)
 
 
 ## **Converting Corel Draw images**

@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-imaging-2-5-0/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Imaging API from version 2.4.0 to 2.5.0 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/imaging/net/public-api-changes-in-aspose-imaging-2-5-0-html/), and [removed classes etc.](/imaging/net/public-api-changes-in-aspose-imaging-2-5-0-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Imaging.
+This document describes the changes to the Aspose.Imaging API from version 2.4.0 to 2.5.0 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/imaging/net/public-api-changes-in-aspose-imaging-2-5-0/), and [removed classes etc.](/imaging/net/public-api-changes-in-aspose-imaging-2-5-0/), but also a description of any changes in the behavior behind the scenes in Aspose.Imaging.
 
 {{% /alert %}} 
 ## **Added Classes, Constructors and Methods**

@@ -11,7 +11,7 @@ This document describes changes to the Aspose.Imaging API from version 2.3.0 to 
 
 {{% /alert %}} 
 ### **Raw Data Control Properties Added to RasterImage Class**
-We have added several properties to RasterImage class in order assist with the [Raw Data Processing](/imaging/net/raw-data-processing-html/). Details of these properties are as follow,
+We have added several properties to RasterImage class in order assist with the [Raw Data Processing](/imaging/net/raw-data-processing/). Details of these properties are as follow,
 
 1. Property Aspose.Imaging.RasterImage.IsRawDataAvailable determines if raw data processing can be performed. If this property returns false you should not use any of the further properties or raw data methods otherwise you are not guaranteed to get the correct results.
 1. Property Aspose.Imaging.RasterImage.RawCustomColorConverter specifies the custom color converter.

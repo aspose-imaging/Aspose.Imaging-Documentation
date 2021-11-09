@@ -92,7 +92,7 @@ rasterImage.save(outputImage);
 
 Please check the detailed article on [Cropping Images](/pages/createpage.action?spaceKey=imagingjava&title=Cropping+Images&linkCreation=true&fromPageId=15303045).
 #### **Raw Data Control Properties Added to RasterImage**
-We have added several properties to RasterImage class in order to assist with the [Raw Data Processing](/imaging/java/raw-data-processing-html/). Details of these properties are as follow,
+We have added several properties to RasterImage class in order to assist with the [Raw Data Processing](/imaging/java/raw-data-processing/). Details of these properties are as follow,
 
 1. Field com.aspose.imaging.RasterImage.isRawDataAvailable determines if raw data processing can be performed. If this property returns false you should not use any of the further properties or raw data methods otherwise you are not guaranteed to get the correct results.
 1. Property RasterImage.RawCustomColorConverter specifies the custom color converter.

@@ -111,9 +111,9 @@ The code examples below demonstrates this process.
 ## **Drawing Images using Graphics**
 With the Aspose.Imaging library you can draw simple shapes like lines, rectangles and circles, as well as complex shapes like polygons, curves, arcs and Bezier shapes.
 
-Aspose.Imaging library creates such shapes using [Graphics](https://apireference.aspose.com/search/net/imaging/graphics) class that resides in the Aspose.Imaging namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface.
+Aspose.Imaging library creates such shapes using [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/class-use/Graphics) class that resides in the Aspose.Imaging namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface.
 
-The [Graphics](https://apireference.aspose.com/search/net/imaging/graphics) class uses a variety of helper objects to enhance the shapes:
+The `Graphics` class uses a variety of helper objects to enhance the shapes:
 
 - Pens, to draw lines, outline shapes, or render other geometric representations.
 - Brushes, to define how areas are filled in.
@@ -121,7 +121,7 @@ The [Graphics](https://apireference.aspose.com/search/net/imaging/graphics) clas
 
 **Drawing with the Graphics Class**
 
-Below is a code example demonstrating the use of the [Graphics](https://apireference.aspose.com/search/java/imaging/graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
+Below is a code example demonstrating the use of the [Graphics](https://apireference.aspose.com/imaging/java/com.aspose.imaging/class-use/Graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
 
 1. Create an image.
 1. Create and initialize a [Graphics](https://apireference.aspose.com/search/java/imaging/graphics) object.

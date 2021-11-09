@@ -7,7 +7,7 @@ title: Aspose.Imaging for .NET 20.6 - Release notes
 
 | **Key**         | **Summary**                                                                                                                          | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGNET-3618 | [Implement support of APNG (animated PNG) file format](/imaging/net/creating-and-manipulating-animation-using-apng-fileformat-html/) | Feature      |
+| IMAGINGNET-3618 | [Implement support of APNG (animated PNG) file format](/imaging/net/creating-and-manipulating-animation-using-apng-fileformat/) | Feature      |
 | IMAGINGNET-3849 | Support of a new compression method DXT1 for BMP                                                                                     | Feature      |
 | IMAGINGNET-3781 | Support batch export to WebP for multi-page images                                                                                   | Feature      |
 | IMAGINGNET-3882 | Cannot extract Azure label information from XMP metadata                                                                             | Enhancement  |

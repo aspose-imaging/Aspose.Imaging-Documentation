@@ -36,7 +36,7 @@ Below provided sample code demonstrate how to convert EMF to PDF.
 ### **Cropping EMF Image**
 This article demonstrates the usage of Aspose.Imaging for Java API to crop Metafiles. Aspose.Imaging for Java has exposed the crop method for MetafileImage class that can be used to perform cropping on Metafiles.
 
-The Aspose.Imaging for Java API supports two different approaches to Metafile cropping: by [shifts](/imaging/java/manipulating-metafiles-html/) and [rectangle](/imaging/java/manipulating-metafiles-html/).
+The Aspose.Imaging for Java API supports two different approaches to Metafile cropping: by [shifts](/imaging/java/manipulating-metafiles/) and [rectangle](/imaging/java/manipulating-metafiles/).
 #### **Cropping by Shifts**
 The MetafileImage class provides an overload of the crop method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the crop method moves the image boundaries toward the center of the image while discarding the outer portion.
 

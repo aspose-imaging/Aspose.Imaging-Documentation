@@ -55,7 +55,7 @@ Then follow the steps below:
 
 \6. Provide a **Project Name** and **Location** just like when creating any Java application
 
-![todo:image_alt_text](hhttps://i.imgur.com/tf9bJSF.jpg)
+![todo:image_alt_text](https://i.imgur.com/tf9bJSF.jpg)
 
 
 \7. Click **Finish**.

@@ -47,7 +47,7 @@ Sometimes the image that we need to open is stored as a stream of bytes.When thi
 ## **Saving Image Files**
 Aspose.Imaging lets you create image files from scratch. It also provides the means to edit existing image files. Once the image is created or modified, the file is usually saved to disk.
 
-Aspose.Imaging provides you with methods for saving images to a [disk by specifying a path](/imaging/java/creating-2c-opening-and-saving-images-html/) or [using a Stream object](/imaging/java/creating-2c-opening-and-saving-images-html/).
+Aspose.Imaging provides you with methods for saving images to a [disk by specifying a path](/imaging/java/creating-2c-opening-and-saving-images/) or [using a Stream object](/imaging/java/creating-2c-opening-and-saving-images/).
 
 {{% alert color="primary" %}} 
 

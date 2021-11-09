@@ -993,7 +993,7 @@ return extention;
 {{< /highlight >}}
 
 **IMAGINGJAVA-976 Fix watermark on export metafile (EMF, WMF) to SVG [Java]** 
-Output: [^result.zip](/imaging/java/aspose-imaging-for-java-18-4-release-notes-html/)
+Output: [^result.zip](/imaging/java/aspose-imaging-for-java-18-4-release-notes/)
 tiger.emf.false.svg - exported a emf file without license, must have watermark
 tiger.emf.true.svg - exported a emf file with license, should not contain watermark
 castle.wmf.false.svg - exported a wmf file without license, must have watermark

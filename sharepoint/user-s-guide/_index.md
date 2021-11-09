@@ -6,7 +6,7 @@ url: /sharepoint/user-s-guide/
 ---
 
 ###### **This section includes the following topics:**
-- [Convert Image](/imaging/sharepoint/convert-image-html/)
-- [Resize Image](/imaging/sharepoint/resize-image-html/)
-- [Crop Image](/imaging/sharepoint/crop-image-html/)
-- [Rotate Image](/imaging/sharepoint/rotate-image-html/)
+- [Convert Image](/imaging/sharepoint/convert-image/)
+- [Resize Image](/imaging/sharepoint/resize-image/)
+- [Crop Image](/imaging/sharepoint/crop-image/)
+- [Rotate Image](/imaging/sharepoint/rotate-image/)
