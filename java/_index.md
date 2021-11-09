@@ -26,7 +26,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for Java Features](/imaging/java/features/)
 - [Aspose.Imaging for Java Limitations](/imaging/java/known-issues/)
 - [Aspose.Imaging for Java Release Notes](/imaging/java/release-notes/)
-- [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/java)
+- [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/java/)
 - [Download Aspose.Imaging for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging)
 - [Install Aspose.Imaging for Java from Maven Repository](/imaging/java/installation/)
 - [Aspose.Imaging for Java API Reference Guide](https://apireference.aspose.com/imaging/java)

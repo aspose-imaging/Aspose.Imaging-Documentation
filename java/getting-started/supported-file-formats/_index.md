@@ -31,7 +31,7 @@ url: /java/supported-file-formats/
 |[Wmf](https://docs.fileformat.com/image/wmf/)|Revision 13.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Cdr](https://docs.fileformat.com/image/cdr/)|Version X7, X6 (3-x5 not completely)|{{< emoticons/tick >}}| |
 |[Cmx](https://docs.fileformat.com/image/cmx/)|Version 2.0, 32 bit precision (16 bit precision not completely)|{{< emoticons/tick >}}| |
-|[Otg](https://www.oasis-open.org/standards/#opendocumentv1.2)|Version 1.2|{{< emoticons/tick >}}| |
+|[Otg](https://www.oasis-open.org/standards#opendocumentv1.2)|Version 1.2|{{< emoticons/tick >}}| |
 |[Pdf](https://en.wikipedia.org/wiki/PDF)|Portable document format| |{{< emoticons/tick >}}|
 |[Html5 canvas](https://en.wikipedia.org/wiki/Canvas_element)|Html5 canvas element| |{{< emoticons/tick >}}|
 |[Emz](https://ru.wikipedia.org/wiki/Windows_Metafile)|Compressed emf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

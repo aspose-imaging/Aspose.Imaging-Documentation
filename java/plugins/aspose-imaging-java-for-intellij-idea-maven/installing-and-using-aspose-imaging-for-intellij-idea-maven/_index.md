@@ -22,7 +22,7 @@ Installing this plugin will introduce a new project type –
 
 ![todo:image_alt_text](http://download-codeplex.sec.s-msft.com/Download/SourceControlFileDownload.ashx?ProjectName=asposeimagingjavaintellij&changeSetId=4355cbd9973fa9a7ea876f9a993ae2acc03dc2f0&itemId=src%2fresources%2fasposeSmall.png)
 
-**Aspose.Imaging Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Imaging Maven based project for using [Aspose.Imaging for Java API. ](https://products.aspose.com/imaging/java). 
+**Aspose.Imaging Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Imaging Maven based project for using [Aspose.Imaging for Java API. ](https://products.aspose.com/imaging/java/). 
 
 ![todo:image_alt_text](https://i.imgur.com/uHEAgz3.jpg)
 ### **Aspose.Imaging Example Wizard**
@@ -35,7 +35,7 @@ An option for creating [Example Source Codes for using Aspose.Imaging for Java A
 ![todo:image_alt_text](https://i.imgur.com/jMBcNXF.jpg)
 ## **Using**
 ### **Aspose.Imaging Maven Project Wizard**
-To create Aspose.Imaging Maven project for using [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) within IntelliJ IDEA, you need to have the internet connection.
+To create Aspose.Imaging Maven project for using Aspose.Imaging for Java API within IntelliJ IDEA, you need to have the internet connection.
 
 Then follow the steps below:
 
@@ -59,14 +59,14 @@ Then follow the steps below:
 
 
 \7. Click **Finish**.
-`    `This will retrieve the [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) latest maven dependency reference from Aspose Cloud Maven Repository and configure it in pom.xml
+`    `This will retrieve the Aspose.Imaging for Java API latest maven dependency reference from Aspose Cloud Maven Repository and configure it in pom.xml
 `    `If you have selected "Also Download Examples Source Code" checkbox. Downloading of the examples will also begin from the [Aspose.Imaging for Java API GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples)
 
 ![todo:image_alt_text](https://i.imgur.com/gmv6J6A.jpg)
 
 ![todo:image_alt_text](https://i.imgur.com/ru2ou8z.jpg)
 
-`     `Congratulations ! {{< emoticons/cross >}} You have successfully created Aspose.Imaging Maven project for using [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java).
+`     `Congratulations ! {{< emoticons/cross >}} You have successfully created Aspose.Imaging Maven project for using Aspose.Imaging for Java API.
 
 ![todo:image_alt_text](https://i.imgur.com/eoz02V2.jpg)
 

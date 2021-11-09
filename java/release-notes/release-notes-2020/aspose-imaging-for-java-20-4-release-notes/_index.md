@@ -17,7 +17,7 @@ url: /java/aspose-imaging-for-java-20-4-release-notes/
 |IMAGINGJAVA-1609|` `Converting EMF to PNG adds a border around PNG|Enhancement|
 **Psd off notice:**
 
-***Please switch to [Aspose.PSD](https://products.aspose.com/psd) for PSD loading functionality. The functionality is not supported from this release.***
+***Please switch to [Aspose.PSD](https://products.aspose.com/psd/) for PSD loading functionality. The functionality is not supported from this release.***
 # **Public API changes:**
 **Added APIs:**
 

@@ -19,7 +19,7 @@ title: Aspose.Imaging for .NET 20.4 - Release notes
 
 **Psd off notice:**
 
-**Please switch to** [Aspose.PSD](https://products.aspose.com/psd) **for PSD
+**Please switch to** [Aspose.PSD](https://products.aspose.com/psd/) **for PSD
 loading functionality. The functionality is not supported from this release.**
 
 **Compact framework off notice:**

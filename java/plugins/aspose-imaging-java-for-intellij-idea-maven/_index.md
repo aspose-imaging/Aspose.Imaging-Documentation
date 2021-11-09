@@ -11,10 +11,10 @@ url: /java/aspose-imaging-java-for-intellij-idea-maven/
 
 In a 2010 **Infoworld** report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and Oracle JDeveloper.
 ### **Aspose.Imaging for Java**
-[Aspose.Imaging](https://products.aspose.com/imaging/java) for Java is an imaging library that lets developers create, edit, draw or convert images in their Java applications with ease and performance. It offers broad spectrum of traditional image processing operations as well as most demanded features that makes it most widely used imaging engine.
+[Aspose.Imaging](https://products.aspose.com/imaging/java/) for Java is an imaging library that lets developers create, edit, draw or convert images in their Java applications with ease and performance. It offers broad spectrum of traditional image processing operations as well as most demanded features that makes it most widely used imaging engine.
 ### **Aspose.Imaging Java for IntelliJ IDEA - Maven**
-- Aspose.Imaging Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Imaging for Java API maven dependency) and download source code examples of the API for using [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java).
-- This plugin helps you to work with [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) inside your favorite IntelliJ IDEA. 
+- Aspose.Imaging Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Imaging for Java API maven dependency) and download source code examples of the API for using Aspose.Imaging for Java API.
+- This plugin helps you to work with Aspose.Imaging for Java API inside your favorite IntelliJ IDEA. 
 
 ![todo:image_alt_text](https://i.imgur.com/KWKGljg.png)
 
@@ -24,15 +24,15 @@ The plugin contains two wizards -----
 
 **Wizard 1:** Aspose.Imaging Maven Project
 
-- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) Maven project.
-- The reference of [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and gets added in the pom.xml.
+- Plugin's **Aspose Maven Project Wizard** lets developers to create Aspose.Imaging for Java API Maven project.
+- The reference of Aspose.Imaging for Java API maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and gets added in the pom.xml.
 - The created project will always contain most recent available version Maven Dependency for [Aspose.Imaging for Java API](https://products.aspose.com/imaging/java).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Imaging for Java API](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples)
 
 **Wizard 2:** Aspose.Imaging Examples
 
-- **Aspose.Imaging Examples Wizard** lets you create / copy downloaded [Source Code Examples of Aspose.Imaging for Java API](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples) into your project. All the examples for the selected category will get copied to the project's "com.aspose.imaging.examples" package folder along with the required resources within "src/main/resources" folder needed to run the examples.
-- [Source Code Examples of Aspose.Imaging for Java API](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples) are meant for demonstrating the different usages of the API.
+- **Aspose.Imaging Examples Wizard** lets you create / copy downloaded Source Code Examples of Aspose.Imaging for Java API into your project. All the examples for the selected category will get copied to the project's "com.aspose.imaging.examples" package folder along with the required resources within "src/main/resources" folder needed to run the examples.
+- Source Code Examples of Aspose.Imaging for Java API are meant for demonstrating the different usages of the API.
 ## **System Requirements and Supported Platforms**
 ### **System Requirements**
 - Microsoft Windows 10/8/7/Vista/2003/XP (incl.64-bit)  / Linux GNOME or KDE desktop / Mac OS X 10.5 or higher
