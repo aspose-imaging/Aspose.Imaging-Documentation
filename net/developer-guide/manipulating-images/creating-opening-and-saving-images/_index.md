@@ -50,8 +50,12 @@ Another overloaded version of the [Save](https://apireference.aspose.com/imaging
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-SavingToStream-SavingToStream.cs" >}}
 
 
-
 If the image is created by specifying any of the CreateOptions in the [Image](https://apireference.aspose.com/imaging/net/aspose.imaging/image/constructors/main) constructor, the image is automatically saved to the path or stream supplied during the initialization of the [Image]() class by calling the Save method that doesn't accept any parameter.
+
+### **Save image file extension aware**
+Using Aspose.Imaging file extension maps to appropriative image options if you did not specified them.
+{{< gist "aspose-com-gists" "f4a2faa9c7d3a77f599173aee0927a3b" "save-image-file-extension-aware.cs" >}}
+
 ### **Setting for Replacing Missing Fonts**
 Developers can use Aspose.Imaging for .NET API to load existing image files for different purposes and this default font should be used as a replacement for all missing fonts (fonts that are not found in current Operating System). Once the image is modified, the file is will be saved to disk.
 
