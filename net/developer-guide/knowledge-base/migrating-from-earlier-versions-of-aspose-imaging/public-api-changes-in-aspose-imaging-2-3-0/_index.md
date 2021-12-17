@@ -10,9 +10,9 @@ url: /net/public-api-changes-in-aspose-imaging-2-3-0/
 This page lists public API changes that were introduced in Aspose.Imaging 2.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Imaging which may affect the existing code.
 
 {{% /alert %}} 
-### **Added Crop Method for RasterImage Class**
+## **Added Crop Method for RasterImage Class**
 Crop method for the RasterImage class has been added to facilitate the users who wish to use Aspose.Imaging APIs to crop their images. There are two version of the said method, both behave differently as per requirement.
-#### **Sample**
+### **Sample**
 Demonstrates the usage of Crop method accepting an instance of Rectangle.
 
 **C#**
@@ -148,11 +148,11 @@ Please check the detailed article on [Cropping Images](/pages/createpage.action?
 Following section explains the changes introduced in reference to Jpeg image format. 
 
 {{% /alert %}} 
-### **Class Aspose.Imaging.FileFormats.Jpeg.JFIFData Added**
+## **Class Aspose.Imaging.FileFormats.Jpeg.JFIFData Added**
 Aspose.Imaging 2.3.0 adds support of writing, reading and editing of JFIF data segment in jpeg images by providing JFIFData class. Purpose of JFIFData class is to provide support for creating and manipulating of JFIF segment. JFIF segment is one of main identifiers of Jpeg image. JFIF data contains image resolution and may also contain small thumbnail image.
 
 Presence of JFIF segment usually means, that jpeg file contains 3-component data in YCbCr format with aspect 4:2:2 ratio.
-#### **Sample**
+### **Sample**
 Demonstrates the creation of JFIF data segment.
 
 **C#**
@@ -180,7 +180,7 @@ Demonstrates the creation of JFIF data segment.
 End Using
 
 {{< /highlight >}}
-#### **JFIFData Members Summary**
+### **JFIFData Members Summary**
 Aspose.Imaging.FileFormats.Jpeg.JFIFData.DensityUnits
 Byte value, can be 0 in case of no units(just aspect ratio) specified, 1 for pixels per inch, 2 for pixels per centimeter.
 
@@ -199,9 +199,9 @@ Density on horizontal axis.
 
 Aspose.Imaging.FileFormats.Jpeg.JFIFData.YDensity
 Density on vertical axis.
-### **Class Aspose.Imaging.ImageLoadOptions.JpegLoadOptions Added**
+## **Class Aspose.Imaging.ImageLoadOptions.JpegLoadOptions Added**
 JpegLoadOptionst class can affect loading of Jpeg image because user can pass ICC RGB color profile for color conversion during the Jpeg image loading.
-#### **Sample**
+### **Sample**
 Demonstrates the usage of JpegLoadOptionst class.
 
 **C#**
@@ -223,9 +223,9 @@ options.IccProfile = new StreamSource(File.Open("path", FileMode.Open));
 options.IccProfile = New StreamSource(File.Open("path", FileMode.Open))
 
 {{< /highlight >}}
-### **Class Aspose.Imaging.Exceptions.ImageFormats.JpegException Added**
+## **Class Aspose.Imaging.Exceptions.ImageFormats.JpegException Added**
 JpegException class is responsible of handling Jpeg specific exceptions.
-#### **Sample**
+### **Sample**
 Demonstrates the usage of JpegException class.
 
 **C#**
@@ -275,12 +275,12 @@ Catch exception As JpegException
 End Try
 
 {{< /highlight >}}
-##### **Class Constructors Summary**
+#### **Class Constructors Summary**
 1. Aspose.Imaging.Exceptions.ImageFormats.JpegException.#ctor(System.String)
 1. Aspose.Imaging.Exceptions.ImageFormats.JpegException.#ctor(System.String,System.Exception)
-### **Property Aspose.Imaging.FileFormats.Jpeg.JpegImage.Jfif Added**
+## **Property Aspose.Imaging.FileFormats.Jpeg.JpegImage.Jfif Added**
 JpegImage.Jfif property adds support of writing, reading and editing of JFIF data segment in jpeg images.
-#### **Sample**
+### **Sample**
 Demonstrates the usage of JpegImage.Jfif property to create JFIF data segment.
 
 **C#**
@@ -336,9 +336,9 @@ Demonstrates deletion of JFIF data segment
 End Using
 
 {{< /highlight >}}
-### **Property Aspose.Imaging.FileFormats.Jpeg.JpegImage.Comment Added**
+## **Property Aspose.Imaging.FileFormats.Jpeg.JpegImage.Comment Added**
 JpegImage.Comment property added the support for Jpeg comment section defined by Jpeg recommendations. Comment are represented as char array in order to strictly follow the Jpeg standards.
-#### **Sample**
+### **Sample**
 Demonstrates the usage of JpegImage.Comment property.
 
 **C#**
@@ -372,9 +372,9 @@ End Using
 Following section explains the changes introduced in reference to CAD image formats. 
 
 {{% /alert %}} 
-### **Class Aspose.Imaging.FileFormats.Cad.CadLayoutDictionary Added**
+## **Class Aspose.Imaging.FileFormats.Cad.CadLayoutDictionary Added**
 Aspose.Imaging 2.3.0 adds support of rendering only a specific layout of DXF file format. For this purpose, a new class CadLayoutDictionary has been added to the Aspose.Imaging.FileFormats.Cad namespace.
-#### **Sample**
+### **Sample**
 Demonstrates the use of CadLayoutDictionary class.
 
 **C#**
@@ -414,9 +414,9 @@ Demonstrates the use of CadLayoutDictionary class.
 End Using
 
 {{< /highlight >}}
-### **Classes CadApplicationCodesContainer and CadApplicationCodes Added**
+## **Classes CadApplicationCodesContainer and CadApplicationCodes Added**
 These classes collectively enable the developers to read the application-defined codes.
-#### **Sample**
+### **Sample**
 Demonstrates the use of CadApplicationCodesContainer & CadApplicationCodes classes.
 
 **C#**
@@ -582,9 +582,9 @@ Demonstrates the use of CadApplicationCodesContainer & CadApplicationCodes class
 End Using
 
 {{< /highlight >}}
-### **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadBaseObject Added**
+## **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadBaseObject Added**
 CadBaseObject class provides support of reading objects' section data.
-#### **Sample**
+### **Sample**
 Demonstrates the use of CadBaseObject class.
 
 **C#**
@@ -626,9 +626,9 @@ Demonstrates the use of CadBaseObject class.
 End Using
 
 {{< /highlight >}}
-### **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadLayout Added**
+## **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadLayout Added**
 CadLayout class provides support of reading CAD Layout objects.
-#### **Sample**
+### **Sample**
 Demonstrates the use of CadLayout class.
 
 **C#**
@@ -684,7 +684,7 @@ Demonstrates the use of CadLayout class.
 End Using
 
 {{< /highlight >}}
-#### **CadLayout Members Summary**
+### **CadLayout Members Summary**
 LayoutName
 Name of this layout, "Model" is also a layout.
 
@@ -697,9 +697,9 @@ Minimum extents for this layout (defined by EXTMIN while this layout is current)
 
 TabOrder
 This number is an ordinal indicating this layout's ordering in the tab control that is attached to the AutoCAD drawing frame window. Note that the “Model” tab always appears as the first tab regardless of its tab order.
-### **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadPlotSettings Added**
+## **Class Aspose.Imaging.FileFormats.Cad.CadObjects.CadPlotSettings Added**
 CadPlotSettings class provides support of reading CAD PLOTSETTINGS object.
-#### **Sample**
+### **Sample**
 Demonstrates the use of CadPlotSettings class.
 
 **C#**
@@ -755,7 +755,7 @@ Demonstrates the use of CadPlotSettings class.
 End Using
 
 {{< /highlight >}}
-#### **CadPlotSettings Members Summary**
+### **CadPlotSettings Members Summary**
 PageSetupName
 The page setup name.
 

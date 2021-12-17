@@ -6,7 +6,7 @@ url: /net/introduction/
 ---
 
 The Programmer's Guide contains information that is essential to know when building .NET and other applications with Aspose.Imaging for .NET. This section explains key programming concepts, and has code samples and detailed explanations.
-##### **Guide Structure**
+**Guide Structure**
 The Programmer’s Guide is split into chapters that cover Aspose.Imaging's main features:
 
 - [Drawing Images](../drawing-images/)

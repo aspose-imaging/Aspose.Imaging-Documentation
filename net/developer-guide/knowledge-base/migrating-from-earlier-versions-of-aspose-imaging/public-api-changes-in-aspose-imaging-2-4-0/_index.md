@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-imaging-2-4-0/
 This document describes changes to the Aspose.Imaging API from version 2.3.0 to 2.4.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Imaging.
 
 {{% /alert %}} 
-### **Raw Data Control Properties Added to RasterImage Class**
+## **Raw Data Control Properties Added to RasterImage Class**
 We have added several properties to RasterImage class in order assist with the [Raw Data Processing](/imaging/net/raw-data-processing/). Details of these properties are as follow,
 
 1. Property Aspose.Imaging.RasterImage.IsRawDataAvailable determines if raw data processing can be performed. If this property returns false you should not use any of the further properties or raw data methods otherwise you are not guaranteed to get the correct results.
@@ -83,7 +83,7 @@ Below provided code demonstrates the usage for a few of aforesaid properties,
 End Using
 
 {{< /highlight >}}
-### **Class PixelDataFormat Added**
+## **Class PixelDataFormat Added**
 Class Aspose.Imaging.PixelDataFormat added with v2.4, is used to specify the format of pixel data layout. The class contains several useful properties to determine the data layout,
 
 1. Property Aspose.Imaging.PixelDataFormat.PixelFormat returns the color space used. As of v2.4 the following properties are available: Grayscale, RGB, YCbCr, CMYK, YCCK.
@@ -106,7 +106,7 @@ To instantinate the PixelDataFormat you need to use one of the static properties
 1. Ycck 
 
 We will keep on adding new static properties when new raw data formats will be available.
-### **Interface IPartialRawDataLoader added**
+## **Interface IPartialRawDataLoader added**
 Interface Aspose.Imaging.IPartialRawDataLoader has been added with Aspose.Imaging v2.4 in order to assist with the raw data processing. It allows loading of raw data by blocks similar to IPartialPixelLoader interface allowing loading of pixel data by blocks.
 
 **C#**
@@ -240,13 +240,13 @@ Public Shared Sub LoadData(ByVal path As String)
 End Sub
 
 {{< /highlight >}}
-### **Interface IIndexedColorConverter added**
+## **Interface IIndexedColorConverter added**
 Interface Aspose.Imaging.IIndexedColorConverter has been added with Aspose.Imaging v2.4 to assist with raw data processing for Index Color Conversion.
-### **Interface IColorConverter added**
+## **Interface IColorConverter added**
 Interface Aspose.Imaging.IColorConverter has been added with Aspose.Imaging v2.4 to assist with raw data processing for RGB Color Conversion.
-### **Interface IRasterImageRawDataLoader Added**
+## **Interface IRasterImageRawDataLoader Added**
 Interface Aspose.Imaging.IRasterImageRawDataLoader has been added into Aspose.Imaging v2.4 to assist with raw data processing. It allows loading of raw data by using the LoadRawData method and returns the RawDataSettings property value.
-### **Interface IRasterImagePixelLoader Added**
+## **Interface IRasterImagePixelLoader Added**
 Interface Aspose.Imaging.IRasterImagePixelLoader added with v2.4, identifies an object capable of partial pixel loading.
 
 **C#**
@@ -278,7 +278,7 @@ Interface Aspose.Imaging.IRasterImagePixelLoader added with v2.4, identifies an 
 End Using
 
 {{< /highlight >}}
-### **GifImageException Class Added**
+## **GifImageException Class Added**
 The GifImageException class has been added to Aspose.Imaging.Exceptions.ImageFormats namespace in order to handle errors triggered due to GIF file format.
 
 **C#**
@@ -324,13 +324,13 @@ Catch ex As GifImageException
 End Try
 
 {{< /highlight >}}
-### **Enum JfifDensityUnits Added**
+## **Enum JfifDensityUnits Added**
 A new enumeration by the name of JfifDensityUnits has been added to the Aspose.Imaging.FileFormats.Jpeg namespace. The possible values and their descriptions are provided below,
 
 1. JfifDensityUnits.NoUnits - No units, Density properties just state pixel proportions.
 1. JfifDensityUnits.PixelsPerCm - Pixels per centimeter
 1. JfifDensityUnits.PixelsPerInch - Pixels per inch
-### **Enum Field ExifFileSource.Others Added**
+## **Enum Field ExifFileSource.Others Added**
 A new field for EXIF 2.3 specification added to the ExifFileSource enumeration.
 
 **C#**
@@ -362,7 +362,7 @@ A new field for EXIF 2.3 specification added to the ExifFileSource enumeration.
 End Using
 
 {{< /highlight >}}
-### **Enum Field ExifProperties.PhotographicSensitivity Added**
+## **Enum Field ExifProperties.PhotographicSensitivity Added**
 A new field by the name of PhotographicSensitivity has been added to {ExifProperties}} enumeration for EXIF 2.3 specification.
 
 **C#**
@@ -394,7 +394,7 @@ A new field by the name of PhotographicSensitivity has been added to {ExifProper
 End Using
 
 {{< /highlight >}}
-### **Enum Field JpegCompressionColorMode.Grayscale Added**
+## **Enum Field JpegCompressionColorMode.Grayscale Added**
 A new field by the name of Grayscale has been added to {JpegCompressionColorMode}} enumeration for setting compression color mode for grayscale images.
 
 **C#**
@@ -416,7 +416,7 @@ options.ColorType = JpegCompressionColorMode.Grayscale;
 options.ColorType = JpegCompressionColorMode.Grayscale
 
 {{< /highlight >}}
-### **Enum Field JpegCompressionColorMode.Ycck Added**
+## **Enum Field JpegCompressionColorMode.Ycck Added**
 A new field by the name of Ycck has been added to {JpegCompressionColorMode}} enumeration for setting compression color mode for Ycck images.
 
 **C#**
@@ -438,7 +438,7 @@ options.ColorType = JpegCompressionColorMode.Ycck;
 options.ColorType = JpegCompressionColorMode.Ycck
 
 {{< /highlight >}}
-### **CadCallout, CadCalloutData, CadCalloutLeader and CadCalloutLine Classes Added**
+## **CadCallout, CadCalloutData, CadCalloutLeader and CadCalloutLine Classes Added**
 The CadCallout, CadCalloutData, CadCalloutLeader & CadCalloutLine classes have been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -486,7 +486,7 @@ The CadCallout, CadCalloutData, CadCalloutLeader & CadCalloutLine classes have b
 End Using
 
 {{< /highlight >}}
-### **CadPolylineBase, CadLwPolyline, CadPolyline and CadPolyline3D Classes Added**
+## **CadPolylineBase, CadLwPolyline, CadPolyline and CadPolyline3D Classes Added**
 The CadPolylineBase, CadLwPolyline, CadPolyline & CadPolyline3D classes have been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -534,7 +534,7 @@ The CadPolylineBase, CadLwPolyline, CadPolyline & CadPolyline3D classes have bee
 End Using
 
 {{< /highlight >}}
-### **Cad2DVertex and Cad3DVertex Classes Added**
+## **Cad2DVertex and Cad3DVertex Classes Added**
 The Cad2DVertex & Cad3DVertex classes have been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -574,7 +574,7 @@ The Cad2DVertex & Cad3DVertex classes have been added to the Aspose.Imaging.File
 End Using
 
 {{< /highlight >}}
-### **CadAlignedDimension Class Added**
+## **CadAlignedDimension Class Added**
 The CadAlignedDimension class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -610,7 +610,7 @@ The CadAlignedDimension class has been added to the Aspose.Imaging.FileFormats.C
 End Using
 
 {{< /highlight >}}
-### **CadAngularDimension Class Added**
+## **CadAngularDimension Class Added**
 The CadAngularDimension class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -646,7 +646,7 @@ The CadAngularDimension class has been added to the Aspose.Imaging.FileFormats.C
 End Using
 
 {{< /highlight >}}
-### **CadDiametricDimension Class Added**
+## **CadDiametricDimension Class Added**
 The CadDiametricDimension class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -682,7 +682,7 @@ The CadDiametricDimension class has been added to the Aspose.Imaging.FileFormats
 End Using
 
 {{< /highlight >}}
-### **CadHelix Class Added**
+## **CadHelix Class Added**
 The CadHelix class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -718,7 +718,7 @@ The CadHelix class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjec
 End Using
 
 {{< /highlight >}}
-### **CadInsertObject Class Added**
+## **CadInsertObject Class Added**
 The CadInsertObject class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -754,7 +754,7 @@ The CadInsertObject class has been added to the Aspose.Imaging.FileFormats.Cad.C
 End Using
 
 {{< /highlight >}}
-### **CadLine Class Added**
+## **CadLine Class Added**
 The CadLine class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -790,7 +790,7 @@ The CadLine class has been added to the Aspose.Imaging.FileFormats.Cad.CadObject
 End Using
 
 {{< /highlight >}}
-### **CadMesh Class Added**
+## **CadMesh Class Added**
 The CadMesh class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -826,7 +826,7 @@ The CadMesh class has been added to the Aspose.Imaging.FileFormats.Cad.CadObject
 End Using
 
 {{< /highlight >}}
-### **CadRadialDimension Class Added**
+## **CadRadialDimension Class Added**
 The CadRadialDimension class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -862,7 +862,7 @@ The CadRadialDimension class has been added to the Aspose.Imaging.FileFormats.Ca
 End Using
 
 {{< /highlight >}}
-### **CadRotatedDimension Class Added**
+## **CadRotatedDimension Class Added**
 The CadRotatedDimension class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -898,7 +898,7 @@ The CadRotatedDimension class has been added to the Aspose.Imaging.FileFormats.C
 End Using
 
 {{< /highlight >}}
-### **CadTableEntity Class Added**
+## **CadTableEntity Class Added**
 The CadTableEntity class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -934,7 +934,7 @@ The CadTableEntity class has been added to the Aspose.Imaging.FileFormats.Cad.Ca
 End Using
 
 {{< /highlight >}}
-### **CadViewport Class Added**
+## **CadViewport Class Added**
 The CadViewport class has been added to the Aspose.Imaging.FileFormats.Cad.CadObjects namespace.
 
 **C#**
@@ -970,7 +970,7 @@ The CadViewport class has been added to the Aspose.Imaging.FileFormats.Cad.CadOb
 End Using
 
 {{< /highlight >}}
-### **Modified Cad Object Properties Types**
+## **Modified Cad Object Properties Types**
 Changed the Cad special data types (such as CadShortParameter) of the Cad objects properties.
 
 {{< highlight java >}}
@@ -988,7 +988,7 @@ length = cadAttDef.FieldLength.Value;
 length = cadAttDef.FieldLength;  // access without ".Value"
 
 {{< /highlight >}}
-#### **CadAttDef**
+### **CadAttDef**
 *CadShortParameter to short:*
 
 - CadAttDef.FieldLength
@@ -1007,7 +1007,7 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 - CadAttDef.ObliqueAngle
 - CadAttDef.ScaleX
 - CadAttDef.Thickness
-#### **CadBlockEntity**
+### **CadBlockEntity**
 *CadShortParameter to short:*
 
 - CadBlockEntity.Flags
@@ -1021,7 +1021,7 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 *CadParameter to int:*
 
 - CadHatchBoundaryPathContainer.BoundaryObjectCount
-#### **CadMultiLine**
+### **CadMultiLine**
 *CadShortParameter to short:*
 
 - CadMultiLine.NumberOfStyleElements
@@ -1030,7 +1030,7 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 *CadStringParameter to string:*
 
 - CadMultiLine.StyleName
-#### **CadLayerTable**
+### **CadLayerTable**
 *CadShortParameter to short:*
 
 - CadDimensionStyleTable.ColorId
@@ -1047,7 +1047,7 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 *CadBoolParameter to bool:*
 
 - CadDimensionStyleTable.PlotFlag
-#### **CadDimensionStyleTable**
+### **CadDimensionStyleTable**
 *CadShortParameter to short:*
 
 - CadDimensionStyleTable.Dimadec
@@ -1123,7 +1123,7 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 - CadDimensionStyleTable.Dimtsz
 - CadDimensionStyleTable.Dimtvp
 - CadDimensionStyleTable.Dimtxt
-#### **CadLineTypeTableObject**
+### **CadLineTypeTableObject**
 *CadShortParameter to short:*
 
 - CadLineTypeTableObject.AlignmentCode
@@ -1138,13 +1138,13 @@ length = cadAttDef.FieldLength;  // access without ".Value"
 *CadDoubleParameter to double:*
 
 - CadLineTypeTableObject.PatternLength
-### **TiffStream Class Methods Renamed**
+## **TiffStream Class Methods Renamed**
 Following methods of the Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStream class have been renamed,
 
 - ProcessReadDataShorts(System.Byte[]) *to* ProcessReadDataShort(System.Byte[])
 - ProcessReadDataUShorts(System.Byte[]) *to* ProcessReadDataUShort(System.Byte[])
-#### **Added Prefixes Indicating the Types of the Parameters:**
-##### **ProcessWriteData Overrides:**
+### **Added Prefixes Indicating the Types of the Parameters:**
+#### **ProcessWriteData Overrides:**
 - ProcessWriteDataDouble(System.Double[],System.Byte[])
 - ProcessWriteDataFloat(System.Single[],System.Byte[])
 - ProcessWriteDataLong(System.Int32[],System.Byte[])
@@ -1152,7 +1152,7 @@ Following methods of the Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStre
 - ProcessWriteDataShort(System.Int16[],System.Byte[])
 - ProcessWriteDataULong(System.UInt32[],System.Byte[])
 - ProcessWriteDataUShort(System.UInt16[],System.Byte[])
-##### **Read Array Methods:**
+#### **Read Array Methods:**
 - ReadDoubleArrayInt32(System.Int32)
 - ReadDoubleArrayUInt32(System.UInt32)
 - ReadFloatArrayInt32(System.Int32)
@@ -1173,7 +1173,7 @@ Following methods of the Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStre
 - ReadULongArrayUInt32(System.UInt32)
 - ReadUShortArrayInt32(System.Int32)
 - ReadUShortArrayUInt32(System.UInt32)
-### **Fields Removed From CadVertexBase**
+## **Fields Removed From CadVertexBase**
 Following fields have been removed from the class Aspose.Imaging.FileFormats.Cad.CadObjects.CadVertexBase.
 
 1. CadVertexBase.bugle
@@ -1186,13 +1186,13 @@ Following fields have been removed from the class Aspose.Imaging.FileFormats.Cad
 1. CadVertexBase.meshVertexIndex4
 1. CadVertexBase.startingWidth
 1. CadVertexBase.vertexId
-### **Method ReplaceField Removed**
+## **Method ReplaceField Removed**
 Following overloads of the method ReplaceField have been removed from the class Aspose.Imaging.FileFormats.Cad.CadObjects.CadBaseObject.
 
 1. CadBaseObject.ReplaceField(Cad2DPoint@, Cad2DPoint, string)
 1. CadBaseObject.ReplaceField(Cad3DPoint@, Cad3DPoint, string)
 1. CadBaseObject.ReplaceField(CadSize@, CadSize, string)
-### **Enum SubSamplingMode Removed**
+## **Enum SubSamplingMode Removed**
 Aspose.Imaging.FileFormats.Jpeg.Enums.SubSamplingMode has been removed because sub-sampling settings are determined by JFIF/EXIF standards.
 
 Following enumeration members have been removed too,

@@ -5,7 +5,7 @@ weight: 80
 url: /net/aspose-imaging-for-net-3-5-0-release-notes/
 ---
 
-### **Features and Improvements**
+## **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -28,8 +28,8 @@ url: /net/aspose-imaging-for-net-3-5-0-release-notes/
 |IMAGING-34675 |Improve JPEG resolution setting |Enhancement |
 |IMAGING-34221 |Support YCBCR format storage |Enhancement |
 |IMAGING-34077 |TIFF file opening errors |Enhancement |
-### **Public API and Backward Incompatible Changes**
-###### **Added APIs:**
+## **Public API and Backward Incompatible Changes**
+ **Added APIs:**
 Class    Aspose.Imaging.Exceptions.EmfException
 Class    Aspose.Imaging.FileFormats.Dicom.DicomImage
 Class    Aspose.Imaging.FileFormats.Dicom.DicomPage
@@ -3415,7 +3415,7 @@ Property    Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions.Si
 Property    Aspose.Imaging.ImageOptions.TiffOptions.IsTiled
 Property    Aspose.Imaging.ImageOptions.TiffOptions.YCbCrCoefficients
 Property    Aspose.Imaging.ImageOptions.TiffOptions.YCbCrSubsampling
-###### **Removed APIs:**
+ **Removed APIs:**
 Class    Aspose.Imaging.FileFormats.Psd.Resources.XmpResouce
 Method    Aspose.Imaging.FileFormats.Psd.Resources.XmpResouce.#ctor
 Property    Aspose.Imaging.FileFormats.Psd.Resources.XmpResouce.DataSize
