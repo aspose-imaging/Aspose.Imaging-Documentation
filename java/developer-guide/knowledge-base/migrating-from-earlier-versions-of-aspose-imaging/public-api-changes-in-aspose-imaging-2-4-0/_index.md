@@ -10,8 +10,8 @@ url: /java/public-api-changes-in-aspose-imaging-2-4-0/
 This page lists public API changes that were introduced in Aspose.Imaging 2.4.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Imaging which may affect the existing code.
 
 {{% /alert %}} 
-### **Enhancements to the RasterImage**
-#### **Added Cropping Feature for the RasterImage**
+## **Enhancements to the RasterImage**
+### **Added Cropping Feature for the RasterImage**
 Aspose.Imaging for Java 2.4.0 has exposed the crop method for the RasterImage class to facilitate the users who wish to use Aspose.Imaging APIs to crop their images. There are two version of the said method, both behave differently as per requirement.
 
 Demonstrates the usage of crop method accepting an instance of Rectangle.
@@ -91,7 +91,7 @@ rasterImage.save(outputImage);
 {{< /highlight >}}
 
 Please check the detailed article on [Cropping Images](/pages/createpage.action?spaceKey=imagingjava&title=Cropping+Images&linkCreation=true&fromPageId=15303045).
-#### **Raw Data Control Properties Added to RasterImage**
+### **Raw Data Control Properties Added to RasterImage**
 We have added several properties to RasterImage class in order to assist with the [Raw Data Processing](/imaging/java/raw-data-processing/). Details of these properties are as follow,
 
 1. Field com.aspose.imaging.RasterImage.isRawDataAvailable determines if raw data processing can be performed. If this property returns false you should not use any of the further properties or raw data methods otherwise you are not guaranteed to get the correct results.
@@ -132,18 +132,18 @@ if (image.isRawDataAvailable())
 }
 
 {{< /highlight >}}
-#### **Interface IPartialRawDataLoader added**
+### **Interface IPartialRawDataLoader added**
 Interface com.aspose.imaging.IPartialRawDataLoader has been added to assist with the raw data processing. It allows loading of raw data by blocks similar to IPartialPixelLoader interface allowing loading of pixel data by blocks.
-#### **Interface IIndexedColorConverter added**
+### **Interface IIndexedColorConverter added**
 Interface com.aspose.imaging.IIndexedColorConverter has been added to assist with the raw data processing for Index Color Conversion.
-#### **Interface IColorConverter added**
+### **Interface IColorConverter added**
 Interface com.aspose.imaging.IColorConverter has been added with to assist with raw data processing for RGB Color Conversion.
-#### **Interface IRasterImageRawDataLoader Added**
+### **Interface IRasterImageRawDataLoader Added**
 Interface com.aspose.imaging.IRasterImageRawDataLoader has been added to assist with raw data processing. It allows loading of raw data by using the LoadRawData method and returns the RawDataSettings property value.
-#### **Interface IRasterImagePixelLoader Added**
+### **Interface IRasterImagePixelLoader Added**
 Interface com.aspose.imaging.IRasterImagePixelLoader added that identifies if an object is capable of partial pixel loading.
-### **Enhancements to the JPEG Image Format**
-#### **Added Support for JFIF Data Segment**
+## **Enhancements to the JPEG Image Format**
+### **Added Support for JFIF Data Segment**
 JFIF segment is one of main identifiers of Jpeg image which contains the image resolution and may also contain small thumbnail image. Aspose.Imaging 2.4.0 adds the support for writing, reading and editing of JFIF data segment in jpeg images by providing JFIFData class.
 
 {{% alert color="primary" %}} 
@@ -163,14 +163,14 @@ The following code snippet demonstrates the creation of JFIF data segment.
 image.setJfif(new JFIFData());
 
 {{< /highlight >}}
-##### **JFIFData Members Summary**
+#### **JFIFData Members Summary**
 1. JFIFData.DensityUnits: Byte value, can be 0 in case of no units(just aspect ratio) specified, 1 for pixels per inch, 2 for pixels per centimeter.
 1. JFIFData.Thumbnail: Small thumbnail image, that can be inserted into jpeg file.
 1. JFIFData.ThumbnailHeight & JFIFData.ThumbnailWidth: Height and width of thumbnail image. If these values are 0, thumbnail image is not presented in this file.
 1. JFIFData.Version: JFIF segment version.
 1. JFIFData.XDensity: Density on horizontal axis.
 1. JFIFData.YDensity: Density on vertical axis.
-#### **Class JpegLoadOptions Added**
+### **Class JpegLoadOptions Added**
 JpegLoadOptionst class can affect loading of Jpeg image because user can pass ICC RGB color profile for color conversion during the Jpeg image loading. Below provided code snippet demonstrates the usage of JpegLoadOptionst class.
 
 **Java**
@@ -182,7 +182,7 @@ JpegLoadOptionst class can affect loading of Jpeg image because user can pass IC
 options.setIccProfile(new StreamSource(new FileInputStream("ICC-Profile-Path")));
 
 {{< /highlight >}}
-#### **Class JpegException Added**
+### **Class JpegException Added**
 JpegException class is responsible of handling Jpeg specific exceptions. Below code snippet demonstrates the usage of JpegException class.
 
 **Java**
@@ -210,7 +210,7 @@ catch (JpegException exception)
 }
 
 {{< /highlight >}}
-#### **Property JpegImage.Jfif Added**
+### **Property JpegImage.Jfif Added**
 JpegImage.Jfif property adds support of writing, reading and editing of JFIF data segment in jpeg images. Below provided code snippet demonstrates the usage of JpegImage.Jfif property to create JFIF data segment.
 
 **Java**
@@ -234,13 +234,13 @@ Below provided code snippet demonstrates the deletion of JFIF data segment.
 image.setJfif(null);
 
 {{< /highlight >}}
-#### **Enum JfifDensityUnits Added**
+### **Enum JfifDensityUnits Added**
 A new enumeration by the name of JfifDensityUnits has been added to the com.aspose.imaging.fileFormats.jpeg package. The possible values and their descriptions are provided below,
 
 1. JfifDensityUnits.NoUnits: No units, Density properties just state pixel proportions.
 1. JfifDensityUnits.PixelsPerCm: Pixels per centimeter.
 1. JfifDensityUnits.PixelsPerInch: Pixels per inch.
-#### **Enum Field ExifFileSource.Others Added**
+### **Enum Field ExifFileSource.Others Added**
 A new field for EXIF 2.3 specification added to the ExifFileSource enumeration.
 
 **Java**
@@ -252,7 +252,7 @@ A new field for EXIF 2.3 specification added to the ExifFileSource enumeration.
 image.getExifData().setFileSource(ExifFileSource.Others);
 
 {{< /highlight >}}
-#### **Enum Field JpegCompressionColorMode.Grayscale Added**
+### **Enum Field JpegCompressionColorMode.Grayscale Added**
 A new field by the name of Grayscale has been added to {JpegCompressionColorMode}} enumeration for setting compression color mode for grayscale images.
 
 **Java**
@@ -264,7 +264,7 @@ A new field by the name of Grayscale has been added to {JpegCompressionColorMode
 options.setColorType(JpegCompressionColorMode.Grayscale);
 
 {{< /highlight >}}
-#### **Enum Field JpegCompressionColorMode.Ycck Added**
+### **Enum Field JpegCompressionColorMode.Ycck Added**
 A new field by the name of Ycck has been added to {JpegCompressionColorMode}} enumeration for setting compression color mode for Ycck images.
 
 **Java**
@@ -276,9 +276,9 @@ A new field by the name of Ycck has been added to {JpegCompressionColorMode}} en
 options.setColorType(JpegCompressionColorMode.Ycck);
 
 {{< /highlight >}}
-### **Changes in Reference to CAD Formats**
+## **Changes in Reference to CAD Formats**
 Following section explains the changes introduced in reference to CAD image formats. 
-#### **Class CadLayoutDictionary Added**
+### **Class CadLayoutDictionary Added**
 Aspose.Imaging for Java 2.4.0 adds support of rendering only a specific layout of DXF file format. For this purpose, a new class CadLayoutDictionary has been added to the com.aspose.imaging.fileFormats.cad package. Below provided code snippet demonstrates the use of CadLayoutDictionary class.
 
 **Java**
@@ -296,7 +296,7 @@ String layoutName = "Model";
 CadLayout cadLayout = cadImage.getLayouts().get_Item(layoutName);
 
 {{< /highlight >}}
-#### **Classes CadCallout, CadCalloutData, CadCalloutLeader and CadCalloutLine Added**
+### **Classes CadCallout, CadCalloutData, CadCalloutLeader and CadCalloutLine Added**
 The CadCallout, CadCalloutData, CadCalloutLeader & CadCalloutLine classes have been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -316,7 +316,7 @@ CadCalloutLeader cadCalloutLeader = cadCalloutData.getLeader();
 CadCalloutLine cadCalloutLine = cadCalloutLeader.getLeaderLine();
 
 {{< /highlight >}}
-#### **Classes CadPolylineBase, CadLwPolyline, CadPolyline and CadPolyline3D Added**
+### **Classes CadPolylineBase, CadLwPolyline, CadPolyline and CadPolyline3D Added**
 The CadPolylineBase, CadLwPolyline, CadPolyline & CadPolyline3D classes have been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -336,7 +336,7 @@ CadPolyline cadPolyline = (CadPolyline) cadImage.getEntities()[2];
 CadPolyline3D cadPolyline3D = (CadPolyline3D) cadImage.getEntities()[3];
 
 {{< /highlight >}}
-#### **Cad2DVertex and Cad3DVertex Classes Added**
+### **Cad2DVertex and Cad3DVertex Classes Added**
 The Cad2DVertex & Cad3DVertex classes have been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -352,7 +352,7 @@ Cad2DVertex сad2DVertex = (Cad2DVertex) cadImage.getEntities()[0];
 Cad3DVertex сad3DVertex = (Cad3DVertex) cadImage.getEntities()[1];
 
 {{< /highlight >}}
-#### **Class CadAlignedDimension Added**
+### **Class CadAlignedDimension Added**
 The CadAlignedDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -366,7 +366,7 @@ CadImage cadImage = (CadImage)image;
 CadAlignedDimension cadAlignedDimension = (CadAlignedDimension) cadImage.getEntities()[0];
 
 {{< /highlight >}}
-### **Class CadAngularDimension Added**
+## **Class CadAngularDimension Added**
 The CadAngularDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -380,7 +380,7 @@ CadImage cadImage = (CadImage)image;
 CadAngularDimension cadAngularDimension = (CadAngularDimension)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadDiametricDimension Added**
+### **Class CadDiametricDimension Added**
 The CadDiametricDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -394,7 +394,7 @@ CadImage cadImage = (CadImage)image;
 CadDiametricDimension cadDiametricDimension = (CadDiametricDimension)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadHelix Added**
+### **Class CadHelix Added**
 The CadHelix class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -408,7 +408,7 @@ CadImage cadImage = (CadImage)image;
 CadHelix cadHelix = (CadHelix)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadInsertObject Added**
+### **Class CadInsertObject Added**
 The CadInsertObject class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -422,7 +422,7 @@ CadImage cadImage = (CadImage)image;
 CadInsertObject cadInsertObject = (CadInsertObject)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadLine Added**
+### **Class CadLine Added**
 The CadLine class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -436,7 +436,7 @@ CadImage cadImage = (CadImage)image;
 CadLine cadLine = (CadLine) cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadMesh Added**
+### **Class CadMesh Added**
 The CadMesh class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -450,7 +450,7 @@ CadImage cadImage = (CadImage)image;
 CadMesh cadEntity = (CadMesh)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadRadialDimension Added**
+### **Class CadRadialDimension Added**
 The CadRadialDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -464,7 +464,7 @@ CadImage cadImage = (CadImage)image;
 CadRadialDimension cadEntity = (CadRadialDimension)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadRotatedDimension Added**
+### **Class CadRotatedDimension Added**
 The CadRotatedDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -478,7 +478,7 @@ CadImage cadImage = (CadImage)image;
 CadRotatedDimension cadRotatedDimension = (CadRotatedDimension)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Class CadTableEntity Added**
+### **Class CadTableEntity Added**
 The CadTableEntity class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -492,7 +492,7 @@ CadImage cadImage = (CadImage)image;
 CadTableEntity cadEntity = (CadTableEntity)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-### **Class CadViewport Added**
+## **Class CadViewport Added**
 The CadViewport class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**
@@ -506,7 +506,7 @@ CadImage cadImage = (CadImage)image
 CadViewport cadViewport = (CadViewport)cadImage.getEntities()[0];
 
 {{< /highlight >}}
-#### **Classes CadApplicationCodesContainer and CadApplicationCodes Added**
+### **Classes CadApplicationCodesContainer and CadApplicationCodes Added**
 These classes collectively enable the developers to read the application-defined codes. Below provided code snippet demonstrates the use of CadApplicationCodesContainer & CadApplicationCodes classes.
 
 **Java**
@@ -588,7 +588,7 @@ for (CadApplicationCodes codes : cadBase.getApplicationCodesContainer().getCodes
 }
 
 {{< /highlight >}}
-#### **Class CadBaseObject Added**
+### **Class CadBaseObject Added**
 CadBaseObject class provides support of reading objects' section data. Below provided code snippet demonstrates the use of CadBaseObject class.
 
 **Java**
@@ -608,7 +608,7 @@ for (CadBaseObject cadBaseObject : cadImage.getObjects())
 }
 
 {{< /highlight >}}
-#### **Class CadLayout Added**
+### **Class CadLayout Added**
 CadLayout class provides support of reading CAD Layout objects. Below provided code snippet demonstrates the use of CadLayout class.
 
 **Java**
@@ -636,12 +636,12 @@ for (CadBaseObject cadBaseObject : cadImage.getObjects())
 }
 
 {{< /highlight >}}
-##### **CadLayout Members Summary**
+#### **CadLayout Members Summary**
 1. CadLayout.LayoutName: Name of this layout, "Model" is also a layout.
 1. CadLayout.MaxExtents: Maximum extents for this layout, defined by EXTMAX while this layout is current.
 1. CadLayout.MinExtents: Minimum extents for this layout (defined by EXTMIN while this layout is current).
 1. CadLayout.TabOrder: This number is an ordinal indicating this layout's ordering in the tab control that is attached to the AutoCAD drawing frame window. Note that the “Model” tab always appears as the first tab regardless of its tab order.
-#### **Class CadPlotSettings Added**
+### **Class CadPlotSettings Added**
 CadPlotSettings class provides support of reading CAD PLOTSETTINGS object. Below provided code snippet demonstrates the use of CadPlotSettings class.
 
 **Java**
@@ -669,7 +669,7 @@ for (CadBaseObject cadBaseObject : cadImage.getObjects())
 }
 
 {{< /highlight >}}
-##### **CadPlotSettings Members Summary**
+#### **CadPlotSettings Members Summary**
 1. CadPlotSettings.PageSetupName: The page setup name.
 1. CadPlotSettings.PlotPaperSize: Physical paper width and height in millimeters.
 1. CadPlotSettings.TopSize: Size, in millimeters, of unprintable margin on top of paper.

@@ -5,7 +5,7 @@ weight: 30
 url: /java/technical-articles/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 - [Avoid Performance Degradation when Drawing over Compressed Images](/imaging/java/avoid-performance-degradation-when-drawing-over-compressed-images/)
 - [Performance Improvement with Customizable Cache](/imaging/java/performance-improvement-with-customizable-cache/)
 - [Adding a Watermark to an Image](/imaging/java/adding-a-watermark-to-an-image/)

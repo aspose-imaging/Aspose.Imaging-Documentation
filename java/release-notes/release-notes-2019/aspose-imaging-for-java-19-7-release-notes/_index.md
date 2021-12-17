@@ -17,16 +17,16 @@ url: /java/aspose-imaging-for-java-19-7-release-notes/
 |IMAGINGJAVA-1315|Converting Jpeg to Tiff results in improper green overlay|Enhancement|
 |IMAGINGJAVA-1313|File from font folder is locked|Enhancement|
 |IMAGINGJAVA-1330|Aspose.Imaging issue with resize SVG image|Enhancement|
-##### **Psd off notice:**
-##### **Please switch to Aspose.PSD for PSD loading functionality. The functionality will be removed in the nearest releases of Aspose.Imaging**
-# **Public API changes:**
-## **Added APIs:**
+**Psd off notice:**
+**Please switch to Aspose.PSD for PSD loading functionality. The functionality will be removed in the nearest releases of Aspose.Imaging**
+## **Public API changes:**
+### **Added APIs:**
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 19.7](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-19-7-release-notes/) version
-## **Removed APIs:**
+### **Removed APIs:**
 No Change
 
 
-# **Usage Examples:**
+## **Usage Examples:**
 [Edit](https://wiki.kharkov.dynabic.com/bin/edit/Support.Imaging/Release%20Notes/Aspose.Imaging/Aspose.Imaging%20for%20Java%20Release%20Notes/Aspose.Imaging%20for%20Java%2019.7%20-%20July%202019/Aspose.Imaging%20for%20Java%2018.9%20-%20Release%20notes/WebHome?section=3)
 
 **IMAGINGJAVA-1311 - Saving PSD into PDF does not provide selectable text**

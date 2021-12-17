@@ -5,7 +5,7 @@ weight: 20
 url: /java/migrating-from-earlier-versions-of-aspose-imaging/
 ---
 
-###### **This section includes the following topics: :** 
+**This section includes the following topics: :** 
 - [Public API Changes in Aspose.Imaging 17.12](/imaging/java/public-api-changes-in-aspose-imaging-17-12/)
 - [Public API Changes in Aspose.Imaging 17.11](/imaging/java/public-api-changes-in-aspose-imaging-17-11/)
 - [Public API Changes in Aspose.Imaging 17.9](/imaging/java/public-api-changes-in-aspose-imaging-17-9/)
