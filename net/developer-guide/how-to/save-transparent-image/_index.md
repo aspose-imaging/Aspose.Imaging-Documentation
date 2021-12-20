@@ -12,6 +12,18 @@ title: Save transparent image
 
 **Tips** : It is necessary to use ColorMode TrueColorWithAlpha to save png with transparency.
 
-**Example :**
+**Example of conversion transparent png to transparent png**
 
 {{< gist "aspose-com-gists" "36c4ea3618e1a05a473bb513030fac6e" "save-transparent-image.cs" >}}
+
+**Example of conversion transparent tiff to transparent png**
+
+{{< gist "aspose-com-gists" "36c4ea3618e1a05a473bb513030fac6e" "save-transparent-tiff-image.cs" >}}
+
+**Example of conversion transparent gif to transparent png**
+
+{{< gist "aspose-com-gists" "36c4ea3618e1a05a473bb513030fac6e" "save-transparent-gif-image.cs" >}}
+
+**Example of conversion transparent webp to transparent png**
+
+{{< gist "aspose-com-gists" "36c4ea3618e1a05a473bb513030fac6e" "save-transparent-webp-image.cs" >}}
