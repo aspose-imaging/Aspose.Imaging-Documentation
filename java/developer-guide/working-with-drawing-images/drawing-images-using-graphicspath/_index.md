@@ -2,7 +2,7 @@
 title: Drawing Images using GraphicsPath
 type: docs
 weight: 30
-url: /net/drawing-images-using-graphicspath/
+url: /java/drawing-images-using-graphicspath/
 ---
 
 ## **Drawing Images using GraphicsPath**
