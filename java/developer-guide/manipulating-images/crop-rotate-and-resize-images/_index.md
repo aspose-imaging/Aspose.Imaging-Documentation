@@ -121,10 +121,11 @@ Using Aspose.Imaging you can easizy resize webp image. Below we provide example 
 ## **Resizing vector Images**
 This article demonstrates the usage of Aspose.Imaging for Java to perform **Resize** operation on vector image. As example **svg image resize** provided.
 
+
 ### **Resizing Svg Image**
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-SvgNativeResize.java" >}}
 
-### **Resize Image Proportionally**
+## **Resize Image Proportionally**
 Aspose.Imaging for Java has exposed the [resizeWidthProportionally](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#resizeWidthProportionally-int-) and [resizeHeightProportionally](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#resizeHeightProportionally-int-) methods for the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class that can be used to re-size existing images on the fly while keeping the aspect ratio.
 
 ### **Simple Resizing**
