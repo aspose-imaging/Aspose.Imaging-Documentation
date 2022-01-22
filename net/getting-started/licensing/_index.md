@@ -30,42 +30,13 @@ If you want to avoid working with evaluation limitations, you need to set a lice
 ### **Applying a license from a file**
 The easiest way to apply a license is to put the license file in the same folder as the Aspose.Imaging.dll. Then you can specify the file name in the code instead of a full path.
 
-
-
-{{< highlight java >}}
-
- // Instantiate an instance of license and apply the license using a full path
-
-Aspose.Imaging.License license = new Aspose.Imaging.License();
-
-license.SetLicense("Aspose.Imaging.lic");
-
-
-
-{{< /highlight >}}
-
-
+{{< gist "aspose-com-gists" "0881be76ce67d68226308289da9b657c" "apply-license-from-file.cs" >}}
 
 When you call the SetLicense method, the license name should be same as that of your license file name. For example, if you change the license file name to "Aspose.Imaging.lic.xml" you should use this license name for the SetLicense method.
 ### **Applying a license using a stream**
 It is also possible to load a license from a stream as demonstrated below.
 
-
-
-{{< highlight java >}}
-
-
-
-// Instantiate an instance of license and apply the license using a stream
-
-Aspose.Imaging.License license = new Aspose.Imaging.License();
-
-license.SetLicense(myStream);
-
-
-
-{{< /highlight >}}
-
+{{< gist "aspose-com-gists" "0881be76ce67d68226308289da9b657c" "apply-license-from-stream.cs" >}}
 
 ### **Using an Embedded Resource**
 A practical way of packaging the license with your application and making sure it is not lost, is to include it as an embedded resource into one of the assemblies that calls Aspose.Imaging. To include the license file as an embedded resource:
@@ -77,21 +48,7 @@ A practical way of packaging the license with your application and making sure i
 
 It's not necessary to call the System.Reflection.Assembly's GetExecutingAssembly or GetManifestResourceStream methods in the Microsoft .NET Framework to access an embedded license. Instead, embed the file as a resource in the project and then pass the license file name to the SetLicense method. The License class automatically finds the license file in the embedded resources. The example below shows how to include the license as an embedded resource and apply it to you application.
 
-
-
-{{< highlight java >}}
-
- // Instantiate the License class
-
-Aspose.Imaging.License license = new Aspose.Imaging.License();
-
-
-
-// Pass the name of the embedded license file
-
-license.SetLicense("Aspose.Imaging.lic");
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0881be76ce67d68226308289da9b657c" "apply-license-as-resource.cs" >}}
 
 
 

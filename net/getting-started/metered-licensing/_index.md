@@ -20,3 +20,5 @@ Here are the simple steps to use the Metered class.
 1. It will return the amount/quantity of API requests that you have consumed so far.
 
 Following is the sample code demonstrating how to set metered public and private key.
+
+{{< gist "aspose-com-gists" "0881be76ce67d68226308289da9b657c" "apply-metered-license.cs" >}}
