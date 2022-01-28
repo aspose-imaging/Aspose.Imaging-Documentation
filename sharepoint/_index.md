@@ -17,7 +17,6 @@ Aspose.Imaging for SharePoint is a solution that allows the users to convert ima
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for SharePoint Online Documentation](/imaging/sharepoint/home/)
 - [Aspose.Imaging for SharePoint Features](/imaging/sharepoint/features/)
 - [Aspose.Imaging for SharePoint Release Notes](/imaging/sharepoint/release-notes/)
 - [Aspose.Imaging for SharePoint Product Page](https://products.aspose.com/imaging/sharepoint/)
