@@ -7,7 +7,7 @@ title: Aspose.Imaging for .NET 22.2 - Release notes
 
 ## Competitive features:
 
-- **Support pixel perfect text alignment **
+- **Support pixel perfect text alignment**
 - **Speed up resize method in Aspose.Imaging**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
