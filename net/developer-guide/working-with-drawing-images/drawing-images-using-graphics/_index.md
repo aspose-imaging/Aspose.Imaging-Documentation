@@ -58,6 +58,11 @@ Aspose.Imaging Graphics supports method to measure string. Here the sample code 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawingUsingGraphics-DrawingUsingGraphics.cs" >}}
 
 All classes that implement IDisposable and access unmanaged resources are instantiated in a Using statement to ensure that they are disposed of correctly.
+
+### **Drawing Text on images using Graphics**
+Using Aspose.Imaging you can easily draw text on image with text alignment using Graphics.
+{{< gist "aspose-com-gists" "34906966ea6a4a690c27e3ae30802928" "draw-text-using-graphics.cs" >}}
+
 ## **Memory Strategy optimization**
 Graphics operations can be proceeded using memory strategy optimization - ie limiting memory buffer size for operation.
 
