@@ -91,7 +91,7 @@ rasterImage.save(outputImage);
 {{< /highlight >}}
 
 Please check the detailed article on [Cropping Images](/pages/createpage.action?spaceKey=imagingjava&title=Cropping+Images&linkCreation=true&fromPageId=15303045).
-### **Raw Data Control Properties Added to RasterImage**
+## **Raw Data Control Properties Added to RasterImage**
 We have added several properties to RasterImage class in order to assist with the [Raw Data Processing](/imaging/java/raw-data-processing/). Details of these properties are as follow,
 
 1. Field com.aspose.imaging.RasterImage.isRawDataAvailable determines if raw data processing can be performed. If this property returns false you should not use any of the further properties or raw data methods otherwise you are not guaranteed to get the correct results.
@@ -132,15 +132,15 @@ if (image.isRawDataAvailable())
 }
 
 {{< /highlight >}}
-### **Interface IPartialRawDataLoader added**
+## **Interface IPartialRawDataLoader added**
 Interface com.aspose.imaging.IPartialRawDataLoader has been added to assist with the raw data processing. It allows loading of raw data by blocks similar to IPartialPixelLoader interface allowing loading of pixel data by blocks.
-### **Interface IIndexedColorConverter added**
+## **Interface IIndexedColorConverter added**
 Interface com.aspose.imaging.IIndexedColorConverter has been added to assist with the raw data processing for Index Color Conversion.
-### **Interface IColorConverter added**
+## **Interface IColorConverter added**
 Interface com.aspose.imaging.IColorConverter has been added with to assist with raw data processing for RGB Color Conversion.
-### **Interface IRasterImageRawDataLoader Added**
+## **Interface IRasterImageRawDataLoader Added**
 Interface com.aspose.imaging.IRasterImageRawDataLoader has been added to assist with raw data processing. It allows loading of raw data by using the LoadRawData method and returns the RawDataSettings property value.
-### **Interface IRasterImagePixelLoader Added**
+## **Interface IRasterImagePixelLoader Added**
 Interface com.aspose.imaging.IRasterImagePixelLoader added that identifies if an object is capable of partial pixel loading.
 ## **Enhancements to the JPEG Image Format**
 ### **Added Support for JFIF Data Segment**
@@ -352,7 +352,7 @@ Cad2DVertex сad2DVertex = (Cad2DVertex) cadImage.getEntities()[0];
 Cad3DVertex сad3DVertex = (Cad3DVertex) cadImage.getEntities()[1];
 
 {{< /highlight >}}
-### **Class CadAlignedDimension Added**
+## **Class CadAlignedDimension Added**
 The CadAlignedDimension class has been added to the com.aspose.imaging.fileFormats.cad.CadObjects package.
 
 **Java**

@@ -34,35 +34,13 @@ If you want to avoid working with evaluation limitations, you need to set a lice
 ### **Applying a license from a file**
 The easiest way to apply a license is to put the license file in the same folder as the aspose-imaging-XX.X-jdk16.jar or used work directory. Then you can specify the file name in the code instead of a full path.
 
-**Java**
-
-{{< highlight java >}}
-
- // Instantiate an instance of license and apply the license using a full path
-
-com.aspose.imaging.License license = new com.aspose.imaging.License();
-
-license.setLicense("Aspose.Imaging.Java.lic");
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "9656a0a7eedb4b07ab8a2922e161f63d" "apply-license-from-file.java" >}}
 
 When you call the setLicense method, the license name should be same as that of your license file name. For example, if you change the license file name to "Aspose.Imaging.lic.xml" you should use this license name for the setLicense method.
 ### **Applying a license using a stream**
 It is also possible to load a license from a stream as demonstrated below.
 
-
-
-**Java**
-
-{{< highlight java >}}
-
- // Instantiate an instance of license and apply the license using a stream
-
-com.aspose.imaging.License license = new com.aspose.imaging.License();
-
-license.setLicense(new java.io.FileInputStream("Aspose.Imaging.Java.lic"));
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "9656a0a7eedb4b07ab8a2922e161f63d" "apply-license-from-stream.java" >}}
 
 Where to Apply a License in your Application
 

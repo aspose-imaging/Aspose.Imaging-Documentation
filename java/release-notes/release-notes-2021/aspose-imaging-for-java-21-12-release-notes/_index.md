@@ -34,7 +34,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 21.
 
 **IMAGINGJAVA-8000 "Unable to cast object of type 'Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogPalette' to type 'Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFont'." exception when rendering WMF to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFile = "Rechnung_7737083439 - 27.07.2021.wmf";
 String outputFile = inputFile + ".png";
@@ -48,7 +48,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-7999 File extension aware Image Save**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.FileFormat;
 import com.aspose.imaging.Image;
@@ -73,7 +73,7 @@ new File(outputFile).delete();
 
 **IMAGINGJAVA-7998 Bounding Box of GraphicsPath throws exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 1. Bounding box
 
@@ -151,7 +151,7 @@ try (TiffImage image = (TiffImage)Image.load(inputFileName))
 
 **IMAGINGJAVA-7997 Support MTA for APNG, FODG, DICOM, Html5 Canvas, Eps formats**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 1) AsyncSave (only support save formats)
 
@@ -320,7 +320,7 @@ private void areEqual(ByteArrayOutputStream stream1, ByteArrayOutputStream strea
 
 **IMAGINGJAVA-7988 Cloud eps tests are failed on Imaging v21.11 beta**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.PngOptions;
@@ -340,7 +340,7 @@ new File(destFilePath).delete();
 
 **IMAGINGJAVA-7987 Export SVG with embedded WebP image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (SvgImage image = (SvgImage)Image.load("input.svg"))
 {
@@ -351,7 +351,7 @@ try (SvgImage image = (SvgImage)Image.load("input.svg"))
 
 **IMAGINGJAVA-7985 "Image loading failed." exception when open document**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("IMG-0001-00001.dcm"))
 {
@@ -362,7 +362,7 @@ try (Image image = Image.load("IMG-0001-00001.dcm"))
 
 **IMAGINGJAVA-7984 "Image loading failed." exception when open TGA document**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("slow_cape.tga"))
 {

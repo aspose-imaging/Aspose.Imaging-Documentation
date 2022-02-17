@@ -41,11 +41,14 @@ Aspose.Imaging Graphics supports method to measure string. Here the sample code 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-graphics-measure-string.java" >}}
 
 ### **Drawing Images using Graphics : Complete Source**
-All classes that implements AutoClosable should be instantiated in a try-with-resources statement to ensure that they will be disposed correctly.
+All classes that implement Closeable interface and access unmanaged resources are instantiated in the try-with-resources or try-finally statements to ensure that they are disposed of correctly.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-images-DrawingusingGraphics-DrawingusingGraphics.java" >}}
 
-All classes that implement Closeable interface and access unmanaged resources are instantiated in the try-with-resources or try-finally statements to ensure that they are disposed of correctly.
+### **Drawing Text on images using Graphics**
+Using Aspose.Imaging you can easily draw text on image with text alignment using Graphics.
+
+{{< gist "aspose-com-gists" "c8d164b9aaf58702d431710fe0181ced" "draw-text-using-graphics.java" >}}
 
 ## **Memory Strategy optimization**
 Graphics operations can be proceeded using memory strategy optimization - i.e. limiting memory buffer size for operation.

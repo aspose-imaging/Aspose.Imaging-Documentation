@@ -37,7 +37,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8037 Display the correct exception instead of: "Object reference not set to an instance of an object." exception.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "áóêëåò.cmx";
 String baseFolder = "D:\\";
@@ -52,7 +52,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-8028 Speed up resize method in Aspose.Imaging**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 class Stopwatch
 {
@@ -79,7 +79,7 @@ class Stopwatch
 
 **IMAGINGJAVA-8025 Improve YCbCr to RGb subsampling test coverage for Jpeg2000**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String[] files = new String[]
 {
@@ -101,7 +101,7 @@ for (String file : files)
 
 **IMAGINGJAVA-8023 Fix bug in EMF with CacheData**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (EmfImage image = (EmfImage)Image.load("D:\\data.emf"))
 {
@@ -113,7 +113,7 @@ try (EmfImage image = (EmfImage)Image.load("D:\\data.emf"))
 
 **IMAGINGJAVA-8022 Can't load CDR Image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "admission formr Daniyal_2.cdr";
@@ -128,7 +128,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-8021 Support pixel perfect text alignment**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\test\\";
 String[] alignments = new String[] {"Left", "Center", "Right"};
@@ -235,7 +235,7 @@ private void drawString(String baseFolder, String align)
 
 **IMAGINGJAVA-8019 "Specified color model 'Invalid' is not supported." exception when open CMX file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "DRAW0003.CMX";
 String baseFolder = "D:\\";
@@ -250,7 +250,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-8016 Optimize Gif to WebP export**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "test.gif";
 String basePath = "D:\\";
@@ -265,7 +265,7 @@ try (Image image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-8015 Can't convert WMZ to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "image001.wmz";
@@ -280,7 +280,7 @@ try (CdrImage image = (CdrImage)Image.load(inputFilePath))
 
 **IMAGINGJAVA-7888 Occasionally an exception occurs when running Image.save in multiple threads**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 using Aspose.Imaging.ImageOptions;
 using Aspose.Imaging;

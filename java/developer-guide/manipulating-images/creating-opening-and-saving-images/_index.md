@@ -64,12 +64,17 @@ The Image class represents an image object, so this class provides all the tools
 Another overloaded version of the Save method accepts the Stream object as an argument and saves the image file to the stream.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-files-SavingtoStream-SavingtoStream.java" >}}
+
+If the image is created by specifying any of the ImageOptionsBase in the [Image.create](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.ImageOptionsBase-int-int-) method, the image is automatically saved to the path or stream supplied during the initialization of the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class by calling the **save** method that doesn't accept any parameter.
+
+### **Save image file extension aware**
+Using Aspose.Imaging file extension maps to appropriative image options if you did not specified them.
+{{< gist "aspose-com-gists" "39471f525d4b5ea8567ac5bb7bbc8457" "save-image-file-extension-aware.java" >}}
+
 ### **Setting for Replacing Missing Fonts**
 Developers can use Aspose.Imaging for Java API to load existing image files for different purposes, than with that developers will be able to set default font name when saving PSD documents as raster image (into PNG, JPG and BMP formats). This default font should be used as a replacement for all missing fonts (fonts that are not found in current Operating System). Once the image is modified, the file will be saved to disk.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SupportForReplacingMissingFonts-SupportForReplacingMissingFonts.java" >}}
+
 ## **Image load/save indication progress**
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "ProgressCallback.java" >}}
-
-
-

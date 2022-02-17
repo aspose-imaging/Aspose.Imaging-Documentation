@@ -21,4 +21,4 @@ Here are the simple steps to use the Metered class.
 
 Following is the sample code demonstrating how to set metered public and private key.
 
-{{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-files-MeteredLicensing-MeteredLicensing.java" >}}
+{{< gist "aspose-com-gists" "9656a0a7eedb4b07ab8a2922e161f63d" "apply-metered-license.java" >}}
