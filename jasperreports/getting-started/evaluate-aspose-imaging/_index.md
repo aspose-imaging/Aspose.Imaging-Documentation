@@ -13,7 +13,7 @@ You can easily download Aspose.Imaging for JasperReports for evaluation from the
 
 Evaluation version of Aspose.Imaging for JasperReports (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects the evaluation watermark on output files.
 
-![todo:image_alt_text](AreaChartReport.jpg)
+{{% image img="AreaChartReport.jpg" alt="todo:image_alt_text" %}}
 
 **Figure:** Evaluation Warning
 

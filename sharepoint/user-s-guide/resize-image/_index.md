@@ -23,6 +23,6 @@ To resize an image:
 1. Select an image format from the **Target Format** field.
 1. To resize, enter the width, height and resize algorithm. 
 
-![todo:image_alt_text](resize-image_1.png)
+{{% image img="resize-image_1.png" alt="todo:image_alt_text" %}}
 
 1. Click **OK** to convert, resize and save the new file.

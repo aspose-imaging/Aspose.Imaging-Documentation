@@ -80,7 +80,8 @@ The addon is provided in the form of a solution. You can download the latest sol
 - **LicenseWebResourceName**: 
   - Webresource Name where the License Xml is Stored. (Default=Aspose_License.lic, included in the solution) 
 
-![todo:image_alt_text](/download/thumbnails/14700546/2124258575)
+{{% image imag="/download/thumbnails/14700546/2124258575" %}}
+
 ### **Using Aspose .NET ImageAttach**
 - Select Entity where you want to place Aspose .NET ImageAttach and Go to Customize Form.
 - Click Insert => Webresources. 

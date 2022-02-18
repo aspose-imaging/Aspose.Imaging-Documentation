@@ -40,8 +40,6 @@ options.setCompression(BitmapCompression.Dxt1);
 #### **How to decompress image**
 The following code shows how to decompress previously compressed 
 
-![todo:image_alt_text](https://wiki.kharkov.dynabic.com/bin/download/Support.Imaging/Release%20Notes/Aspose.Imaging/Aspose.Imaging%20for%20Java%20Release%20Notes/Aspose.Imaging%20for%20Java%2020.6%20-%20June%202020/Aspose.Imaging%20for%20Java%2018.9%20-%20Release%20notes/WebHome/filename)
-
 try (Image image = Image.load("CompressedTiger.bmp"))
 {
 `    `image.save("DecompressedTiger.bmp", new BmpOptions());

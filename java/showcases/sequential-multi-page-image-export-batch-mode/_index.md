@@ -19,13 +19,13 @@ The described scenario allows you to get rid of excessive use of application mem
 ## **Normal export mode**
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-tiff-rotate.java" >}}
 
-![todo:image_alt_text](sequential-multi-page-image-export-batch-mode_1.png)
+{{% image img="sequential-multi-page-image-export-batch-mode_1.png" alt="todo:image_alt_text" %}}
 
 Fig. 1 - Graph of memory consumption in standard export mode.
 ## **Sequential export mode**
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Tiff-batch-mode-example.java" >}}
 
-![todo:image_alt_text](sequential-multi-page-image-export-batch-mode_2.png)
+{{% image img="sequential-multi-page-image-export-batch-mode_2.png" alt="todo:image_alt_text" %}}
 
 Fig. 2 - Graph of memory consumption in sequential export mode.
 

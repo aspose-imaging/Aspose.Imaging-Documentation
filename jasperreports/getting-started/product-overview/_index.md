@@ -7,7 +7,7 @@ url: /jasperreports/product-overview/
 
 {{% alert color="primary" %}}
 
-![todo:image_alt_text](logo128.png)
+{{% image img="logo128.png" alt="todo:image_alt_text" %}}
 
 ### **Welcome to the Aspose.Imaging for JasperReports Documentation!**
 

@@ -5,7 +5,7 @@ weight: 10
 url: /net/product-overview/
 ---
 
-![todo:image_alt_text](product-overview_1.png)
+{{% image img="product-overview_1.png" alt="todo:image_alt_text" %}}
 
 **Welcome to Aspose.Imaging for .NET**
 

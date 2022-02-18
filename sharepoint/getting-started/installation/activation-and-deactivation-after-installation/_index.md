@@ -13,4 +13,4 @@ During installation, Aspose.Imaging for SharePoint is activated for all selected
 
 Aspose.Imaging for SharePoint on a site collection
 
-![todo:image_alt_text](activation-and-deactivation-after-installation_1.png)
+{{% image img="activation-and-deactivation-after-installation_1.png" alt="todo:image_alt_text" %}}

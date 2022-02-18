@@ -31,7 +31,7 @@ If a subset of an image bounding rectangle is required, then take into account t
 
 In this case, you should receive the following data layout:
 
-![todo:image_alt_text](raw-data-processing_1.png)
+{{% image img="raw-data-processing_1.png" alt="todo:image_alt_text" %}}
 
 This means that you receive 2 bytes where the first byte contains 7 undesired pixels, then 1 desired pixel, and the second byte contains 1 desired pixel and then 7 undesired ones.
 
@@ -64,7 +64,7 @@ When palette conversion is used, the source color space tries to match the targe
 
 The source image looks like the following:
 
-![todo:image_alt_text](raw-data-processing_2.png)
+{{% image img="raw-data-processing_2.png" alt="todo:image_alt_text" %}}
 
 And we convert the 4 bit image to the 1 bit image with the following palette colors defined:
 
@@ -79,7 +79,7 @@ This converts the source colors to the closest target colors in terms of intensi
 
 You can see the following result:
 
-![todo:image_alt_text](raw-data-processing_3.png)
+{{% image img="raw-data-processing_3.png" alt="todo:image_alt_text" %}}
 
 
 
@@ -94,7 +94,7 @@ The value is 0 by default and will be mapped to the first color in the destinati
 
 This leads to less predictable results which can be shown on the following image:
 
-![todo:image_alt_text](raw-data-processing_4.png)
+{{% image img="raw-data-processing_4.png" alt="todo:image_alt_text" %}}
 
 The palette conversion mode is a more correct solution for the color mapping issue but it also takes a little more time to complete since calculations need to be performed to estimate the correct palettes mapping. (Typically there is a very small performance difference between the two methods.) On the other hand, raw mapping mode performs a little faster and may be used for more rough color conversion when exact color mapping is not so important. For example, there are cases when the source color palette is trimmed and may be safely converted to lesser bit counts since the extra bits have not been used anyway.
 

@@ -44,7 +44,7 @@ After you have installed the Aspose Image Resizer it is really simple to start u
 1. Add required width and height in corresponding fields below for example 800 and 600
 1. Click save
 
-![todo:image_alt_text](umbraco-image-resizer_1.png)
+{{% image img="umbraco-image-resizer_1.png" %}}
 
 
 **Add new property in Image Media Type**

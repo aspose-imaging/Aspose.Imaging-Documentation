@@ -33,9 +33,9 @@ Highest parameter value denotes to a brighter image.
 
 Here is the original image and the resultant image for comparison.
 
-![todo:image_alt_text](modifying-images_1.jpg)
+{{% image img="modifying-images_1.jpg" alt="todo:image_alt_text" %}}
 
-![todo:image_alt_text](modifying-images_2.jpg)
+{{% image img="modifying-images_2.jpg" alt="todo:image_alt_text" %}}
 ### **Adjusting Contrast**
 The adjustContrast method exposed by the RasterImage class can be used to adjust the **Contrast** of an image by passing a float value as parameter.
 
@@ -49,9 +49,9 @@ Highest parameter value denotes to a higher contrast in the given image.
 
 Here is the original image and the resultant image for comparison.
 
-![todo:image_alt_text](modifying-images_1.jpg)
+{{% image img="modifying-images_1.jpg" alt="todo:image_alt_text" %}}
 
-![todo:image_alt_text](modifying-images_4.jpg)
+{{% image img="modifying-images_4.jpg" alt="todo:image_alt_text" %}}
 ### **Adjusting Gamma**
 The adjustGamma method exposed by the RasterImage class has two versions. One of the overloads accept one float value and performs the **Gamma** correction for red, blue & green channel coefficients. Whereas the other overload accepts three float parameters representing each color coefficient separately.
 
@@ -60,9 +60,9 @@ The adjustGamma method exposed by the RasterImage class has two versions. One of
 
 Here is the original image and the resultant image for comparison.
 
-![todo:image_alt_text](modifying-images_1.jpg)
+{{% image img="modifying-images_1.jpg" alt="todo:image_alt_text" %}}
 
-![todo:image_alt_text](modifying-images_6.jpg)
+{{% image img="modifying-images_6.jpg" alt="todo:image_alt_text" %}}
 ## **Blur an Image**
 This article demonstrates the usage of Aspose.Imaging for Java to perform Blur effect on an image. Aspose.Imaging API have exposed efficient & easy to use methods to achieve this goal.
 

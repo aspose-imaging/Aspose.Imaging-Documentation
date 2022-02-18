@@ -28,11 +28,11 @@ All Aspose components run in evaluation mode until you apply a license. The eval
 #### **Create a Project**
 Start Visual Studio 2010 and create a new Silverlight Application with .NET Framework 3.5. In this demonstration, the application is coded in C#. It could also be coded in Visual Basic. When you have clicked **OK** to the window as shown below, Visual Studio prompts you to create a web site to host your Silverlight application. You can choose not to create this web site; instead a test page will be generated to host the Silverlight application on run time. See the snapshot below,
 
-![todo:image_alt_text](integrate-aspose-imaging-for-net-with-a-silverlight-application_1.png)
+{{% image img="integrate-aspose-imaging-for-net-with-a-silverlight-application_1.png" alt="todo:image_alt_text" %}}
 #### **Add References to Aspose.Imaging to the Silverlight 3 Assembly**
 The demo application uses the Aspose.Imaging API as the core library for perform image manipulation. For the API to be picked up you have to add a reference to the Aspose.Imaging assembly to your project.
 
-![todo:image_alt_text](integrate-aspose-imaging-for-net-with-a-silverlight-application_2.png)
+{{% image img="integrate-aspose-imaging-for-net-with-a-silverlight-application_2.png" alt="todo:image_alt_text" %}}
 #### **Create an image using the Aspose.Imaging API**
 The application uses two files:
 
@@ -54,7 +54,7 @@ To apply a license, you need to add the license file to you project.
 1. Browse to the license file's location.
 1. In the **Properties** window, set the license file's **Build Action** of the license file to **Embedded Resource**. 
 
-![todo:image_alt_text](integrate-aspose-imaging-for-net-with-a-silverlight-application_3.png)
+{{% image img="integrate-aspose-imaging-for-net-with-a-silverlight-application_3.png" alt="todo:image_alt_text" %}}
 
 The license file has been added to the project as an embedded resource. You now need to access and apply it in the Silverlight application. The best place to apply an Aspose license in a Silverlight application is the **Application_Startup** event in the App.xaml.cs file. The following code snippet shows you how to apply a license as an embedded resource.
 
