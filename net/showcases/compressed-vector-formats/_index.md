@@ -62,7 +62,6 @@ As you can see the size of the source file is **55.2** kb. **Convert WMF to WMZ
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Wmf-to-Wmz-example.cs" >}}
 
 
-
 {{% image img="compressed-vector-formats_7.png" alt="todo:image_alt_text" %}}
 
 

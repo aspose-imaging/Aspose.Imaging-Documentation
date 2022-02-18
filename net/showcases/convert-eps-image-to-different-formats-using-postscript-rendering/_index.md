@@ -21,7 +21,7 @@ The preview image has a fixed resolution,  which is usually 72 dpi. If you enlar
 
 In the **Data** folder you can see **Sample.eps** image. We will use it to convert to different formats.
 
-{{% image img="EpsSampleImage.png" %}}
+{{% image img="EpsSampleImage.png" alt="EPS sample image" %}}
 
 ### Convert EPS to PNG
 
@@ -41,7 +41,7 @@ As a result you can see a PNG image rendered using a PostScript from EPS file:
 
 On the following image you can see created PDF file:
 
-{{% image img="EpsToPng.png" alt="Convert EPS to PDF" %}}
+{{% image img="EpsToPdf.png" alt="Convert EPS to PDF" %}}
 
 
 

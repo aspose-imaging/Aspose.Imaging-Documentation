@@ -17,7 +17,7 @@ Other words Photoshop makes it possible to isolate certain parts of an image, wi
 
 In Data folder you can find a ***PathPoints.txt*** file. It contains *Bezier* points for our path. In your custom project you can create such points manually or use a *Photoshop Pen tool*.
 
-{{% image img="PathPoints.png" %}}
+{{% image img="PathPoints.png" alt="Path points" %}}
 
 ### Sample Tiff image with no Paths inside
 
@@ -34,7 +34,6 @@ Please, use the following code to create a new path in our Tiff image:
 Created Path should look like similar to the following screenshot:
 
 {{% image img="CreatedPath.png" alt="Image created with Clipping Path using Aspose.Imaging library" %}}
-
 
 ## Transfer Clipping Path to Psd image during the export
 
