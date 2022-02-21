@@ -5,7 +5,7 @@ weight: 80
 url: /java/product-overview/
 ---
 
-![todo:image_alt_text](product-overview_1.png)
+{{% image img="product-overview_1.png" alt="todo:image_alt_text" %}}
 
 **Welcome to the Aspose.Imaging for Java documentation!**
 

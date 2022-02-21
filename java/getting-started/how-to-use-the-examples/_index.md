@@ -10,17 +10,17 @@ All of the Aspose.Imaging for Java examples are hosted on [Github](https://githu
 
 Extract the contents of ZIP file on your computer. You will find the **Examples** folder. All the examples are located in the **Examples** folder.
 
-![todo:image_alt_text](how-to-use-the-examples_1.jpg)
+{{% image img="how-to-use-the-examples_1.jpg" alt="todo:image_alt_text" %}}
 
 You can run/execute these examples with any IDE of you choice, however, for demonstration purposes, we are using **Eclipse**. Use the **File -> Import** option to import the example of your choice and specify the path.
 
-![todo:image_alt_text](how-to-use-the-examples_2.jpg)
+{{% image img="how-to-use-the-examples_2.jpg" alt="todo:image_alt_text" %}}
 
 Add the required jar files (Libraries) in the project.
 
 The **src/main/resources** folder contains input documents/files referred in the example.
 
-![todo:image_alt_text](how-to-use-the-examples_3.jpg)
+{{% image img="how-to-use-the-examples_3.jpg" alt="todo:image_alt_text" %}}
 
 {{% alert color="primary" %}} 
 
@@ -28,7 +28,7 @@ You can also import the examples directly from GitHub repository.
 
 {{% /alert %}} 
 
-![todo:image_alt_text](how-to-use-the-examples_4.jpg)
+{{% image img="how-to-use-the-examples_4.jpg" alt="todo:image_alt_text" %}}
 ### **Contribute**
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

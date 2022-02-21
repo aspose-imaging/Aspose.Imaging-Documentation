@@ -43,7 +43,7 @@ The setup program performs the following actions:
 1. Checks the installation prerequisites.
    Setup will not continue if any check fails. 
 
-![todo:image_alt_text](installing-aspose-imaging-for-sharepoint_1.png)
+{{% image img="installing-aspose-imaging-for-sharepoint_1.png" alt="todo:image_alt_text" %}}
 
 
 
@@ -51,7 +51,7 @@ The setup program performs the following actions:
 1. Displays the End User License Agreement.
    Accept the agreement to proceed. 
 
-![todo:image_alt_text](installing-aspose-imaging-for-sharepoint_2.png)
+{{% image img="installing-aspose-imaging-for-sharepoint_2.png" alt="todo:image_alt_text" %}}
 
 
 
@@ -59,14 +59,14 @@ The setup program performs the following actions:
 1. Displays deployment target selection dialog.
    Selects web applications and site collections to activated Aspose.Imaging on. 
 
-![todo:image_alt_text](installing-aspose-imaging-for-sharepoint_3.png)
+{{% image img="installing-aspose-imaging-for-sharepoint_3.png" alt="todo:image_alt_text" %}}
 
 
 
 
 1. Deploys the feature to the server farm. 
 
-![todo:image_alt_text](installing-aspose-imaging-for-sharepoint_4.png)
+{{% image img="installing-aspose-imaging-for-sharepoint_4.png" alt="todo:image_alt_text" %}}
 
 
 
@@ -74,4 +74,4 @@ The setup program performs the following actions:
 1. Activates the feature for the selected site collections and configures their parent web applications.
 1. Displays a list of web applications and site collections where the feature has been deployed and activated. 
 
-![todo:image_alt_text](installing-aspose-imaging-for-sharepoint_5.png)
+{{% image img="installing-aspose-imaging-for-sharepoint_5.png" alt="todo:image_alt_text" %}}

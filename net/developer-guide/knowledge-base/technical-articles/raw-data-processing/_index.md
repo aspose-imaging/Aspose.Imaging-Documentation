@@ -16,7 +16,7 @@ For RGB pixel data format there are indexed (palette-based) and RGB based raw da
 
 To achieve the best performance always use a raw data line size equal to the RasterImage.RawLineSize property value. However, sometimes you may need to add additional padding to the raw data rows, or reduce it, and when this is the case a different line size may be used. If a subset of an image bounding rectangle is required, then take into account the bit shifts which may occur for indexed RGB pixel formats. For example, let's consider an image with the dimensions 100x100 pixels and 1 bit per pixel raw data format. You want to load a raw data rectangle with the location (7,0) and (2,1) dimensions, or in the other words, you requires 2 pixels starting from x=7 and y=0. In this case, you should receive the following data layout:
 
-![todo:image_alt_text](raw-data-processing_1.png)
+{{% image img="raw-data-processing_1.png" alt="todo:image_alt_text" %}}
 
 This means that you receive 2 bytes where the first byte contains 7 undesired pixels, then 1 desired pixel, and the second byte contains 1 desired pixel and then 7 undesired ones. You may ask why we haven't performed data shift and put those 2 pixels into single byte? The answer is simple: to keep performance high. All internal processing is typically performed with all data starting from the first pixel and ending with the last available pixel. There are rare situations when a pixel subset is required. Besides, we have no idea how those pixels will be processed afterwards so shift will lower performance and make the code unnecessarily complex. Always estimate the right bit (no need to determine the right byte since the data always comes with the first byte filled) where the demanded pixels will start. To calculate the right bit a simple formula may be used: (rect.Left * bitsCount) % 8.
 ### **Indexed RGB Color Conversion**
@@ -46,7 +46,7 @@ When palette conversion is used, the source color space tries to match the targe
 
 The source image looks like the following:
 
-![todo:image_alt_text](raw-data-processing_2.png)
+{{% image img="raw-data-processing_2.png" alt="todo:image_alt_text" %}}
 
 And we convert the 4 bit image to the 1 bit image with the following palette colors defined:
 
@@ -55,14 +55,14 @@ And we convert the 4 bit image to the 1 bit image with the following palette col
 
 In palette conversion mode the converter reads the source color and determines the target index using the target palette's GetNearestColorIndex method. The RasterImage.RawFallbackIndex property value is used in case the palette's GetNearestColorIndex method gives an out of range index. This converts the source colors to the closest target colors in terms of intensity values. The target image matches the source image as close as possible. You can see the following result:
 
-![todo:image_alt_text](raw-data-processing_3.png)
+{{% image img="raw-data-processing_3.png" alt="todo:image_alt_text" %}}
 
 
 
 
 In raw data mapping mode a different scenario is used. The source and target color palettes are simply ignored and the source indexes are mapped onto destination indexes. When a value is found which cannot be mapped into target range (when lowering bits count) then the RasterImage.RawFallbackIndex property value is used. The value is 0 by default and will be mapped to the first color in the destination palette. If this property value lies outside the destination range, an appropriate exception is thrown. This leads to less predictable results which can be shown on the following image:
 
-![todo:image_alt_text](raw-data-processing_4.png)
+{{% image img="raw-data-processing_4.png" alt="todo:image_alt_text" %}}
 
 The palette conversion mode is a more correct solution for the color mapping issue but it also takes a little more time to complete since calculations need to be performed to estimate the correct palettes mapping. (Typically there is a very small performance difference between the two methods.) On the other hand, raw mapping mode performs a little faster and may be used for more rough color conversion when exact color mapping is not so important. For example, there are cases when the source color palette is trimmed and may be safely converted to lesser bit counts since the extra bits have not been used anyway.
 

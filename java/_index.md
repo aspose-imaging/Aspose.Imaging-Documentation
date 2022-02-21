@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-![Aspose.Imaging for Java Product Logo](home_1.png)
+{{% image img="home_1.png" alt="Aspose.Imaging for Java Product Logo" %}}
 
 **Welcome to the Aspose.Imaging for Java documentation!**
 

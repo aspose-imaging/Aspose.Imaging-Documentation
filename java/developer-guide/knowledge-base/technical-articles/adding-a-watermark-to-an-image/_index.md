@@ -22,7 +22,7 @@ Below is a code example that demonstrates how to add a watermark to an image. Th
 
 **Input image** 
 
-![todo:image_alt_text](adding-a-watermark-to-an-image_1.png)
+{{% image img="adding-a-watermark-to-an-image_1.png" alt="todo:image_alt_text" %}}
 ### **Program Samples**
 **1. Loading an Image**
 
@@ -67,7 +67,7 @@ The output of the above source code sample is as below.
 
 **Output image** 
 
-![todo:image_alt_text](adding-a-watermark-to-an-image_2.png)
+{{% image img="adding-a-watermark-to-an-image_2.png" alt="todo:image_alt_text" %}}
 ### **Complete Source**
 {{< gist "aspose-imaging" "8c9bd83e0d07145ba0c1" "Examples-src-main-java-com-aspose-imaging-examples-Articles-AddingWatermark-AddingWatermark.java" >}}
 ## **Adding a Diagonal Watermark**
@@ -87,7 +87,7 @@ Below is a code example that demonstrates how to add a diagonal watermark to an 
 
 **Image Template**
 
-![todo:image_alt_text](adding-a-watermark-to-an-image_3.jpg)
+{{% image img="adding-a-watermark-to-an-image_3.jpg" alt="todo:image_alt_text" %}}
 ### **Program Samples**
 **1. Loading an Image**
 
@@ -156,4 +156,4 @@ Finally, save the image back to the local disk.
 
 The output of the above source code sample is as below.
 ### **Output**
-![todo:image_alt_text](adding-a-watermark-to-an-image_4.jpg)
+{{% image img="adding-a-watermark-to-an-image_4.jpg" alt="todo:image_alt_text" %}}

@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-![Aspose.Imaging for .NET Product Logo](home_1.png)
+{{% image img="home_1.png" alt="Aspose.Imaging for .NET Product Logo" %}}
 
 **Welcome to Aspose.Imaging for .NET**
 

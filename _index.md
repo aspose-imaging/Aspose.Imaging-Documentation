@@ -7,7 +7,7 @@ url: /
 
 {{% alert color="primary" %}} 
 
-![Aspose.Imaging for .NET Product Logo](home_1.png)
+{{% image img="home_1.png" alt="Aspose.Imaging for .NET Product Logo" %}}
 
 **Welcome to Aspose.Imaging for .NET**
 
@@ -34,7 +34,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-![todo:image_alt_text](home_2.png)
+{{% image img="home_2.png" alt="todo:image_alt_text" %}}
 
 **Welcome to the Aspose.Imaging for Java documentation!**
 
@@ -62,7 +62,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-![todo:image_alt_text](home_3.png)
+{{% image img="home_3.png" alt="todo:image_alt_text" %}}
 
 **Welcome to the Aspose.Imaging for SharePoint**
 

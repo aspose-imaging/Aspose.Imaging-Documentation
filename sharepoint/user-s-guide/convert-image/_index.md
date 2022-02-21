@@ -18,10 +18,10 @@ Aspose.Imaging for SharePoint provides conversion feature via the contextual men
 1. Select an image file from the document library.
 1. Click **Convert Image** on the contextual menu. 
 
-![todo:image_alt_text](convert-image_1.png)
+{{% image img="convert-image_1.png" alt="todo:image_alt_text" %}}
 
 1. Select output image format from the **Target Format** field. 
 
-![todo:image_alt_text](convert-image_2.png)
+{{% image img="convert-image_2.png" alt="todo:image_alt_text" %}}
 
 1. Click **OK** to convert and save the file.

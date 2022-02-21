@@ -12,7 +12,7 @@ url: /net/supported-file-formats/
 | :- | :- | :- | :- |
 |[BMP](https://docs.fileformat.com/image/bmp/)|BMP Specification v5|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Version 89a|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DICOM](https://docs.fileformat.com/image/dicom/)|Version 3.0|{{< emoticons/tick >}}|![todo:image_alt_text](supported-file-formats_1.png)|
+|[DICOM](https://docs.fileformat.com/image/dicom/)|Version 3.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DJVU](https://docs.fileformat.com/image/djvu/)|Version 3.0|{{< emoticons/tick >}}| |
 |[DNG](https://docs.fileformat.com/image/dng/)|Version 1.0.0.0 and later|{{< emoticons/tick >}}| |
 |[EMF](https://docs.fileformat.com/image/emf/)|Revision 11.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -32,8 +32,8 @@ url: /net/supported-file-formats/
 |[CDR](https://docs.fileformat.com/image/cdr/)|Version X7, X6 (3-x5 not completely)|{{< emoticons/tick >}}| |
 |[CMX](https://docs.fileformat.com/image/cmx/)|Version 2.0, 32 bit precision (16 bit precision not completely)|{{< emoticons/tick >}}| |
 |[OTG](https://docs.fileformat.com/image/otg/)|Version 1.2|{{< emoticons/tick >}}| |
-|[PDF](https://docs.fileformat.com/pdf/)|Portable document format| |![todo:image_alt_text](supported-file-formats_1.png)|
-|[HTML5 canvas](https://docs.fileformat.com/web/html/)|Html5 canvas element| |![todo:image_alt_text](supported-file-formats_1.png)|
+|[PDF](https://docs.fileformat.com/pdf/)|Portable document format| |{{< emoticons/tick >}}|
+|[HTML5 canvas](https://docs.fileformat.com/web/html/)|Html5 canvas element| |{{< emoticons/tick >}}|
 |[EMZ](https://docs.fileformat.com/image/emz/)|Compressed emf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WMZ](https://docs.fileformat.com/image/wmz/)|Compressed wmf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TGA](https://docs.fileformat.com/image/tga/)|Truevision TGA (TARGA)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

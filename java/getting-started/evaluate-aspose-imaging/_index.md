@@ -11,7 +11,7 @@ You can easily download an evaluation version of Aspose.Imaging for Java from th
 
 The evaluation version of Aspose.Imaging (that is, the component running without a license applied) provides full Imaging functionality but it shows an evaluation watermark on the processed images and restrict the usage of core imaging features.
 
-![todo:image_alt_text](evaluate-aspose-imaging_1.jpg)
+{{% image img="evaluate-aspose-imaging_1.jpg" alt="todo:image_alt_text" %}}
 
 {{% /alert %}} 
 

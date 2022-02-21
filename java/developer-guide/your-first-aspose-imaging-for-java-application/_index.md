@@ -30,7 +30,7 @@ To work with Aspose.Imaging in your applications:
 
    **Creating a project in MyEclipse** 
 
-![todo:image_alt_text](your-first-aspose-imaging-for-java-application_1.png)
+{{% image img="your-first-aspose-imaging-for-java-application_1.png" alt="todo:image_alt_text" %}}
 #### **Add Reference of Aspose.Imaging for Java API**
 The project uses the Aspose.Imaging API as the core library for performing image operations. So, you have to reference the Aspose.Imaging JAR in the project .
 
@@ -38,20 +38,20 @@ The project uses the Aspose.Imaging API as the core library for performing image
 
    **Right-clicking the project opens a menu. The Properties option can be found at the bottom** 
 
-![todo:image_alt_text](your-first-aspose-imaging-for-java-application_2.png)
+{{% image img="your-first-aspose-imaging-for-java-application_2.png" alt="todo:image_alt_text" %}}
 
 1. Select the Java Build Path option.
 1. Click **Add External Jar**. 
 
    **The project properties dialog** 
 
-![todo:image_alt_text](your-first-aspose-imaging-for-java-application_3.png)
+{{% image img="your-first-aspose-imaging-for-java-application_3.png" alt="todo:image_alt_text" %}}
 
 1. Select the Aspose.Imaging file to add it to the project. 
 
    **Adding the Aspose.Imaging JAR to the project** 
 
-![todo:image_alt_text](your-first-aspose-imaging-for-java-application_4.png)
+{{% image img="your-first-aspose-imaging-for-java-application_4.png" alt="todo:image_alt_text" %}}
 #### **Write MyClass.Java**
 The next step is to create a new class.
 

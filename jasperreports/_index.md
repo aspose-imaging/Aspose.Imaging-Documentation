@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](aspose_imaging-for-jasperreports-128.png)**
+{{% image img="aspose_imaging-for-jasperreports-128.png" alt="todo:image_alt_text" %}}
 
 **Welcome to Aspose.Imaging for JasperReports**
 

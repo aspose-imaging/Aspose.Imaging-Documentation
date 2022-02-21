@@ -11,7 +11,7 @@ SVGZ files are typically 50 to 80 percent smaller in size than SVG.
 
 For example, take any SVG file and compress it to SVGZ:
 
-![todo:image_alt_text](compressed-vector-formats_1.png)
+{{% image img="compressed-vector-formats_1.png" alt="todo:image_alt_text" %}}
 
 As you can see the size of the source file is **369** kb
 
@@ -19,12 +19,12 @@ As you can see the size of the source file is **369** kb
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Svg-to-Svgz-example.java" >}}
 
-![todo:image_alt_text](compressed-vector-formats_2.png)
+{{% image img="compressed-vector-formats_2.png" alt="todo:image_alt_text" %}}
 
 The resulting file size is  ~**59%** of the original.
 We can open this file using any of the above applications.
 
-![todo:image_alt_text](compressed-vector-formats_3.png)
+{{% image img="compressed-vector-formats_3.png" alt="todo:image_alt_text" %}}
 
 Using the following code, it is possible to **convert the SVGZ to SVG:**
 
@@ -35,14 +35,14 @@ A file with the EMZ file extension is a  actually just GZIP compressed EMF file
 
 For example, take any EMF file and compress it to EMZ:
 
-![todo:image_alt_text](compressed-vector-formats_4.png)
+{{% image img="compressed-vector-formats_4.png" alt="todo:image_alt_text" %}}
 
 As you can see the size of the source file is **116** kb
 **Convert EMF to EMZ** using the following code:
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Emf-to-Emz-example.java" >}}
 
-![todo:image_alt_text](compressed-vector-formats_5.png)
+{{% image img="compressed-vector-formats_5.png" alt="todo:image_alt_text" %}}
 
 The resulting file size is  ~**14%** of the original.
 
@@ -57,7 +57,7 @@ A file with the WMZ file extension is a  actually just GZIP compressed WMF file
 
 For example, take any WMF file and compress it to WMZ:
 
-![todo:image_alt_text](compressed-vector-formats_6.png)
+{{% image img="compressed-vector-formats_6.png" alt="todo:image_alt_text" %}}
 
 As you can see the size of the source file is **55.2** kb. **Convert WMF to WMZ** using the following code:
 
@@ -65,14 +65,14 @@ As you can see the size of the source file is **55.2** kb. **Convert WMF to WMZ
 
 
 
-![todo:image_alt_text](compressed-vector-formats_7.png)
+{{% image img="compressed-vector-formats_7.png" alt="todo:image_alt_text" %}}
 
 
 The resulting file size is  ~**49%** of the original.
 
 Open result emz file in MS Word
 
-![todo:image_alt_text](compressed-vector-formats_8.png)
+{{% image img="compressed-vector-formats_8.png" alt="todo:image_alt_text" %}}
 
 Using the following code, it is possible to **convert the WMZ to WMF:**
 

@@ -13,6 +13,6 @@ Deskewing an image can help a lot, if you want to improve the readability of sca
 
 Below is an example of skewed scanned text and deskewed output.
 
-| ![todo:image_alt_text](deskewing-a-scanned-image_1.png) | ![todo:image_alt_text](deskewing-a-scanned-image_2.png) |
+| ![Skewed image](deskewing-a-scanned-image_1.png) | ![Deskewed image](deskewing-a-scanned-image_2.png) |
 | ------------------------------------------------------- | ------------------------------------------------------- |
 | Skewed image                                            | Deskewed image                                          |

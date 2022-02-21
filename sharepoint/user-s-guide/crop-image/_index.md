@@ -29,6 +29,6 @@ To crop an image:
 1. Select an output format from the **Target Format** field.
 1. Enter the width and height crop parameters, and select a crop algorithm. 
 
-![todo:image_alt_text](crop-image_1.png)
+{{% image img="crop-image_1.png" alt="todo:image_alt_text" %}}
 
 1. Click **OK** to convert, crop and save the new file.
