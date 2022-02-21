@@ -9,7 +9,7 @@ url: /java/image-masking/
 
 Example of masked image with changed background is presented below.
 
-| ![todo:image_alt_text](image-masking_1.jpg) | ![todo:image_alt_text](image-masking_2.png) | ![](Colored by Faith_small_fuzzy_c_means.jpg)              |
+| ![todo:image_alt_text](image-masking_1.jpg) | ![todo:image_alt_text](image-masking_2.png) | ![](<Colored by Faith_small_fuzzy_c_means.jpg>)              |
 | ------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------- |
 | Fig. 1 (a) Original image                   | (b) Manually masked image                   | (c) Automatically masked image with segmentation algorithm |
 

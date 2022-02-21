@@ -18,7 +18,7 @@ Aspose.Imaging for SharePoint provides the rotate and flip feature from the **Im
 
 |**Original image** |**Rotate 180 Flip X** |**Rotate None Flip Y** |
 | :- | :- | :- |
-|{{% image img="rotate-image_1.png" alt="todo:image_alt_text" %}}|{{% image img="rotate-image_2.png" alt="todo:image_alt_text" %}}|{{% image img="rotate-image_3.png" alt="todo:image_alt_text" %}}|
+|![Original image](rotate-image_1.png) %}}|![Rotate 180 Flip X](rotate-image_2.png) %}}|![Rotate None Flip Y](rotate-image_3.png)|
 To rotate an image:
 
 1. Select an image file in a document library.
