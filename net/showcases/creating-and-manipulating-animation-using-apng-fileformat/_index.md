@@ -45,10 +45,8 @@ Result animation:
 {{<gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02"
 "Examples-Create-APNG-animation-using-vector-Graphics.cs" \>}}
 
-
-
 Created from graphics animation:
 
-![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_6.png)
+{{% image img="creating-and-manipulating-animation-using-apng-fileformat_6.png" %}}
 
 

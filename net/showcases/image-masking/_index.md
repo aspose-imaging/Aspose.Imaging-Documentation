@@ -9,7 +9,7 @@ url: /net/image-masking/
 
 Example of masked image with changed background is presented below.
 
-| ![todo:image_alt_text](image-masking_1.jpg) | ![todo:image_alt_text](image-masking_2.png) | ![](<Colored by Faith_small_fuzzy_c_means.jpg>)              
+| {{< image img="image-masking_1.jpg" >}} | {{< image img="image-masking_2.png" >}} | {{< image img="Colored by Faith_small_fuzzy_c_means.jpg" >}} |              
 | ------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------- |
 | Fig. 1 (a) Original image                   | (b) Manually masked image                   | (c) Automatically masked image with segmentation algorithm |
 
@@ -26,7 +26,7 @@ Below we can observe masking results of original image.
 
 |*Original image*|1. *K-means image segmentation algorithm (Value metric : Color intensity)*|*2. K-means image segmentation algorithm (Value metric : Color intensity), **with indicating rectangular area for foreground***|3. *K-means image segmentation algorithm (Value metric : Color intensity * Euclidean distance)*|4. Marker-controlled Watershed algorithm|5. Graph Cut algorithm (with indicating areas by user)|
 | :- | :- | :- | :- | :- | :- |
-| ![](GoogleGorilla.jpg) |![](GoogleGorilla._foreground.png)| ![](kmri_GoogleGorilla._foreground.png)                      | ![](kme2_GoogleGorilla._foreground.png)                      |![](ws3_GoogleGorilla._foreground.png)|![](graphcut2_GoogleGorilla._foreground.png)|
+| {{< image img="GoogleGorilla.jpg" >}} | {{< image img="GoogleGorilla._foreground.png" >}} | {{< image img="kmri_GoogleGorilla._foreground.png" >}} |  {{< image img="kme2_GoogleGorilla._foreground.png" >}}  |{{< image img="ws3_GoogleGorilla._foreground.png" >}}|{{< image img="graphcut2_GoogleGorilla._foreground.png" >}}|
 ## **Manual masking**
 
 The following code snippet provided below demonstrates how to apply manual masking to a raster image.

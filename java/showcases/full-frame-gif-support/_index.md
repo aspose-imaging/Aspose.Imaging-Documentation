@@ -12,7 +12,7 @@ Aspose.Imaging supports full-framed export from gif file format to another multi
 
 The result file after saving:
 
-| ![todo:image_alt_text](full-frame-gif-support_1.gif) | ![](animation.gif.True.png)               |
+| {{< image img="full-frame-gif-support_1.gif" alt="Source animation" >}} | {{< image img="animation.gif.True.png" alt="Resulting full frame image" >}}              |
 | ---------------------------------------------------- | ----------------------------------------- |
 |                                                      | [Download result](animation.gif.True.tif) |
 
@@ -21,6 +21,6 @@ The result file after saving:
 
 The result file after saving:
 
-| ![todo:image_alt_text](full-frame-gif-support_1.gif) | ![](animation.gif.True.png)                 |
+| {{< image img="full-frame-gif-support_1.gif" alt="Source animation" >}} | {{< image img="animation.gif.True.png" alt="Resulting full frame image" >}}                 |
 | ---------------------------------------------------- | ------------------------------------------- |
 |                                                      | [Download result](transparent_orig.gif.pdf) |

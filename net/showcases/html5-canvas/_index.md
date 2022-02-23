@@ -17,7 +17,7 @@ generate all required code for you.
 
 and resulting image will be as
 
-{{% image img="html5-canvas_1.png" alt="todo:image_alt_text" %}}
+{{% image img="html5-canvas_1.png" alt="HTML5 canvas" %}}
 
 Source code for generated code can be previewed at <https://jsfiddle.net/fqgwmn87/2/>
 ## Example of convertion Cdr to HTML5 canvas

@@ -18,7 +18,7 @@ compatibility with non-animated PNG files.
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Export-APNG-to-Gif.java" >}}
 
 
-| ![Input image](creating-and-manipulating-animation-using-apng-fileformat_1.png) | ![Result image](creating-and-manipulating-animation-using-apng-fileformat_2.gif) |
+| {{< image img="creating-and-manipulating-animation-using-apng-fileformat_1.png" alt="Input image" >}} | {{< image img="creating-and-manipulating-animation-using-apng-fileformat_2.gif" alt="Result image" >}} |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Input image                                                  | Result image                                                 |
 
@@ -27,18 +27,18 @@ compatibility with non-animated PNG files.
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Save-to-Animated-APNG-from-Multi-Page-Tiff.java" >}}
 
 
-​										[Source image - img4.tif](attachments/106203944/106365366.tif)
+​[Source image - img4.tif](attachments/106203944/106365366.tif)
 
 Result animation:
 
-![todo:Apng animation example](creating-and-manipulating-animation-using-apng-fileformat_3.png)
+{{% image img="creating-and-manipulating-animation-using-apng-fileformat_3.png" alt="Apng animation example" %}}
 
 ### **3) Create APNG animation from single-page image** 
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Create-APNG-animation-from-single-image.java" >}}
 
-| ![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_4.png) | ![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_5.png) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| {{< image img="creating-and-manipulating-animation-using-apng-fileformat_4.png" alt="Source image" >}} | {{< image img="creating-and-manipulating-animation-using-apng-fileformat_5.png" alt="Resulting animation" >}} |
+:----------------------------------------------------------: | :----------------------------------------------------------: |
 |                         Source image                         |                      Created animation                       |
 
 ### **4) Create APNG animation using vector graphics** 
@@ -48,6 +48,5 @@ Result animation:
 
 Created from graphics animation:
 
-![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_6.png)
-
+{{< image img="creating-and-manipulating-animation-using-apng-fileformat_6.png" alt="Created from graphics animation" >}}
 
