@@ -17,13 +17,13 @@ Other words Photoshop makes it possible to isolate certain parts of an image, wi
 
 In Data folder you can find a ***PathPoints.txt*** file. It contains *Bezier* points for our path. In your custom project you can create such points manually or use a *Photoshop Pen tool*.
 
-![](PathPoints.png)
+{{% image img="PathPoints.png" alt="Image with Path points" %}}
 
 ### Sample Tiff image with no Paths inside
 
 As you can see on screenshot, a ***Sample.tiff*** image has no any Paths. We will create a Path in Tiff image using *Aspose.Imaging* library and data in ***PathPoints.txt*** file.
 
-![](SampleImage.png)
+{{% image img="SampleImage.png" alt="Sample tiff with no Path inside" %}}
 
 ## Create Clipping Path using Aspose.Imaging library
 
@@ -33,9 +33,7 @@ Please, use the following code to create a new path in our Tiff image:
 
 Created Path should look like similar to the following screenshot:
 
-![](CreatedPath.png)
-
-
+{{% image img="CreatedPath.png" alt="Created path" %}}
 
 ## Transfer Clipping Path to Psd image during the export
 
@@ -43,5 +41,5 @@ Its quite helpful to use Paths in Psd images. You can easily transfer the Path u
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-transfer-clipping-path-from-tiff-to-psd.java" >}}
 The Path transferred to Psd image is identical to Tiff Path:
 
-![](TransferredPath.png)
+{{% image img="TransferredPath.png" alt="Exported to tiff path" %}}
 

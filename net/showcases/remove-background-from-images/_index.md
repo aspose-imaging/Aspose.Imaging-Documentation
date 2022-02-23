@@ -22,7 +22,7 @@ The following example demonstrates usage of the Imaging.Cloud API's detected obj
 
 The figure below illustrates the result of the Graph Cut auto masking using Imaging.Cloud API:
 
-| ![Original image](remove-background_auto_1-1.jpg) | ![Auto masked image](remove-background_auto_1-2.png) |
+| {{< image img="remove-background_auto_1-1.jpg" alt="Original image" >}} | {{< image img="remove-background_auto_1-2.png" alt="Auto masked image" >}} |
 | ------------------------------------------- | ------------------------------------------- |
 | Fig. 1 (a) Original image                   | (b) Auto masked image                   |
 
@@ -34,7 +34,7 @@ The following example demonstrates saving of the image masking results with feat
 
 The figure below illustrates the result of the Graph Cut auto masking with feathering:
 
-| ![Original image](remove-background_auto_2-1.jpg) | ![Auto masked image](remove-background_auto_2-2.png) |
+| {{< image img="remove-background_auto_2-1.jpg" alt="Original image" >}} | {{< image img="remove-background_auto_2-2.png" alt="Auto masked image" >}} |
 | ------------------------------------------- | ------------------------------------------- |
 | Fig. 2 (a) Original image                   | (b) Auto masked image                 |
 
@@ -46,7 +46,7 @@ The following example demonstrates saving of the image masking results with feat
 
 The figure below illustrates the result of re-using default strokes in repeated auto masking with new points:
 
-| ![Original image](remove-background_auto_3-1.jpg) | ![Auto masked image](remove-background_auto_3-2.png) |
+| {{< image img="remove-background_auto_3-1.jpg" alt="Original image" >}} | {{< image img="remove-background_auto_3-2.png" alt="Auto masked image" >}} |
 | ------------------------------------------- | ------------------------------------------- |
 | Fig. 3 (a) Original image                   | (b) Auto masked image                   |
 
@@ -58,7 +58,7 @@ The following example demonstrates saving of the image masking results with feat
 
 The figure below illustrates the result of the Graph Cut auto masking with specified assumed object data:
 
-| ![Original image](remove-background_auto_4-1.jpg) | ![Auto masked image](remove-background_auto_4-2.png) |
+| {{< image img="remove-background_auto_4-1.jpg" alt="Original image">}} | {{< image img="remove-background_auto_4-2.png" alt="Auto masked image" >}} |
 | ------------------------------------------- | ------------------------------------------- |
 | Fig. 4 (a) Original image                   | (b) Auto masked image                   |
 
@@ -69,7 +69,7 @@ The following code snippet provided below demonstrates how to apply manual maski
 
 The figure below illustrates the result of the manual masking:
 
-| ![Original image](remove-background_manual_1-1.jpg) | ![Manually masked image](remove-background_manual_1-2.png) |
+| {{< image img="remove-background_manual_1-1.jpg" alt="Original image" >}} | {{< image img="remove-background_manual_1-2.png" alt="Manually masked image" >}} |
 | ------------------------------------------- | ------------------------------------------- |
 | Fig. 5 (a) Original image                   | (b) Manually masked image                   |
 
