@@ -25,6 +25,10 @@ title: Aspose.Imaging for JAVA 22.3 - Release notes
 ## Public API changes:
 
 ### Added APIs:
+Class com.aspose.imaging.LocaleOptions
+Method com.aspose.imaging.LocaleOptions.setLocale
+Method com.aspose.imaging.LocaleOptions.getLocale
+Method com.aspose.imaging.LocaleOptions.clear
 
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-22-3-release-notes/) version
 
@@ -36,7 +40,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8056 Implement export from Aps to Vectorized PSD**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sample.cdr"))
 {
@@ -57,7 +61,7 @@ try (Image image = Image.load("sample.cdr"))
 
 **IMAGINGJAVA-8055 Resolve unsupported options combination for tiff**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "input.tif";
@@ -72,7 +76,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8053 Type of profile ColorSpaceClass is not supported**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "Input.tiff";
@@ -87,7 +91,7 @@ try (Image image = Image.load(inputFileName, new LoadOptions()))
 
 **IMAGINGJAVA-8047 Not all pages visible in specific DCM file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (java.io.InputStream fileStream = new java.io.FileInputStream("IMG-0001-00001.dcm"))
 {
@@ -109,7 +113,7 @@ try (java.io.InputStream fileStream = new java.io.FileInputStream("IMG-0001-0000
 
 **IMAGINGJAVA-8046 Loosing transparency during the export from PNG to the BMP 32bits**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String sourcePath = "input.png"; // png image with alpha
 String outputPath = "output-bmp.bmp";
@@ -123,7 +127,7 @@ try (Image pngImage = Image.load(sourcePath))
 
 **IMAGINGJAVA-8045 Original Dicom tags should be kept on export**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("IMG-0001-00001.dcm"))
 {
@@ -139,7 +143,7 @@ try (DicomImage image = (DicomImage)Image.load("IMG-0001-00001.dcm"))
 
 **IMAGINGJAVA-8040 Exception occur when save tiff image to stream**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("48170.tiff"))
 {
@@ -150,7 +154,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("48170.tiff"
 
 **IMAGINGJAVA-7905 Add com.aspose.imaging.LocaleOptions.setLocale(java.util.Locale) method**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 com.aspose.imaging.LocaleOptions.setLocale(Locale.FRANCE);
 assert Locale.getDefault() != Locale.FRANCE;
@@ -159,7 +163,7 @@ assert Locale.getDefault() != Locale.FRANCE;
 
 **IMAGINGJAVA-7889 Some locales are not supported**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 final Locale locale = new Locale("en", "DE");
 Locale.setDefault(locale);
