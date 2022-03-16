@@ -26,9 +26,13 @@ title: Aspose.Imaging for JAVA 22.3 - Release notes
 
 ### Added APIs:
 Class com.aspose.imaging.LocaleOptions
+
 Method com.aspose.imaging.LocaleOptions.setLocale
+
 Method com.aspose.imaging.LocaleOptions.getLocale
+
 Method com.aspose.imaging.LocaleOptions.clear
+
 
 Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.3](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-22-3-release-notes/) version
 

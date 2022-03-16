@@ -239,97 +239,190 @@ string inputFilePath = @"D:\ImageFilter\median.gif";
 ### **Public API and Backward Incompatible Changes**
 ## **Added APIs:**
 Class    Aspose.Imaging.ImageFilters.FilterOptions.BigRectangularFilterOptions
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.DeconvolutionFilterOptions
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions
+
 Class    Aspose.Imaging.ImageFilters.FilterOptions.SmallRectangularFilterOptions
+
 Field/Enum    Aspose.Imaging.ImageOptions.TiffOptionsError.NotSupportedAlphaStorage
+
 Field/Enum    Aspose.Imaging.ImageOptions.TiffOptionsError.PhotometricBitsPerSampleMismatch
+
 Method    Aspose.Imaging.FileFormats.Djvu.DjvuImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Method    Aspose.Imaging.FileFormats.Gif.GifImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Method    Aspose.Imaging.FileFormats.Psd.PsdImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Method    Aspose.Imaging.FileFormats.Tiff.TiffImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Method    Aspose.Imaging.FileFormats.Webp.WebPImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Method    Aspose.Imaging.FileFormats.Webp.WebPImage.LoadDataFromStream(System.IO.Stream)
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.BigRectangularFilterOptions.#ctor
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.DeconvolutionFilterOptions.#ctor
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase.#ctor
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions.#ctor(System.Int32,System.Double)
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions.#ctor(System.Int32)
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions.#ctor(System.Int32,System.Double,System.Double)
+
 Method    Aspose.Imaging.ImageFilters.FilterOptions.SmallRectangularFilterOptions.#ctor
+
 Method    Aspose.Imaging.RasterImage.Filter(Aspose.Imaging.Rectangle,Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase)
+
 Property    Aspose.Imaging.FileFormats.Psd.PsdImage.IsFlatten
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.DeconvolutionFilterOptions.Brightness
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.DeconvolutionFilterOptions.Grayscale
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.DeconvolutionFilterOptions.Snr
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions.Radius
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions.Smooth
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions.Size
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions.Angle
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions.Length
+
 Property    Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions.Smooth
+
 Property    Aspose.Imaging.ImageOptions.TiffOptions.IsExtraSamplesPresent
+
 Property    Aspose.Imaging.ImageOptions.WebPOptions.Quality
+
 ## **Removed APIs:**
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.Enum.ColorFormat
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8.Vp8Decoder
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.AnimEncoder
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8.Vp8Encoder
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8L.Vp8LEncoder
+
 Class    Aspose.Imaging.FileFormats.Webp.Codec.Frame
+
 Class    Aspose.Imaging.FileFormats.Webp.WebPInfo
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.Enum.ColorFormat.Argb
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.Enum.ColorFormat.Yuv420
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Default
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Drawing
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Icon
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Photo
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Picture
+
 Field/Enum    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.Enum.WebPPreset.Text
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8.Vp8Decoder.#ctor(System.IO.Stream,Aspose.Imaging.FileFormats.Webp.WebPInfo)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8.Vp8Decoder.Decode(System.Int64,Aspose.Imaging.FileFormats.Webp.Codec.Frame)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8.Vp8Decoder.Dispose
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.#ctor(System.IO.Stream,Aspose.Imaging.FileFormats.Webp.WebPInfo)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.Decode
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.Decode(Aspose.Imaging.FileFormats.Webp.Codec.Frame)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.DecodeLosslessToArgb
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.DecodeLosslessToArgbBytes
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.DecodeLosslessToFrame
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.DecodeLosslessToFrame(Aspose.Imaging.FileFormats.Webp.Codec.Frame)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Decoder.VP8L.Vp8LDecoder.DecodeLossyAlpha(Aspose.Imaging.FileFormats.Webp.Codec.Frame)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.AnimEncoder.#ctor(System.IO.Stream)
-Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.AnimEncoder.Encode(Aspose.Imaging.FileFormats.Webp.Codec.Frame[],Aspose.Imaging.FileFormats.Webp.WebPInfo)
+
+Method   
+ Aspose.Imaging.FileFormats.Webp.Codec.Encoder.AnimEncoder.Encode(Aspose.Imaging.FileFormats.Webp.Codec.Frame[],Aspose.Imaging.FileFormats.Webp.WebPInfo)
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8.Vp8Encoder.#ctor(System.IO.Stream)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8.Vp8Encoder.#ctor(System.IO.Stream,System.Single)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8.Vp8Encoder.Encode(System.Int32[],System.Int32,System.Int32)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8.Vp8Encoder.Encode(System.Int32[],System.Int32,System.Int32,System.Boolean)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8L.Vp8LEncoder.#ctor(System.IO.Stream)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Encoder.VP8L.Vp8LEncoder.Encode(System.Int32[],System.Int32,System.Int32)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.#ctor
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Blending(Aspose.Imaging.FileFormats.Webp.Codec.Frame)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.FromArgbArray(System.Int32[],System.Int32,System.Int32)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.GetPointNumber(System.Int32,System.Int32)
+
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.GetPointNumber(System.Int32,System.Int32,System.Int32)
-Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Initialize(System.Int32,System.Int32,Aspose.Imaging.FileFormats.Webp.Codec.Decoder.Enum.ColorFormat)
+
+Method   
+ Aspose.Imaging.FileFormats.Webp.Codec.Frame.Initialize(System.Int32,System.Int32,Aspose.Imaging.FileFormats.Webp.Codec.Decoder.Enum.ColorFormat)
 Method    Aspose.Imaging.FileFormats.Webp.Codec.Frame.ToIntArray
+
 Method    Aspose.Imaging.FileFormats.Webp.WebPFrameBlock.#ctor(Aspose.Imaging.FileFormats.Webp.Codec.Frame[],System.Int32)
+
 Method    Aspose.Imaging.FileFormats.Webp.WebPInfo.#ctor
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Argb
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.ColorFormat
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Data
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Duration
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Height
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.IsAlphaBlending
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.IsDisposeFrame
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.LineSize
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.PositionX
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.PositionY
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.SegMap
+
 Property    Aspose.Imaging.FileFormats.Webp.Codec.Frame.Width
+
 Property    Aspose.Imaging.FileFormats.Webp.WebPInfo.IsLossless
+
 Property    Aspose.Imaging.ImageOptions.WebPOptions.Qualitty
