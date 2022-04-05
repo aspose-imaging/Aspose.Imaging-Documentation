@@ -1,8 +1,10 @@
 ---
 title: Supported File Formats
+second_title: Aspose.Imaging for .NET
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+description: C# image processing library supports file formats including BMP, GIF, DICOM, DJVU, DNG, EMF, JPEG, ODG, PNG, PSD, TIFF, PDF, EPS, SVG and others.
 ---
 
 ## **Supported File Formats**
