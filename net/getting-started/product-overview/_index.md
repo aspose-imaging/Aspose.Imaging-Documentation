@@ -1,5 +1,6 @@
 ---
 title: Product Overview
+second_title: Aspose.Imaging for .NET
 type: docs
 weight: 10
 url: /net/product-overview/
