@@ -3,6 +3,8 @@ title: Product Overview
 type: docs
 weight: 10
 url: /net/product-overview/
+keywords: C# image library, C# image processing
+description: C# image processing library supports most common raster file formats and offers a wide range of compression algorithms, image export and image conversion.
 ---
 
 {{% image img="product-overview_1.png" alt="todo:image_alt_text" %}}
