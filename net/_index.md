@@ -4,6 +4,7 @@ type: docs
 weight: 10
 url: /net/
 is_root: true
+description: C# image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor. 
 ---
 
 {{% alert color="primary" %}} 
