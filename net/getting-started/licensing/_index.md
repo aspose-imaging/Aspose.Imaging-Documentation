@@ -3,6 +3,7 @@ title: Licensing
 type: docs
 weight: 60
 url: /net/licensing/
+description: Evaluate C# Image Processing Library API and set the license using File or Stream. Applying the license removes any restrictions from the evaluation version.
 ---
 
 ## **Evaluation Version Limitations**
