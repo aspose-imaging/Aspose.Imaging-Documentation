@@ -3,6 +3,7 @@ title: How to Run the Examples
 type: docs
 weight: 80
 url: /net/how-to-run-the-examples/
+description: Use Visual Studio to run the examples of the C# Image Processing Library API that can be downloaded from GitHub.
 ---
 
 ## **Software Requirements**
