@@ -1,5 +1,5 @@
 ---
-title: Developer Guide - C# Image Processing and Manipulating Library API
+title: Developer Guide - C# Image Processing and Manipulation Library API
 linktitle: Developer Guide
 type: docs
 weight: 20
