@@ -1,8 +1,10 @@
 ---
 title: Supported File Formats
+second_title: Aspose.Imaging for Java
 type: docs
 weight: 90
 url: /java/supported-file-formats/
+description: Java image processing library supports file formats including BMP, GIF, DICOM, DJVU, DNG, EMF, JPEG, ODG, PNG, PSD, TIFF, PDF, EPS, SVG and others.
 ---
 
 ## **Supported File Formats**

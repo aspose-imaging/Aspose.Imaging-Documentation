@@ -1,8 +1,11 @@
 ---
 title: Product Overview
+second_title: Aspose.Imaging for Java
 type: docs
 weight: 80
 url: /java/product-overview/
+keywords: Java image library, Java image processing
+description: Java image processing library supports most common raster file formats and offers a wide range of compression algorithms, image export and image conversion.
 ---
 
 {{% image img="product-overview_1.png" alt="todo:image_alt_text" %}}

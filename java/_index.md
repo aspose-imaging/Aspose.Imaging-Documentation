@@ -4,6 +4,7 @@ type: docs
 weight: 20
 url: /java/
 is_root: true
+description: Java image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor. 
 ---
 
 {{% alert color="primary" %}} 

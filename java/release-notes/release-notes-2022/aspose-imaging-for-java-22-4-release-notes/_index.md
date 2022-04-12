@@ -45,7 +45,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8090 Exception when exporting TIFF to TIFF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String dir = "D:\\";
 String path = dir + "Odeme-Makbuzu.tiff";
@@ -60,7 +60,7 @@ try (Image image = Image.load(path))
 
 **IMAGINGJAVA-8089 Fix bugs with rendering in Cdr file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String inputFile = baseFolder + "SE Document PT.cdr";
@@ -73,7 +73,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-8088 Export Png to Svg not work in trial mode**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.SvgOptions;
@@ -98,7 +98,7 @@ for (String fileName : fileNames)
 
 **IMAGINGJAVA-8087 Texture brushes support for export to vectorized Psd format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.fileformats.psd.VectorDataCompositionMode;
@@ -130,7 +130,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8086 Exception when loading a DICOM image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("adsf_0.dcm"))
 {
@@ -141,7 +141,7 @@ try (DicomImage image = (DicomImage)Image.load("adsf_0.dcm"))
 
 **IMAGINGJAVA-8079 Incorrect export from GIF to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("test.gif"))
 {
@@ -152,27 +152,25 @@ try (Image image = Image.load("test.gif"))
 
 **IMAGINGJAVA-8078 Emf to png export failed**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 EmfImage metafile = (EmfImage) Image.load("1.emf");
-        try {
-            EmfRasterizationOptions rasterizationOptions = new EmfRasterizationOptions();
-            rasterizationOptions.setPageWidth(metafile.getWidth());
-            rasterizationOptions.setPageHeight(metafile.getHeight());
-            PngOptions exportOptions = new PngOptions();
-            exportOptions.setVectorRasterizationOptions(rasterizationOptions);
-            metafile.save("1.emf.png", exportOptions);
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            metafile.dispose();
-        }
+try {
+	EmfRasterizationOptions rasterizationOptions = new EmfRasterizationOptions();
+	rasterizationOptions.setPageWidth(metafile.getWidth());
+	rasterizationOptions.setPageHeight(metafile.getHeight());
+	PngOptions exportOptions = new PngOptions();
+	exportOptions.setVectorRasterizationOptions(rasterizationOptions);
+	metafile.save("1.emf.png", exportOptions);
+} finally {
+	metafile.dispose();
+}
 
 {{< /highlight >}}
 
 **IMAGINGJAVA-8077 "Image loading failed." exception when open document**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 {
@@ -183,7 +181,7 @@ try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 
 **IMAGINGJAVA-8076 Improve resampling quality (transparency handling and color intensity on borders)**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.ResizeType;
@@ -216,22 +214,22 @@ for (Integer resizeType : resizeTypes)
 
 **IMAGINGJAVA-8075 Wmf to png conversion issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
- String file = "1.wmf";
- String inputFileName = baseFolder + file;
- String outputFileName = inputFileName + ".png";
- try (Image image = Image.load(inputFileName))
- {
-     image.save(outputFileName, new PngOptions());
- }
+String file = "1.wmf";
+String inputFileName = baseFolder + file;
+String outputFileName = inputFileName + ".png";
+try (Image image = Image.load(inputFileName))
+{
+    image.save(outputFileName, new PngOptions());
+}
 
 {{< /highlight >}}
 
 **IMAGINGJAVA-8074 Dicom to Bmp export issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.imageoptions.BmpOptions;
@@ -258,7 +256,7 @@ try (Image loadedImage = Image.load("I134.dcm"))
 
 **IMAGINGJAVA-8070 Implement support storing Xmp tags in Dicom format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.fileformats.dicom.DicomImage;
@@ -313,7 +311,7 @@ try (DicomImage image = (DicomImage) Image.load("dicom-series-001.dcm"))
 
 **IMAGINGJAVA-8067 Can't load PNG file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String dir = "D:\\";
 String path = dir + "Fixed Hicolor.png";
@@ -330,7 +328,7 @@ try (Image image = Image.load(path))
 
 **IMAGINGJAVA-8063 Exception on saving GIF image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.ColorPaletteHelper;
 import com.aspose.imaging.Image;
@@ -358,7 +356,7 @@ try (Image image = Image.load(path))
 
 **IMAGINGJAVA-8058 Fix bug with SVG tspan elements aligment**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 final String baseFolder = "D:\\";
 final String fileName = "w3c_tspan02.svg";
@@ -373,7 +371,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8013 Emf to png export failed**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "1.Emf";
@@ -385,4 +383,3 @@ try (Image image = Image.load(inputFileName))
 }
 
 {{< /highlight >}}
-

@@ -3,6 +3,7 @@ title: How to Use the Examples
 type: docs
 weight: 30
 url: /java/how-to-use-the-examples/
+description: Use Maven or any Java IDE to run the examples of the C# Image Processing Library API that can be downloaded from GitHub.
 ---
 
 ### **Download from GitHub**

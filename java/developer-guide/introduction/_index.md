@@ -3,6 +3,7 @@ title: Introduction
 type: docs
 weight: 10
 url: /java/introduction/
+description: The Programmer's Guide contains information that is essential to know when using the Java Image Processing and Manipulation Library API in Java applications.
 ---
 
 The Programmer's Guide contains information that is essential to know when building Java and other applications with Aspose.Imaging for Java. This section explains key programming concepts, and has code samples and detailed explanations.

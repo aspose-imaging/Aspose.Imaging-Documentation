@@ -3,6 +3,7 @@ title: System Requirements
 type: docs
 weight: 100
 url: /java/system-requirements/
+description: You can use Java Image Processing Library API to develop applications in any development environment that targets the Java platform.
 ---
 
 ## **System Requirements**
@@ -15,5 +16,6 @@ Aspose.Imaging for Java can be virtually run in any OS where Java is installed (
 - Any OS where Java is installed.
 
 Aspose.Imaging works for both x86 and x64 versions of the above listed operating systems.
+
 ### **Additionally:**
 In Linux OS, it is recommended to install the package with Microsoft compatible fonts (e.g. *sudo apt-get install ttf-mscorefonts-installer*)

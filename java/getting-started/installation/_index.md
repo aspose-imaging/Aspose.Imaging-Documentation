@@ -3,6 +3,7 @@ title: Installation
 type: docs
 weight: 40
 url: /java/installation/
+description: Java Image Processing Library or API can be installed through Maven.
 ---
 
 ## **Installing Aspose.Imaging for Java from Maven Repository**
@@ -40,9 +41,22 @@ Then define Aspose.Imaging for Java API dependency in your pom.xml as follows:
 
         <artifactId>aspose-imaging</artifactId>
 
-        <version>19.7</version>
+        <version>22.4</version>
 
         <classifier>jdk16</classifier>
+
+   </dependency>
+
+   <!-- if you need a documentation, please add the following dependency. For example it could be useful for IDE. -->
+   <dependency>
+
+        <groupId>com.aspose</groupId>
+
+        <artifactId>aspose-imaging</artifactId>
+
+        <version>22.4</version>
+
+        <classifier>javadoc</classifier>
 
    </dependency>
 
@@ -51,5 +65,3 @@ Then define Aspose.Imaging for Java API dependency in your pom.xml as follows:
 {{< /highlight >}}
 
 After performing above steps, Aspose.Imaging for Java dependency will finally be defined in your Maven Project.
-
-

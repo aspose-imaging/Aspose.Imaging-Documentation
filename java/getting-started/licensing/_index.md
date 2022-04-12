@@ -3,6 +3,7 @@ title: Licensing
 type: docs
 weight: 60
 url: /java/licensing/
+description: Evaluate Java Image Processing Library API and set the license using File or Stream. Applying the license removes any restrictions from the evaluation version.
 ---
 
 ## **Evaluation Version Limitations**
