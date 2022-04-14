@@ -113,3 +113,10 @@ The memory optimization strategy is now supported for Dicom images.
 Here are some examples of its use:
 
 {{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Dicom-Memory-Strategy-Optimization.cs" >}}
+
+## **Add xmp tags to dicom image**
+Using Aspose.Imaging you can easily add xmp tags to dicom image.
+
+Here is example of usage:
+
+{{< gist "aspose-com-gists" "5c1ecbaf9a07481abfb732ea6c41ae0f" "add-xmp-tags-to-dicom-image.cs" >}}
