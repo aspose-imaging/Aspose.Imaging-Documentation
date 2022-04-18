@@ -2,7 +2,10 @@
 type: docs
 weight: '90'
 url: /net/developer-guide/how-to/convert-vector-image-to-vectorized-psd
-title: Convert vector image to vectorized psd image
+title: Convert Vector Image to Vectorized PSD Image in C#
+linktitle: Convert vector image to vectorized psd image
+keywords: c# vector image, c# vector psd
+description: C# Image Processing Library can be used to convert vector images to vectorized psd as shown in the C# code.
 ---
 
 **Convert vector image to vectorized psd image**
