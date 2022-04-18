@@ -1,8 +1,10 @@
 ---
-title: Remove background from images
+title: Remove background from images in C#
+linktitle: Remove background from images
 type: docs
 weight: 10
 url: /net/removing-background-from-images/
+description: Setting some of the pixel values in an image to zero, or some other “background” value is known as Masking. C# Image Processing Library supports the following types of masking.
 ---
 
 {{% alert color="primary" %}} 
