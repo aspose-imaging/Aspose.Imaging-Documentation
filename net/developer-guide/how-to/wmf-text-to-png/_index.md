@@ -3,6 +3,7 @@ type: docs
 weight: '90'
 url: /net/developer-guide/how-to/wmf-text-to-png
 title: Textual Wmf to Png conversion
+description: The text position and style can change while converting a WMF file to a PNG file, which can be managed using the C# Image Processing Library.
 ---
 
 **Support textual Wmf to Png conversion**
