@@ -2,7 +2,10 @@
 type: docs
 weight: '90'
 url: /net/developer-guide/how-to/save-transparent-image
-title: Save transparent image
+title: Set or Save Transparent Image in C#
+linktitle: Save transparent image
+keywords: transparent image in c#
+description: Using the C# Image Processing Library, code examples of how to set image transparency for PNG, TIFF, GIF, and WEBP images are provided.
 ---
 
 **Save transparent image with transparency**
