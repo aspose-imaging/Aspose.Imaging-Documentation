@@ -3,6 +3,8 @@ title: Applying Median and Wiener Filters
 type: docs
 weight: 20
 url: /net/applying-median-and-wiener-filters/
+keywords: denoise image c#
+description: The median filter is a nonlinear digital filtering technique, often used to remove noise. Using C# Image Processing Library developers can apply median filter to denoise the image and can apply gauss wiener filter on images.
 ---
 
 ## **Applying Median and Wiener Filters**
