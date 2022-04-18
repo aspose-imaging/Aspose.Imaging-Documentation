@@ -1,8 +1,10 @@
 ---
-title: Convert CDR
+title: Convert CorelDRAW CDR files to JPG, PNG, PDF and PSD in C#
+linktitle: Convert CDR
 type: docs
 weight: 20
 url: /net/convert-cdr/
+description: Convert CorelDRAW CDR files to JPG, PNG, PDF, and PSD using the C# Image Processing Library.
 ---
 
 [  Convert CDR to Psd](/imaging/net/convert-cdr-to-psd/)
