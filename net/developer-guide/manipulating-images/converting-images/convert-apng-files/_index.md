@@ -1,8 +1,10 @@
 ---
-title: Convert APNG files
+title: Convert APNG files in C#
+linktitle: Convert APNG files
 type: docs
 weight: 10
 url: /net/convert-apng-files/
+description: Create APNG image from PNG using C# Image Processing Library, export animation to GIF, save to animated WEBP, and create APNG animation using Vector graphics.
 ---
 
 # **Overview**
