@@ -1,11 +1,13 @@
 ---
-title: Convert CDR to Jpg
+title: Convert CDR to Jpg in C#
+linktitle: Convert CDR to Jpg
 type: docs
 weight: 10
 url: /net/convert-cdr-to-jpg/
+description: Using C# Image Processing Library we can convert CorelDRAW CDR image to Jpg
 ---
 
-Using Aspose.Imaging we can convert CDR image to Jpg.
+Using C# Image Processing Library - Aspose.Imaging we can convert CDR image to Jpg.
 
 The following code snippet shows you how to convert CDR to Jpg.
 
