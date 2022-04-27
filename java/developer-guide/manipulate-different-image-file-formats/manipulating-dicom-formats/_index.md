@@ -157,4 +157,9 @@ Here are some examples of its use:
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Dicom-Memory-Strategy-Optimization.java" >}}
 
 
+## **Add xmp tags to dicom image**
+Using Aspose.Imaging you can easily add xmp tags to dicom image.
 
+Here is example of usage:
+
+{{< gist "aspose-com-gists" "9976b96470633bff33542ae9f42431f9" "add-xmp-tags-to-dicom-image.java" >}}

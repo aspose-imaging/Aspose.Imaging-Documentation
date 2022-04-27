@@ -1,12 +1,14 @@
 ---
-title: Convert CDR to Psd
+title: Convert CDR to PSD in Java
+linktitle: Convert CDR to PSD
 type: docs
 weight: 30
 url: /java/convert-cdr-to-psd/
+description: Using Java Image Processing Library we can convert CorelDRAW CDR image to Photoshop PSD format.
 ---
 
 ## **Convert CDR to Psd**
-Using Aspose.Imaging we can convert single or multipage CDR file to Psd.
+Using Java Image Processing Library - Aspose.Imaging we can convert single or multipage CDR file to Photoshop PSD file format.
 
 The following code snippet shows you how to convert CDR to Psd.
 

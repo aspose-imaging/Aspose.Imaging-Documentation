@@ -1,12 +1,14 @@
 ---
-title: Convert CDR to Jpg
+title: Convert CDR to JPG in Java
+linktitle: Convert CDR to JPG
 type: docs
 weight: 10
 url: /java/convert-cdr-to-jpg/
+description: Using Java Image Processing Library we can convert CorelDRAW CDR image to JPG
 ---
 
 ## **Convert CDR to Jpg**
-Using Aspose.Imaging we can convert CDR image to Jpg.
+Using Java Image Processing Library - Aspose.Imaging we can convert CDR image to Jpg.
 
 The following code snippet shows you how to convert CDR to Jpg.
 

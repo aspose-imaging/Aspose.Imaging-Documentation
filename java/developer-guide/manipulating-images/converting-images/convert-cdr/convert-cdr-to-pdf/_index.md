@@ -1,11 +1,13 @@
 ---
-title: Convert CDR to Pdf
+title: Convert CDR to PDF in Java
+linktitle: Convert CDR to PDF
 type: docs
 weight: 30
 url: /java/convert-cdr-to-pdf/
+description: We can convert CorelDRAW CDR images to PDF using the Java Image Processing Library.
 ---
 
-Using Aspose.Imaging we can convert single or multipage CDR file to Pdf.
+Using Java Image Processing Library Aspose.Imaging, we can convert single or multipage CDR file to PDF.
 
 The following code snippet shows you how to convert CDR to Pdf.
 

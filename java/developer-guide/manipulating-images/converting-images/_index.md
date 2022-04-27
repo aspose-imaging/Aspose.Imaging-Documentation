@@ -1,8 +1,10 @@
 ---
-title: Converting Images
+title: Convert Images using Java Image Processing Library
+linktitle: Converting Images
 type: docs
 weight: 30
 url: /java/converting-images/
+description: Using Java Image Processing Library API, convert images to black and white, grayscale, raster images to PDF and SVG, RGB system to CMYK, Corel Draw, WebP, EPS, CMX, DICOM, and export, expand or crop images.
 ---
 
 ## **Converting Images to Black n White and Grayscale**

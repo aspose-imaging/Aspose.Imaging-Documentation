@@ -1,8 +1,11 @@
 ---
-title: Applying Median and Wiener Filters
+title: Applying Median and Wiener Filters - Denoise Image in Java
+linktitle: Applying Median and Wiener Filters
 type: docs
 weight: 20
 url: /java/applying-median-and-wiener-filters/
+keywords: denoise image java
+description: The median filter is a nonlinear digital filtering technique, often used to remove noise. Using Java Image Processing Library developers can apply median filter to denoise the image and can apply gauss wiener filter on images.
 ---
 
 ## **Applying Median and Wiener Filters**

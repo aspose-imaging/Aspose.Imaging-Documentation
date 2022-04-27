@@ -1,8 +1,10 @@
 ---
-title: Remove background from images
+title: Remove background from images in Java
+linktitle: Remove background from images
 type: docs
 weight: 10
 url: /java/removing-background-from-images/
+description: Setting some of the pixel values in an image to zero, or some other “background” value is known as Masking. Java Image Processing Library supports the following types of masking.
 ---
 
 {{% alert color="primary" %}} 
@@ -51,4 +53,3 @@ The following code snippet provided below demonstrates how to apply auto masking
 The following code snippet provided below demonstrates how to apply manual masking to a raster image.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-ManualImageMasking-ManualImageMasking.java" >}}
-

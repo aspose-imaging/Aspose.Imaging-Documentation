@@ -2,7 +2,10 @@
 type: docs
 weight: '90'
 url: /java/developer-guide/how-to/save-transparent-image
-title: Save transparent image
+title: Set or Save Transparent Image in Java
+linktitle: Save transparent image
+keywords: transparent image in java
+description: Using the Java Image Processing Library, code examples of how to set image transparency for PNG, TIFF, GIF, and WEBP images are provided.
 ---
 
 **Save transparent image with transparency**
