@@ -11,6 +11,8 @@ title: Aspose.Imaging for .NET 22.5 - Release notes
 - **Unify extraction of raster images, embedded in vector formats.**
 - **"Unknown name 'StandardEncoding'" exception thrown when exporting from particular EPS image**
 
+**Net2.0 remove notice** - Please note, in the nearest releases NET2.0 configuration will not be supported.
+
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | IMAGINGNET-5289 | Improve DIB processing implementation                                                                                                                                  | Feature      |
