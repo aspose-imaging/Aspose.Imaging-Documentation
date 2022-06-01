@@ -54,3 +54,13 @@ Please install:
 1. package with Microsoft compatible fonts: ttf-mscorefonts-installer. (e.g. *sudo apt-get install ttf-mscorefonts-installer*)
 ## **Working with .NET Core DLLs installed via MSI package**
 **Please note:** if you use NetStandard dll installed via MSI package you should add necessary dependencies to work with netStandard version (please see release notes for more information).
+
+## **Working with .NET Core DLLs in Non-Windows Environment using Aspose.Imaging version with alternative graphics engine - Aspose.Drawing instead of System.Drawng.Common/GDI+ for .NET Standard 2.0**
+
+As Aspose.Imaging for .NET provides .NET Standard 2.0 (.NET Core 2.0, .NET Core 3.1 and .NET5) support, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. Using version with alternative graphics engine - Aspose.Drawing (available as [Aspose.Imaging 22.6 beta](https://www.nuget.org/packages/Aspose.Imaging/22.6.0-beta)) you need to perform next steps:
+
+1. Install default fonts:
+sudo apt-get update 
+sudo apt-get install fonts-freefont-ttf 
+2. Install Microsoft fonts if necessary:
+sudo apt-get install ttf-mscorefonts-installer
