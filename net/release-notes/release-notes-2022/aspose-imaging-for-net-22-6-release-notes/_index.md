@@ -8,7 +8,7 @@ title: Aspose.Imaging for .NET 22.6 - Release notes
 ## Competitive features:
 
 - **Fix issue with rounded corners in rectangle generated in emf file**
-- **Added support of alternative graphics engine - Aspose.Drawing  instead of System.Drawng.Common/GDI+ for .NET Standard 2.0 and higher configurations (available as [Aspose.Imaging 22.6 beta](https://www.nuget.org/packages/Aspose.Imaging/22.6.0-beta))**
+- **Added support of alternative graphics engine - Aspose.Drawing  instead of System.Drawng.Common/GDI+ for .NET Standard 2.0 and higher configurations (available as [Aspose.Imaging 22.6 beta](https://www.nuget.org/packages/Aspose.Imaging/22.6.0-beta2))**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
