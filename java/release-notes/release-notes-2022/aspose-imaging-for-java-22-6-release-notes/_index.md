@@ -33,7 +33,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8152 Cannot load particular ODG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image img = Image.load("PasswordProtect.odg", new OdLoadOptions() {{ setPassword("123456789"); }}))
 {
@@ -44,7 +44,7 @@ try (Image img = Image.load("PasswordProtect.odg", new OdLoadOptions() {{ setPas
 
 **IMAGINGJAVA-8151 Can't load DCM image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Now provided DICOM sample can be loaded and export to raster format, for example PNG format:
 
@@ -57,7 +57,7 @@ try (Image image = Image.load("file.dcm"))
 
 **IMAGINGJAVA-8141 Fix bug with exception in CDR file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "file.cdr";
 String outFileName = fileName + ".png";
@@ -70,7 +70,7 @@ try (Image image = Image.load(fileName))
 
 **IMAGINGJAVA-8134 Can't load DCM image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("file.dcm"))
 {
@@ -81,7 +81,7 @@ try (Image image = Image.load("file.dcm"))
 
 **IMAGINGJAVA-8131 Rounded corners in rectangle generated in emf file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "result.png";
@@ -105,7 +105,7 @@ try (EmfImage image = graphics.endRecording())
 
 **IMAGINGJAVA-8129 Cannot read DICOM image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage) Image.load("file.dcm"))
 {
@@ -121,7 +121,7 @@ try (DicomImage image = (DicomImage) Image.load("file.dcm"))
 
 **IMAGINGJAVA-8124 AdjustContrast and AdjustGamma operations are not properly applies on Gif multiframe image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String path = "earth.gif";
 

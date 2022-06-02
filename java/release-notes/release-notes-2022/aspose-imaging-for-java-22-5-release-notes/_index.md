@@ -44,7 +44,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8116 Exception on converting EMF to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "BetterEMF.emf";
@@ -59,7 +59,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8115 Duplicate tiff frame results in a wrong colors (almost completly dark)**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.fileformats.tiff.TiffFrame;
@@ -112,7 +112,7 @@ try (TiffImage source = (TiffImage) Image.load("image.tiff"))
 
 **IMAGINGJAVA-8112 Incorrect export from SVGZ to PNG on Linux**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 **Please, execute this code in the Linux system**
 
@@ -125,7 +125,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("example.svg
 
 **IMAGINGJAVA-8111 Incorrect output after WEBP image is resized**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 WebP image resizing example:
 
@@ -139,7 +139,7 @@ try (Image image = Image.load("image.webp"))
 
 **IMAGINGJAVA-8110 Exception on converting EPS to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("C3.eps"))
 {
@@ -150,7 +150,7 @@ try (Image image = Image.load("C3.eps"))
 
 **IMAGINGJAVA-8109 Can't convert WMZ to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image002.wmz"))
 {
@@ -161,7 +161,7 @@ try (Image image = Image.load("image002.wmz"))
 
 **IMAGINGJAVA-8108 Unify extraction of raster images, embedded in vector formats.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.EmbeddedImage;
 import com.aspose.imaging.FileFormat;
@@ -215,7 +215,7 @@ private static String getExtension(long format)
 
 **IMAGINGJAVA-8107 Can't convert CMX to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 This cmx file not have pages.
 The exception must contain message: "Page with index 0 not found"
@@ -235,7 +235,7 @@ new java.io.File(outFileName).delete();
 
 **IMAGINGJAVA-8106 Improve DIB processing implementation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.Image;
 import com.aspose.imaging.fileformats.psd.VectorDataCompositionMode;
@@ -270,7 +270,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8105 Fix bug of a text formatting in the attached image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "D:\\buklet.cdr";
 String outFileName = fileName + ".png";
@@ -283,7 +283,7 @@ try (Image image = Image.load(fileName))
 
 **IMAGINGJAVA-8104 Dicom export and consequent save then export produce different results**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 {
@@ -296,7 +296,7 @@ try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 
 **IMAGINGJAVA-8103 Exception on loading a CDR image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "6.cdr";
@@ -311,7 +311,7 @@ try (var image = Image.load(inputFilePath))
 
 **IMAGINGJAVA-8102 DrawString with extra distance between symbols or lines**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 import com.aspose.imaging.*;
 import com.aspose.imaging.brushes.SolidBrush;
@@ -375,7 +375,7 @@ private static void drawText(int alignment, int flags)
 
 **IMAGINGJAVA-8101 Support reading of a 16bit Dicom image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 {
@@ -386,7 +386,7 @@ try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 
 **IMAGINGJAVA-8097 Emf file not correctly converted to png**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputFile = "picture-89c3d48cc4874177a54eb3e2ec94b5fd.emf";
 String baseFolder = "D:\\";
@@ -401,7 +401,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8096 ImageSaveException while exporting particular GIF image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 ### GIF export to APNG:
 
@@ -427,7 +427,7 @@ try (GifImage image = (GifImage)Image.load("gif-image.gif"))
 
 **IMAGINGJAVA-1573 Exception on saving DICOM image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("sample.dcm")
 {
