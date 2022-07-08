@@ -8,11 +8,12 @@ title: Aspose.Imaging for .NET 22.7 - Release notes
 ## Competitive features:
 
 - **Allow speed or memory optimization strategies for Cdr format**
-- **Added support of .NET6 configuration for Aspose.Imaging**
+- **Added support of NET6 configuration for Aspose.Imaging**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | IMAGINGNET-3418 | Allow speed or memory optimization strategies for Cdr format                                                                                                                                  | Feature      |
+| IMAGINGNET-4973 | Add support of NET6 configuration                                                                                                                                  | Feature      |
 | IMAGINGNET-5498 | Svg to Dxf export failed                                                                                                                                  | Enhancement      |
 | IMAGINGNET-5476 | "There is no active frame selected." on a multipage Tiff creation                                                                                                                                  | Enhancement      |
 | IMAGINGNET-5439 | System.NullReferenceException while rotating or flipping particular GIF animation                                                                                                                                  | Enhancement      |
