@@ -10,6 +10,7 @@ title: Aspose.Imaging for JAVA 22.7 - Release notes
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| IMAGINGJAVA-8175 | Exception in Java 17 ("opens java.util.regex")                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8173 | Incorrect export from EMF to PNG on Linux                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8164 | Svg to Dxf export failed                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8163 | System.NullReferenceException while rotating or flipping particular GIF animation                                                                                                                                  | Enhancement      |
@@ -33,7 +34,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8173 Incorrect export from EMF to PNG on Linux**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image5.emf"))
 {
@@ -54,7 +55,7 @@ try (Image image = Image.load("image5.emf"))
 
 **IMAGINGJAVA-8164 Svg to Dxf export failed**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String inputFile = baseFolder + "art.svg";
@@ -86,7 +87,7 @@ try (Image image = Image.load(inputFile))
 
 **IMAGINGJAVA-8163 System.NullReferenceException while rotating or flipping particular GIF animation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 GIF rotation example:
 
@@ -100,7 +101,7 @@ try (Image image = Image.load("input.gif"))
 
 **IMAGINGJAVA-8162 Can't convert SVG to BMP**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String[] files = new String[] {"hola.svg", "hola2.svg"};
@@ -118,7 +119,7 @@ for (String file : files)
 
 **IMAGINGJAVA-8161 "There is no active frame selected." on a multipage Tiff creation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TiffImage source = (TiffImage) Image.load("image.tiff"))
 {
@@ -154,7 +155,7 @@ try (TiffImage source = (TiffImage) Image.load("image.tiff"))
 
 **IMAGINGJAVA-8160 The Thai language characters must be converted correctly**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "data.emf";
@@ -176,7 +177,7 @@ try (final Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8159 Error converting an Eps image to the Emf format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("16745-1_ovitex_4c_pht page 19_LPR.eps"))
 {
@@ -198,7 +199,7 @@ try (Image image = Image.load("16745-1_ovitex_4c_pht page 19_LPR.eps"))
 
 **IMAGINGJAVA-8156 Incorrect saving Compress property in bmp**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String imagePath = "test.bmp";
 Image testImage = null;
