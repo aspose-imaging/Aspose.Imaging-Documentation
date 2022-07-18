@@ -14,8 +14,8 @@ generate all required code for you.
 ## **Export to HTML5 Canvas image**
 Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The next code creates a simple Canvas image: 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Export-HTML5-Canvas.cs" >}}
+{{< gist "aspose-com-gists" "cf317aef0a1b7cc50649d47571c4dcef" "export-svg-to-html5-canvas.cs" >}}
 ## **Add Canvas image to existing HTML page**
 You can embed more than one Canvas image within HTML page or update already exsiting page. In order to do that you need to export only the Canvas tag:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Export-HTML5-Canvas-Add-To-Existing-HTML.cs" >}}
+{{< gist "aspose-com-gists" "cf317aef0a1b7cc50649d47571c4dcef" "html5-canvas-add-canvas-to-existing-html.cs" >}}

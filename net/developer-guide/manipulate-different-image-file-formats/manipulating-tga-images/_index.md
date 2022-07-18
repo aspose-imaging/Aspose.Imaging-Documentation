@@ -9,14 +9,14 @@ Truevision TGA, often referred to as TARGA, is a raster graphics file format cre
 
 ## **Convert JPG to TGA**
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-jpg-to-TGA.cs" >}}
+{{< gist "aspose-com-gists" "d26dd3b9335d3a795ddfed8e8a2c4eb0" "convert-jpg-to-tga.cs" >}}
 
 ## **Convert Png to TGA**
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-png-to-TGA.cs" >}}
+{{< gist "aspose-com-gists" "d26dd3b9335d3a795ddfed8e8a2c4eb0" "convert-png-to-tga.cs" >}}
 
 
 ## **Save to TGA**
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-save-to-TGA.cs" >}}
+{{< gist "aspose-com-gists" "d26dd3b9335d3a795ddfed8e8a2c4eb0" "save-to-tga.cs" >}}

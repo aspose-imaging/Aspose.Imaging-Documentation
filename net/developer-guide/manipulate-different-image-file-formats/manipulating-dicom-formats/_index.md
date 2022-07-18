@@ -14,25 +14,25 @@ Color adjustments in digital images is one of the core features that most of the
 ### **Adjusting Brightness**
 Aspose.Imaging for .NET API provide AdjustBrightness method for the DicomImage class that can be used to adjust the **Brightness** by passing an integer value as parameter.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-AdjustBrightnessDICOM-AdjustBrightnessDICOM.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "adjust-brightness-dicom.cs" >}}
 
 
 ### **Adjusting Contrast**
 The AdjustContrast method exposed by the DicomImage class can be used to adjust the **Contrast** of an image by passing a float value as parameter.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-AdjustContrastDICOM-AdjustContrastDICOM.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "adjust-contrast-dicom.cs" >}}
 
 
 ### **Adjusting Gamma**
 The AdjustGamma method exposed by the DicomImage class can be used to adjust the **Gamma** of an image by passing a float value as parameter.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-AdjustGammaDICOM-AdjustGammaDICOM.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "adjust-gamma-dicom.cs" >}}
 
 
 ## **Applying Filters**
 This article demonstrates the usage of Aspose.Imaging for .NET to apply filter on a DICOM image. Aspose.Imaging APIs have exposed efficient & easy to use methods to achieve this goal. The following code example demonstrates how to apply filter on DICOM image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-ApplyFilterOnDICOMImage-ApplyFilterOnDICOMImage.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "apply-filter-dicom.cs" >}}
 
 
 ## **Applying Binarization**
@@ -40,25 +40,25 @@ In order to understand the concept of Binarization, it is important to define a 
 ### **Using Fixed Threshold**
 Following code snippet demonstrates how Fixed Threshold Binarization can be applied to a DICOM image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-BinarizationWithFixedThreshold-BinarizationWithFixedThreshold.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "binarize-with-fixed-threshold-dicom.cs" >}}
 
 
 ### **Using Otsu Threshold**
 Following code snippet demonstrates how Otsu Threshold Binarization can be applied to a DICOM image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-BinarizationWithOtsuThresholdOnDICOMImage-BinarizationWithOtsuThresholdOnDICOMImage.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "binarize-with-otsu-threshold-dicom.cs" >}}
 
 
 ### **Using Bradley's Adaptive Threshold**
 Following code snippet demonstrates how Bradley's Adaptive Threshold Binarization can be applied to a DICOM image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-BinarizationWithOtsuThresholdOnDICOMImage-BinarizationWithOtsuThresholdOnDICOMImage.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "binarize-with-otsu-threshold-dicom.cs" >}}
 
 
 ### **Using Grayscaling**
 Gray-scaling is the process of converting a continuous-tone image to an image with discontinues gray shades.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-GrayscalingOnDICOM-GrayscalingOnDICOM.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "grayscale-dicom.cs" >}}
 
 
 ## **Cropping Image**
@@ -66,7 +66,7 @@ Gray-scaling is the process of converting a continuous-tone image to an image wi
 ## **Cropping by Shifts**
 The DicomImage class provides the Crop method that accepts 4 integer values. Based on these four values, the Crop method take out that part of the image while discarding the rest of the image. The code snippet below demonstrates how to crop a DICOM image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-DICOMCroppingByShifts-DICOMCroppingByShifts.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "crop-by-shifts-dicom.cs" >}}
 
 
 ## **Dithering For DICOM Image**
@@ -80,13 +80,13 @@ This article demonstrates the usage of Aspose.Imaging for .NET to perform Resize
 ### **Simple Resizing**
 The following code example demonstrates how to Resize an image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-DICOMSimpleResizing-DICOMSimpleResizing.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "simple-resize-dicom.cs" >}}
 
 
 ### **Other Resizing Options**
 Aspose.Imaging API has exposed **ResizeHeightProportionally** and **ResizeWidthProportionally** methods of the **DicomImage** class that can be used to re-size the DICOM images. These methods take in an integer as first argument and **ResizeType** enumeration to achieve desired results. Below provided code snippet demonstrates the usage of these methods.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-DICOMSOtherImageResizingOptions-DICOMSOtherImageResizingOptions.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "other-resize-options-dicom.cs" >}}
 
 
 ## **Rotate and Flip DICOM Image**
@@ -96,27 +96,27 @@ Aspose.Imaging for .NET has provided **Rotate** and **RotateFlip** methods of **
 1. Call the **DicomImage.RotateFlip** or **DicomImage.Rotate** method while specifying the appropriate parameter.
 1. Save the results.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-RotatingDICOMImage-RotatingDICOMImage.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "rotate-dicom.cs" >}}
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DICOM-FlipDICOMImage-FlipDICOMImage.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "flip-dicom.cs" >}}
 ## **Export to DICOM**
 Aspose.Imaging supports export from various raster file formats including multi-paged to DICOM. Below there are some examples related to this.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "ExportToDicom.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "export-to-dicom.cs" >}}
 ## **Support of Jpeg, Jpeg2000 and RLE compression methods in Dicom**
 Dicom format can be compressed using Jpeg, Jpeg2000 and RLE compressions.
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-dicom-compression-JPEG-JPEG2000-RLE.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "jpeg-jpeg2000-rle-compressions-dicom.cs" >}}
 
 ## **Memory strategy optimization**
 The memory optimization strategy is now supported for Dicom images.
 
 Here are some examples of its use:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Dicom-Memory-Strategy-Optimization.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "memory-strategy-optimization-dicom.cs" >}}
 
 ## **Add xmp tags to dicom image**
 Using Aspose.Imaging you can easily add xmp tags to dicom image.
 
 Here is example of usage:
 
-{{< gist "aspose-com-gists" "5c1ecbaf9a07481abfb732ea6c41ae0f" "add-xmp-tags-to-dicom-image.cs" >}}
+{{< gist "aspose-com-gists" "3c2dfa23b8e1299cf8d56744e2168bae" "add-xmp-tags-to-dicom-image.cs" >}}

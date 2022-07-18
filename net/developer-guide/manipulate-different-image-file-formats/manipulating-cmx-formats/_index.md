@@ -17,8 +17,8 @@ The following code snippet shows you how to convert CMX files to PNG.
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-CMX-CMXToPNGConversion-CMXToPNGConversion.cs" >}}
+{{< gist "aspose-com-gists" "cd76b7203ae8c34ff5b9bdce04ecad19" "convert-cmx-to-png.cs" >}}
 ## **Memory Strategy optimization**
 Loading and creating of CMX images can be proceeded using memory strategy optimization - ie limiting memory buffer size for operation.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "MemoryStrategyOptimizationCMX.cs" >}}
+{{< gist "aspose-com-gists" "cd76b7203ae8c34ff5b9bdce04ecad19" "memory-strategy-optimization-cmx.cs" >}}

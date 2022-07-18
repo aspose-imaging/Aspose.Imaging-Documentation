@@ -10,4 +10,4 @@ Aspose.Imaging now supports the CDR files. A CDR file is a drawing created with 
 
 The following code snippet shows you how to load a CDR file.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-CDR-SupportOfCDR-SupportOfCDR.cs" >}}
+{{< gist "aspose-com-gists" "7241329931138890d4634d5cd9900e62" "load-cdr-image.cs" >}}

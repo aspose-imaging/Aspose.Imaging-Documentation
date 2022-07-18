@@ -10,7 +10,7 @@ Image cropping usually refers to the removal of the outer parts of an image to h
 
 The code snippet below demonstrates how to Crop any image by Rectangle.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-CropEMFFile-CropEMFFile.cs" >}}
+{{< gist "aspose-com-gists" "901e9cb1e784cc1cdc3d9550a1e74136" "crop-emf-image.cs" >}}
 
 
 

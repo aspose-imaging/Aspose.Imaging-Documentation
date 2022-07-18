@@ -21,7 +21,7 @@ The following color modes are supported through the [ColorModes]() enumeration:
 
 Additional resources can be added, such as thumbnail resources for PSD v4.0, v5.0 and higher, or grid and guide resources for PSD v4.0 and higher. The code below opens a BMP file from disk and saves it to PSD with RLE compression and grayscale color mode, the following code snippet shows you how to export Image to PSD.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ExportImageToPSD-ExportImageToPSD.cs" >}}
+{{< gist "aspose-com-gists" "a49470a82e1fb121565a2ea96c0cfc9d" "export-image-to-psd.cs" >}}
 ## **Creating Indexed PSD Files**
 Aspose.Imaging for .NET API can create Indexed PSD files from scratch. This article demonstrates the use of PsdOptions and PsdImage classes to create an Indexed PSD while drawing some shapes over the newly created canvas. The following simple steps are required to create an Indexed PSD file.
 
@@ -35,8 +35,8 @@ Aspose.Imaging for .NET API can create Indexed PSD files from scratch. This arti
 
 The following code snippet shows you how to create indexed PSD files.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-PSD-CreateIndexedPSDFiles-CreateIndexedPSDFiles.cs" >}}
+{{< gist "aspose-com-gists" "a49470a82e1fb121565a2ea96c0cfc9d" "create-indexed-psd-image.cs" >}}
 ## **Support for EPS Format**
 This article shows how to  option parsing and rendering for PSD text layer. The following code snippet shows you how to support SmallCap.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-SupportForEPSFormat-SupportForEPSFormat.cs" >}}
+{{< gist "aspose-com-gists" "a49470a82e1fb121565a2ea96c0cfc9d" "support-for-eps-format.cs" >}}

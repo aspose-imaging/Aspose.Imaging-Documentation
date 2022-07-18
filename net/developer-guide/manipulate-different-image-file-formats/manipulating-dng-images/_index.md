@@ -13,4 +13,4 @@ Aspose.Imaging for .NET now supports the DNG (Digital Negative) image format (.d
 ## **Converting DNG to JPEG**
 Aspose.Imaging for .NET provides the **DngImage** class to load DNG files and same can be used to convert the DNG to raster formats. The following code snippet shows how to convert a DNG file to JPEG format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-DNG-ConvertingDNGToJPG-SyncRootProperty.cs" >}}
+{{< gist "aspose-com-gists" "fd8a5e092c30aea38bea624b1adab64a" "convert-dng-to-jpg.cs" >}}

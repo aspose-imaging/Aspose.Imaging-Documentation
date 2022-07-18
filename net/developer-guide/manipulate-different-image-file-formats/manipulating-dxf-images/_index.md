@@ -13,4 +13,4 @@ Aspose.Imaging for .NET supports export to Dxf format from vectorized formats(ie
 ## **Export eps to dxf image**
 Saving of eps image to dxf provided:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-export-eps-to-dxf.cs" >}}
+{{< gist "aspose-com-gists" "a9fd4a3333900f4f86ea1667814ff421" "export-eps-to-dxf.cs" >}}

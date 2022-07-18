@@ -13,7 +13,7 @@ Aspose.Imaging APIs are capable of loading DjVu files for possible conversion to
 1. Create an instance of [DjvuMultiPageOptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/djvumultipageoptions) and set it as MultiPageOptions property of the TiffOptions created in previous step.
 1. Call Image.Save by passing the file path (or an object of MemoryStream) as well as the instance of TiffOptions.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-ConvertDjVuToTIFF-ConvertDjVuToTIFF.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-djvu-to-tiff" >}}
 
 
 ## **Converting Range of DjVu Pages**
@@ -27,11 +27,11 @@ A DjVu image may have more than one pages like a multipage TIFF or multiframe GI
 
 Here is the source code to convert first 2 pages of DjVu to TIFF format.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertRangeOfDjVuPages-ConvertRangeOfDjVuPages.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-range-of-djvu-pages.cs" >}}
 
 Following code snippet converts the first 2 pages of DjVu to GIF format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-DjVuToGIF-DjVuToGIF.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-specific-portion-of-djvu-pages.cs" >}}
 
 
 ## **Converting Range of DjVu Pages to Separate Images**
@@ -45,7 +45,7 @@ It is possible to [convert only a specific range of DjVu pages to multipage TIFF
 
 Here is the source code to convert first 2 pages of DjVu to BMP format.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-specific-portion-of-djvu-pages.cs" >}}
 
 
 ## **Converting Specific Portion of DjVu Page**
@@ -58,7 +58,7 @@ Aspose.Imaging APIs provides an easy to use mechanism to export only a specific 
 
 Here is the source code to convert a portion of 1st page of DjVu to PNG format.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ConvertSpecificPortionOfDjVuPage-ConvertSpecificPortionOfDjVuPage.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-specific-portion-of-djvu-pages.cs" >}}
 
 
 ## **Converting DjVu to PDF Format**
@@ -72,15 +72,15 @@ Aspose.Imaging APIs provides the functionality to export the DjVu files to raste
 
 Here is the source code to convert first 5 pages of DjVu to PDF format.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Djvu-ConvertDjVuToPDF-ConvertDjVuToPDF.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "convert-djvu-to-pdf.cs" >}}
 ## **Image Processing using Multithreading**
 Aspose.Imaging is multithread safe as long as only one thread works on a Document at a time. It is a typical scenario to have one thread working on one document.This article demonstrates how Aspose.Imaging for .NET supports parallel DJVU images processing using multithreading.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-DjVu-ParallelDJVUImagesProcessingUsingMultithreading-ParallelDJVUImagesProcessingUsingMultithreading.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "parallel-djvu-images-processing-using-multithreading.cs" >}}
 ## **Memory Strategy optimization**
 Loading of Djvu images can be proceeded using memory strategy optimization - ie limiting memory buffer size for operation.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "MemoryStrategyOptimizationDJVU.cs" >}}
+{{< gist "aspose-com-gists" "21cfa88ecb1e731ff1fb4c0049d2cc39" "memory-strategy-optimization-djvu.cs" >}}
 
 
 
