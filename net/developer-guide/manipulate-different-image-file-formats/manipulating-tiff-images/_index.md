@@ -8,30 +8,30 @@ url: /net/manipulating-tiff-images/
 ## **Add Frames with Different Settings**
 TIFF is a very flexible format and it allows different frames to be added, with different dimensions, compression and other settings. Aspose.Imaging APIs allow you to add any TIFF frame of any size which helps in creating complex documents. If there is a requirement to adjust the frames during the add process to make them all equal, perform the following steps:
 
-1. Create a new blank frame with the desired options or copy the source frame with the output options specified using the [CreateFrameFrom](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe/methods/createframefrom) method.
+1. Create a new blank frame with the desired options or copy the source frame with the output options specified using the [CreateFrameFrom](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe/methods/createframefrom) method.
 1. Resize the source frame/image to the desired dimensions using the Resize method.
 1. Add the source frame/image pixels to the new frame.
 1. Add the new frame to the output TIFF image.
 ## **Export Multi Page frames to different Image format**
-Sometimes you need to export Multi-page TIFF frames to some other image file format. This article will demonstrate how we can perform this task using Aspose.Imaging for .NET API. We will use [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage), [TiffFrame](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe), BmpOptions and BmpImage classes to export TIFF frames to BMP image format. First, we will create instance of TIFF image and load images from local disk. Now we will iterate over TIFF frames and copy pixels of active frame using [LoadPixels](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/loadpixels) method into Colors array and create an instance of BmpOptions for BMP image settings. Set the desired setting for BMP image creation. Create a new BMP image using BmpOptions object and save BMP image using frame pixels, copied in Colors array.
+Sometimes you need to export Multi-page TIFF frames to some other image file format. This article will demonstrate how we can perform this task using Aspose.Imaging for .NET API. We will use [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage), [TiffFrame](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe), BmpOptions and BmpImage classes to export TIFF frames to BMP image format. First, we will create instance of TIFF image and load images from local disk. Now we will iterate over TIFF frames and copy pixels of active frame using [LoadPixels](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/loadpixels) method into Colors array and create an instance of BmpOptions for BMP image settings. Set the desired setting for BMP image creation. Create a new BMP image using BmpOptions object and save BMP image using frame pixels, copied in Colors array.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "export-multipage-tiff-frames-to-another-format.cs" >}}
 
 
 
-Please note, the above provided code snippet requires setting the valid license for Aspose.Imaging for .NET API. This is because Aspose.Imaging APIs restrict the usage of core features such as [LoadPixels](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/loadpixels) & [SavePixels](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/savepixels) in evaluation mode. Please check the details for [Evaluation Version Limitations_imaging.net]().
+Please note, the above provided code snippet requires setting the valid license for Aspose.Imaging for .NET API. This is because Aspose.Imaging APIs restrict the usage of core features such as [LoadPixels](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/loadpixels) & [SavePixels](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/savepixels) in evaluation mode. Please check the details for [Evaluation Version Limitations_imaging.net]().
 ## **Adding Multiple images inside Tiff Frames**
-` `This article will demonstrate how we can we add multiple images inside single tiff using Aspose.Imaging for .NET API. We will use [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage), [TiffFrame](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe),  classes to add multiple images inside tiff frames. Below provided code snippet demonstrates this concept.
+` `This article will demonstrate how we can we add multiple images inside single tiff using Aspose.Imaging for .NET API. We will use [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage), [TiffFrame](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe),  classes to add multiple images inside tiff frames. Below provided code snippet demonstrates this concept.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "add-multiple-images-inside-tiff-frame.cs" >}}
 ## **Concatenate Multiple TIFF Images**
-Sometimes you need to concatenate a TIFF Image into another TIFF image to meet an application need. Aspose.Imaging APIs support the feature of concatenating multiple Tiff images, whereas this article exhibits the TIFF image concatenation feature of Aspose.Imaging for .NET API. We will use [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) and [TiffFrame](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe) classes to concatenate multiple TIFF images. We can use both standard methods, from file and from stream, to concatenate TIFF images.
+Sometimes you need to concatenate a TIFF Image into another TIFF image to meet an application need. Aspose.Imaging APIs support the feature of concatenating multiple Tiff images, whereas this article exhibits the TIFF image concatenation feature of Aspose.Imaging for .NET API. We will use [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) and [TiffFrame](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe) classes to concatenate multiple TIFF images. We can use both standard methods, from file and from stream, to concatenate TIFF images.
 ### **Images Having Single Frame**
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "concatenate-multiple-tiff-images.cs" >}}
 
 
 #### **Concatenating Images from Disk**
-Firstly, we will create instances of images and load images from the local disk, then we will copy the active frame of source image using [Copyframe](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe/methods/copyframe) method of [TiffFrame](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe) class and add that copied frame to destination image with the help of [Addframe](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage/methods/addframe) method of [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) class. Finally we will save image back to local disk.
+Firstly, we will create instances of images and load images from the local disk, then we will copy the active frame of source image using [Copyframe](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe/methods/copyframe) method of [TiffFrame](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffframe) class and add that copied frame to destination image with the help of [Addframe](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage/methods/addframe) method of [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) class. Finally we will save image back to local disk.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "concatenate-multiple-tiff-images.cs" >}}
 
@@ -53,8 +53,8 @@ Sometimes you may encounter a TIFF image that cannot be rendered properly while 
 
 Aspose.Imaging provides two recovery modes which provide different results.
 
-1. [ConsistentRecover](https://apireference.aspose.com/imaging/net/aspose.imaging/datarecoverymode): The consistent recovery mode tries to recover all data as long as corruption does not break the file format and allows further processing.
-1. [MaximalRecover](https://apireference.aspose.com/imaging/net/aspose.imaging/datarecoverymode): The maximal recovery mode recovers all data even if the file format has a corrupted structure and further processing may yield unexpected effects.
+1. [ConsistentRecover](https://reference.aspose.com/imaging/net/aspose.imaging/datarecoverymode): The consistent recovery mode tries to recover all data as long as corruption does not break the file format and allows further processing.
+1. [MaximalRecover](https://reference.aspose.com/imaging/net/aspose.imaging/datarecoverymode): The maximal recovery mode recovers all data even if the file format has a corrupted structure and further processing may yield unexpected effects.
 
 Below is sample code that shows how to use the two data recovery modes.
 
@@ -64,16 +64,16 @@ Below is sample code that shows how to use the two data recovery modes.
 
 When a damaged or corrupted TIFF file is loaded or saved without using data recovery you may get an Aspose.Imaging.Exceptions.Compressors exception.
 ## **TiffOptions Configuration**
-Developers can adjust different properties of [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class to get desired results. In this document, we will focus on 4 main properties that controls the resultant image attributes.
+Developers can adjust different properties of [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class to get desired results. In this document, we will focus on 4 main properties that controls the resultant image attributes.
 
 These properties are listed below.
 
-1. [TiffOptions.Photometric](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/photometric)
-1. [TiffOptions.Compression](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/compression)
-1. [TiffOptions.BitsPerSample](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/bitspersample)
-1. [TiffOptions.Predictor](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/predictor)
+1. [TiffOptions.Photometric](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/photometric)
+1. [TiffOptions.Compression](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/compression)
+1. [TiffOptions.BitsPerSample](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/bitspersample)
+1. [TiffOptions.Predictor](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions/properties/predictor)
 
-Whenever we initialize an empty [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) structure, each option is set to its default value, for instance compression is set to None, BitsPerSample is set as 1 and Photometric as MinIsWhite. Saving into this format will make the final image black n white and this is expected behavior for such options combination. In order to get the colored results you have to set all the above mentioned properties to values that correspond to desired color space or you can initialize the [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) structure with predefined settings as discussed later in this article. Provided below is a table describing the expected parameter values that you can set in order to achieve desired results. Please note, you should set all 4 columns through [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) in order to save any loaded/created image to TIFF file format.
+Whenever we initialize an empty [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) structure, each option is set to its default value, for instance compression is set to None, BitsPerSample is set as 1 and Photometric as MinIsWhite. Saving into this format will make the final image black n white and this is expected behavior for such options combination. In order to get the colored results you have to set all the above mentioned properties to values that correspond to desired color space or you can initialize the [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) structure with predefined settings as discussed later in this article. Provided below is a table describing the expected parameter values that you can set in order to achieve desired results. Please note, you should set all 4 columns through [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) in order to save any loaded/created image to TIFF file format.
 
 |` `**TiffOptions.Photometric**|**TiffOptions.Compression**|**TiffOptions.BitsPerSample**|**TiffOptions.Predictor**|
 | :- | :- | :- | :- |
@@ -85,9 +85,9 @@ Whenever we initialize an empty [Tiffoptions](https://apireference.aspose.com/im
 |RGB|LZW/Uncompressed|[8,8,8,8] (3 RGB channels and additional alpha channel may be set through TiffOptions.AlphaStorage) Actually any additional channels count is supported but each channel must have 8 bit size like [8,8,8,8,8,8]|None/Horizontal|
 All 4 properties should be set through TiffOptions in order to save any image format to Tiff format. When employing different combinations, some viewers (including the Windows Photo Viewer) may refuse to render the resultant image due to the limited support they offer. In such case, please pick different viewer for your testing.
 ### **Predefined Settings for TiffOptions Class**
-In order to facilitate the users and to avoid the miss-configuration of the [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) instance, the Aspose.Imaging for .NET API has exposed another constructor that accepts a parameter of type TiffExpectedFormat. Based on the selected value from the TiffExpectedFormat enumeration, the API auto configures all the mandatory properties for the [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) instance in order to produce the desired results. Before we move towards the sample code, here is the list of the TiffExpectedFormat fields and their details for better understanding of the usage.
+In order to facilitate the users and to avoid the miss-configuration of the [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) instance, the Aspose.Imaging for .NET API has exposed another constructor that accepts a parameter of type TiffExpectedFormat. Based on the selected value from the TiffExpectedFormat enumeration, the API auto configures all the mandatory properties for the [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) instance in order to produce the desired results. Before we move towards the sample code, here is the list of the TiffExpectedFormat fields and their details for better understanding of the usage.
 
-1. TiffExpectedFormat.Default: Setting the field to Default acts similar to the default constructor of [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class with no compression set and BitsPerPixel set to 1 in order to produce a black n white result. It is advised to use this field when other format specific properties are to be set manually according to the desired results.
+1. TiffExpectedFormat.Default: Setting the field to Default acts similar to the default constructor of [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class with no compression set and BitsPerPixel set to 1 in order to produce a black n white result. It is advised to use this field when other format specific properties are to be set manually according to the desired results.
 1. TiffExpectedFormat.TiffCcitRle: Specific to RLE encoding while saving the result in 1 BitsPerPixel (black n white) TIFF format.
 1. TiffExpectedFormat.TiffCcittFax3: Specific to CCITT Fax3 encoding while saving the result in 1 BitsPerPixel (black n white) TIFF format.
 1. TiffExpectedFormat.TiffCcittFax4: Specific to CCITT Fax4 encoding while saving the result in 1 BitsPerPixel (black n white) TIFF format.
@@ -102,7 +102,7 @@ In order to facilitate the users and to avoid the miss-configuration of the [Tif
 1. TiffExpectedFormat.TiffNoCompressionRGB: Specific to uncompressed TIFF format while saving the result in RGB (color).
 1. TiffExpectedFormat.TiffNoCompressionRGBA: Specific to uncompressed TIFF format while saving the result in RGBA (color with transparency).
 
-The following code snippet elaborates the usage of TiffExpectedFormat fields while creating an instance of [Tiffoptions](https://apireference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class.
+The following code snippet elaborates the usage of TiffExpectedFormat fields while creating an instance of [Tiffoptions](https://reference.aspose.com/imaging/net/aspose.imaging.imageoptions/tiffoptions) class.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "tiff-options-configuration.cs" >}}
 
@@ -110,11 +110,11 @@ The following code snippet elaborates the usage of TiffExpectedFormat fields whi
 ## **Support for Deflate and Adobe Deflate Compression**
 The TIFF (Tagged Image File Format) file format supports various types of compression whereas the compression type is stored as a tag (an integer value) in the file. One of such compression methods is Adobe Deflate (previously known as Deflate). Since the release of Aspose.Imaging for .NET 2.6.0, the API supports this compression method for loading, converting & creating TIFF images.
 ### **Loading Image**
-Aspose.Imaging for .NET API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image having Adobe Deflate compression, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
+Aspose.Imaging for .NET API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image having Adobe Deflate compression, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "save-raster-image-to-tiff-with-compression.cs" >}}
 ### **Support Tiff deflate Images with Alpha**
-Aspose.Imaging for .NET API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image and save that with Deflate compression with Alpha, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
+Aspose.Imaging for .NET API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image and save that with Deflate compression with Alpha, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
 
 {{< gist "aspose-com-gists" "3fd62316b7516c54cdec5700f6785166" "save-raster-image-to-tiff-with-compression.cs" >}}
 ### **Saving Image**
@@ -146,7 +146,7 @@ A Tiff image can have multiple frames and a requirement may arise to split these
 ### **Saving Each Frame in TIFF Format**
 Splitting the Tiff frames is easy and can be achieved in below simple steps.
 
-1. Firstly, create an instance of [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) and load a Tiff file from the disk/stream.
+1. Firstly, create an instance of [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) and load a Tiff file from the disk/stream.
 1. Iterate over the Tiff frame collection.
 1. Save each frame to disc in Tiff format.
 

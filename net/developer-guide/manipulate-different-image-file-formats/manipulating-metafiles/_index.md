@@ -14,7 +14,7 @@ Using Aspose.Imaging for .NET, developers can convert EMF metafile to PDF format
 ## **Cropping EMF Image**
 **Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Cropping may also be used to cut out some portion of an image to increase the focus on a particular area. Aspose.Imaging for .NET API supports two different approaches for cropping image: by [shifts](https://docs.aspose.com/imaging/net/manipulating-metafiles/#ManipulatingMetafiles-UsingShifts) and by [rectangle](https://docs.aspose.com/imaging/net/manipulating-metafiles/#ManipulatingMetafiles-UsingRectangle).
 #### **Using Shifts**
-The EmfImage class provides an overloaded version of the [Crop](https://apireference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the Crop method moves the image boundaries toward the center of the image while discarding the outer portion.
+The EmfImage class provides an overloaded version of the [Crop](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the Crop method moves the image boundaries toward the center of the image while discarding the outer portion.
 
 The code snippet below demonstrates how to crop an EMF image by shifts.
 

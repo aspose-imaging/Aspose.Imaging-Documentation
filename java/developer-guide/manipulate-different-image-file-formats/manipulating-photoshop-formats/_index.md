@@ -116,7 +116,7 @@ Here is sample code.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-Photoshop-MergPSDlayers-MergPSDlayers.java" >}}
 ## **Grayscale Support with Alpha for PSD**
-This article shows how to support Grayscale with alpha for PSD file while converting a PSD file to PNG with Aspose.Imaging. In the example below, an existing PSD file is loaded by passing the file path to the Image class static Load method. Once it is loaded, convert/cast the image to PsdImage. Create an instance of the PngOptions class. Set the color property to PNG file . Now call the [Save](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#save--) method of the PngOptions instance. The following code snippet shows you how to support Grayscale with Alpha.
+This article shows how to support Grayscale with alpha for PSD file while converting a PSD file to PNG with Aspose.Imaging. In the example below, an existing PSD file is loaded by passing the file path to the Image class static Load method. Once it is loaded, convert/cast the image to PsdImage. Create an instance of the PngOptions class. Set the color property to PNG file . Now call the [Save](https://reference.aspose.com/imaging/java/com.aspose.imaging/Image#save--) method of the PngOptions instance. The following code snippet shows you how to support Grayscale with Alpha.
 
 Here is sample code.
 
