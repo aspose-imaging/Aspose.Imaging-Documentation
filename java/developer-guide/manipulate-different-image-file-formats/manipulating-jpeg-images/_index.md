@@ -64,11 +64,11 @@ The code snippet below demonstrate how to use the ExifData.Thumbnail property to
 
 In this case, the Aspose.Imaging API cannot estimate the thumbnail image size, but it can check the size of the entire EXIF data segment. This cannot be bigger than 65,535 bytes.
 ## **Using JpegExifData Class to Read and Modify Jpeg EXIF Tags**
-Aspose.Imaging APIs provide [JpegExifData](https://apireference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData) class that is exclusive to Jpeg image formats to retrieve & update EXIF information. This article demonstrates the usage of [JpegExifData](https://apireference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData) class to achieve the same. com.aspose.imaging.exif.JpegExifData class serves as EXIF data container for Jpeg images, and provide means to retrieve standard Jpeg EXIF tags as demonstrated below:
+Aspose.Imaging APIs provide [JpegExifData](https://reference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData) class that is exclusive to Jpeg image formats to retrieve & update EXIF information. This article demonstrates the usage of [JpegExifData](https://reference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData) class to achieve the same. com.aspose.imaging.exif.JpegExifData class serves as EXIF data container for Jpeg images, and provide means to retrieve standard Jpeg EXIF tags as demonstrated below:
 
 
 ### **Complete List of EXIF Tags**
-The above code snippet reads a few EXIF Tags using the properties offered by com.aspose.imaging.exif.JpegExifData class. Complete list of these properties is available [here](https://apireference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData).
+The above code snippet reads a few EXIF Tags using the properties offered by com.aspose.imaging.exif.JpegExifData class. Complete list of these properties is available [here](https://reference.aspose.com/imaging/java/com.aspose.imaging.exif/JpegExifData).
 ## **Auto Correct Orientation of JPEG Images**
 Photos can be shot with a camera rotated at 90°, 180°, 270°, or none (normal orientation). Most digital cameras stores the orientation information along with the image data as EXIF tags of the JEPG images. This information can be used to perform the auto rotation on the images to correct the orientation.
 

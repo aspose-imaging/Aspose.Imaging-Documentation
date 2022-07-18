@@ -6,18 +6,18 @@ url: /java/creating-opening-and-saving-images/
 ---
 
 ## **Creating Image Files**
-Aspose.Imaging for .Java allows developers to create their own images. Use the static [Create](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.Image:A-) method exposed by the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/image) class to create new images. All you need to do is to supply the appropriate object of one of the classes from the [ImageOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-summary) namespace for the desired output image format.
+Aspose.Imaging for .Java allows developers to create their own images. Use the static [Create](https://reference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.Image:A-) method exposed by the [Image](https://reference.aspose.com/imaging/java/com.aspose.imaging/image) class to create new images. All you need to do is to supply the appropriate object of one of the classes from the [ImageOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/package-summary) namespace for the desired output image format.
 
 To create an image file, first create an instance of one of the classes from the ImageOptions namespace. These classes determine output image format.
 
-Below are some classes from the [ImageOptions](https://apireference.aspose.com/imaging/java) namespace:
+Below are some classes from the [ImageOptions](https://reference.aspose.com/imaging/java) namespace:
 
-- [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) sets the options for creating a BMP file
-- [GifOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/gifoptions) sets the options for creating a GIF file
-- [JpegOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/jpegoptions) sets the options for creating a JPEG file
-- [PngOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/pngoptions) sets the options for creating a PNG file
-- [TiffOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/tiffoptions) sets the options for creating a TIFF file
-- [PsdOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/psdoptions) sets the options for creating a PSD file
+- [BmpOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/bmpoptions) sets the options for creating a BMP file
+- [GifOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/gifoptions) sets the options for creating a GIF file
+- [JpegOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/jpegoptions) sets the options for creating a JPEG file
+- [PngOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/pngoptions) sets the options for creating a PNG file
+- [TiffOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/tiffoptions) sets the options for creating a TIFF file
+- [PsdOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/psdoptions) sets the options for creating a PSD file
 
 Image files can be created [setting an output path](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingbySettingPath) or by [setting a stream](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingUsingStream). Both examples are described below.
 
@@ -65,7 +65,7 @@ Another overloaded version of the Save method accepts the Stream object as an ar
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-files-SavingtoStream-SavingtoStream.java" >}}
 
-If the image is created by specifying any of the ImageOptionsBase in the [Image.create](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.ImageOptionsBase-int-int-) method, the image is automatically saved to the path or stream supplied during the initialization of the [Image](https://apireference.aspose.com/imaging/java/com.aspose.imaging/Image) class by calling the **save** method that doesn't accept any parameter.
+If the image is created by specifying any of the ImageOptionsBase in the [Image.create](https://reference.aspose.com/imaging/java/com.aspose.imaging/Image#create-com.aspose.imaging.ImageOptionsBase-int-int-) method, the image is automatically saved to the path or stream supplied during the initialization of the [Image](https://reference.aspose.com/imaging/java/com.aspose.imaging/Image) class by calling the **save** method that doesn't accept any parameter.
 
 ### **Save image file extension aware**
 Using Aspose.Imaging file extension maps to appropriative image options if you did not specified them.
