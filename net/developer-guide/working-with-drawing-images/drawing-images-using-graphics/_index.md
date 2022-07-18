@@ -6,16 +6,16 @@ url: /net/drawing-images-using-graphics/
 ---
 
 ## **Drawing Images using Graphics**
-With the Aspose.Imaging library you can draw simple shapes like lines, rectangles and circles, as well as complex shapes like polygons, curves, arcs and Bezier shapes. Aspose.Imaging library creates such shapes using [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) class that resides in the Aspose.Imaging namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface. The Graphics class uses a variety of helper objects to enhance the shapes:
+With the Aspose.Imaging library you can draw simple shapes like lines, rectangles and circles, as well as complex shapes like polygons, curves, arcs and Bezier shapes. Aspose.Imaging library creates such shapes using [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) class that resides in the Aspose.Imaging namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface. The Graphics class uses a variety of helper objects to enhance the shapes:
 
 - Pens, to draw lines, outline shapes, or render other geometric representations.
 - Brushes, to define how areas are filled in.
 - Fonts, to define the shape of characters of text.
 ### **Drawing with the Graphics Class**
-Below is a code example demonstrating the use of the [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
+Below is a code example demonstrating the use of the [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
 
 1. Create an image.
-1. Create and initialize a [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) object.
+1. Create and initialize a [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) object.
 1. Clear the surface.
 1. Draw an ellipse.
 1. Draw a filled polygon and save the image.
@@ -27,25 +27,25 @@ Start by creating an image using any of the methods described in [Creating Files
 
 
 #### **Create and Initialize a Graphics Object**
-Then create and initialize a [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) object by passing the [Image](https://apireference.aspose.com/imaging/net/aspose.imaging/image) object to its constructor.
+Then create and initialize a [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) object by passing the [Image](https://reference.aspose.com/imaging/net/aspose.imaging/image) object to its constructor.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-InitializeGraphicsObjects-InitializeGraphicsObjects.cs" >}}
 
 
 #### **Clear the Surface**
-Clear the [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) surface by calling the Graphics class [Clear](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics/methods/clear) method and pass a color as a parameter. This method fills the Graphics surface with the color passed in as argument.
+Clear the [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) surface by calling the Graphics class [Clear](https://reference.aspose.com/imaging/net/aspose.imaging/graphics/methods/clear) method and pass a color as a parameter. This method fills the Graphics surface with the color passed in as argument.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-ClearTheSurface-ClearTheSurface.cs" >}}
 
 
 #### **Draw an Ellipse**
-You may notice that the [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the [Aspose.Imaging for .NET API Reference](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/). There are several overloaded versions of the [DrawEllipse](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics/methods/drawellipse/index) method exposed by the Graphics class. All these methods accept a [Pen](https://apireference.aspose.com/imaging/net/aspose.imaging/pen) object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a [Rectangle](https://apireference.aspose.com/imaging/net/aspose.imaging/rectangle) object as the second parameter to draw an ellipse using the [Pen](https://apireference.aspose.com/imaging/net/aspose.imaging/pen) object in your desired color.
+You may notice that the [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the [Aspose.Imaging for .NET API Reference](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/). There are several overloaded versions of the [DrawEllipse](https://reference.aspose.com/imaging/net/aspose.imaging/graphics/methods/drawellipse/index) method exposed by the Graphics class. All these methods accept a [Pen](https://reference.aspose.com/imaging/net/aspose.imaging/pen) object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a [Rectangle](https://reference.aspose.com/imaging/net/aspose.imaging/rectangle) object as the second parameter to draw an ellipse using the [Pen](https://reference.aspose.com/imaging/net/aspose.imaging/pen) object in your desired color.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawAnEllipse-DrawAnEllipse.cs" >}}
 
 
 #### **Draw a Filled Polygon**
-Next, draw a polygon using the LinearGradientBrush and an array of points. The [Graphics](https://apireference.aspose.com/imaging/net/aspose.imaging/graphics) class has exposed several overloaded versions of the FillPolygon() method. All of these accept a Brush object as its first argument, defining the characteristics of the fill. The second parameter is an array of points. Please note that every two consecutive points in the array specify a side of the polygon.
+Next, draw a polygon using the LinearGradientBrush and an array of points. The [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphics) class has exposed several overloaded versions of the FillPolygon() method. All of these accept a Brush object as its first argument, defining the characteristics of the fill. The second parameter is an array of points. Please note that every two consecutive points in the array specify a side of the polygon.
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawAFilledPolygon-DrawAFilledPolygon.cs" >}}
 

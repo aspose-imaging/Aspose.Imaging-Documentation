@@ -8,7 +8,7 @@ url: /java/showcases/
 ### **Showcases**
 This section contains showcases and solutions for frequently asked business cases.
 
-Here we collected examples for these kinds of tasks. More features with examples can be found in [API Reference.](https://apireference.aspose.com/imaging/java)
+Here we collected examples for these kinds of tasks. More features with examples can be found in [API Reference.](https://reference.aspose.com/imaging/java)
 ### **Available Articles**
 [Compressed vector formats](/imaging/java/compressed-vector-formats/)
 

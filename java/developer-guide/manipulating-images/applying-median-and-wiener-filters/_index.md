@@ -44,7 +44,7 @@ Aspose.Imaging for Java has exposed the **BilateralSmoothingFilterOptions** and 
 The steps to perform Resize are as simple as below:
 
 1. Load an image using the factory method Load exposed by Image class.
-1. Convert the image into [RasterImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging/image).
+1. Convert the image into [RasterImage](https://reference.aspose.com/imaging/java/com.aspose.imaging/image).
 1. Create an instances of **BilateralSmoothingFilterOptions** and **SharpenFilterOptions** classes.
 1. Call the RasterImage.Filter method while specifying rectangle as image bounds and **BilateralSmoothingFilterOptions** class instance.
 1. Call the RasterImage.Filter method while specifying rectangle as image bounds and **SharpenFilterOptions** class instance.
