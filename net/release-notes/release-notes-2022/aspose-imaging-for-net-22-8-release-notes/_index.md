@@ -28,29 +28,9 @@ title: Aspose.Imaging for .NET 22.8 - Release notes
 
 ### Added APIs:
 
-Class    Aspose.Imaging.CoreExceptions.IncorrectPasswordException
+Method    Aspose.Imaging.Point.FromLong(System.Int64,System.Int32@,System.Int32@)
 
-Class    Aspose.Imaging.ImageLoadOptions.OdLoadOptions
-
-Method    Aspose.Imaging.CoreExceptions.IncorrectPasswordException.#ctor(System.String)
-
-Method    Aspose.Imaging.CoreExceptions.IncorrectPasswordException.#ctor
-(System.String,System.Exception)
-
-Method    Aspose.Imaging.FileFormats.OpenDocument.OdgImage.#ctor
-(Aspose.Imaging.StreamContainer,Aspose.Imaging.LoadOptions)
-
-Method    Aspose.Imaging.FileFormats.OpenDocument.OdImage.#ctor
-(Aspose.Imaging.StreamContainer,Aspose.Imaging.LoadOptions)
-
-Method    Aspose.Imaging.FileFormats.OpenDocument.OtgImage.#ctor
-(Aspose.Imaging.StreamContainer,Aspose.Imaging.LoadOptions)
-
-Method    Aspose.Imaging.ImageLoadOptions.OdLoadOptions.#ctor
-
-Property    Aspose.Imaging.ImageLoadOptions.OdLoadOptions.Password
-
-Property    Aspose.Imaging.ImageOptions.TiffOptions.ExtraSamples
+Method    Aspose.Imaging.Point.ToLong
 
 
 
