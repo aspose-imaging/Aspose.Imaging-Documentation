@@ -15,7 +15,7 @@ compatibility with non-animated PNG files.
 
 ### **1) Export APNG animation to animated GIF** 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Export-APNG-to-Gif.cs" \>}}
+{{< gist "aspose-com-gists" "4ab8278262e402b1733000d95166a93a" "export-apng-to-gif.cs" \>}}
 
 | ![Input image](creating-and-manipulating-animation-using-apng-fileformat_1.png) | ![Result image](creating-and-manipulating-animation-using-apng-fileformat_2.gif) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -23,7 +23,7 @@ compatibility with non-animated PNG files.
 
 ### **2) Create an animation from multi-page Tiff file** 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Save-to-Animated-APNG-from-Multi-Page-Tiff.cs" \>}}
+{{< gist "aspose-com-gists" "4ab8278262e402b1733000d95166a93a" "save-apng-from-multipage-tiff.cs" \>}}
 
 ​										[Source image - img4.tif](attachments/106203944/106365366.tif)
 
@@ -33,8 +33,8 @@ Result animation:
 
 ### **3) Create APNG animation from single-page image** 
 
-{{<gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02"
-"Examples-Create-APNG-animation-from-single-image.cs" \>}}
+{{<gist "aspose-com-gists" "4ab8278262e402b1733000d95166a93a"
+"create-apng-animation-from-single-image.cs" \>}}
 
 | ![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_4.png) | ![todo:image_alt_text](creating-and-manipulating-animation-using-apng-fileformat_5.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -42,8 +42,8 @@ Result animation:
 
 ### **4) Create APNG animation using vector graphics** 
 
-{{<gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02"
-"Examples-Create-APNG-animation-using-vector-Graphics.cs" \>}}
+{{<gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27"
+"create-apng-animation-using-vector-graphics.cs" \>}}
 
 Created from graphics animation:
 

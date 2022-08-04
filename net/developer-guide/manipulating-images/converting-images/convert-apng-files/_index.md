@@ -13,17 +13,17 @@ The Animated Portable Network Graphics (APNG) file format is an extension to the
 Now the APNG file format is available in the Aspose.Imaging.
 It is implemented in the "Aspose.Imaging.FileFormats.Apng.ApngImage" class. In general, the behavior of this class is the same as that of similar animated formats (like Gif or Webp).
 ## **Create APNG image from PNG**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Create-APNG-file-from-PNG.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "create-apng-from-png.cs" >}}
 ## **Export APNG animation to animated GIF**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Export-APNG-to-Gif.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "export-apng-to-gif.cs" >}}
 ## **Save to animated APNG image from animated WEBP**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Save-to-APNG-from-WebP.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "export-to-apng-from-webp.cs" >}}
 ## **Save to animated APNG image from multi-page Tiff file**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Save-to-Animated-APNG-from-Multi-Page-Tiff.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "save-to-animated-apng-from-multipage-tiff.cs" >}}
 ## **Create an animated APNG image from single-page image**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Create-APNG-animation-from-single-image.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "create-apng-animation-from-single-image.cs" >}}
 ## **Create APNG animation using vector graphics**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Create-APNG-animation-using-vector-Graphics.cs" >}}
+{{< gist "aspose-com-gists" "b966ac0b45c3da7d2aa1e55d9448fe27" "create-apng-animation-using-vector-graphics.cs" >}}
 
 
 

@@ -17,27 +17,27 @@ In order to understand the concept of Binarization, it is important to define a 
 #### **Binarization with Fixed Threshold**
 The following code snippet shows you how to use fixed threshold binarization can be applied to an image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-BinarizationWithFixedThreshold-BinarizationWithFixedThreshold.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "binarization-with-fixed-threshold.cs" >}}
 
 
 #### **Binarization with Otsu Threshold**
 The following code snippet shows you how Otsu threshold binarization can be applied to an image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-BinarizationWithOtsuThreshold-BinarizationWithOtsuThreshold.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "binarization-with-otsu.cs" >}}
 
 
 ### **Grayscaling**
 Gray-scaling is the process of converting a continuous-tone image to an image with discontinues gray shades. The following code snippet shows you how to use Grayscaling.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Grayscaling-Grayscaling.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "grayscale.cs" >}}
 ### **Convert Image to grayscale with Setting 16bit**
 Gray-scaling is the process of converting a continuous-tone image to an image with discontinues gray shades. The following code snippet shows you how to use Grayscaling with 16bits.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-Grayscaling-Grayscaling.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "grayscale.cs" >}}
 ## **Convert GIF Image Layers To TIFF Image**
 Sometimes it is needed to extract and convert layers of a GIF Image into another raster image format to meet an application need. Aspose.Imaging API support the feature of extracting and converting layers of a GIF Image into another raster image formats. Firstly, we will create instance of image and load GIF image from the local disk, then we will get the total count of layers in the source image using Length property of GifFrameBlock class and iterate through the array of blocks. Now we will check if the block is NULL then ignore it else convert the block to TIFF image. The following code snippet shows you how to convert GIF image layers to TIFF image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ConvertGIFImageLayersToTIFF-ConvertGIFImageLayersToTIFF.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "convert-gif-image-layers-to-tiff.cs" >}}
 ## **Converting SVG to Raster Format**
 See : 
 
@@ -61,7 +61,7 @@ See
 ## **Converting RGB color system to CMYK for Tiff file Format**
 Using Aspose.Imaging for .NET, developers can convert RGB color system file to CMYK tiff format. This article shows how to export/convert RGB color system file to CMYK tiff format with Aspose.Imaging. Using Aspose.Imaging for .NET you can load image of any format and than you can set various properties using **TiffOptions** class and save the image. The following code snippet shows you how to achieve this feature.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-RGBColorSytem-RGBColorSytem.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "convert-rgb-tiff-to-cmyk-tiff.cs" >}}
 ## **Working with animation**
 See
 
@@ -100,15 +100,15 @@ Along with a rich set of image processing routines, Aspose.Imaging provides spec
 
 It is easy to export images with Aspose.Imaging for .NET API. All you need is an object of the appropriate class from [ImageOptions](/pages/createpage.action?spaceKey=imagingnet&title=Aspose.Imaging.ImageOptions+namespace&linkCreation=true&fromPageId=14823896) namespace. By using these classes, you can easily export any image created, edited or simply loaded with Aspose.Imaging for .NET to any supported format. Below is an example that demonstrates this simple procedure. In the example, a GIF image is loaded by passing the file path as a parameter to the [Load](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/load) method. It is then exported to various image formats using the [Save](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/save/index) method. The examples here show how to load a GIF and save it to BMP, JPEG, PNG and finally TIFF using Aspose.Imaging for .NET with C# and Visual Basic.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ExportImageToDifferentFormats-ExportImageToDifferentFormats.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "export-image-to-different-formats.cs" >}}
 ## **Convert compressed vector formats**
 Aspose.Imaging supports next compressed vector formats: Emz(compressed emf), Wmz(compressed wmf), Svgz(compressed svg). Supported read of these formats and export to other formats.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Compressed-Vector-Formats.cs" >}}
+{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "compressed-vector-formats.cs" >}}
 ## **Combining Images**
 This example uses [Graphics](https://reference.aspose.com/search/net/imaging/graphics) class and shows how to combine two or more images into a single complete image.To demonstrate the operation, the example creates a new [Image](https://reference.aspose.com/imaging/net/aspose.imaging/image) canvas in JPEG format and draw images on the canvas surface using [Draw Image ](https://reference.aspose.com/imaging/net/aspose.imaging/graphics/methods/drawimage/index)method exposed by [Graphics](https://reference.aspose.com/search/net/imaging/graphics) class. Using [Graphics](https://reference.aspose.com/search/net/imaging/graphics) class two or more images can be combine in such a way that the resultant image will look as a complete image with no space between the image parts and no pages. The **canvas** size must be equal to the size of resultant image. Following is the code demonstration that shows how to use [Draw Image ](https://reference.aspose.com/imaging/net/aspose.imaging/graphics/methods/drawimage/index)method of the [Graphics](https://reference.aspose.com/search/net/imaging/graphics) class to combine images in a single image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-CombineImages-CombineImages.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "combine-images.cs" >}}
 ## **Expand and Crop Images**
 Aspose.Imaging API allows you to expand or crop an image during image conversion process. Developer needs to create a rectangle with X and Y coordinates and specify the width and height of the rectangle box. The X,Y and Width, Height of rectangle will depict the expansion or cropping of the loaded image. If it is required to expand or crop the image during image conversion, perform the following steps:
 
@@ -117,21 +117,21 @@ Aspose.Imaging API allows you to expand or crop an image during image conversion
 1. Create an instance of [Rectangle](https://reference.aspose.com/imaging/net/aspose.imaging/rectangle) class and initialize the X,Y and Width, Height of the rectangle
 1. Call Save method of the [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class while passing output file name, image options and the rectangle object as parameters.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ExpandOrCropAnImage-ExpandOrCropAnImage.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "expand-or-crop-images.cs" >}}
 ## **Read and Write XMP Data To Images**
 XMP (Extensible Metadata Platform) is an ISO standard. XMP standardizes a data model, a serialization format and core properties for the definition and processing of extensible metadata. It also provides guidelines for embedding XMP information into popular image such as JPEG, without breaking their readability by applications that do not support XMP. Using Aspose.Imaging for .NET API developers can read or write XMP metadata to images. This article demonstrates how XMP metadata can be read from image and write XMP metadata to images.
 ### **Create XMP Metadata, Write It And Read From File**
 The release of Aspose.Imaging for .NET 3.3.0 contains the **Xmp** namespace. With the help of Xmp namespace developer can create **XMP metadata** object and write it to an image. The following code snippet shows you how to use the **XmpHeaderPi**, **XmpTrailerPi**, **XmpMeta**, **XmpPacketWrapper**, **PhotoshopPackage** and **DublinCorePackage** packages contained in **Xmp** namespace.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ReadAndWriteXMPDataToImages-ReadAndWriteXMPDataToImages.cs" >}}
+{{< gist "aaspose-com-gists" "af18de930d907bf22dec70737a9687f1" "read-and-write-xmp-data-to-images.cs" >}}
 ## **Export Images in Multi Threaded Environment**
 Aspose.Imaging for .NET now supports converting images in multi threaded environment. Aspose.Imaging for .NET ensure the optimized performance of operations during execution of code in multi-threaded environment. All imaging option classes (e.g. BmpOptions, TiffOptions, JpegOptions, etc.) in the Aspose.Imaging for .NET now implement **IDisposable** interface. Therefore it is a must that developer properly dispose off the imaging options class object in case **Source** property is set. Following code snippet demonstrates the said functionality.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ExportImagesInMultiThreadedEnvironment-ExportImagesInMultiThreadedEnvironment.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "export-images-in-multithreaded-environment.cs" >}}
 
 Aspose.Imaging now supports **SyncRoot** property while working in multi-threaded environment. Developer can use this property to synchronize access to the source stream. Following code snippet demonstrates how the **SyncRoot** property can be used.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-SyncRootProperty-SyncRootProperty.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "sync-root-property.cs" >}}
 
 
 

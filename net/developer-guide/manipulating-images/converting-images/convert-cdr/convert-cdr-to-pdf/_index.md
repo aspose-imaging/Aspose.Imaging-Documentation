@@ -11,4 +11,4 @@ Using C# Image Processing Library Aspose.Imaging, we can convert single or multi
 
 The following code snippet shows you how to convert CDR to Pdf.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-cdr-to-pdf.cs" >}}
+{{< gist "aspose-com-gists" "43e80b715536820fe79def18f3263c61" "cdr-to-pdf.cs" >}}

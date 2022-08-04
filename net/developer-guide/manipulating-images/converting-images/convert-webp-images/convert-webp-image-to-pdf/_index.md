@@ -9,7 +9,7 @@ Using Aspose.Imaging we can convert single paged or animated webp image to pdf.
 
 The following code snippet shows you how to convert webp to pdf.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-WebP-to-Pdf-example.cs" >}}
+{{< gist "aspose-com-gists" "fc3ef192284f58b7577b3f362a9f2d53" "convert-webp-to-pdf.cs" >}}
 
 
 

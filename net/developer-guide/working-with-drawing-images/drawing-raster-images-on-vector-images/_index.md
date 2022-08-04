@@ -22,7 +22,7 @@ Using Aspose.Imaging for .NET you can draw raster image on SVG. With a few simpl
 - Draw a rectangular part of the raster image within the specified bounds of the vector image
 - Save the results
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-DrawingAndFormattingImages-DrawRasterImageOnSVG-DrawRasterImageOnSVG.cs" >}}
+{{< gist "aspose-com-gists" "931c58201140de140db38a456a248c61" "draw-raster-images-on-svg.cs" >}}
 ## **Draw Raster Image on EMF**
 Using Aspose.Imaging for .NET you can draw raster image on EMF. With a few simple steps, you will be able to draw an existing raster image on a vector file.
 
@@ -33,7 +33,7 @@ Using Aspose.Imaging for .NET you can draw raster image on EMF. With a few simpl
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-DrawingAndFormattingImages-DrawRasterImageOnEMF-DrawRasterImageOnEMF.cs" >}}
+{{< gist "aspose-com-gists" "931c58201140de140db38a456a248c61" "draw-raster-images-on-emf.cs" >}}
 ## **Draw Raster Image on WMF**
 Using Aspose.Imaging for .NET you can draw raster image on WMF. With a few simple steps, you will be able to draw an existing raster image on a vector file.
 
@@ -44,4 +44,4 @@ Using Aspose.Imaging for .NET you can draw raster image on WMF. With a few simpl
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-DrawingAndFormattingImages-DrawRasterImageOnWMF-DrawRasterImageOnWMF.cs" >}}
+{{< gist "aspose-com-gists" "931c58201140de140db38a456a248c61" "draw-raster-images-on-wmf.cs" >}}

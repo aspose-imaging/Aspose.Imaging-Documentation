@@ -9,7 +9,7 @@ Skew is an artifact that might appear during document scanning process and it co
 
 Deskewing an image can help a lot, if you want to improve the readability of scanned images. For example, think of a camera that automatically takes photos of goods with a barcode. If the skew angle is too high, the barcode can not be detected. After deskewing, the barcode can be read.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Deskew.cs" >}}
+{{< gist "aspose-com-gists" "1999773eb209d42353f484ce3c047fce" "deskew.cs" >}}
 
 Below is an example of skewed scanned text and deskewed output.
 

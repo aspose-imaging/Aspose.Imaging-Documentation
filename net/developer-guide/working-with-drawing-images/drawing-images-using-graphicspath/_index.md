@@ -23,49 +23,49 @@ Below is an example demonstrating the use of the [GraphicsPath](https://referenc
 #### **GraphicsPath : Create an Image**
 Start by creating an image using any of the methods described in [Creating Files](https://docs.aspose.com/imaging/net/drawing-images/#DrawingandFormattingImages-CreatingImageFiles).
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-CreatingAnImage-CreatingAnImage.cs" >}}
+{{< gist "aspose-com-gists" "a582f56501be0db2329593b3908ee49d" "drawing-lines.cs" >}}
 
 
 #### **GraphicsPath : Initialize a Graphics Objects**
 Create and initialize a [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) object by passing the [Image](https://reference.aspose.com/imaging/net/aspose.imaging/image) object to its constructor.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-InitializeGraphicsObjects-InitializeGraphicsObjects.cs" >}}
+{{< gist "aspose-com-gists" "a582f56501be0db2329593b3908ee49d" "drawing-rectangle.cs" >}}
 
 
 #### **GraphicsPath : Clear the Surface**
 Clear the [Graphics](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) surface by calling the Graphics class [Clear](https://reference.aspose.com/imaging/net/aspose.imaging/graphics/methods/clear) method and pass a Color as a parameter. This method fills the Graphics surface with the color passed in as argument.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-ClearSurface-ClearSurface.cs" >}}
+{{< gist "aspose-com-gists" "a582f56501be0db2329593b3908ee49d" "drawing-arc.cs" >}}
 
 
 #### **GraphicsPath : Create an Instance of the GraphicsPath**
 Create an instance of [GraphicsPath](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) with [GraphicsPath](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) set to **Alternate** by default. This mode determines how to fill the interior of a closed figure. The other possible [GraphicsPath](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) value is **Winding**.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-CreateInstanceofGraphicsPath-CreateInstanceofGraphicsPath.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "create-graphics-path-wth-shapes-and-figures.cs" >}}
 
 
 #### **GraphicsPath : Create a Figure**
 Create an instance of the [Figure](https://reference.aspose.com/imaging/net/aspose.imaging/figure) class. As discussed earlier, [Figure](https://reference.aspose.com/imaging/net/aspose.imaging/figure) can contain Shapes and shapes reside in the [Aspose.Imaging.Shapes](http://www.aspose.com/docs/display/imagingnet/Aspose.Imaging.Shapes+namespace) namespace.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-CreateFigure-CreateFigure.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "create-graphics-path-wth-shapes-and-figures.cs" >}}
 
 
 #### **GraphicsPath : Add Shapes to the Figure**
 The [Add Shapes](https://reference.aspose.com/imaging/net/aspose.imaging/figure/methods/addshapes) method exposed by the [Figure](https://reference.aspose.com/imaging/net/aspose.imaging/figure) class lets you add shapes to the figure. In the code examples below, several shapes are added to a Figure object.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-AddShapeToFigure-AddShapeToFigure.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "create-graphics-path-wth-shapes-and-figures.cs" >}}
 
 
 #### **GraphicsPath : Add Figures to an Array**
 Multiple figures can be added to a [GraphicsPath](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) object using the AddFigures method exposed by the GraphicsPath class. This method accepts an array of figures as a parameter.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-AddFiguresToAnArray-AddFiguresToAnArray.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "create-graphics-path-wth-shapes-and-figures.cs" >}}
 
 
 #### **GraphicsPath : Draw the Paths**
 Draw the [GraphicsPath](https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath) using the DrawPath method exposed by Graphics class. The method accepts two parameters. The first parameter is an object of the [Pen](https://reference.aspose.com/imaging/net/aspose.imaging/pen) class, which determines the color, width and style of the path. The second parameter is the object of the GraphicsPath class, representing the path itself.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-DrawPaths-DrawPaths.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "create-graphics-path-wth-shapes-and-figures.cs" >}}
 
 
 #### **GraphicsPath : Fill Paths**
@@ -73,11 +73,11 @@ You can fill a path by passing a [GraphicsPath](https://reference.aspose.com/ima
 
 The [Fill Paths](http://www.aspose.com/api/net/imaging/aspose.imaging/graphics/methods/fillpath) method accepts two parameters. The first parameter is an object of any brush class from the [Aspose.Imaging.Brushes](http://www.aspose.com/docs/display/imagingnet/Aspose.Imaging.Brushes+namespace) namespace. The second parameter is the path itself. For the sake of this example, use the HatchBrush which is a rectangular brush with a hatch style, a foreground color, and a background color. Before passing the HatchBrush object to the [Fill Paths](http://www.aspose.com/api/net/imaging/aspose.imaging/graphics/methods/fillpath) method, set its properties.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-GraphicsPath-FillPaths-FillPaths.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "fill-graphics-path.cs" >}}
 
 
 ### **GraphicsPath : Complete Source**
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-DrawingAndFormattingImages-DrawingUsingGraphicsPath-DrawingUsingGraphicsPath.cs" >}}
+{{< gist "aspose-com-gists" "8b7ada69bad4dc49dac0b9f4f5cc8329" "drawing-using-graphics-path.cs" >}}
 
 
 All classes that implements IDisposable are instantiated in a Using statement to ensure that they are disposed of correctly.

@@ -12,7 +12,7 @@ Below is the code demonstration of the said functionality.
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-SupportOfSmoothingMode-SupportOfSmoothingMode.cs" >}}
+{{< gist "aspose-com-gists" "5b177978ff4546b9470934d41c8976c9" "support-of-smoothing-mode.cs" >}}
 
 
 ## **Improve Text Quality**
@@ -22,7 +22,7 @@ Below is the code demonstration of the said functionality.
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-SupportOfTextRenderingHint-SupportOfTextRenderingHint.cs" >}}
+{{< gist "aspose-com-gists" "5b177978ff4546b9470934d41c8976c9" "support-of-text-rendering-hint.cs" >}}
 
 ## **Support of image scoped fonts**
 Aspose.Imaging .NET API allows the custom font source providing to use the specific font(s) for image rendering. 
@@ -30,6 +30,6 @@ Unlike FontSettings.SetFontsFolders method works in the image scope and allowing
 
 Below is the code demonstration of the said functionality.
 
-{{< gist "aspose-com-gists" "de57973337b89375382bf6c74106c220" "custom-fonts.cs" >}}
+{{< gist "aspose-com-gists" "5b177978ff4546b9470934d41c8976c9" "support-of-custom-fonts.cs" >}}
 
 

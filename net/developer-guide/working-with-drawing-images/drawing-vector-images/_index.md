@@ -26,4 +26,4 @@ Using Aspose.Imaging for .NET you can draw vector image on another vector image.
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-DrawingAndFormattingImages-DrawVectorImageToRasterImage-DrawVectorImageToRasterImage.cs" >}}
+{{< gist "aspose-com-gists" "fb30abde0bc8795ce6828496afc29b42" "draw-vector-image-to-raster-image.cs" >}}

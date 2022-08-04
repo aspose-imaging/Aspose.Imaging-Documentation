@@ -9,4 +9,4 @@ Using Aspose.Imaging we can convert single paged or multi-page cmx image to pdf.
 
 The following code snippet shows you how to convert cmx to pdf.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Cmx-to-Pdf-example.cs" >}}
+{{< gist "aspose-com-gists" "db5c3fb8186ae3eadf3a14e1a149c1f8" "convert-cmx-to-pdf.cs" >}}

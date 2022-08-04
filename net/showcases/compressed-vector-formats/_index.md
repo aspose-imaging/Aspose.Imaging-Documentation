@@ -17,7 +17,7 @@ As you can see the size of the source file is **369** kb
 
 **Convert SVG to SVGZ** using the following code:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Svg-to-Svgz-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-svg-to-svgz.cs" >}}
 
 {{% image img="compressed-vector-formats_2.png" alt="Svgz compression" %}}
 
@@ -28,7 +28,7 @@ We can open this file using any of the above applications.
 
 Using the following code, it is possible to **convert the SVGZ to SVG:**
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Svgz-to-Svg-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-svgz-to-svg.cs" >}}
 ## EMZ
 A file with the EMZ file extension is a  actually just GZIP compressed EMF files, which is a graphics format used by Microsoft (**MS Word, MS Visio**)
 
@@ -39,7 +39,7 @@ For example, take any EMF file and compress it to EMZ:
 As you can see the size of the source file is **116** kb
 **Convert EMF to EMZ** using the following code:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Emf-to-Emz-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-emf-to-emz.cs" >}}
 
 {{% image img="compressed-vector-formats_5.png" alt="todo:image_alt_text" %}}
 
@@ -49,7 +49,7 @@ Open result emz file in MS Word
 
 Using the following code, it is possible to **convert the EMZ to EMF**
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Emz-to-Emf-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-emz-to-emf.cs" >}}
 ## WMZ
 A file with the WMZ file extension is a  actually just GZIP compressed WMF files, which is a graphics format used by Microsoft (**MS Word, MS Visio**).
 
@@ -59,7 +59,7 @@ For example, take any WMF file and compress it to WMZ:
 
 As you can see the size of the source file is **55.2** kb. **Convert WMF to WMZ** using the following code:
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Wmf-to-Wmz-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-wmf-to-wmz.cs" >}}
 
 
 {{% image img="compressed-vector-formats_7.png" alt="todo:image_alt_text" %}}
@@ -73,5 +73,5 @@ Open result emz file in MS Word
 
 Using the following code, it is possible to **convert the WMZ to WMF:**
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Wmz-to-Wmf-example.cs" >}}
+{{< gist "aspose-com-gists" "82090eb06bf0445c2a14beba95f9b164" "convert-wmz-to-wmf.cs" >}}
 

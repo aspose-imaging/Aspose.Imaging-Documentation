@@ -31,12 +31,10 @@ Below we can observe masking results of original image.
 
 The following code snippet provided below demonstrates how to apply manual masking to a raster image.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-ManualImageMasking-ManualImageMasking.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "manual-image-masking.cs" >}}
 
 ## **Auto masking**
 
 The following code snippet provided below demonstrates how to apply auto masking to a raster image.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-AutoImageMasking-AutoImageMasking.cs" >}}
-
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-AutoImageMasking-FillInputPoints.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-feathering.cs" >}}

@@ -18,7 +18,7 @@ To receive better background removing results, Graph Cut segmentation with pre-c
 
 The following example demonstrates usage of the Imaging.Cloud API's detected objects as an input for Graph Cut auto masking to further improve masking results. DetectedObjectList's data is converted into an AssumedObjectData collection first so that it can be passed into the AutoMaskingGraphCutOptions.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-graph-cut-cloud.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-using-object-detection-from-cloud.cs" >}}
 
 The figure below illustrates the result of the Graph Cut auto masking using Imaging.Cloud API:
 
@@ -30,7 +30,7 @@ The figure below illustrates the result of the Graph Cut auto masking using Imag
 
 The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-graph-cut-feathering.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-feathering.cs" >}}
 
 The figure below illustrates the result of the Graph Cut auto masking with feathering:
 
@@ -42,7 +42,7 @@ The figure below illustrates the result of the Graph Cut auto masking with feath
 
 The following example demonstrates saving of the image masking results with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally, the data of the two assumed objects are also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting the initial masking results, applied background/foreground strokes are modified and another masking iteration is performed.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-graph-cut-repeated-masking-with-new-points-2.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-repeated-masking-with-new-points.cs" >}}
 
 The figure below illustrates the result of re-using default strokes in repeated auto masking with new points:
 
@@ -54,7 +54,7 @@ The figure below illustrates the result of re-using default strokes in repeated 
 
 The following example demonstrates saving of the image masking results with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally, the data of a one assumed human object is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-graph-cut-assumed-objects-data.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-assumed-objects-data.cs" >}}
 
 The figure below illustrates the result of the Graph Cut auto masking with specified assumed object data:
 
@@ -65,7 +65,7 @@ The figure below illustrates the result of the Graph Cut auto masking with speci
 ## **Manual Masking**
 The following code snippet provided below demonstrates how to apply manual masking to a raster image.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-ManualImageMasking-ManualImageMasking.cs" >}}
+{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "manual-image-masking.cs" >}}
 
 The figure below illustrates the result of the manual masking:
 

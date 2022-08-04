@@ -10,19 +10,19 @@ url: /net/crop-rotate-and-resize-images/
 ### **Cropping by Shifts**
 The [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class provides an overloaded version of the [Crop](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the [Crop](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method moves the image boundaries toward the center of the image while discarding the outer portion. The code snippet below demonstrates how to crop an image by shifts.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-JPEG-CroppingByShifts-CroppingByShifts.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-shifts.cs" >}}
 
 
 ### **Cropping by Rectangle**
 The [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class provides another overloaded version of the [Crop](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/crop/index) method that accepts an instance of the [Rectangle](https://reference.aspose.com/imaging/net/aspose.imaging/rectangle) class. You can cut out any portion of an image by providing the desired boundaries to the Rectangle object. The code snippet below demonstrates how to Crop any image by Rectangle.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-JPEG-CroppingByRectangle-CroppingByRectangle.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-rectangle.cs" >}}
 
 ## **Cropping Vector Images**
 **Image cropping** usually refers to the removal of the outer parts of an image to help improve the framing. Aspose.Imaging supports cropping of vector images. Below we demonstrate cropping of svg image.
 
 ### **Crop svg Image**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-crop-svg-image.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "crop-svg-image.cs" >}}
 
 
 
@@ -38,7 +38,7 @@ The Image.RotateFlip method can be used to rotate the image by 90/180/270-degree
 
 The following code example demonstrates how to set the [RotateFlip](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/rotateflip) property of an [Image](https://reference.aspose.com/imaging/net/aspose.imaging/image) and the [RotateFlipType](https://reference.aspose.com/imaging/net/aspose.imaging/rotatefliptype) enumeration.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-JPEG-RotatingAnImage-RotatingAnImage.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "rotate-image.cs" >}}
 
 
 
@@ -54,7 +54,7 @@ From version 2.5.0, the Aspose.Imaging for .NET API has exposed the RasterImage.
 
 The code snippet below demonstrates the usage of RasterImage.Rotate method.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-RotatingImageOnSpecificAngle-RotatingImageOnSpecificAngle.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "rotate-image-on-specific-angle.cs" >}}
 
 
 
@@ -70,13 +70,13 @@ The steps to perform **Resize** are as simple as below,
 
 The following code example demonstrates how to Resize an image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-SimpleResizing-SimpleResizing.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "simple-resizing-image.cs" >}}
 
 
 ### **Resizing Images : Resizing with ResizeType Enumeration**
 Aspose.Imaging API has exposed [ResizeType enumeration](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype) that can be used with Image.Resize to achieve desired results. Below provided code snippet demonstrates the usage of [ResizeType enumeration](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype), whereas the details of [ResizeType enumeration](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype) members can be found at the bottom of this page.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ResizingWithResizeTypeEnumeration-ResizingWithResizeTypeEnumeration.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-with-resize-type.cs" >}}
 
 
 
@@ -98,19 +98,19 @@ Members of ResizeType Enumeration
 
 ### **Resize webp image**
 Using Aspose.Imaging you can easizy resize webp image. Below we provide example of such convertion.
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-resize-webp-image.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-webp-image.cs" >}}
   
 
 
 ## **Resizing vector Images**
 This article demonstrates the usage of Aspose.Imaging for .NET to perform **Resize** operation on vector image. As example **svg image resize** provided.
 ### **Resize svg Image**
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "SvgNativeResize.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "svg-native-resize.cs" >}}
 
 ## **Resize Image Proportionally**
 You can [resize images]() by passing new height & width values as parameters to the Image.Resize method but in that case you have to calculate the aspect ratio yourself. This is because when the width or height of an image is altered, the image is either scaled or shrinked to fill the new size . If the changes to the width and height of an image are not in proportion this can lead to stretched and distorted result. This article demonstrates the use of Aspose.Imaging for .NET API to resize images by passing either new height or width while allowing the API to automatically calculate the other proportional value.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-SimpleResizeImageProportionally-SimpleResizeImageProportionally.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-image-proportionally.cs" >}}
 
 
 ### **Resize Image Proportionally**
@@ -118,13 +118,13 @@ Aspose.Imaging for .NET has exposed the [ResizeWidthProportionally](https://refe
 ### **Simple Resizing**
 The following code example demonstrates the use of [ResizeWidthProportionally](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/resizewidthproportionally/index) and [ResizeHeightProportionally](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/resizeheightproportionally/index) methods.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-SimpleResizeImageProportionally-SimpleResizeImageProportionally.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-image-proportionally.cs" >}}
 
 
 ### **Resizing with ResizeType Enumeration**
 Aspose.Imaging for .NET API has also exposed overload versions of the [ResizeWidthProportionally](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/resizewidthproportionally/index) and [ResizeHeightProportionally](https://reference.aspose.com/imaging/net/aspose.imaging/image/methods/resizeheightproportionally/index) methods that can accept ResizeType as second parameter to achieve desired results. Below provided code snippet demonstrates the usage of [ResizeType enumeration](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype), whereas the details of [ResizeType enumeration](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype) members can be found at the bottom of this page.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ResizeImageWithResizeTypeEnumeration-ResizeImageWithResizeTypeEnumeration.cs" >}}
+{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-image-with-resize-type-enumeration.cs" >}}
 
 
 ### **ResizeType Enumeration**

@@ -12,7 +12,7 @@ Below provided sample code demonstrate how to convert SVG to PNG.
 
 
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-ConvertingSVGToRasterImages-ConvertingSVGToRasterImages.cs" >}}
+{{< gist "aspose-com-gists" "af18de930d907bf22dec70737a9687f1" "convert-svg-to-png.cs" >}}
 
 
 

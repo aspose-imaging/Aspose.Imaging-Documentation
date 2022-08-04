@@ -9,7 +9,7 @@ Using Aspose.Imaging we can convert eps file to Pdf.
 
 The following code snippet shows you how to convert Eps to Pdf.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-Convert-Eps-To-Pdf.cs" >}}
+{{< gist "aspose-com-gists" "26c59ccd53d0f51adc9260323ff84979" "convert-eps-to-pdf.cs" >}}
 
 
 
