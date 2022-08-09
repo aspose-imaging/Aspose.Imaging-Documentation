@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-22-8-release-notes/
-title: Aspose.Imaging for JAVA 22.8 - Release notes
+title: Aspose.Imaging for Java 22.8 - Release notes
 ---
 
 ## Competitive features:
@@ -38,7 +38,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8194 Incorrect extracting embedded bmp from Cdr image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("D:\\test.cdr"))
 {
@@ -61,7 +61,7 @@ try (Image image = Image.load("D:\\test.cdr"))
 
 **IMAGINGJAVA-8193 Incorrect saving Dicom image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 {
@@ -72,7 +72,7 @@ try (DicomImage image = (DicomImage)Image.load("IMG-0002-00007.dcm"))
 
 **IMAGINGJAVA-8192 Review error messages in the entire library**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Proper exception message example:
 
@@ -95,7 +95,7 @@ catch (RuntimeException e)
 
 **IMAGINGJAVA-8191 Implement Jpeg saved quality estimation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (JpegImage image = (JpegImage)Image.load("cat.jpg"))
 {
@@ -106,7 +106,7 @@ try (JpegImage image = (JpegImage)Image.load("cat.jpg"))
 
 **IMAGINGJAVA-8187 Can't load PNG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.png", new LoadOptions {{ setDataRecoveryMode(DataRecoveryMode.ConsistentRecover); }}))
 {
@@ -117,7 +117,7 @@ try (Image image = Image.load("input.png", new LoadOptions {{ setDataRecoveryMod
 
 **IMAGINGJAVA-8186 SVG image Load method throws an exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image img = Image.load("new_black_2.svg");)
 {
@@ -128,7 +128,7 @@ try (Image img = Image.load("new_black_2.svg");)
 
 **IMAGINGJAVA-8184 Can't convert WMZ to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Now WMZ export to raster PNG format works properly:
 
@@ -148,7 +148,7 @@ try (Image image = Image.load("image.wmz"))
 
 **IMAGINGJAVA-8182 Problem in EMF to SVG conversion**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "J_ORD042-I_0011.emf";
@@ -163,7 +163,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8181 Artifacts appear when load tiff file and save to tiff with parameters**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage) Image.load("input.tiff"))
 {
@@ -211,7 +211,7 @@ try (RasterImage image = (RasterImage) Image.load("input.tiff"))
 
 **IMAGINGJAVA-8180 Incorrect export BMP -> JPG -> PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Correct BMP -> JPEG -> PNG export example:
 
@@ -239,7 +239,7 @@ try (Image bmp = Image.load("bmp-image.bmp"))
 
 **IMAGINGJAVA-8178 Cannot export particular EPS image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("test.eps"))
 {
