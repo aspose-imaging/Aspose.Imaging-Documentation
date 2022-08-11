@@ -100,3 +100,8 @@ Below provided sample code demonstrate how to convert TIFF to JPEG.
 Loading and creating of JPEG images can be proceeded using memory strategy optimization - ie limiting memory buffer size for operation.
 
 {{< gist "aspose-com-gists" "25b2f6f3e225af0f30fca33cff8a14b8" "memory-strategy-optimization-jpeg.cs" >}}
+
+## **Jpeg saved quality estimation**
+Using Aspose.Imaging you can easily estimate JPEG quality and work with it.
+
+{{< gist "aspose-com-gists" "25b2f6f3e225af0f30fca33cff8a14b8" "implement-jpeg-saved-quality-estimation.cs" >}}

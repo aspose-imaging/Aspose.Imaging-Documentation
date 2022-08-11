@@ -1,7 +1,7 @@
 ---
 title: Migrating from Earlier Versions of Aspose.Imaging
 type: docs
-weight: 20
+weight: 150
 url: /java/migrating-from-earlier-versions-of-aspose-imaging/
 ---
 

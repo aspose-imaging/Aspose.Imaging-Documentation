@@ -8,16 +8,16 @@ url: /java/manipulating-tiff-images/
 ## **Add Frames with Different Settings**
 TIFF is a very flexible format and it allows different frames to be added, with different dimensions, compression and other settings. Aspose.Imaging APIs allow you to add any TIFF frame of any size which helps in creating complex documents. If there is a requirement to adjust the frames during the add process to make them all equal, perform the following steps:
 
-1. Create a new blank frame with the desired options or copy the source frame with the output options specified using the [createFrameFrom](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) method.
+1. Create a new blank frame with the desired options or copy the source frame with the output options specified using the [createFrameFrom](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) method.
 1. Resize the source frame/image to the desired dimensions using the Resize method.
 1. Add the source frame/image pixels to the new frame.
 1. Add the new frame to the output TIFF image.
 ## **Export Multi Page frames to different Image format**
-Sometimes you need to export Multi-page TIFF frames to some other image file format. This article will demonstrate how we can perform this task using Aspose.Imaging for Java API. We will use [TiffImage](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage), [TiffFrame](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame), [BmpOptions](https://reference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/BmpOptions) and [BmpImage](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.bmp/BmpImage) classes to export TIFF frames to BMP image format. First, we will create instance of TIFF image and load images from local disk. Now we will iterate over TIFF frames and copy pixels of active frame using [loadPixels](https://reference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#loadPixels-com.aspose.imaging.Rectangle-) method into Colors array and create an instance of BmpOptions for BMP image settings. Set the desired setting for BMP image creation. Create a new BMP image using BmpOptions object and save BMP image using frame pixels, copied in Colors array.
+Sometimes you need to export Multi-page TIFF frames to some other image file format. This article will demonstrate how we can perform this task using Aspose.Imaging for Java API. We will use [TiffImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage), [TiffFrame](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame), [BmpOptions](https://apireference.aspose.com/imaging/java/com.aspose.imaging.imageoptions/BmpOptions) and [BmpImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.bmp/BmpImage) classes to export TIFF frames to BMP image format. First, we will create instance of TIFF image and load images from local disk. Now we will iterate over TIFF frames and copy pixels of active frame using [loadPixels](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#loadPixels-com.aspose.imaging.Rectangle-) method into Colors array and create an instance of BmpOptions for BMP image settings. Set the desired setting for BMP image creation. Create a new BMP image using BmpOptions object and save BMP image using frame pixels, copied in Colors array.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-ExtractTIFFFramesToBMPImageFormat.java" >}}
 
-Please note, the above provided code snippet requires setting the valid license for Aspose.Imaging for Java API. This is because Aspose.Imaging APIs restrict the usage of core features such as [loadPixels](https://reference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#loadPixels-com.aspose.imaging.Rectangle-) & [savePixels](https://reference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#savePixels-com.aspose.imaging.Rectangle-com.aspose.imaging.Color:A-) in evaluation mode. Please check the details for [Evaluation Version Limitations](/imaging/java/licensing/).
+Please note, the above provided code snippet requires setting the valid license for Aspose.Imaging for Java API. This is because Aspose.Imaging APIs restrict the usage of core features such as [loadPixels](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#loadPixels-com.aspose.imaging.Rectangle-) & [savePixels](https://apireference.aspose.com/imaging/java/com.aspose.imaging/RasterImage#savePixels-com.aspose.imaging.Rectangle-com.aspose.imaging.Color:A-) in evaluation mode. Please check the details for [Evaluation Version Limitations](/imaging/java/licensing/).
 
 ### **Extract TIFF Frames to Other Image Format using Core Functionality**
 1. Create an instance of the TIFF image and load images from local disk.
@@ -40,7 +40,7 @@ Please note, the above provided code snippet requires setting the valid license 
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ManipulatingTIFFImages-ExtractTIFFFramestoOtherImageFormat-ExtractTIFFFramestoOtherImageFormat.java" >}}
 ## **Adding Multiple images inside Tiff Frames**
-This article will demonstrate how we can we add multiple images inside single tiff using Aspose.Imaging for Java API. We will use [TiffImage](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage), [TiffFrame](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame) classes to add multiple images inside tiff frames. Below provided code snippet demonstrates this concept.
+This article will demonstrate how we can we add multiple images inside single tiff using Aspose.Imaging for Java API. We will use [TiffImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage), [TiffFrame](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffFrame) classes to add multiple images inside tiff frames. Below provided code snippet demonstrates this concept.
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ManipulatingTIFFImages-MultipleImageToTiff-MultipleImageToTiff.java" >}}
 
@@ -152,9 +152,9 @@ The following code snippet elaborates the usage of TiffExpectedFormat fields whi
 ## **Support for Deflate and Adobe Deflate Compression**
 The TIFF (Tagged Image File Format) file format supports various types of compression whereas the compression type is stored as a tag (an integer value) in the file. One of such compression methods is Adobe Deflate (previously known as Deflate). Since the release of Aspose.Imaging for Java 2.8.0, the API supports this compression method for loading, converting & creating TIFF images.
 ### **Loading Image**
-Aspose.Imaging for Java API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image having Adobe Deflate compression, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
+Aspose.Imaging for Java API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image having Adobe Deflate compression, user has to pass the file path location or stream object to the Image.Load method and cast the object to [TiffImage](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.tiff/tiffimage) as per requirement.
 ### **Support Tiff deflate Images with Alpha**
-Aspose.Imaging for Java API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image and save that with Deflate compression with Alpha, user has to pass the file path location or stream object to the Image.load method and cast the object to [TiffImage](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage) as per requirement.
+Aspose.Imaging for Java API hides all the ugly details from the user and provides an easy to use mechanism to load images for further processing. In order to load a TIFF image and save that with Deflate compression with Alpha, user has to pass the file path location or stream object to the Image.load method and cast the object to [TiffImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage) as per requirement.
 ### **Saving Image**
 Converting any raster image to TIFF with Deflate/Adobe Deflate compression is easy as follow.
 
@@ -179,7 +179,7 @@ A Tiff image can have multiple frames and a requirement may arise to split these
 ### **Saving Each Frame in TIFF Format**
 Splitting the Tiff frames is easy and can be achieved in below simple steps.
 
-1. Firstly, create an instance of [TiffImage](https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage) and load a Tiff file from the disk/stream.
+1. Firstly, create an instance of [TiffImage](https://apireference.aspose.com/imaging/java/com.aspose.imaging.fileformats.tiff/TiffImage) and load a Tiff file from the disk/stream.
 1. Iterate over the Tiff frame collection.
 1. Save each frame to disc in Tiff format.
 
@@ -199,7 +199,7 @@ Loading and saving of Tiff images can be proceeded using memory strategy optimiz
 ## **Get tiff original options from image**
 Aspose.Imaging Java API allows to save tiff images in original format keeping all original settings.
 
-{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "get-tiff-original-options.java" >}}
+{{< gist "aspose-com-gists" "4be990d0858a585f1b25f143573d5d20" "get-tiff-original-options.java" >}}
 
 ## **Tiff image export in batch mode**
 Aspose.Imaging library supports possibility of batch conversion before saving (exporting) Tiff images. This makes it possible not to keep in memory the resources of all processed pages at the same time, which will certainly give a significant performance boost with a lack of memory. With enough memory, the performance in standard mode and batch mode is the same, but the memory consumption in batch mode is much lower for multi-page tiff images (see illustrations below).
