@@ -32,4 +32,4 @@ Finally, save the image back to the local disk as a PNG file using the PngOption
 
 {{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-SaveImage-SaveImage.cs" >}}
 #### **Complete Source**
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-AddSignatureToImage-AddSignatureToImage.cs" >}}
+{{< gist "aspose-com-gists" "089c2d464f35ca1060569bbeb2d353d7" "add-signature-to-image.cs" >}}

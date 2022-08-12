@@ -18,7 +18,7 @@ To demonstrate the operation, we will load a BMP image from disk and draw a stri
 
 The following code snippet shows you how to add watermark on the image.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-PSD-UncompressedImageUsingFile-UncompressedImageUsingFile.cs" >}}
+{{< gist "aspose-com-gists" "f63c201f51d5673401fc0d32a6e1c4b1" "watermark-png-image.cs" >}}
 ### **Adding a Diagonal Watermark**
 Adding a diagonal watermark to an image is similar to adding a horizontal watermark as discussed above, with a few differences. To demonstrate the operation, we will load a JPG image from disk, add transformations using an object of Matrix class and draw a string as the watermark on the image surface using the Graphics class' DrawString method. Below is a code example that demonstrates how to add a diagonal watermark to an image. The example source code has been split into parts to make it easy to follow. Step by step, the examples show how to:
 
@@ -34,4 +34,4 @@ Adding a diagonal watermark to an image is similar to adding a horizontal waterm
 
 The following code snippet shows you how to add a diagonal watermark.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-AddDiagonalWatermarkToImage-AddDiagonalWatermarkToImage.cs" >}}
+{{< gist "aspose-com-gists" "089c2d464f35ca1060569bbeb2d353d7" "add-diagonal-watermark-to-image.cs" >}}

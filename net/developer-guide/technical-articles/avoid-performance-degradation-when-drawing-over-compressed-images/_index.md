@@ -12,8 +12,8 @@ To avoid performance degradation, we recommend that you convert the image to an 
 ### **Using File Path**
 In the example that follows, a Png image is converted to another Png and saved to disk. The image is then loaded back before graphic operations are performed on it. The same technique applies for BMP and GIF files.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-PSD-UncompressedImageUsingFile-UncompressedImageUsingFile.cs" >}}
+{{< gist "aspose-com-gists" "fe98652f3eac2dcb6eca9da8f31bff01" "uncompressed-image-using-file-path.cs" >}}
 ### **Using a Stream Object**
 The following code snippet shows you how to Png image is converted to another Png image and saved to disk using MemoryStream.
 
-{{< gist "aspose-com-gists" "2d1bcb9853315458808ffbcd9e7e3e02" "Examples-CSharp-ModifyingAndConvertingImages-PSD-UncompressedImageStreamObject-UncompressedImageStreamObject.cs" >}}
+{{< gist "aspose-com-gists" "fe98652f3eac2dcb6eca9da8f31bff01" "uncompressed-image-using-stream-object.cs" >}}

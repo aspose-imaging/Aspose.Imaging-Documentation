@@ -14,8 +14,8 @@ ICC conversion mechanism uses "Profiles" which maps the source color space to de
 ## **Color Conversion for JPEG through ICC Profiles**
 Aspose.Imaging APIs conceal the ugly details, providing an easy to use mechanism to specify ICC profiles via JpegOptions class. Moreover, Aspose.Imaging uses the sample profiles of SWOP CMYK and sRGB embedded into it's core therefore in most common usage cases, the user does not need to seek for any specific profiles. There is a drawback of such corrections, that is; such color space conversions are irreversible because we cannot expect to get same color after RGB to CMYK to RGB conversion because of incompatible color spaces and different color profiles. The following code snippet demonstrates the usage of Aspose.Imaging for .NET API to specify RGB and CMYK color profiles for YCCK JPEG image loading process.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ColorConversionUsingICCProfiles-ColorConversionUsingICCProfiles.cs" >}}
+{{< gist "aspose-com-gists" "fe98652f3eac2dcb6eca9da8f31bff01" "color-conversion-using-icc-profiles.cs" >}}
 
 If no profiles are set then Aspose.Imaging for .NET API will use the default profiles instead.
 
-{{< gist "aspose-imaging" "b93073a27bcdd4fefc2821e113f0cb3a" "Examples-CSharp-ModifyingAndConvertingImages-ColorConversionUsingDefaultProfiles-ColorConversionUsingDefaultProfiles.cs" >}}
+{{< gist "aspose-com-gists" "fe98652f3eac2dcb6eca9da8f31bff01" "color-conversion-using-default-profiles.cs" >}}
