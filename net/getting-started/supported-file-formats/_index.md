@@ -22,6 +22,7 @@ description: C# image processing library supports file formats including BMP, GI
 |[JPEG2000](https://docs.fileformat.com/image/jp2/)|ITU-T Rec. T.800 (08/2002 E)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODG](https://docs.fileformat.com/image/odg/)|Version 1.2|{{< emoticons/tick >}}| |
 |[PNG](https://docs.fileformat.com/image/png/)|Version 1.0 and later|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[ICO](https://docs.fileformat.com/image/ico/)|Version 1.0 and later|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[APNG](https://docs.fileformat.com/image/apng/)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PSD](https://docs.fileformat.com/image/psd/)|Adobe Photoshop 2.0 and later| |{{< emoticons/tick >}}|
 |[DXF](https://docs.fileformat.com/cad/dxf/)|Dxf 6 and later| |{{< emoticons/tick >}}|
