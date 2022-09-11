@@ -18,7 +18,7 @@ The component supports the most common raster file formats and offers a wide ran
 
 
 ## **Product Description**
-Aspose.Imaging (written in managed C#) is designed to be used with any of the .NET supported languages like C#, VB.NET and J# etc. Aspose.Imaging can be used with any kind of application from ASP.NET web applications to Windows desktop applications. It supports Silverlight 3. Aspose.Imaging provides fully featured demos and working examples written in C#. The demos help developers gain a good understanding of the component's features quickly.
+Aspose.Imaging (written in managed C#) is designed to be used with any of the .NET supported languages like C#, VB.NET and J# etc. Aspose.Imaging can be used with any kind of application from ASP.NET web applications to Windows desktop applications. Aspose.Imaging provides fully featured demos and working examples written in C#. The demos help developers gain a good understanding of the component's features quickly.
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation.
 

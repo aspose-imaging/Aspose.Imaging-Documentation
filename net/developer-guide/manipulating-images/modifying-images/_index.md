@@ -15,6 +15,7 @@ Color adjustments in digital images is one of the core features that most of the
 1. **Brightness** refers to the lightness or darkness of color. Increasing the brightness of an image lights out all colors whereas decreasing the brightness darkens all colors.
 1. **Contrast** refers to making the objects or details within an image more obvious. Increasing the contrast of an image increases the difference between light and dark areas so that the light areas becomes lighter and dark areas becomes darker. Decreasing the contrast will make lighter and darker areas stay approximately the same but the overall image becomes more homogeneous.
 1. **Gamma** optimizes the contrast and brightness of the indirect lighting that is illuminating an object in the image.
+
 ### **Adjusting Brightness**
 Aspose.Imaging for .NET API provide [Adjustbrightness](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/methods/adjustbrightness) method for the [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class that can be used to adjust the **Brightness** by passing an integer value as parameter. Highest parameter value denotes to a brighter image. Here is the original image and the resultant image for comparison.
 
@@ -22,6 +23,7 @@ Aspose.Imaging for .NET API provide [Adjustbrightness](https://reference.aspose.
 | :- | :- |
 |{{% image img="modifying-images_1.jpg" alt="todo:image_alt_text" %}}|{{% image img="modifying-images_2.jpg" alt="todo:image_alt_text" %}}|
 {{< gist "aspose-com-gists" "cf3a972847f597d2a33de220c99437e2" "adjust-brightness.cs" >}}
+
 ### **Adjusting Contrast**
 The AdjustContrast method exposed by the [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class can be used to adjust the **Contrast** of an image by passing a float value as parameter.
 
@@ -34,6 +36,7 @@ Highest parameter value denotes to a higher contrast in the given image. Here is
 |**Input File**|**Output File**|
 | :- | :- |
 |{{% image img="modifying-images_3.jpg" alt="todo:image_alt_text" %}}|{{% image img="modifying-images_4.jpg" alt="todo:image_alt_text" %}}|
+
 ### **Adjusting Gamma**
 The AdjustGamma method exposed by the [RasterImage](https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage) class has two versions. One of the overloads accept one float value and performs the **Gamma** correction for red, blue & green channel coefficients. Whereas the other overload accepts three float parameters representing each color coefficient separately. The following code example demonstrates how to AdjustGamma on an image.
 
@@ -46,6 +49,7 @@ Here is the original image and the resultant image for comparison.
 |**Input File**|**Output File**|
 | :- | :- |
 |{{% image img="modifying-images_5.jpg" alt="todo:image_alt_text" %}}|{{% image img="modifying-images_6.jpg" alt="todo:image_alt_text" %}}|
+
 ## **Blur an Image**
 This article demonstrates the usage of Aspose.Imaging for .NET to perform Blur effect on an image. Aspose.Imaging APIs have exposed efficient & easy to use methods to achieve this goal. Aspose.Imaging for .NET has exposed the **GaussianBlurFilterOptions** class to create blur effect on the fly. **GaussianBlurFilterOptions** class need radius and sigma values to create blur effect on an image. The steps to perform Resize are as simple as below:
 

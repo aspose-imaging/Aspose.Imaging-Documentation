@@ -1,12 +1,12 @@
 ---
-title: JPG to PNG merge
+title: Merge JPG to PNG
 type: docs
 weight: 30
 url: /net/jpg-to-png-merge/
 ---
 
-## **JPG to PNG merge**
-Aspose.Imaging allows to merge images from, **JPG to PNG merge**. Below example shows how to perform it for *horizontal merge*
+## **Merge JPG to PNG**
+Aspose.Imaging allows to merge images from **JPG to PNG**. Below example shows how to perform it for *horizontal merge*
 
 {{< gist "aspose-com-gists" "225f189c4ca6b4f2f3570fe2521a1491" "merge-jpg-to-png.cs" >}}
 and *vertical merge*

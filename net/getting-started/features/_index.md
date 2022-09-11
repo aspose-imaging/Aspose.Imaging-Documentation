@@ -25,6 +25,7 @@ The following are Aspose.Imaging's core features:
 - Psd (v2.7 added Jpeg thumbnails encoding/decoding support)
 - Jpeg2000 (v2.8)
 - WebP
+- Ico
 #### **Image Loading**
 - Bmp
 - Tiff
@@ -44,6 +45,7 @@ The following are Aspose.Imaging's core features:
 - OTG
 - Dib
 - Cmx
+- Ico
 #### **Raw Data Processing**
 - Bmp (v2.4, partly only raw data load)
 - Gif
