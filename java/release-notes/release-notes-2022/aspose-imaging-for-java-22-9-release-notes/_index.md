@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-22-9-release-notes/
-title: Aspose.Imaging for JAVA 22.9 - Release notes
+title: Aspose.Imaging for Java 22.9 - Release notes
 ---
 
 ## Competitive features:
@@ -34,7 +34,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8231 Add support for Icon File (.ico) file format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("icon-24bit.ico"))
 {
@@ -45,7 +45,7 @@ try (Image image = Image.load("icon-24bit.ico"))
 
 **IMAGINGJAVA-8213 Cannot compress particular SVG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.svg"))
 {
@@ -56,7 +56,7 @@ try (Image image = Image.load("input.svg"))
 
 **IMAGINGJAVA-8212 Cannot save particular SVG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.svg"))
 {
@@ -67,7 +67,7 @@ try (Image image = Image.load("input.svg"))
 
 **IMAGINGJAVA-8210 BMP loading bug**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.bmp"))
 {
@@ -78,7 +78,7 @@ try (Image image = Image.load("input.bmp"))
 
 **IMAGINGJAVA-8209 Add Apple MakerNote tags parsing**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 HashMap<String, String> dict = new HashMap<String, String>();
 try (JpegImage image = (JpegImage) Image.load("input.jpeg"))
@@ -103,7 +103,7 @@ try (JpegImage image = (JpegImage) Image.load("input.jpeg"))
 
 **IMAGINGJAVA-8208 Exception on reading EPS image size**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image img = Image.load("62.eps"))
 {
@@ -114,7 +114,7 @@ try (Image img = Image.load("62.eps"))
 
 **IMAGINGJAVA-8207 CDR to PDF conversion issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String inputFile = baseFolder + "zweedsloopspel jungle.cdr";

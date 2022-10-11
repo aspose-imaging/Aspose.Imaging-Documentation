@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-22-10-release-notes/
-title: Aspose.Imaging for JAVA 22.10 - Release notes
+title: Aspose.Imaging for Java 22.10 - Release notes
 ---
 
 ## Competitive features:
@@ -33,7 +33,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8256 "Unknown character - " exception when open ODG file**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.odg"))
 {
@@ -44,7 +44,7 @@ try (Image image = Image.load("input.odg"))
 
 **IMAGINGJAVA-8250 Support of 16-bit/Channel 64 bit PNG images**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage)Image.load("image0.png"))
 {
@@ -56,7 +56,7 @@ try (RasterImage image = (RasterImage)Image.load("image0.png"))
 
 **IMAGINGJAVA-8248 PSD exporter saves CMYK colors as RGB**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (JpegImage image = (JpegImage) Image.load("cat.jpg"))
 {
@@ -72,7 +72,7 @@ try (JpegImage image = (JpegImage) Image.load("cat.jpg"))
 
 **IMAGINGJAVA-8245 DNG to JPG changes image color**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.dng", new DngLoadOptions() {{ setAdjustWhiteBalance(true); }}))
 {
@@ -83,7 +83,7 @@ try (Image image = Image.load("input.dng", new DngLoadOptions() {{ setAdjustWhit
 
 **IMAGINGJAVA-8240 Exception while load the particular tiff**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.tif"))
 {
@@ -94,7 +94,7 @@ try (Image image = Image.load("input.tif"))
 
 **IMAGINGJAVA-8236 Exception on conversion Gif and Dicom images to Bmp**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Raster image to BMP of 16 bits per pixel and Bitfields compression:
 
@@ -112,7 +112,7 @@ for (String inputPath : inputs)
 
 **IMAGINGJAVA-8235 Cannot export particular SVG image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("logo.svg"))
 {

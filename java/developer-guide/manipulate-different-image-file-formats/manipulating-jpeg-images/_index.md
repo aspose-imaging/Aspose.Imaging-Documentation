@@ -111,3 +111,8 @@ Below provided sample code demonstrate how to convert TIFF to JPEG.
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ManipulatingJPEGImages-ConvertTIFFToJPEG-ConvertTIFFToJPEG.java" >}}
 ## **Memory Strategy optimization**
 Loading and creating of JPEG images can be proceeded using memory strategy optimization - i.e. limiting memory buffer size for operation.
+
+## **Jpeg saved quality estimation**
+Using Aspose.Imaging you can easily estimate JPEG quality and work with it.
+
+{{< gist "aspose-com-gists" "6cfa01acc68b34afdaa262be2006201d" "implement-jpeg-saved-quality-estimation.java" >}}
