@@ -8,6 +8,7 @@ title: Aspose.Imaging for JAVA 22.11 - Release notes
 ## Competitive features:
 
 - **Integration Aspose.Fonts into Aspose.Imaging**
+- **Reworked memory allocation management - the shared memory approach was replaced by a buffered file cache and it resolves the issue of abandoned temporary files**
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -15,7 +16,7 @@ title: Aspose.Imaging for JAVA 22.11 - Release notes
 | IMAGINGJAVA-8290 | Emf to PNG not properly converted                                                                                                                                   | Enhancement      |
 | IMAGINGJAVA-8289 | Cannot load WEBP image                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8284 | Cannot convert the DICOM image to APNG                                                                                                                                  | Enhancement      |
-| IMAGINGJAVA-8280 | Fix Emf formulas rasterization                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8280 | Fix Emf formulas rasterization                                                                                                                         | Enhancement      |
 | IMAGINGJAVA-8267 | Cannot convert EMF to SVG                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8266 | CDR to JPG conversion error                                                                                                                                  | Enhancement      |
 
@@ -33,7 +34,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8291 Integration Aspose.Fonts into Aspose.Imaging**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 This example demonstrates the possibility of direct access to the character index by bypassing the Unicode table.
 This feature is supported by the Emf format.
@@ -85,7 +86,7 @@ try (EmfImage emf = new EmfImage(700, 100))
 
 **IMAGINGJAVA-8290 Emf to PNG not properly converted**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("D:\\test-1.emf"))
 {
@@ -96,7 +97,7 @@ try (Image image = Image.load("D:\\test-1.emf"))
 
 **IMAGINGJAVA-8284 Cannot convert the DICOM image to APNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.dcm"))
 {
@@ -107,7 +108,7 @@ try (Image image = Image.load("input.dcm"))
 
 **IMAGINGJAVA-8267 Cannot convert EMF to SVG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String file = "file.emf";
@@ -122,7 +123,7 @@ try (Image image = Image.load(inputFileName))
 
 **IMAGINGJAVA-8266 CDR to JPG conversion error**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("BANNER HAFLAH RA 2022.cdr"))
  {
