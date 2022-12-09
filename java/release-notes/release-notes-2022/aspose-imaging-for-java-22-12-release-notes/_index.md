@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-22-12-release-notes/
-title: Aspose.Imaging for JAVA 22.12 - Release notes
+title: Aspose.Imaging for Java 22.12 - Release notes
 ---
 
 ## Competitive features:
@@ -37,7 +37,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 22.
 
 **IMAGINGJAVA-8325 Dynamic loading not works for conversion to dicom**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.tiff")
 {
@@ -48,7 +48,7 @@ try (Image image = Image.load("input.tiff")
 
 **IMAGINGJAVA-8314 Fix non-permanent bug**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TiffImage image = (TiffImage)Image.load("input.tiff")
 {
@@ -65,7 +65,7 @@ try (TiffImage image = (TiffImage)Image.load("input.tiff")
 
 **IMAGINGJAVA-8313 Incorrect convertion from svg to png**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "D:\\1.svg";
 try (Image image = Image.load(fileName))
@@ -77,7 +77,7 @@ try (Image image = Image.load(fileName))
 
 **IMAGINGJAVA-8312 Cannot conver the CDR image to PDF format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("D:\\100 kva  GR JAMMU.cdr"))
 {
@@ -88,7 +88,7 @@ try (Image image = Image.load("D:\\100 kva  GR JAMMU.cdr"))
 
 **IMAGINGJAVA-8308 Cannot load the CDR image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("D:\\03-08-2022 ADVERTISEMENT FINAL.cdr"))
 {
@@ -99,7 +99,7 @@ try (Image image = Image.load("D:\\03-08-2022 ADVERTISEMENT FINAL.cdr"))
 
 **IMAGINGJAVA-8304 SVG to PNG, output image distorted**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "D:\\Input.svg";
 try (Image image = Image.load(fileName))
@@ -111,7 +111,7 @@ try (Image image = Image.load(fileName))
 
 **IMAGINGJAVA-8302 Incorrect export Tiff -> Pdf with compression PdfImageCompressionOptions.Ccitt4**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.tif")) {
 
@@ -127,7 +127,7 @@ try (Image image = Image.load("input.tif")) {
 
 **IMAGINGJAVA-8301 WebP export  failure**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String fileName = "input.webp";
 try (Image image = Image.load(fileName))
@@ -139,7 +139,7 @@ try (Image image = Image.load(fileName))
 
 **IMAGINGJAVA-8293 Speed up create method in Aspose.Imaging**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TiffImage image = (TiffImage)Image.load("input.tiff")
 {
@@ -156,7 +156,7 @@ try (TiffImage image = (TiffImage)Image.load("input.tiff")
 
 **IMAGINGJAVA-8292 Cannot convert the TIFF image to PDF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("103_1.tif"))
 {
@@ -167,7 +167,7 @@ try (Image image = Image.load("103_1.tif"))
 
 **IMAGINGJAVA-8288 Fix partial Pdf processing on export**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("D:\\151.tif"))
 {
