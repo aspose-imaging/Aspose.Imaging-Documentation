@@ -35,6 +35,8 @@ Yes, you can use as many as you need other available plugin licenses:
 - Implement conversion from or to desired image format from the list of supported by [Aspose.Imaging formats](/imaging/net/supported-file-formats/) using [conversion examples](https://products.aspose.com/imaging/net/conversion/);
 - Use purchased license to [set the license](https://docs.aspose.com/imaging/net/licensing/).
 
+### ***Example of usage of Conversion Plugin***
+{< gist "aspose-com-gists" "7f3a1026f5445e0ec258b514403c2426" "conversion-plugin-example.cs" >}}
 
 ### ***Can other Aspose products be used in same way?***
 

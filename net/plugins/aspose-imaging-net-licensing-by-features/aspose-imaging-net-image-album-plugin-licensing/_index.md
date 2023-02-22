@@ -35,6 +35,8 @@ Yes, you can use as many as you need other available plugin licenses:
 - Create desired output image album in required output multipage format using [examples](https://products.aspose.com/imaging/net/merge/);
 - Use purchased license to [set the license](https://docs.aspose.com/imaging/net/licensing/).
 
+### ***Example of usage of Image album Plugin***
+{< gist "aspose-com-gists" "01fededbe3304aa5de8d832a2a818ed0" "image-album-plugin-example.cs" >}}
 
 ### ***Can other Aspose products be used in same way?***
 

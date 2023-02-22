@@ -35,6 +35,8 @@ Yes, you can use as many as you need other available plugin licenses:
 - Implement needed image resize using specified resampling algorithm using [resize examples](https://products.aspose.com/imaging/net/resize/);
 - Use purchased license to [set the license](https://docs.aspose.com/imaging/net/licensing/).
 
+### ***Example of usage of Image resize Plugin***
+{< gist "aspose-com-gists" "b3c20aa5e8a7d88b797eca216cf9c8fd" "image-resize-plugin-example.cs" >}}
 
 ### ***Can other Aspose products be used in same way?***
 

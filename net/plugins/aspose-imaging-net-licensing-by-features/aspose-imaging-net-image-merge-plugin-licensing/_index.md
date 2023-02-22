@@ -35,6 +35,8 @@ Yes, you can use as many as you need other available plugin licenses:
 - Implement merge of input images to specified output format using [merge examples](https://products.aspose.com/imaging/net/merge/);
 - Use purchased license to [set the license](https://docs.aspose.com/imaging/net/licensing/).
 
+### ***Example of usage of Image merge Plugin***
+{< gist "aspose-com-gists" "74bc29dc5d40264dc96cfeac8493c3d4" "image-merge-plugin-example.cs" >}}
 
 ### ***Can other Aspose products be used in same way?***
 

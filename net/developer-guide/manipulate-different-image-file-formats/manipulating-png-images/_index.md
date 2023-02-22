@@ -34,6 +34,10 @@ Aspose.Imaging for .NET provides the functionality to apply filter methods (algo
 
 {{< gist "aspose-com-gists" "0dc6787183a1823ca0774be84c7b7aa2" "apply-filter-method-in-png-image.cs" >}}
 
+## **Keep transparency, when indexing Png images**
+Aspose.Imaging for .NET supports keeping transparency for indexed png images on save. The following example shows how to save indexed png image and keep transparency.
+
+{{< gist "aspose-com-gists" "0dc6787183a1823ca0774be84c7b7aa2" "keep-transparency-when-indexing-png-image.cs " >}}
 
 ## **Changing Background Color of a Transparent PNG Image**
 PNG format images can have transparent background. Aspose.Imaging for .NET provides the feature to change the background color of a PNG image that has transparent background. Aspose.Imaging for .NET API can be used to set/change color of a transparent PNG image. The below provided code snippet demonstrates how to set/change the background color of a transparent PNG image.
