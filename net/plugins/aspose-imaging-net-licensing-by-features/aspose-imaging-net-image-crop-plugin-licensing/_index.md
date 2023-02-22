@@ -36,7 +36,7 @@ Yes, you can use as many as you need other available plugin licenses:
 - Use purchased license to [set the license](https://docs.aspose.com/imaging/net/licensing/).
 
 ### ***Example of usage of Image crop Plugin***
-{< gist "aspose-com-gists" "8121f0043a3810ac7802ba3209ee8eae" "image-crop-plugin-example.cs" >}}
+{{< gist "aspose-com-gists" "8121f0043a3810ac7802ba3209ee8eae" "image-crop-plugin-example.cs" >}}
 
 ### ***Can other Aspose products be used in same way?***
 
