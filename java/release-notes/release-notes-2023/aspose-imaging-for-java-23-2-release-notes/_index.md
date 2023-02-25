@@ -32,7 +32,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8344 SVG export issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.svg"))
 {
@@ -55,7 +55,7 @@ static class KeepEmbeddedFonts extends SvgResourceKeeperCallback
 
 **IMAGINGJAVA-8343 Image export failed when converting DCM to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.dcm"))
 {
@@ -66,7 +66,7 @@ try (Image image = Image.load("input.dcm"))
 
 **IMAGINGJAVA-8342 Convert TIFF to PDF loses color**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("1.tiff"))
 {
@@ -85,7 +85,7 @@ try (Image image = Image.load("1.tiff"))
 
 **IMAGINGJAVA-8341 ICO to PDF export bug**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image ico = Image.load("aladin-d.ico"))
 {
@@ -96,7 +96,7 @@ try (Image ico = Image.load("aladin-d.ico"))
 
 **IMAGINGJAVA-8339 Keep transparency, when indexing Png images**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage)Image.load("input_png_with_alpha.png"))
 {
@@ -115,9 +115,9 @@ try (RasterImage image = (RasterImage)Image.load("input_png_with_alpha.png"))
 
 **IMAGINGJAVA-8331 ImageExtensions.toJava takes too long to convert**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
-RasterImage image = (RasterImage) Image.load("D:\\Temp\\IMAGINGJAVA-8331\\mainImage.jpg");
+RasterImage image = (RasterImage) Image.load("mainImage.jpg");
 try
 {
 	BufferedImage picture = com.aspose.imaging.extensions.ImageExtensions.toJava(image);
