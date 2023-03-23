@@ -16,4 +16,4 @@ description: Sometimes it is needed to draw String with extra distance between s
 
 **Example :**
 
-{{< gist "aspose-com-gists" "f63c201f51d5673401fc0d32a6e1c4b1" "draw-string-with-extra-space-between-symbols-or-lines.cs" >}}
+{{< gist "aspose-com-gists" "078eb4e3e29d7b6cb10a2f13380e47d0" "draw-string-with-extra-space-between-symbols-or-lines.cs" >}}

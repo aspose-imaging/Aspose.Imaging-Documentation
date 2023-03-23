@@ -16,4 +16,4 @@ description: Sometimes it is needed to properly align text with drawstring metho
 
 **Example :**
 
-{{< gist "aspose-com-gists" "f63c201f51d5673401fc0d32a6e1c4b1" "properly-align-text-with-drawstring-method.cs" >}}
+{{< gist "aspose-com-gists" "1d944f2feaa93b9181887ef099cb8966" "properly-align-text-with-drawstring-method.cs" >}}
