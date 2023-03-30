@@ -32,7 +32,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8383 Add support of BigTiff**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputPath = "input-BigTIFF.tif";
 String outputPath = "output-BigTIFF.tif";
@@ -46,7 +46,7 @@ try (BigTiffImage image = (BigTiffImage)Image.load(inputPath))
 
 **IMAGINGJAVA-8372 Resultant PNG cannot be opened by Photoshop**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = (RasterImage) Image.load("input.png"))
  {
@@ -57,7 +57,7 @@ try (Image image = (RasterImage) Image.load("input.png"))
 
 **IMAGINGJAVA-8371 Cannot access a closed file when converting EMZ on Linux**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("image001.emz"))
 {
@@ -69,7 +69,7 @@ try (Image image = Image.load("image001.emz"))
 
 **IMAGINGJAVA-8370 Two conversion issues (cdr to wmf, wmf to tiff)**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("template.cdr"))
 {
@@ -80,7 +80,7 @@ try (Image image = Image.load("template.cdr"))
 
 **IMAGINGJAVA-8369 Tiff image is corrupted when saved**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String inputPath = "input.tiff";
 String outputPath = "output.tiff";
@@ -94,7 +94,7 @@ try (Image image = Image.load(inputPath))
 
 **IMAGINGJAVA-8366 WmfImage.Crop works incorrectly and throws an exception with particular file.**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (WmfImage image = (WmfImage) Image.load("input.wmf"))
 {
