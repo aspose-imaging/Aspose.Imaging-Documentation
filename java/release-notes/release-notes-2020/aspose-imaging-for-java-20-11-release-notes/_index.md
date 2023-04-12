@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-20-11-release-notes/
-title: Aspose.Imaging for JAVA 20.11 - Release notes | Remove background, making gifs
+title: Aspose.Imaging for Java 20.11 - Release notes | Remove background, making gifs
 ---
 **Summary:**
 

@@ -28,6 +28,7 @@ description: Python image processing library supports file formats including BMP
 |[DXF](https://docs.fileformat.com/cad/dxf/)|Dxf 6 and later| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Version 1.1|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Version 6.0*|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[BIGTIFF](https://www.awaresystems.be/imaging/tiff/bigtiff.html)|Version 6.0*|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DIB](https://docs.fileformat.com/image/dib/)|BMP Specification v5|{{< emoticons/tick >}}| |
 |[EPS](https://docs.fileformat.com/page-description-language/eps/)| |{{< emoticons/tick >}}| |
 |[WEBP](https://docs.fileformat.com/image/webp/)| |{{< emoticons/tick >}}| |
@@ -41,9 +42,3 @@ description: Python image processing library supports file formats including BMP
 |[WMZ](https://docs.fileformat.com/image/wmz/)|Compressed wmf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TGA](https://docs.fileformat.com/image/tga/)|Truevision TGA (TARGA)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SVGZ](https://docs.fileformat.com/image/svgz/)|Compressed svg file format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-
-
-
-
-
-

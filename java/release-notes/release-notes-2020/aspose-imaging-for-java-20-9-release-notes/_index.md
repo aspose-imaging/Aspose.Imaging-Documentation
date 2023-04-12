@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-20-9-release-notes/
-title: Aspose.Imaging for JAVA 20.9 - Release notes
+title: Aspose.Imaging for Java 20.9 - Release notes
 ---
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|

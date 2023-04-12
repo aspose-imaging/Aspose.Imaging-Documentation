@@ -10,9 +10,9 @@ description: Python image processing library supports most common raster file fo
 
 {{% image img="product-overview_1.png" alt="todo:image_alt_text" %}}
 
-**Welcome to Aspose.Imaging for .NET**
+**Welcome to Aspose.Imaging for Python via .NET**
 
-Aspose.Imaging for Python via .NET provides a number of flexible routines for creating and manipulating images within .NET applications. It functions independently of other graphics applications and does not demand that an image editor is installed on the machine. Aspose.Imaging extends the native support for image formats and image processing functions for Python. Aspose.Imaging allows developers to manipulate images within their own programs, quickly and easily.
+Aspose.Imaging for Python via .NET provides a number of flexible routines for creating and manipulating images within Python applications. It functions independently of other graphics applications and does not demand that an image editor is installed on the machine. Aspose.Imaging extends the native support for image formats and image processing functions for Python. Aspose.Imaging allows developers to manipulate images within their own programs, quickly and easily.
 
 The component supports the most common raster file formats and offers a wide range of compression algorithms as well as numerous image processing operations. Image export and conversion is core to Aspose.Imaging's features. the component allows developers to, for example, convert images to thumbnails, or for easy sharing across an organization. Aspose.Imaging offers high speed processing through native byte access and a number of efficient algorithms. The component goes beyond conversions and lets developers draw objects using core functionality as well as more advanced functionality (based on Graphics Path).
 

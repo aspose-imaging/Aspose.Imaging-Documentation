@@ -1,0 +1,111 @@
+---
+title: Manipulating JPEG Images
+type: docs
+weight: 110
+url: /python-net/manipulating-jpeg-images/
+---
+
+## **Using ExifData Class to Read and Modify Jpeg EXIF Tags**
+Almost all digital cameras (including smartphones), scanners and other systems handling image save images with EXIF (Exchangeable Image File) information. Camera settings and scene information are recorded by the camera into the image file. EXIF data also include shutter speed, date and time a photo was taken, focal length, exposure compensation, metering pattern and if a flash was used. Aspose.Imaging APIs has made possible to extract the EXIF information from a given image in a very easy and simple manner. Developers may also write EXIF data to the images or modify the existing information as per their requirement. Aspose.Imaging has provided [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) class for reading, writing and modifying the EXIF data, where as aspose.imaging.exif.enums module  contains the relevant enumerations used in the process.
+
+### **Reading EXIF Data**
+Aspose.Imaging APIs provide means to read EXIF data from a given image. Below provided steps illustrate the usage of [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) class to read the EXIF information from an image.
+
+1. Load an image into an instance of Image using the factory method load.
+1. Create and initialize an instance of [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) class.
+1. Fetch the required information and write it to console.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "read-all-exif-tags-from-jpeg.py" >}}
+
+
+Alternatively, developers may also get the specific information using the following code snippet.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "read-specific-exif-tags-information.py" >}}
+
+
+### **Writing & Modifying EXIF Data**
+Using Aspose.Imaging APIs, developers can write new EXIF information and modify existing EXIF data of an image. Both processes (Writing & Modifying) requires loading of an image and getting the EXIF data into an instance of [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) class. Then one can access properties exposed by [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) class to set them accordingly. Sample code to demonstrate the usage is as follow:
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "writing-and-modifying-exif.py" >}}
+
+
+## **Creating Thumbnails from JPEG Images**
+Thumbnails are reduced-size versions of pictures, used to display a significant part of the picture instead of the full frame. Some image files (especially the ones shot with a digital camera) have a thumbnail image embedded in the file. In such cases, Aspose.Imaging API retrieves the embedded thumbnail image and allows you to store it separately on disk. With the release of Aspose.Imaging 2.3.1, the JpegImage class contains the ExifData.Thumbnail property that can retrieve the thumbnail information from a JPEG image file. The code snippet provided below demonstrates how to use it.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "create-thumbnail-from-jpeg-image.py" >}}
+
+If you wish to generate thumbnails from other image formats such as BMP & PNG, please refer to the [Resizing Images](https://docs.aspose.com/imaging/python-net/converting-images/#ModifyingandConvertingImages-ResizingImages).
+
+## **Adding Thumbnails to JFIF and EXIF Segments of JPEG Images**
+The release of Aspose.Imaging 2.3.1 enabled developers to [create thumbnails from JPEG images](https://docs.aspose.com/imaging/python-net/manipulating-jpeg-images/#ManipulatingJPEGImages-CreatingThumbnailsfromJPEGImages) using the ExifData.thumbnail property. Starting from Aspose.Imaging 2.4.0, it is possible to add thumbnails to the JFIF and EXIF segments of JPEG images. There are additional thumbnail properties in the [ExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/exifdata) and Jfif classes, which are of the JpegImage type, that can can be used to store additional thumbnail images inside the original JPEG image.
+
+### **Add Thumbnail to JFIF Segment**
+The code snippet below demonstrates how to use the Jfif.thumbnail property to add a thumbnail image to the JFIF segment of a new JPEG image.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "add-thumbnail-to-jfif-segment.py" >}}
+
+Thumbnail images with other segment data cannot occupy more than 65,545 bytes because of the JPEG format specifications. In cases where large images are to be set as a thumbnail, exception may arise.
+
+### **Add Thumbnail to EXIF Segment**
+The code snippet below demonstrate how to use the ExifData.thumbnail property to add a thumbnail image to the EXIF segment of a new JPEG image.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "add-thumbnail-to-jfif-segment.py" >}}
+
+In this case, the Aspose.Imaging API cannot estimate the thumbnail image size, but it can check the size of the entire EXIF data segment. This cannot be bigger than 65,535 bytes.
+
+## **Using JpegExifData Class to Read and Modify Jpeg EXIF Tags**
+Aspose.Imaging APIs provide [JpegExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/jpegexifdata) class that is exclusive to Jpeg image formats to retrieve & update EXIF information. This article demonstrates the usage of [JpegExifData](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/jpegexifdata) class to achieve the same. aspose.imaging.exif.JpegExifData class serves as EXIF data container for Jpeg images, and provide means to retrieve standard Jpeg EXIF tags as demonstrated below:
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "read-specific-exif-tags-information.py" >}}
+
+### **Complete List of EXIF Tags**
+The above code snippet reads a few EXIF Tags using the properties offered by aspose.imaging.exif.JpegExifData class. Complete list of these properties is available [here](https://reference.aspose.com/imaging/python-net/aspose.imaging.exif/jpegexifdata/). Following code will read all the EXIF tags using the inspect.getmembers function from inspect package.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "read-all-exif-tags-from-jpeg.py" >}}
+
+## **Support for JPEG-LS**
+` `Aspose.Imaging for Python via .NET API now provide support for JPEG-LS. The code snippet below demonstrates how to use that support for JPEG-LS image and decode that and save into PNG.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "support-for-jpeg-ls-format.py" >}}
+
+## **Support for JPEG-LS with CMYK and YCCK**
+` `Aspose.Imaging for Python via .NET API now provide support for CMYK and YCCK color models with JPEG-LS. The code snippet below demonstrates how to use that support for JPEG-LS.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "support-for-jpeg-ls-with-cmyk.py" >}}
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "support-for-cmyk-and-ycc-color-models-in-jpeg-lossless-using-rgb-profile.py" >}}
+
+## **Support for 2-7 bits per sample in JPEG-LS images**
+` `Aspose.Imaging for Python via .NET API now provide support for 2-7 bits per sample JPEG-LS images. The code snippet below demonstrates how to use that support for JPEG-LS.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "support-for-2-7-bit-jpeg.py" >}}
+
+## **Setting ColorType and CompressionType for JPEG images**
+` `Aspose.Imaging for Python via .NET API now provide support for Color Type and compression Type and set them as gray scale and progressive for JPEG images. The code snippet below demonstrates how to use that support.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "setting-color-type-and-compression-for-jpeg-images.py" >}}
+
+## **Convert TIFF to JPEG image**
+Using Aspose.Imaging for Python via .NET, developers can convert TIFF to JPEG format. This topic explains the approach to load existing TIFF image and convert it to JPEG using **JpegOptions** class.
+
+The steps to convert TIFF image to JPEG are as simple as below:
+
+- Create an instance of the TiffImage and load image using load method of Image class
+- Iterate over the collection of frames of type TiffFrame
+- Create an instance of JpegOptions class and set ResolutionSettings
+- Set the resolution unit explicitly
+- Call TiffFrame.save method with destination path and an instance JpegOptions
+
+Below provided sample code demonstrate how to convert TIFF to JPEG.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "convert-tiff-to-jpeg.py" >}}
+
+## **Memory Strategy optimization**
+Loading and creating of JPEG images can be proceeded using memory strategy optimization - i.e. limiting memory buffer size for operation.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "memory-strategy-optimization-jpeg.py" >}}
+
+## **Jpeg saved quality estimation**
+Using Aspose.Imaging you can easily estimate JPEG quality and work with it.
+
+{{< gist "aspose-com-gists" "cf00ded228aeeddf4545a5a84f8aaebc" "implement-jpeg-saved-quality-estimation.py" >}}

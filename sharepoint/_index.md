@@ -8,7 +8,8 @@ is_root: true
 
 **Welcome to the Aspose.Imaging for SharePoint**
 
-![Aspose.Imaging for SharePoint Product Logo](home_1)
+
+{{% image img="home_1.png" alt="Aspose.Imaging for SharePoint Product Logo" %}}
 
 Aspose.Imaging for SharePoint is a solution that allows the users to convert images to other image formats and edit them by resizing, rotating and flipping.
 

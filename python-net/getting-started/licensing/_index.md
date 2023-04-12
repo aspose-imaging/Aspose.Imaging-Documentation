@@ -21,10 +21,11 @@ Where you apply a license depends on the type of application you are developing.
 - Only apply the license once per application domain. Calling License.set_license multiple times is not harmful but wastes processor time.
 - Apply the license before calling any Aspose.Imaging for Python via .NET classes.
 - Call License.set_license in the startup code, before using any Aspose.Imaging for Python via .NET classes.
-## **Applying a License**
+## **Applying a License using a File or a Stream**
 You can easily download an evaluation version of Aspose.Imaging from PyPi [download page](https://pypi.org/project/aspose-imaging/). The evaluation version provides absolutely the same capabilities as the licensed version of Aspose.Imaging. Furthermore, evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
-### **Using a File or a Stream**
+
 If you want to avoid working with evaluation limitations, you need to set a license before using Aspose.Imaging. You only need to set a license once per application (or process).
+
 ### **Applying a license from a file**
 The easiest way to apply a license is to put the license file in the same folder with your code that used Aspose.Imaging. Then you can specify the file name in the code instead of a full path.
 

@@ -74,4 +74,4 @@ Let's understand the above code.
 
 1. The first line makes sure that the Aspose.Imaging is loaded and available.
 1. Include the files that are required to access the Aspose.Imaging
-1. Initialize the libraries. The aspose JAVA classes are loaded from the path provided in the aspose.yml file
+1. Initialize the libraries. The Aspose Java classes are loaded from the path provided in the aspose.yml file
