@@ -13,7 +13,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. PyPi - Python Package Manager.
 
 ## **Download from GitHub**
-All examples of Aspose.Imaging for Python via .NET are hosted on [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Python).
+All examples of Aspose.Imaging for Python via .NET are hosted on [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Python-Net).
 
 - Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
 - **Data** folder at the root folder of **Examples** contains input files which Python examples used. It is mandatory that you download the **Data** folder along with the examples project.

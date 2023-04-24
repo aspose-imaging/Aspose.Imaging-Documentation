@@ -30,6 +30,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for Python via .NET Product Page](https://products.aspose.com/imaging/python-net/)
 - [Install Aspose.Imaging for .NET PyPi Package](https://pypi.org/project/aspose-imaging/)
 - [Aspose.Imaging for Python via .NET API Reference Guide](https://reference.aspose.com/imaging/python)
-- [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Python)
+- [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Python-Net)
 - [Aspose.Imaging for Python via .NET Free Support Forum](https://forum.aspose.com/c/imaging/14)
 - [Aspose.Imaging for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
