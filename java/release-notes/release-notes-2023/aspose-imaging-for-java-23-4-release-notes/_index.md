@@ -1,0 +1,224 @@
+---
+type: docs
+weight: '60'
+url: /java/aspose-imaging-for-java-23-4-release-notes/
+title: Aspose.Imaging for JAVA 23.4 - Release notes
+---
+
+## Competitive features:
+
+- **Support of image raw data rendering from EPS**
+
+| **Key**         | **Summary**                                                                                                                                                              | **Category** |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| IMAGINGJAVA-8404 | Support of image raw data rendering from EPS                                                                                                                                  | Feature      |
+| IMAGINGJAVA-8420 | The EMF image on export to PNG has bottom-right shifted content                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8419 | NullReferenceException during an operation of conversion from tiff to pdf in the multithread mode.                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8411 | Can't convert EPS to PNG                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8409 | Cannot convert the EPS image to EMF                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8408 | Cannot load EPS image                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8401 | Can't convert CMX to JPG                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8397 | Issue with PNG images converted from EPS                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8396 | Cannot access a disposed object after conversion of ICO image                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8389 | DICOM loading issue under ARM64 mode                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8388 | WMF loading issue                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8357 | wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8332 | Incorrect text offsets in Emf formulas rasterization                                                                                                                                  | Enhancement      |
+| IMAGINGJAVA-8315 | Cdr to png misses lines                                                                                                                                  | Enhancement      |
+
+## Public API changes:
+
+### Added APIs:
+
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.4](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-23-4-release-notes/) version
+
+### Removed APIs:
+
+Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.4](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-23-4-release-notes/) version
+
+## Usage Examples:
+
+**IMAGINGJAVA-8420 The EMF image on export to PNG has bottom-right shifted content**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("err-offset.emf"))
+{
+	image.save("err-offset.emf.png", new PngOptions());
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8419 NullReferenceException during an operation of conversion from tiff to pdf in the multithread mode.**
+
+{{< highlight csharp >}}
+
+final ExecutorService executorService = Executors.newFixedThreadPool(10);
+final String baseDir = "C:\\some-dir-with-tiffs\\";
+final String[] tiffs = new File(baseDir)
+		.list((dir, name) -> name.endsWith("tiff") | name.endsWith("tif"));
+
+if (tiffs == null)
+{
+	System.err.println("No files have been found!");
+	return;
+}
+
+for (String file : tiffs)
+{
+	executorService.execute(new TiffExporter(baseDir + file));
+}
+
+while (executorService.awaitTermination(1, TimeUnit.SECONDS))
+{
+	Thread.yield();
+}
+executorService.shutdown();
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8411 Can't convert EPS to PNG**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("input.eps"))
+{
+    image.save("output.png", new PngOptions() {{
+		setColorType(PngColorType.TruecolorWithAlpha);
+		setProgressive(true); 
+		}});
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8409 Cannot convert the EPS image to EMF**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("input.eps"))
+{
+    image.save("output.emf", new EmfOptions());
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8408 Cannot load EPS image**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("input.eps"))
+{
+    image.save("output.psd");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8404 Support of image raw data rendering from EPS**
+
+{{< highlight csharp >}}
+
+EpsLoadOptions options = new EpsLoadOptions();
+options.setPreviewExportFormat(EpsPreviewFormat.PostScriptRendering);
+try (Image image = Image.load("input.eps", options))
+{
+    image.save("output.png");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8401 Can't convert CMX to JPG**
+
+{{< highlight csharp >}}
+
+try (Image img = Image.load("image.CMX"))
+{
+    img.save("result.jpg");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8397 Issue with PNG images converted from EPS**
+
+{{< highlight csharp >}}
+
+EpsLoadOptions options = new EpsLoadOptions();
+options.setPreviewExportFormat(EpsPreviewFormat.PostScriptRendering);
+try (Image image = Image.load("input.eps", options))
+{
+    image.save("output.png");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8396 Cannot access a disposed object after conversion of ICO image**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("multipage.ico"))
+{
+    image.save("multipage.png");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8389 DICOM loading issue under ARM64 mode**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("input.dcm"))
+{
+    image.save("output.png");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8388 WMF loading issue**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("input.wmf"))
+{
+    image.save("output.png");
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8357 wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency**
+
+{{< highlight csharp >}}
+
+try(Image png = Image.load("input.png"))
+{
+	png.save("output.tiff", new TiffOptions(TiffExpectedFormat.TiffLzwCmyka));
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8332 Incorrect text offsets in Emf formulas rasterization**
+
+{{< highlight csharp >}}
+
+try(EmfImage image = (EmfImage)Image.load(file))
+{
+   image.save(file + ".png", new PngOptions()
+   {{
+		setVectorRasterizationOptions(
+						new EmfRasterizationOptions() {{
+							setPageSize(Size.to_SizeF(image.getSize()));
+						}});
+   }});
+}
+
+{{< /highlight >}}
+
+**IMAGINGJAVA-8315 Cdr to png misses lines**
+
+{{< highlight csharp >}}
+
+try (Image image = Image.load("test-6.cdr"))
+ {
+     image.save("result.png");
+ }
+
+{{< /highlight >}}
+
