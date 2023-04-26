@@ -22,7 +22,6 @@ title: Aspose.Imaging for JAVA 23.4 - Release notes
 | IMAGINGJAVA-8396 | Cannot access a disposed object after conversion of ICO image                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8389 | DICOM loading issue under ARM64 mode                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8388 | WMF loading issue                                                                                                                                  | Enhancement      |
-| IMAGINGJAVA-8357 | wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8332 | Incorrect text offsets in Emf formulas rasterization                                                                                                                                  | Enhancement      |
 | IMAGINGJAVA-8315 | Cdr to png misses lines                                                                                                                                  | Enhancement      |
 
@@ -179,17 +178,6 @@ try (Image image = Image.load("input.dcm"))
 try (Image image = Image.load("input.wmf"))
 {
     image.save("output.png");
-}
-
-{{< /highlight >}}
-
-**IMAGINGJAVA-8357 wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency**
-
-{{< highlight csharp >}}
-
-try(Image png = Image.load("input.png"))
-{
-	png.save("output.tiff", new TiffOptions(TiffExpectedFormat.TiffLzwCmyka));
 }
 
 {{< /highlight >}}
