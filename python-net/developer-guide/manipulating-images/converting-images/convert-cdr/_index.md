@@ -1,10 +1,10 @@
 ---
-title: Convert CorelDraw CDR files to JPG, PNG, PDF and PSD in C#
+title: Convert CorelDraw CDR files to JPG, PNG, PDF and PSD in Python
 linktitle: Convert CDR
 type: docs
 weight: 20
 url: /python-net/convert-cdr/
-description: Convert CorelDraw CDR files to JPG, PNG, PDF and PSD using the C# Image Processing Library.
+description: Convert CorelDraw CDR files to JPG, PNG, PDF and PSD using the Python Image Processing Library.
 ---
 
 Using Aspose.Imaging you can easily convert your images from Cdr to jpg, png, pdf and psd and various set of formats.

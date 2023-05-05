@@ -1,5 +1,5 @@
 ---
-title: Applying Median and Wiener Filters - Denoise Image in C#
+title: Applying Median and Wiener Filters - Denoise Image in Python
 linktitle: Applying Median and Wiener Filters
 type: docs
 weight: 20

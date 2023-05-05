@@ -16,9 +16,9 @@ Please make sure you meet the following requirements before downloading and runn
 All examples of Aspose.Imaging for Python via .NET are hosted on [GitHub](https://github.com/aspose-imaging/Aspose.Imaging-for-Python-Net).
 
 - Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
-- **Data** folder at the root folder of **Examples** contains input files which Python examples used. It is mandatory that you download the **Data** folder along with the examples project.
-- Run RunExamples.py file, all the examples are called from here.
-- Specify group of examples you want to run or call needed example manually writing code for it.
+- **Examples/data** folder contains input files which Python examples used. It is mandatory that you download the **data** folder along with the examples project.
+- Run **python RunExamples.py** file, all the examples are called from here.
+- Specify group of examples or test file filter you want to run or call needed example manually writing code for it.
 
 Please feel free to reach out using our Forums if you have any issues setting up or running the examples.
 
