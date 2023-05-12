@@ -2,7 +2,7 @@
 title: Metered Licensing
 type: docs
 weight: 70
-url: /net/metered-licensing/
+url: /python-net/metered-licensing/
 description: Developers can use the Python Image Processing Library API to apply a metered key, which is a new licensing mechanism.
 ---
 
