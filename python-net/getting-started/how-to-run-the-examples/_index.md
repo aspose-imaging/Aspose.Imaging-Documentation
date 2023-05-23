@@ -22,6 +22,24 @@ All examples of Aspose.Imaging for Python via .NET are hosted on [GitHub](https:
 
 Please feel free to reach out using our Forums if you have any issues setting up or running the examples.
 
+## The command line arguments
+
+Using the following arguments you can manage the process of examples running.
+`python RunExamples.py [--argument value] [--argument value] ...`
+**Arguments:**
+
+| Argument | Value |
+| :- | :- |
+|`--src-dir`|`<path to the root example dir>`<br>Default: ./src|
+|`--data-dir`|`<path to the root data dir>`<br>Default: ./data|
+|`--output-dir`|`<path to the output dir>`<br>Default: ./output|
+|`--license`|`<path to a license file>`<br>Default: No license|
+|`--save-output`|`(true/false)`<br>Default: false|
+|`--groups`|`groups-flag`<br>**Can contains the following bit masks or combination**<br> 1 - Test drawing and formatting images <br> 2 - Test modifying and converting images <br> 4 - Test of memory strategies" <br> 8 - Test additional Aspose.Imaging features <br> 16 - Test file formats <br> **Default:** All |
+|`--file-filter`|`regex`<br>Default: All files|
+|--help|No need value|
+
+
 ## **Contribute**
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

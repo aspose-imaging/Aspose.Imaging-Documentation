@@ -14,16 +14,17 @@ Aspose.Imaging for Python via .NET is a wrapper of Aspose.Imaging for .NET, that
 
 ## Feature Differences
 
-Due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.
-* Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as 
-- [IPartialArgb32PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb32pixelloader/) \
-- [IPartialArgb64PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb64pixelloader/) \
-- [IImageLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloader/) \
-- [IImageLoaderDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloaderdescriptor/) \
-- [IImageExporter](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporter/) \
-- [IImageExporterDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporterdescriptor/) \
-- [IImageCreator](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreator/) \
-- [IImageCreatorDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreatordescriptor/) \
+Due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.<br>
+**Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as**
+
+- [IPartialArgb32PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb32pixelloader/)
+- [IPartialArgb64PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb64pixelloader/)
+- [IImageLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloader/)
+- [IImageLoaderDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloaderdescriptor/)
+- [IImageExporter](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporter/)
+- [IImageExporterDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporterdescriptor/)
+- [IImageCreator](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreator/)
+- [IImageCreatorDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreatordescriptor/)
 - [IColorPalette](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/icolorpalette/)
 - and other interfaces and callbacks/delegates
 
@@ -32,7 +33,7 @@ Due to the wrapping process there are some features that are not available in th
 Though type casting is not natural for Python developers some tasks cannot be accomplished without casting documents nodes or fields to concrete type. Aspose.Imaging for Python via .NET provides special methods that allow casting objects where this is necessary.
 
 ### Casting Images 
-Base class for all formats of images in Aspose.Imaging is [Image](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/image/)
+Base class for all formats of images in Aspose.Imaging is [Image](https://reference.aspose.com/imaging/python-net/aspose.imaging/image/)
 
 {{< highlight python >}}
 from aspose.imaging import Image
@@ -59,6 +60,53 @@ with Image.load("image.jpg") as image:
 | is_assignable(obj, T) | Returns **True** if `obj` can be cast to `T` with the `as_of` function, otherwise **False**|
 | is_typeof_eq&nbsp;(obj, T) | Returns **True** if the original wrapper-type of the underlying .Net object of the Python object `obj` is `T` otherwise **False**|
 | type_of(T) | Returns a wrapper-object representing the underlying .Net type for  `T` |
+
+## Non-standard collections and features
+
+Due to the fact that Aspose.Imaging for Python via .NET is based on .NET assembly, some properties and methods returns non-standard collections which are wrappers over the native .NET classes.
+
+### Arrays
+
+Actually returning arrays are classes that support standard access to their elements using `array[index]`, but they do not support the `len()` function. Instead, their size could be gotten using the property `length`.
+**Supported methods/properties**
+- Method `index()`
+- Method `count()`
+- Method `sort()`
+- Method `reverse()`
+- Method `copy()`
+- Method `contains()`
+- Iterator `__iter__`
+- Property `length` 
+
+``` python
+pixels = image.load_argb_32_pixels(Rectangle(10, 10, 20, 20))
+print("The length of pixels is", pixels.length) # can not be used `len(pixels)`
+# or you can do like this
+list_copy = list(pixels)
+print("The length of list_copy is", len(list_copy)) 
+```
+
+Arrays might be converted into standard Python lists by calling `list(pixels)`, but it takes time and more memory to copy all elements.
+
+### Lists
+Returning list are classes that support the following methods. But they do not support the `len()` function. Instead, their size could be gotten using the property `length`.
+
+**Supported methods/properties**
+- Method `pop()`
+- Method `index()`
+- Method `count()`
+- Method `sort()`
+- Method `reverse()`
+- Method `copy()`
+- Method `append()`
+- Method `remove()`
+- Method `clear()`
+- Method `contains()`
+- Iterator `__iter__`
+- Property `length` 
+
+Lists might be converted into standard Python lists by calling `list()`, but it takes time and more memory to copy all elements.
+
 
 ## API Members Naming
 To be closer to Python world, API members of Aspose.Imaging for Python via .NET uses a python snake style, however in most cases they have one to one analog in Aspose.Imaging for .NET API. You can find these analog in the [xml file](wrapper.zip).
