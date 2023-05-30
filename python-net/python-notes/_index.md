@@ -107,6 +107,56 @@ Returning list are classes that support the following methods. But they do not s
 
 Lists might be converted into standard Python lists by calling `list()`, but it takes time and more memory to copy all elements.
 
+## I/O Non-standard Classes
+Aspose.Imaging presents the following methods for working with memory and files as with streams.
+
+**Package: ** [aspose.imaging.extensions](https://reference.aspose.com/imaging/python-net/api-reference/aspose.imaging.extensions)
+
+**Class: ** [StreamExtensions](https://reference.aspose.com/imaging/python-net/api-reference/aspose.imaging.extensions/streamextensions/)
+
+| Method | Description |
+|--------|-------------|
+| create_memory_stream() | Creates and returns the stream that is actually placed in the memory and automatically extends when something is written in it. |
+| create_memory_stream_with_size(capacity) | The same with `create_memory_stream()` but the stream is already allocated with `capacity`. |
+| create_memory_stream_from_bytes(array) | Wraps `array` and allows work with it as with a stream. |
+| create_file_stream(path, file_mode) | Creates/opens a file in binary mode.<br> `path` is a path to a file.<br> `file_mode` can be one of the values of the enum **aspose.pyio.FileMode**.<br> - `FileMode.APPEND` - opens an existing file and appends data to the end of it.<br> - `FileMode.CREATE` - creates a new file or rewrites if it exists.<br> - `FileMode.CREATE_NEW` - creates a new file or throws an exception if it exists.<br> - `FileMode.OPEN` - opens file or throws exception if it does not exist.<br> - `FileMode.OPEN_OR_CREATE` - opens an existing file or creates if the file does not exist.<br> - `FileMode.TRUNCATE` - open an existing file and truncates it. |
+
+### Using MemoryStream
+
+``` python
+
+from aspose.imaging.extensions import StreamExtensions as streams
+
+with streams.create_memory_stream() as mem:
+  image.save(mem) # here we save the image into memory like in a file
+  
+  mem.seek(0)
+  first_bytes = mem.read(4)
+  mem.seek(0)
+  with Image.load(mem) as img2:
+	# do something
+	pass
+
+```
+
+### Using FileStream
+
+``` python
+
+from aspose.pyio import FileMode
+from aspose.imaging.extensions import StreamExtensions as streams
+
+with streams.create_file_stream('/tmp/outfile.bmp', FileMode.CREATE) as file_bmp:
+  image.save(file_bmp) # export in the file
+  
+  file_bmp.seek(0)
+  first_bytes = file_bmp.read(4)
+  file_bmp.seek(0)
+  with Image.load(file_bmp) as img2:
+	# do something
+	pass
+
+```
 
 ## API Members Naming
 To be closer to Python world, API members of Aspose.Imaging for Python via .NET uses a python snake style, however in most cases they have one to one analog in Aspose.Imaging for .NET API. You can find these analog in the [xml file](wrapper.zip).

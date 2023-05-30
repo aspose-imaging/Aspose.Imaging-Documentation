@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-23-5-release-notes/
-title: Aspose.Imaging for JAVA 23.5 - Release notes
+title: Aspose.Imaging for Java 23.5 - Release notes
 ---
 
 ## Competitive features:
@@ -35,7 +35,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8441 wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image png = Image.load("input.png"))
 {
@@ -46,7 +46,7 @@ try (Image png = Image.load("input.png"))
 
 **IMAGINGJAVA-8440 Support of TIFF with Cmyk Alpha color mode**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image png = Image.load("input.png"))
 {
@@ -57,7 +57,7 @@ try (Image png = Image.load("input.png"))
 
 **IMAGINGJAVA-8431 SVG to PDF: Arrows not rendered correctly**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("J1C.svg"))
 {
@@ -73,7 +73,7 @@ try (Image image = Image.load("J11A.svg"))
 
 **IMAGINGJAVA-8427 Support of tiled Tiff writing**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (TiffImage image = (TiffImage) Image.load("tiled-tiff.tiff"))
 {
@@ -90,7 +90,7 @@ try (TiffImage image = (TiffImage) Image.load("tiled-tiff.tiff"))
 
 **IMAGINGJAVA-8426 Cannot convert the CDR image to JPG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Desain Backdrop HUT RI 77 CDR - TUTORiduan.cdr"))
 {
@@ -101,7 +101,7 @@ try (Image image = Image.load("Desain Backdrop HUT RI 77 CDR - TUTORiduan.cdr"))
 
 **IMAGINGJAVA-8395 Resizing operation is incorrect for GIF animation**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 List<Integer> resizeTypes = Arrays.asList(
 	ResizeType.NearestNeighbourResample,
@@ -130,7 +130,7 @@ for (Integer resizeType : resizeTypes)
 
 **IMAGINGJAVA-8394 "Bit depth of 8 bits are supported for RGBA images." exception when rendering PNG file to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage) Image.load("image0.png"))
 {
@@ -142,7 +142,7 @@ try (RasterImage image = (RasterImage) Image.load("image0.png"))
 
 **IMAGINGJAVA-8373 WMF: Incorrect orientation of wmf rendering**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.wmf"))
 {
