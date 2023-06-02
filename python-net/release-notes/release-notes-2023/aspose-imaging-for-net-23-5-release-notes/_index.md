@@ -12,28 +12,21 @@ title: Aspose.Imaging for Python via .NET 23.5 - Release notes
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGNET-5986 | Support of tiled Tiff writing                                                                                                                                  | Feature      |
-| IMAGINGNET-6191 | WMF: Incorrect orientation of wmf rendering                                                                                                                                  | Enhancement      |
-| IMAGINGNET-6181 | SVG to PDF: Arrows not rendered correctly                                                                                                                                  | Enhancement      |
-| IMAGINGNET-6102 | Support of TIFF with Cmyk Alpha color mode                                                                                                                                  | Enhancement      |
-| IMAGINGNET-6101 | wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency                                                                                                                                  | Enhancement      |
-| IMAGINGNET-5802 | Cannot convert the CDR image to JPG                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4605 | "Bit depth of 8 bits are supported for RGBA images." exception when rendering PNG file to PNG                                                                                                                                  | Enhancement      |
-| IMAGINGNET-4600 | Resizing operation is incorrect for GIF animation                                                                                                                                  | Enhancement      |
+| IMAGINGPYTHONNET-47 | Release Aspose.Imaging for Python via .NET                                                                                                                                  | Task      |
 
 ## Public API changes:
 
+This is the first release of Aspose.Imaging for Python via .NET.
+
 ### Added APIs:
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.5](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-23-5-release-notes/) version
 
 ### Removed APIs:
 
-Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.5](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-23-5-release-notes/) version
 
 ## Usage Examples:
 
-**IMAGINGNET-6191 WMF: Incorrect orientation of wmf rendering**
+**Render Wmf to Png**
 
 {{< highlight python >}}
 
@@ -48,21 +41,21 @@ with Image.load("input.wmf") as image:
 
 {{< /highlight >}}
 
-**IMAGINGNET-6181 SVG to PDF: Arrows not rendered correctly**
+**Render Svg to Pdf**
 
 {{< highlight python >}}
 
-with Image.load("D:\\J1C.svg")) as image:
+with Image.load("J1C.svg")) as image:
 	pdfOptions = new PdfOptions()
-	image.save("D:\\J1C.pdf", pdfOptions)
+	image.save("J1C.pdf", pdfOptions)
 
-with Image.load("D:\\J11A.svg")) as image:
+with Image.load("J11A.svg")) as image:
 	pdfOptions = new PdfOptions()
-	image.save("D:\\J11A.pdf", pdfOptions)
+	image.save("J11A.pdf", pdfOptions)
 
 {{< /highlight >}}
 
-**IMAGINGNET-6102 Support of TIFF with Cmyk Alpha color mode**
+**Support of TIFF with Cmyk Alpha color mode**
 
 {{< highlight python >}}
 
@@ -71,16 +64,7 @@ with Image.load("input.png") as png:
 
 {{< /highlight >}}
 
-**IMAGINGNET-6101 wk: Converting PNG to TIFF using CMYK colorspace and preserving transparency**
-
-{{< highlight python >}}
-
-with Image.load("input.png") as png:
-	png.save("output.tiff", new TiffOptions(TiffExpectedFormat.TiffLzwCmyka))
-
-{{< /highlight >}}
-
-**IMAGINGNET-5986 Support of tiled Tiff writing**
+**Support of tiled Tiff writing**
 
 {{< highlight python >}}
 
@@ -93,7 +77,7 @@ with aspose.pycore.as_of(Image.load("tiled-tiff.tiff"), TiffImage) as image:
 
 {{< /highlight >}}
 
-**IMAGINGNET-5802 Cannot convert the CDR image to JPG**
+**Render CDR image to JPG**
 
 {{< highlight python >}}
 
@@ -102,7 +86,7 @@ with Image.load("Desain Backdrop HUT RI 77 CDR - TUTORiduan.cdr") as image:
 
 {{< /highlight >}}
 
-**IMAGINGNET-4605 "Bit depth of 8 bits are supported for RGBA images." exception when rendering PNG file to PNG**
+** Bit depth of 8 bits are supported for RGBA images.**
 
 {{< highlight python >}}
 
@@ -112,7 +96,7 @@ with aspose.pycore.as_of(Image.load("image0.png"), RasterImage) as image:
 
 {{< /highlight >}}
 
-**IMAGINGNET-4600 Resizing operation is incorrect for GIF animation**
+**Resizing operation with GIF animation**
 
 {{< highlight python >}}
 
