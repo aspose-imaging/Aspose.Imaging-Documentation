@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-23-6-release-notes/
-title: Aspose.Imaging for JAVA 23.6 - Release notes
+title: Aspose.Imaging for Java 23.6 - Release notes
 ---
 
 ## Competitive features:
@@ -28,7 +28,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8466 Evaluation watermark is added to the output when converting DCM**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(Image image = ImagingVentureLicenser.load(FileName, true, ""))
 {
@@ -39,7 +39,7 @@ try(Image image = ImagingVentureLicenser.load(FileName, true, ""))
 
 **IMAGINGJAVA-8450 EMF to SVG NullReferenceException**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (EmfImage image = (EmfImage)Image.load("D:\\SimpleReport.emf"))
 {
@@ -50,7 +50,7 @@ try (EmfImage image = (EmfImage)Image.load("D:\\SimpleReport.emf"))
 
 **IMAGINGJAVA-8444 Regression: Exif Data is missing exception**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (JpegImage image = (JpegImage) Image.load("file.jpg", new LoadOptions()	{{
 								setDataRecoveryMode(DataRecoveryMode.ConsistentRecover);
