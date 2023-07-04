@@ -48,4 +48,4 @@ For these reasons specified above, it is recommended that Aspose.Imaging to run 
 **Please note:** if you use NetStandard dll installed via MSI package you should add necessary dependencies to work with netStandard version (please see release notes for more information).
 
 ## **Working with Aspose.Imaging .NET Core dlls in Non-Windows Environment**
-Aspose.Imaging is cross-platform library that supports not only Windows OS, but also other operation systems. More information about [how to work with Aspose.Imaging .NET Core dlls in Non-Windows Environment](/net/installation/working-with-aspose-imaging-in-non-windows-environment/).
+Aspose.Imaging is cross-platform library that supports not only Windows OS, but also other operation systems. More information about [how to work with Aspose.Imaging .NET Core dlls in Non-Windows Environment](/imaging/net/installation/working-with-aspose-imaging-in-non-windows-environment/).

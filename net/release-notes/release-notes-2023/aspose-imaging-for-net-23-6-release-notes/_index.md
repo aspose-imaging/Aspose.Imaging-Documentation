@@ -6,7 +6,7 @@ title: Aspose.Imaging for .NET 23.6 - Release notes
 ---
 
 ## Competitive features:
-Since [23.6 release](https://www.nuget.org/packages/Aspose.Imaging/23.6.0) Aspose.Imaging for .NET supports [Aspose.Drawing](https://products.aspose.com/drawing/net/) for NET7 configuration as default graphics engine.
+Since [23.6 release](https://www.nuget.org/packages/Aspose.Imaging/23.6.0) Aspose.Imaging for .NET supports [Aspose.Drawing](https://products.aspose.com/drawing/net/) for .NET7 configuration as default graphics engine. If you work with Aspose.Imaging in Non-Windows environment you can view [how to work with Aspose.Imaging .NET Core dlls in Non-Windows Environment](/imaging/net/installation/working-with-aspose-imaging-in-non-windows-environment/) guide.
 
 **Net2.0, Net3.5,Net3.5 client profile remove notice** - Please note, in the nearest releases Net2.0, Net3.5, Net3.5 client profile configurations will not be supported.
 
