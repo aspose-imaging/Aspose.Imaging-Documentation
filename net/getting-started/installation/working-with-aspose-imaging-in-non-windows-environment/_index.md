@@ -19,7 +19,7 @@ Please install:
 1. package with Microsoft compatible fonts: ttf-mscorefonts-installer (e.g. *sudo apt-get install ttf-mscorefonts-installer*)
 1. package with other fonts: *apt-get update && apt-get install -y fontconfig fonts-wqy-zenhei*
 
-### **How to install libgdiplus package**
+### **How to install libgdiplus package on Ubuntu Linux**
 To install libgdiplus package you can follow instruction:
 
 sudo apt install gnupg ca-certificates
