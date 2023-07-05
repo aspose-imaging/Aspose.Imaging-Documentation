@@ -19,27 +19,27 @@ Switch to Aspose.Drawing as default graphics engine on Linux from libdgi
 
 Class    `aspose.imaging.masking.IMaskingAsyncTask`
 
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TiffDeflateCmyk`
+Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_DEFLATE_CMYK`
 
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TiffDeflateCmyka`
+Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_DEFLATE_CMYKA`
 
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TiffLzwCmyka`
+Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_LZW_CMYKA`
 
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TiffNoCompressionCmyk`
+Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_NO_COMPRESSION_CMYK`
 
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TiffNoCompressionCmyka`
+Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_NO_COMPRESSION_CMYKA`
 
 Method    `aspose.imaging.CmykColorHelper.to_cmyka_bytes(argb_pixels, start_index, length)`
 
 Method    `aspose.imaging.CmykColorHelper.to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)`
 
-Constructor    `aspose.imaging.imageoptions.IcoOptions.__init(self)___`
+Constructor    `aspose.imaging.imageoptions.IcoOptions()`
 
 Method    `aspose.imaging.imageoptions.TiffOptions.remove_tags(tags)`
 
-Method    `aspose.imaging.masking.IMaskingAsyncTask.get_error`
+Method    `aspose.imaging.masking.IMaskingAsyncTask.get_error()`
 
-Method    `aspose.imaging.masking.IMaskingAsyncTask.get_masking_result`
+Method    `aspose.imaging.masking.IMaskingAsyncTask.get_masking_result()`
 
 
 ### Removed APIs:
