@@ -1,7 +1,7 @@
 ---
 type: docs
 weight: '60'
-url: /net/aspose-imaging-for-python-net-23-6-release-notes/
+url: /python-net/aspose-imaging-for-python-net-23-6-release-notes/
 title: Aspose.Imaging for Python via .NET 23.6 - Release notes
 ---
 
