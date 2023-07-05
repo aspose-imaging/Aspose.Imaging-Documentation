@@ -5,8 +5,6 @@ url: /net/aspose-imaging-for-python-net-23-6-release-notes/
 title: Aspose.Imaging for Python via .NET 23.6 - Release notes
 ---
 
-## Competitive features:
-Switch to Aspose.Drawing as default graphics engine on Linux from libdgi
 
 | **Key**             | **Summary**                                                                                                                                                    |   **Category**   |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
@@ -16,31 +14,6 @@ Switch to Aspose.Drawing as default graphics engine on Linux from libdgi
 ## Public API changes:
 
 ### Added APIs:
-
-Class    `aspose.imaging.masking.IMaskingAsyncTask`
-
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_DEFLATE_CMYK`
-
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_DEFLATE_CMYKA`
-
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_LZW_CMYKA`
-
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_NO_COMPRESSION_CMYK`
-
-Field/Enum    `aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.TIFF_NO_COMPRESSION_CMYKA`
-
-Method    `aspose.imaging.CmykColorHelper.to_cmyka_bytes(argb_pixels, start_index, length)`
-
-Method    `aspose.imaging.CmykColorHelper.to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)`
-
-Constructor    `aspose.imaging.imageoptions.IcoOptions()`
-
-Method    `aspose.imaging.imageoptions.TiffOptions.remove_tags(tags)`
-
-Method    `aspose.imaging.masking.IMaskingAsyncTask.get_error()`
-
-Method    `aspose.imaging.masking.IMaskingAsyncTask.get_masking_result()`
-
 
 ### Removed APIs:
 
