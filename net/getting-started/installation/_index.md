@@ -44,23 +44,8 @@ Internet Service Providers hosting multiple applications from different companie
 - **FileIOPermission** is restricted. This means you can only access files in your application’s virtual directory hierarchy. This potentially means fonts cannot be read during export.
 
 For these reasons specified above, it is recommended that Aspose.Imaging to run on Full Trust permissions. You may find that some features of library will work when performing different tasks in Medium trust while some won't (rendering for example) which may due to calls to GDI+ image processing.
-## **Working with .NET Core DLLs in Non-Windows Environment**
-As Aspose.Imaging for .NET provides .NET Standard 2.0 (.NET Core 2.0, .NET Core 3.1 and .NET5) support, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. However, there are some following operations which we recommend our customers to perform, in order to get better results while using features of Aspose.Imaging for .NET:
-
-Please install:
-
-1. libgdiplus package
-1. libc6-dev package
-1. package with Microsoft compatible fonts: ttf-mscorefonts-installer. (e.g. *sudo apt-get install ttf-mscorefonts-installer*)
 ## **Working with .NET Core DLLs installed via MSI package**
 **Please note:** if you use NetStandard dll installed via MSI package you should add necessary dependencies to work with netStandard version (please see release notes for more information).
 
-## **Working with .NET Core DLLs in Non-Windows Environment using Aspose.Imaging version with alternative graphics engine - Aspose.Drawing instead of System.Drawng.Common/GDI+ for .NET Standard 2.0**
-
-As Aspose.Imaging for .NET provides .NET Standard 2.0 (.NET Core 2.0, .NET Core 3.1 and .NET5) support, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. Using version with alternative graphics engine - Aspose.Drawing (available as [Aspose.Imaging 22.6 beta](https://www.nuget.org/packages/Aspose.Imaging/22.6.0-beta)) you need to perform next steps:
-
-1. Install default fonts:
-sudo apt-get update 
-sudo apt-get install fonts-freefont-ttf 
-2. Install Microsoft fonts if necessary:
-sudo apt-get install ttf-mscorefonts-installer
+## **Working with Aspose.Imaging .NET Core dlls in Non-Windows Environment**
+Aspose.Imaging is cross-platform library that supports not only Windows OS, but also other operation systems. More information about [how to work with Aspose.Imaging .NET Core dlls in Non-Windows Environment](/imaging/net/installation/working-with-aspose-imaging-in-non-windows-environment/).

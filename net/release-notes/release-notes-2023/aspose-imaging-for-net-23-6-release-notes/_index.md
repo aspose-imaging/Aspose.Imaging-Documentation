@@ -6,7 +6,7 @@ title: Aspose.Imaging for .NET 23.6 - Release notes
 ---
 
 ## Competitive features:
-Switch to Aspose.Drawing as default graphics engine on Linux from libdgi
+Since [23.6 release](https://www.nuget.org/packages/Aspose.Imaging/23.6.0) Aspose.Imaging for .NET supports [Aspose.Drawing](https://products.aspose.com/drawing/net/) for .NET7 configuration as default graphics engine. If you work with Aspose.Imaging in Non-Windows environment you can view [how to work with Aspose.Imaging .NET Core dlls in Non-Windows Environment](/imaging/net/installation/working-with-aspose-imaging-in-non-windows-environment/) guide.
 
 **Net2.0, Net3.5,Net3.5 client profile remove notice** - Please note, in the nearest releases Net2.0, Net3.5, Net3.5 client profile configurations will not be supported.
 
@@ -19,37 +19,6 @@ Switch to Aspose.Drawing as default graphics engine on Linux from libdgi
 ## Public API changes:
 
 ### Added APIs:
-
-Class    Aspose.Imaging.Masking.IMaskingAsyncTask
-
-Field/Enum    Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.TiffDeflateCmyk
-
-Field/Enum    Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.TiffDeflateCmyka
-
-Field/Enum    Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.TiffLzwCmyka
-
-Field/Enum    Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.TiffNoCompressionCmyk
-
-Field/Enum    Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.TiffNoCompressionCmyka
-
-Method    Aspose.Imaging.CmykColorHelper.ToCmykaBytes(System.Int32[],System.Int32,System.Int32)
-
-Method    Aspose.Imaging.CmykColorHelper.ToCmykaIccBytes
-(System.Int32[],System.Int32,System.Int32,System.IO.Stream,System.IO.Stream)
-
-Method    Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamWriter.Write
-(System.IO.MemoryStream)
-
-ethod    Aspose.Imaging.ImageOptions.IcoOptions.#ctor
-
-Method    Aspose.Imaging.ImageOptions.TiffOptions.RemoveTags
-(Aspose.Imaging.FileFormats.Tiff.Enums.TiffTags[])
-
-Method    Aspose.Imaging.Masking.IMaskingAsyncTask.GetError
-
-Method    Aspose.Imaging.Masking.IMaskingAsyncTask.GetMaskingResult
-
-
 
 ### Removed APIs:
 
