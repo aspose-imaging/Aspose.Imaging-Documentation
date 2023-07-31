@@ -7,7 +7,7 @@ description: You can use Python Image Processing Library API to develop applicat
 ---
 
 ### **Supported Operating Systems:**
-Aspose.Imaging for Python via .NET supports Windows 64-bit, Linux 64-bit operating systems where Python 3.5 or later is installed.
+Aspose.Imaging for Python via .NET supports Windows 32/64-bit, Linux 64-bit operating systems where Python 3.5 or later is installed.
 
 <table>  
 	<tr>

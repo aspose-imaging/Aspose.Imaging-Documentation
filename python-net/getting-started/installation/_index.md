@@ -19,7 +19,7 @@ Check and confirm that your machine's specifications meet or better the [system 
 
 `pip` is the easiest way to download and install [Aspose.Imaging for Python via .NET](https://pypi.org/project/aspose-imaging-python-net/) on Windows devices.
 
-To install Aspose.Imaging, run this command:  `pip install aspose.imaging`
+To install Aspose.Imaging, run this command:  `pip install aspose-imaging-python-net`
 
 
 ## **Working in Non-Windows Environment**

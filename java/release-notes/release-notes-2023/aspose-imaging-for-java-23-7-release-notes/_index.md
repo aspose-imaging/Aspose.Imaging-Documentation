@@ -30,7 +30,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8477 UnIfy naming conventions**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 long format = com.aspose.imaging.FileFormat.Unknown;
 System.out.print(format);
@@ -39,7 +39,7 @@ System.out.print(format);
 
 **IMAGINGJAVA-8476 Synchronize use of Pages and format specific collections for multi page images**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 long[] fileFormats = {FileFormat.Tiff, FileFormat.Gif, FileFormat.Dicom};
 for (long fileFormat : fileFormats)
@@ -102,7 +102,7 @@ for (long fileFormat : fileFormats)
 
 **IMAGINGJAVA-8475 Add alpha blending feature for RasterImage**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(RasterImage background = (RasterImage) Image.load("background.webp"))
 {
@@ -120,7 +120,7 @@ try(RasterImage background = (RasterImage) Image.load("background.webp"))
 
 **IMAGINGJAVA-8470 EMF export error**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("33.emf"))
 {
