@@ -69,11 +69,11 @@ Sometimes you need to remove a background from a photo and leave only human’s 
 
 Original image:
 
-<img src="images/Original_image_before_edit.png" alt="Original image before editing" width="500" height="329"/>
+<img src="images/Original_image_before_edit.jpg" alt="Original image before editing" width="640" height="421"/>
 
 Image with removed background:
 
-<img src="images/Remove_background_image.png" alt="Image with removed background" width="500" height="329"/>
+<img src="images/Remove_background_image.jpg" alt="Image with removed background" width="640" height="421"/>
 
 C# code example: [howto remove background](howto_remove_background.md).
 
