@@ -11,7 +11,7 @@ keywords: [remove background, photo background change, feathering radius, auto m
 In the example below, to carefully remove background, we use the class <a href="https://reference.aspose.com/imaging/net/aspose.imaging.masking.options/automaskinggraphcutoptions/">AutoMaskingGraphCutOptions class</a> with automatically calculated strokes and set <a href="https://reference.aspose.com/imaging/net/aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius/">FeatheringRadius property</a> to smooth and blur the cutting edge. The feathering radius is calculated as 1/500 of the image dimension. After removing a background we need to set the color to replace it, so we use transparent pixels in this case. The same procedure we can use for photo background change.
 </p>
 
-{% gist aspose-com-gists/cd4fed97fcdfa3055fbffc65e5298664 graph-cut-feathering.cs %}
+{{< gist aspose-com-gists/cd4fed97fcdfa3055fbffc65e5298664 graph-cut-feathering.cs >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

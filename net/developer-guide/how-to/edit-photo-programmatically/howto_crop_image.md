@@ -18,7 +18,7 @@ You can select between two types of possible cropping: either indicate new image
 The example below makes an image <a href="https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-2-of-2">Crop by shifts</a> on 10px from each image side:
 </p>
 
-{% gist aspose-com-gists/7ee37a401e37790396ad9f4cde87d446 cropping-by-shifts.cs %}
+{{< gist aspose-com-gists/7ee37a401e37790396ad9f4cde87d446 cropping-by-shifts.cs >}}
 
 
 ## Crop by rectangle
@@ -28,4 +28,4 @@ The example below makes an image <a href="https://reference.aspose.com/imaging/n
 In this example, we create a square with a side length of 20 px and then <a href="https://reference.aspose.com/imaging/net/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-1-of-2">Crop by rectangle</a> the photo to this area from the original picture.
 </p>
 
-{% gist aspose-com-gists/7ee37a401e37790396ad9f4cde87d446 cropping-by-rectangle.cs %}
+{{< gist aspose-com-gists/7ee37a401e37790396ad9f4cde87d446 cropping-by-rectangle.cs >}}

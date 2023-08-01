@@ -18,7 +18,7 @@ With Aspose.Imaging you can use several methods to draw graphics primitives such
 You need to create a graphic surface to draw an image from scratch and set up graphic properties. We will create a surface of 100 x 100 pixels with 32 bits per pixel in our example and set the background to yellow color with <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/clear/">Clear method</a>. Then we can define a drawing tool, for example, a Pen with a Blue color, to draw a dotted line or use SolidBrush for continuous lines with different colors, followed by X, Y coordinates of the start and end points of the lines:
 </p>
 
-{% gist aspose-com-gists/ebaa56878c36388b3fcab68c7a5adb66 drawing-lines.cs %}
+{{< gist aspose-com-gists/ebaa56878c36388b3fcab68c7a5adb66 drawing-lines.cs >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
