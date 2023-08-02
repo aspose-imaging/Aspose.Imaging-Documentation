@@ -1,10 +1,14 @@
 ---
-title: How to grayscale an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/grayscale-image
+linktitle: How to grayscale an image
+title: How to grayscale an image
 description: Grayscale an image. Convert color image to grayscale.
 keywords: [grayscale an image, grayscale method]
 ---
 
-# How to grayscale an image with Aspose.Imaging program library
+## How to grayscale an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

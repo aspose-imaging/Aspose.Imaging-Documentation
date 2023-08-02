@@ -1,10 +1,14 @@
 ---
-title: How to remove background from an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/remove-background
+linktitle: How to remove background from an image
+title: How to remove background from an image
 description: Removing photo background. Change image background color.
 keywords: [remove background, photo background change, feathering radius, auto masking graph cut]
 ---
 
-# How to remove background from an image with Aspose.Imaging program library
+## How to remove background from an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

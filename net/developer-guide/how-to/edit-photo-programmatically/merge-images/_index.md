@@ -1,10 +1,14 @@
 ---
-title: How to merge images with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/merge-images
+linktitle: How to merge images
+title: How to merge images
 description: Merge images. Combine several images into one. Create a photo collage.
 keywords: [merge images, merging images]
 ---
 
-# How to merge images with Aspose.Imaging program library
+## How to merge images
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

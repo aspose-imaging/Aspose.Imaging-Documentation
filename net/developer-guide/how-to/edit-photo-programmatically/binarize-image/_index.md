@@ -1,10 +1,14 @@
 ---
-title: How to binarize an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/binarize-image
+linktitle: How to binarize an image
+title: How to binarize an image
 description: Binarize an image using fixed binarisation method with threshold, method Bradly and Otsu method.
 keywords: [binarize an image, binarisation method, grayscaling method, method Bradly, Otsu method]
 ---
 
-# How to binarize an image with Aspose.Imaging program library
+## How to binarize an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -1,10 +1,14 @@
 ---
-title: How to cartoonify an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/cartoonify-image
+linktitle: How to cartoonify an image
+title: How to cartoonify an image
 description: Cartoonify an image. Convert photo to cartoon style.
 keywords: [cartoonify an image, cartoon style, convolution filter, select outlines]
 ---
 
-# How to cartoonify an image with Aspose.Imaging program library
+## How to cartoonify an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

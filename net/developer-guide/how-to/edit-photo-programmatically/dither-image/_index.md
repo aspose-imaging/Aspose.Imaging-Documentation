@@ -1,10 +1,14 @@
 ---
-title: How to dither an image with Aspose.Imaging program library
-description: Dither an image. Dithering image with threshold. Floyd Steinberg Dithering.
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/dither-image
+linktitle: How to dither an image
+title: How to dither an image
+description: Dither an image. Dithering image with a threshold. Floyd Steinberg Dithering.
 keywords: [edit an image, dither an image, dithering method, Floyd Steinberg Dithering]
 ---
 
-# How to dither an image with Aspose.Imaging program library
+## How to dither an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

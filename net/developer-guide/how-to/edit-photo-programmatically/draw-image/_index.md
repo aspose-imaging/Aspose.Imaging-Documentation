@@ -1,10 +1,14 @@
 ---
-title: How to draw an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/draw-image
+linktitle: How to draw an image
+title: How to draw an image
 description: Draw an image. Drawing lines, ellipses, rectangles, arcs, Bezier curves and strings.
 keywords: [draw an image, drawing tool, solid brush, draw a dotted line]
 ---
 
-# How to draw an image with Aspose.Imaging program library
+## How to draw an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

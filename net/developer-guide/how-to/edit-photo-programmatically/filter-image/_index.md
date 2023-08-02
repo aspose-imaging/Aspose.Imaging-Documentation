@@ -1,10 +1,14 @@
 ---
-title: How to filter an image with Aspose.Imaging program library
+type: docs
+weight: '90'
+url: /net/developer-guide/how-to/edit-photo-programmatically/filter-image
+linktitle: How to filter an image
+title: How to filter an image
 description: Filter an image. Apply Rectangular, Sharpen, Motion, Smoothing, Blur, and Median filters.
 keywords: [edit a photo, edit an image, filter photo, rectangle filter, sharpen filter, Gauss blur]
 ---
 
-# How to filter an image with Aspose.Imaging program library
+## How to filter an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
