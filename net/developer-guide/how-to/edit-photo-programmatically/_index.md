@@ -8,9 +8,7 @@ description: Library for image editing. Photo editing automation. Image manipula
 keywords: [edit a photo, editing of pictures, edit an image, photo background editor, photo background change, resizing an image, resizing photos, photo sizing, picture resizer, image crop, crop photo, filter photo, online photo editor, online image editor, photo editing app, free photo editor]
 ---
 
-# How to edit your photo or image programmatically
-
-## Intro
+## How to edit your photo or image programmatically
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -27,7 +25,7 @@ Editing pictures is a frequent task for developers, researchers and students. Au
 In this article, we consider how to use the most demanded operations for image editing with Aspose.Imaging C# library. Please follow the link to see the table with the list of all <a href="https://docs.aspose.com/imaging/net/supported-file-formats/">supported image formats</a>.
 </p>
 
-## Resizing an image
+### Resizing an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -37,7 +35,7 @@ Usually, resizing an image is necessary when initial images have different sizes
 C# code example: [howto resize image](resize-image).
 
 
-## Crop an image
+### Crop an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -47,7 +45,7 @@ Another widely used operation of edit an image is image cropping. If an image or
 C# code example: [howto crop image](crop-image).
 
 
-## Rotate
+### Rotate
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -60,7 +58,7 @@ C# code example: [howto rotate image](rotate-image).
 The more detailed description of resize, crop and rotate operations you can find in the [Aspose.Imaging official documentation](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/).
 
 
-## Remove background
+### Remove background
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -78,7 +76,7 @@ Image with removed background:
 C# code example: [howto remove background](remove-background).
 
 
-## Filter an image
+### Filter an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -88,7 +86,7 @@ Applying filters to images is a very popular operation of image quality enhancem
 C# code example: [howto filter image](filter-image).
 
 
-## Merge images
+### Merge images
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -98,7 +96,7 @@ To combine several images into one image you can use methods from the image libr
 C# code example: [howto merge images](merge-images).
 
 
-## Grayscale image
+### Grayscale image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,7 +110,7 @@ Grayscaled image example:
 C# code example: [howto grayscale image](grayscale-image).
 
 
-## Binarize image
+### Binarize image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -130,7 +128,7 @@ Example of black and image with binarization threshold 100:
 C# code example: [howto binarize image](binarize-image).
 
 
-## Dither image
+### Dither image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -144,7 +142,7 @@ Example of image with `FloydSteinberg` dither method applied:
 C# code example: [howto dither image](dither-image).
 
 
-## Adjust image
+### Adjust image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -154,7 +152,7 @@ Adjusting image brightness, contrast and gamma are often used operations for ima
 C# code example: [howto adjust image](adjust-image).
 
 
-## Cartoonify image
+### Cartoonify image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -168,7 +166,7 @@ Example of image with `Cartoonify` filter applied:
 C# code example: [howto cartoonify image](cartoonify-image).
 
 
-## Drawing images
+### Drawing images
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
