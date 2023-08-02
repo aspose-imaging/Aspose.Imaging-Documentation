@@ -44,7 +44,7 @@ C# code example: [howto resize image](resize-image).
 Another widely used operation of edit an image is image cropping. If an image or photo has unwanted fields on the sides you need to cut it off. Also, you may want to crop a dedicated rectangle area of the photo. For example, the interesting area is located on some part of the whole image and you want to cut off only this particular piece. You can execute both types of cropping: image crop by shifts and image crop by a rectangle by using Aspose.Imaging. In the first case, you indicate the shifts from sides, in the second - the rectangle area to crop photo.
 </p>
 
-C# code example: [howto crop image](howto_crop_image.md).
+C# code example: [howto crop image](crop-image).
 
 
 ## Rotate
@@ -54,7 +54,7 @@ C# code example: [howto crop image](howto_crop_image.md).
 Original photos may have the wrong orientation due to a photographer had took photo shots with various camera rotations and embedded auto-rotation does not work properly. The information about picture orientation is usually written down in the image `EXIF` metadata by camera software and used for rotation. You can rotate images programmable by 90/180/270-degree angles or flip photos vertically or horizontally to fix this issue. In some cases, the photos were made with a mistake of horizon slop, the horizon line has not strongly horizontal. The program library gives you the possibility to rotate an image on a specific angle as well.
 </p>
 
-C# code example: [howto rotate image](howto_rotate_image.md).
+C# code example: [howto rotate image](rotate-image).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 The more detailed description of resize, crop and rotate operations you can find in the [Aspose.Imaging official documentation](https://docs.aspose.com/imaging/net/crop-rotate-and-resize-images/).
@@ -75,7 +75,7 @@ Image with removed background:
 
 <img src="images/Remove_background_image.jpg" alt="Image with removed background" width="640" height="421"/>
 
-C# code example: [howto remove background](howto_remove_background.md).
+C# code example: [howto remove background](remove-background).
 
 
 ## Filter an image
@@ -85,7 +85,7 @@ C# code example: [howto remove background](howto_remove_background.md).
 Applying filters to images is a very popular operation of image quality enhancement. You may need to filter photo to make it more sharp or on the contrary, blur them. You can quickly apply several filters using the C# program. Aspose.Imaging proposes a list of available filters for smoothing images with noise reduction, but preserving objects’ edges, changing brightness and contrast for reducing overexposure of photography or lightening too dark parts, and emphasizing details.
 </p>
 
-C# code example: [howto filter image](howto_filter_image.md).
+C# code example: [howto filter image](filter-image).
 
 
 ## Merge images
@@ -95,7 +95,7 @@ C# code example: [howto filter image](howto_filter_image.md).
 To combine several images into one image you can use methods from the image library. It is possible to merge images by adding them to the resulting image in horizontal or vertical directions. This approach is suitable for creating large images, like wallpaper, consisting of many repeated small ones or you can create a collage from several different images.
 </p>
 
-C# code example: [howto merge images](./howto_merge_images.md).
+C# code example: [howto merge images](merge-images).
 
 
 ## Grayscale image
@@ -109,7 +109,7 @@ Grayscaled image example:
 
 <img src="images/Grayscale.jpg" alt="Image converted to Grayscale" width="400" height="267"/>
 
-C# code example: [howto grayscale image](./howto_grayscale_image.md).
+C# code example: [howto grayscale image](grayscale-image).
 
 
 ## Binarize image
@@ -127,7 +127,7 @@ Example of black and image with binarization threshold 100:
 
 <img src="images\BinarizationWithFixedThreshold.jpg" alt="Image with binarize fixed threshold filter" width="640" height="400"/>
 
-C# code example: [howto binarize image](./howto_binarize_image.md).
+C# code example: [howto binarize image](binarize-image).
 
 
 ## Dither image
@@ -141,7 +141,7 @@ Example of image with `FloydSteinberg` dither method applied:
 
 <img src="images\DitherImage.jpg" alt="Dithered image for better quality" width="640" height="400"/>
 
-C# code example: [howto dither image](./howto_dither_image.md).
+C# code example: [howto dither image](dither-image).
 
 
 ## Adjust image
@@ -151,7 +151,7 @@ C# code example: [howto dither image](./howto_dither_image.md).
 Adjusting image brightness, contrast and gamma are often used operations for image editing before publishing. Pictures may look pale or different areas of the image could be too darkened or too lighten without properly adjusting these parameters. These image defects lead to picture details loss and the general effect of a website with such images will be weak. You can perform brightness, contrast or gamma correction by passing appropriate parameters to the image library method.
 </p>
 
-C# code example: [howto adjust image](./howto_adjust_image.md).
+C# code example: [howto adjust image](adjust-image).
 
 
 ## Cartoonify image
@@ -165,7 +165,7 @@ Example of image with `Cartoonify` filter applied:
 
 <img src="images\cartoonify.jpg" alt="Cartoon style image after cartoonify filter" width="640" height="400"/>
 
-C# code example: [howto cartoonify image](./howto_cartoonify_image.md).
+C# code example: [howto cartoonify image](cartoonify-image).
 
 
 ## Drawing images
@@ -175,7 +175,7 @@ C# code example: [howto cartoonify image](./howto_cartoonify_image.md).
 You can not only edit existing images but create new ones and draw various shapes such as Lines, Ellipses, Rectangles, Arcs and Bezier shapes. First, you need to create an image surface with selected background color, then select a tool Pen to draw with a specific brush, color and width.
 </p>
 
-C# code example: [howto drawing images](./howto_draw_image.md).
+C# code example: [howto drawing images](draw-image).
 
 
 ## How to edit your photo or image online

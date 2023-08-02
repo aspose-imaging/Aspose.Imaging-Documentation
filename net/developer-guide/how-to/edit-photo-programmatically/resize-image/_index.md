@@ -2,13 +2,13 @@
 type: docs
 weight: '90'
 url: /net/developer-guide/how-to/edit-photo-programmatically/resize-image
-linktitle: Resize an image
+linktitle: How to resize an image
 title: How to resize an image
 description: Resize an image. Change photos height and width. Sizing photos proportionally.
 keywords: [resize an image, resizing an image, resizing photos, photo sizing, picture resizer]
 ---
 
-# How to resize an image
+## How to resize an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

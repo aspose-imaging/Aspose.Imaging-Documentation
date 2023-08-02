@@ -2,13 +2,13 @@
 type: docs
 weight: '90'
 url: /net/developer-guide/how-to/edit-photo-programmatically/adjust-image
-linktitle: Adjust an image
+linktitle: How to adjust an image
 title: How to adjust an image
 description: Adjust an image brightness, contrast and gamma coefficient. Gamma corrections.
 keywords: [adjust an image, gamma corrections, image brightness, contrast corrections]
 ---
 
-# How to adjust an image
+## How to adjust an image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
