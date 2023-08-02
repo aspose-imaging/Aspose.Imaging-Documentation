@@ -69,11 +69,11 @@ Sometimes you need to remove a background from a photo and leave only human’s 
 
 Original image:
 
-<img src="images/Original_image_before_edit.jpg" alt="Original image before editing" width="640" height="421"/>
+<img src="images/Original_image_before_edit.webp" alt="Original image before editing" width="640" height="421"/>
 
 Image with removed background:
 
-<img src="images/Remove_background_image.jpg" alt="Image with removed background" width="640" height="421"/>
+<img src="images/Remove_background_image.webp" alt="Image with removed background" width="640" height="421"/>
 
 C# code example: [howto remove background](remove-background).
 
@@ -107,7 +107,7 @@ Some images may look more interesting in grayscale format rather than in color. 
 
 Grayscaled image example:
 
-<img src="images/Grayscale.jpg" alt="Image converted to Grayscale" width="400" height="267"/>
+<img src="images/Grayscale.webp" alt="Image converted to Grayscale" width="400" height="267"/>
 
 C# code example: [howto grayscale image](grayscale-image).
 
@@ -121,11 +121,11 @@ Another technique to convert color images to black and white is to binarize them
 
 Original image:
 
-<img src="images/sample.jpg" alt="Sample" width="640" height="400"/>
+<img src="images/sample.webp" alt="Sample" width="640" height="400"/>
 
 Example of black and image with binarization threshold 100:
 
-<img src="images\BinarizationWithFixedThreshold.jpg" alt="Image with binarize fixed threshold filter" width="640" height="400"/>
+<img src="images\BinarizationWithFixedThreshold.webp" alt="Image with binarize fixed threshold filter" width="640" height="400"/>
 
 C# code example: [howto binarize image](binarize-image).
 
@@ -139,7 +139,7 @@ Image dithering is used for adding some noise to pictures. This method can incre
 
 Example of image with `FloydSteinberg` dither method applied:
 
-<img src="images\DitherImage.jpg" alt="Dithered image for better quality" width="640" height="400"/>
+<img src="images\DitherImage.webp" alt="Dithered image for better quality" width="640" height="400"/>
 
 C# code example: [howto dither image](dither-image).
 
@@ -163,7 +163,7 @@ Also, you can combine several image editing techniques and create new sophistica
 
 Example of image with `Cartoonify` filter applied:
 
-<img src="images\cartoonify.jpg" alt="Cartoon style image after cartoonify filter" width="640" height="400"/>
+<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="640" height="400"/>
 
 C# code example: [howto cartoonify image](cartoonify-image).
 
