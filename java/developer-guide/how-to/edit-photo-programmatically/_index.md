@@ -161,7 +161,7 @@ Also, you can combine several image editing techniques and create new sophistica
 
 Example of image with `Cartoonify` filter applied:
 
-<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="640" height="400"/>
+<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="640" height="480"/>
 
 Java code example: [howto cartoonify image](cartoonify-image).
 
