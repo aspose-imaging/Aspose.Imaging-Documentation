@@ -19,17 +19,17 @@ You can select between two types of possible cropping: either indicate new image
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The example below makes an image <a href="https://reference.aspose.com/imaging/java/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-2-of-2">Crop by shifts</a> on 10px from each image side:
+In the example below use the <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#crop-int-int-int-int-">Crop method</a> of the Java class <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/">RasterImage</a> to crop the image by shifts on 10px from each side:
 </p>
 
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-shifts.cs" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Jpeg-CroppingByShifts.java" >}}
 
 
 ### Crop by rectangle
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, we create a square with a side length of 20 px and then <a href="https://reference.aspose.com/imaging/java/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-1-of-2">Crop by rectangle</a> the photo to this area from the original picture.
+In this example, we create a rectangle object with a sides length of 20 px and then <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#crop-com.aspose.imaging.Rectangle-">Crop the rectangle area</a> of the photo from the original picture:
 </p>
 
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-rectangle.cs" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-Jpeg-CroppingByRectangle.java" >}}
