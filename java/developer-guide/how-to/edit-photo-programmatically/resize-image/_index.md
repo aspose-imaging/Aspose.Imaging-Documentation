@@ -12,18 +12,21 @@ keywords: [resize an image, resizing an image, resizing photos, photo sizing, pi
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-For resizing an image, we are using the <a href="https://reference.aspose.com/imaging/java/aspose.imaging/image/load">method Load</a> of the <a href="https://reference.aspose.com/imaging/java/aspose.imaging/image/">class Image</a> to load an image into a cache memory. Then we apply <a href="https://reference.aspose.com/imaging/java/aspose.imaging/image/resize/">Resize method</a> to the image with a new size by specifying desired height and width `300x300` in pixels and save the result to a new file.
+For resizing an image, we are using the 
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#load-java.lang.String-">method Load</a> of the 
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/">class Image</a> to load an image into a cache memory. Then we apply 
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#resize-int-int-">Resize method</a> to the image with a new size by specifying desired height and width `300x300` in pixels and save the result to a new file.
 </p>
 
-Example C# code:
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "simple-resizing-image.cs" >}}
+Example Java code:
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-SimpleResizing-SimpleResizing.java" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Additionally, you can make photo sizing proportionally the picture width or height and specify the resizing type by selecting `ResizeType.LanczosResample` parameter:
 </p>
 
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "resize-image-with-resize-type-enumeration.cs" >}}
+{{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-ResizeImageWidthwithResizeTypeEnumeration-ResizeImageWidthwithResizeTypeEnumeration.java" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
