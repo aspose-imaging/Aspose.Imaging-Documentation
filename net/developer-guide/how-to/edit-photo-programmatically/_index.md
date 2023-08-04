@@ -103,9 +103,13 @@ C# code example: [howto merge images](merge-images).
 Some images may look more interesting in grayscale format rather than in color. The colors in photography may not contain valuable information, but a black&white style could emphasize lights and shadows, attract attention to surface details, and create more emotional responses. The `Grayscale` method of Aspose.Imaging converts color images to it grayscale representation.
 </p>
 
+Original image:
+
+<img src="images/sample.webp" alt="Sample" width="640" height="400"/>
+
 Grayscaled image example:
 
-<img src="images/Grayscale.webp" alt="Image converted to Grayscale" width="400" height="267"/>
+<img src="images/Grayscaling.webp" alt="Image converted to Grayscale" width="640" height="400"/>
 
 C# code example: [howto grayscale image](grayscale-image).
 
@@ -116,10 +120,6 @@ C# code example: [howto grayscale image](grayscale-image).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Another technique to convert color images to black and white is to binarize them. It means that each pixel of the image will be substituted to value 0 or 1 (white or black color) depending on the indicated threshold. The binarization useful for printing pictures in one black color without tint graduation. With the image library, you can select between fixed thresholds, use the average threshold value calculated from the neighbor pixels area with the `Bradley` method or automatically choice a threshold with the `Otsu` method.
 </p>
-
-Original image:
-
-<img src="images/sample.webp" alt="Sample" width="640" height="400"/>
 
 Example of black and image with binarization threshold 100:
 
