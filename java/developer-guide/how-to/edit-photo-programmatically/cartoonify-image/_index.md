@@ -12,7 +12,10 @@ keywords: [cartoonify an image, cartoon style, convolution filter, select outlin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To convert an image to a cartoon style we will use various image editing methods. Detecting areas with similar colors is done by applying a convolution filter to blur the image with <a href="https://reference.aspose.com/imaging/java/aspose.imaging/rasterimage/filter/">Filter method</a>, selecting outlines, binarize outlines with threshold 30 using <a href="https://reference.aspose.com/imaging/java/aspose.imaging/rasterimage/binarizefixed/">BinarizeFixed method</a>, and masking the image with <a href="https://reference.aspose.com/imaging/java/aspose.imaging.masking/imagemasking/applymask/">ApplyMask method</a>:
+To convert an image to a cartoon style we will use various image editing methods. Detecting areas with similar colors is done by applying a convolution filter to blur the image with
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-">Filter method</a>, selecting outlines, binarize outlines with threshold 30 using
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeFixed-byte-">BinarizeFixed method</a>, and masking the image with
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.masking/imagemasking/#applyMask-com.aspose.imaging.RasterImage-com.aspose.imaging.RasterImage-com.aspose.imaging.masking.options.MaskingOptions-">ApplyMask method</a>:
 </p>
 
-{{< gist "aspose-com-gists" "06ef86978a9c043ccf04b5c6fd292b4c" "cartoonify-images.cs" >}}
+{{< gist "aspose-com-gists" "e8d356ec157169159aba5650730a227f" "cartoonify-images.java" >}}
