@@ -13,18 +13,18 @@ keywords: [draw an image, drawing tool, solid brush, draw a dotted line]
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 With Aspose.Imaging you can use several methods to draw graphics primitives such as
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawline/">DrawLine</a>, 
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawellipse">DrawEllipse</a>, 
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawrectangle">DrawRectangle</a>,
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawarc">DrawArc</a>, 
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawbezier">DrawBezier</a> and
-<a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/drawstring">DrawString</a>. 
-You need to create a graphic surface to draw an image from scratch and set up graphic properties. We will create a surface of 100 x 100 pixels with 32 bits per pixel in our example and set the background to yellow color with <a href="https://reference.aspose.com/drawing/python-net/system.drawing/graphics/clear/">Clear method</a>. Then we can define a drawing tool, for example, a Pen with a Blue color, to draw a dotted line or use SolidBrush for continuous lines with different colors, followed by X, Y coordinates of the start and end points of the lines:
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_line_pen_x1_y1_x2_y2_104">draw_line</a>,
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_ellipse_pen_rect_40">draw_ellipse</a>,
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_rect_pen_x_y_width_height_124">draw_rect</a>
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_arc_pen_x_y_width_height_start_angle_sweep_angle_5">draw_arc</a>,
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_bezier_pen_pt1_pt2_pt3_pt4_11">draw_bezier</a> and
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_string_s_font_brush_layout_rectangle_132">draw_string</a>.
+You need to create a graphic surface to draw an image from scratch and set up graphic properties. We will create a surface of 100 x 100 pixels with 32 bits per pixel in our example and set the background to yellow color with <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#clear_color_1">Clear method</a>. Then we can define a drawing tool, for example, a Pen with a Blue color, to draw a dotted line or use SolidBrush for continuous lines with different colors, followed by X, Y coordinates of the start and end points of the lines:
 </p>
 
-{{< gist "aspose-com-gists" "ebaa56878c36388b3fcab68c7a5adb66" "drawing-lines.cs" >}}
+{{< gist "aspose-com-gists" "9a7b58918dc6e873902b046a504d613f" "drawing-lines.py" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-A more detailed description of drawing lines, ellipses, rectangles, arcs, Bezier curves and text strings, you can find in the <a href="https://docs.aspose.com/imaging/python-net/drawing-images/">Aspose drawing images documentation</a>.
+A more detailed description of drawing lines, ellipses, rectangles, arcs, Bezier curves and text strings, you can find in the Aspose Imaging <a href="https://docs.aspose.com/imaging/python-net/drawing-images/">Developer Guide</a>.
 </p>
