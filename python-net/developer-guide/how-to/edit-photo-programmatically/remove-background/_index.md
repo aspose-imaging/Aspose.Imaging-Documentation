@@ -4,7 +4,7 @@ weight: '90'
 url: /python-net/developer-guide/how-to/edit-photo-programmatically/remove-background
 linktitle: How to remove background from an image
 title: How to remove background from an image
-description: Removing photo background. Change image background color.
+description: Removing photo background. Change an image's background color.
 keywords: [remove background, photo background change, feathering radius, auto masking graph cut]
 ---
 
@@ -12,12 +12,7 @@ keywords: [remove background, photo background change, feathering radius, auto m
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In the example below, to carefully remove background, we use the class <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging.masking.options/automaskinggraphcutoptions/">AutoMaskingGraphCutOptions class</a> with automatically calculated strokes and set <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius/">FeatheringRadius property</a> to smooth and blur the cutting edge. The feathering radius is calculated as 1/500 of the image dimension. After removing a background we need to set the color to replace it, so we use transparent pixels in this case. The same procedure we can use for photo background change.
+In the example below, there are several methods are used to remove the image background. The method with manual processing rectangles required indicating rectangles with objects in advance and also marking background and foreground points. Using the auto-processing method with assumed objects you need to specify the detected object type (e.g. `HUMAN`) and the rectangle area where the object is located. In the other automatic methods, we just use the class <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging.masking.options/automaskinggraphcutoptions/">AutoMaskingGraphCutOptions class</a> with automatically calculated strokes and set `FeatheringRadius` property to smooth and blur the cutting edge. After removing a background we need to set the color to replace it. The same procedure can be used for photo background change.
 </p>
 
-{{< gist "aspose-com-gists" "cd4fed97fcdfa3055fbffc65e5298664" "graph-cut-feathering.cs" >}}
-
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-For a more detailed description with examples of how to remove background please follow the <a href="https://docs.aspose.com/imaging/python-net/removing-background-from-images/">Aspose removing background documentation</a>.
-</p>
+{{< gist "aspose-com-gists" "291380aac991e0869dbabba3e60f5225" "remove-change-background-generic-examples.py" >}}

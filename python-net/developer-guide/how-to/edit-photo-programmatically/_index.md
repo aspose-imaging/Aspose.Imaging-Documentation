@@ -59,16 +59,16 @@ Python code example: [howto rotate image](rotate-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Sometimes you need to remove a background from a photo and leave only human’s figures or other objects on a white field. Removing a picture background or photo background change are more complicated tasks than the basic image manipulations mentioned above. With Aspose.Imaging library you can effectively remove or change a photo background and embeds the library into your photo background editor application. The image library can automatically mask background pixels and set them to zero (white color) or another color. Additionally Imaging.Cloud API can be used for improving masking results. The Cloud API is used for detecting objects on a photo and applying detected objects’ bounds to the image more precisely.
+Sometimes you need to remove a background from a photo and leave only human’s figures or other objects on a white field. Removing a picture background or photo background change are more complicated tasks than the basic image manipulations mentioned above. With Aspose.Imaging library you can effectively remove or change a photo background and embeds the library into your photo background editor application. The image library can automatically mask background pixels and set them to zero (white color) or another color. Additionally Imaging.Cloud API can be used for improving masking results. The Cloud API is used for detecting objects on a photo and applying detected objects’ bounds to the image more precisely. Alternatively, you can indicate rectangle areas with assuming objects and the type of the object on the image in advance.
 </p>
 
 Original image:
 
-<img src="images/Original_image_before_edit.webp" alt="Original image before editing" width="640" height="421"/>
+<img src="images/original_image.webp" alt="Original image before editing" width="640" height="427"/>
 
-Image with removed background:
+Image with removed background with assuming object method:
 
-<img src="images/Remove_background_image.webp" alt="Image with removed background" width="640" height="421"/>
+<img src="images/remove-background_auto.webp" alt="Image with removed background" width="640" height="427"/>
 
 Python code example: [howto remove background](remove-background).
 
