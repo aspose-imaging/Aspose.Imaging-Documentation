@@ -54,9 +54,6 @@ Original photos may have the wrong orientation due to a photographer had took ph
 
 Python code example: [howto rotate image](rotate-image).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The more detailed description of resize, crop and rotate operations you can find in the [Aspose.Imaging official documentation](https://docs.aspose.com/imaging/python-net/crop-rotate-and-resize-images/).
-
 
 ### Remove background
 

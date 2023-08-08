@@ -12,24 +12,24 @@ keywords: [crop an image, image crop, crop photo, image cropping]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You can select between two types of possible cropping: either indicate new image boundaries by shifts from the sides of the image, i.e. 10 px for left, right top and bottom shifts or create a rectangle with the desired size and use it for image cropping. 
+You can select between two types of possible cropping: either indicate new image boundaries by shifts from the sides of the image, i.e. 10 px for left, right, top and bottom shifts or create a rectangle with the desired size and use it for image cropping.
 </p>
 
 ### Crop by shifts
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The example below makes an image <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-2-of-2">Crop by shifts</a> on 10px from each image side:
+The example below crop an image using <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#crop_left_shift_right_shift_top_shift_bottom_shift_21">crop by shift method</a> by 10px from each image side:
 </p>
 
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-shifts.cs" >}}
+{{< gist "aspose-com-gists" "e3ab4246a7061ee32df42c74051bdaff" "cropping-by-shifts.py" >}}
 
 
 ### Crop by rectangle
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, we create a square with a side length of 20 px and then <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/crop/#rasterimagecrop-method-1-of-2">Crop by rectangle</a> the photo to this area from the original picture.
+In this example, we create a square with a side length of 20 px and then crop an image using <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#crop_rectangle_22">crop by rectangle method</a> applied this area to the original photo:
 </p>
 
-{{< gist "aspose-com-gists" "7ee37a401e37790396ad9f4cde87d446" "cropping-by-rectangle.cs" >}}
+{{< gist "aspose-com-gists" "e3ab4246a7061ee32df42c74051bdaff" "cropping-by-rectangle.py" >}}
