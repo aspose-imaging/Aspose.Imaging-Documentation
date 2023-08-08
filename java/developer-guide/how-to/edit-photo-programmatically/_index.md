@@ -67,12 +67,11 @@ Sometimes you need to remove a background from a photo and leave only human’s 
 
 Original image:
 
-<img src="images/sample.webp" alt="Original image sample" width="640" height="360"/>
-
+<img src="images/original.webp" alt="Original image" width="639" height="424"/>
 
 Image with removed background:
 
-<img src="images/Remove_background_image.webp" alt="Image with removed background" width="640" height="360"/>
+<img src="images/remove-background_auto.webp" alt="Image with removed background" width="640" height="425"/>
 
 Java code example: [howto remove background](remove-background).
 
@@ -103,6 +102,10 @@ Java code example: [howto merge images](merge-images).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Some images may look more interesting in grayscale format rather than in color. The colors in photography may not contain valuable information, but a black&white style could emphasize lights and shadows, attract attention to surface details, and create more emotional responses. The `Grayscale` method of Aspose.Imaging converts color images to it grayscale representation.
 </p>
+
+Original image:
+
+<img src="images/sample.webp" alt="Original image sample" width="640" height="360"/>
 
 Grayscaled image example:
 
@@ -158,7 +161,7 @@ Also, you can combine several image editing techniques and create new sophistica
 
 Example of image with `Cartoonify` filter applied:
 
-<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="640" height="480"/>
+<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="960" height="266"/>
 
 Java code example: [howto cartoonify image](cartoonify-image).
 
