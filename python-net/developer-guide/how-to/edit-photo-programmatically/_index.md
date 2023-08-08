@@ -149,20 +149,6 @@ Adjusting image brightness, contrast and gamma are often used operations for ima
 Python code example: [howto adjust image](adjust-image).
 
 
-### Cartoonify image
-
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Also, you can combine several image editing techniques and create new sophisticated visual effects, for example, the effect of a cartoon image. Cartoon-style images will decorate your publication and attract more users. The example below sequentially uses a list of methods such as `AdjustBrightness`, `BinarizeFixed`, `Filter`, `ReplaceColor`, `ApplyMask` and others applied to the original loaded images.
-</p>
-
-Example of image with `Cartoonify` filter applied:
-
-<img src="images\cartoonify.webp" alt="Cartoon style image after cartoonify filter" width="640" height="480"/>
-
-Python code example: [howto cartoonify image](cartoonify-image).
-
-
 ### Drawing images
 
 <p align='justify'>
