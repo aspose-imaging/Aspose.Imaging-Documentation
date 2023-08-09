@@ -28,3 +28,7 @@ You need to create a graphic surface to draw an image from scratch and set up gr
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 A more detailed description of drawing lines, ellipses, rectangles, arcs, Bezier curves and text strings, you can find in the <a href="https://docs.aspose.com/imaging/net/drawing-images/">Aspose drawing images documentation</a>.
 </p>
+
+Example image with lines, ellipses and rectangles drawings on transparent background:
+
+<img src="../images/draw_lines_ellipses_rectangles.webp" alt="image with lines, ellipses and rectangles drawings" width="640" height="512"/>
