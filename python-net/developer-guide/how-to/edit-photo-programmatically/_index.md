@@ -80,6 +80,14 @@ Python code example: [howto remove background](remove-background).
 Applying filters to images is a very popular operation of image quality enhancement. You may need to filter photo to make it more sharp or on the contrary, blur them. You can quickly apply several filters using the Python program. Aspose.Imaging proposes a list of available filters for smoothing images with noise reduction, but preserving objects’ edges, changing brightness and contrast for reducing overexposure of photography or lightening too dark parts, and emphasizing details.
 </p>
 
+Original image:
+
+<img src="images/sample.webp" alt="Original image sample" width="640" height="480"/>
+
+Image with Gauss blur filter applied:
+
+<img src="images/gauss_blur_filter.webp" alt="Image with Gauss blur filter" width="640" height="480"/>
+
 Python code example: [howto filter image](filter-image).
 
 
@@ -99,10 +107,6 @@ Python code example: [howto merge images](merge-images).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Some images may look more interesting in grayscale format rather than in color. The colors in photography may not contain valuable information, but a black&white style could emphasize lights and shadows, attract attention to surface details, and create more emotional responses. The `Grayscale` method of Aspose.Imaging converts color images to it grayscale representation.
 </p>
-
-Original image:
-
-<img src="images/sample.webp" alt="Original image sample" width="640" height="480"/>
 
 Grayscaled image example:
 
