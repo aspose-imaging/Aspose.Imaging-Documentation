@@ -101,6 +101,10 @@ C# code example: [howto filter image](filter-image).
 To combine several images into one image you can use methods from the image library. It is possible to merge images by adding them to the resulting image in horizontal or vertical directions. This approach is suitable for creating large images, like wallpaper, consisting of many repeated small ones or you can create a collage from several different images.
 </p>
 
+Merged two images into one collage:
+
+<img src="images/merge_images.webp" alt="Merged two images into one collage" width="640" height="200"/>
+
 C# code example: [howto merge images](merge-images).
 
 
