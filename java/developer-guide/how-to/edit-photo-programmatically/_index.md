@@ -29,7 +29,7 @@ This article explains the practical use of highly efficient image editing tools 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Usually, resizing an image is necessary when initial images have different sizes and don’t suit our demands. It's impossible to publish on a website some images because of its high resolution or very large sizes. Also often we need to create a set of images with different sizes: small, medium and extra large for different views, such are thumbnails for preview or detailed views. The Aspose.Imaging library helps you to create a Java application and do this picture resizer job or photo resizing automatically. The library already has all the necessary tools to edit an image size. You just need to indicate what photo sizing you want to finally have, load initial images to the memory cache, apply the resize method and save the resulting image file to a new location.
+Before publishing images on a website, it usually needs to prepare the initial images for various web presentation scenarios. For a photo gallery, thumbnails with smaller image dimensions are required, for photo previews, images need to be resized to medium sizes, and for detailed views, larger sizes are necessary. With the Aspose.Imaging library, executing an image resizing procedure for multiple files is straightforward, allowing you to generate a collection of images in the required sizes.
 </p>
 
 Java code example: [howto resize image](resize-image).

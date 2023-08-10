@@ -30,10 +30,10 @@ This article talks about how to use image editing tools with Aspose.Imaging Pyth
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Usually, resizing an image is necessary when initial images have different sizes and don’t suit our demands. It's impossible to publish on a website some images because of its high resolution or very large sizes. Also often we need to create a set of images with different sizes: small, medium and extra large for different views, such are thumbnails for preview or detailed views. The Aspose.Imaging library helps you to create a Python application and do this picture resizer job or photo resizing automatically. The library already has all the necessary tools to edit an image size. You just need to indicate what photo sizing you want to finally have, load initial images to the memory cache, apply the resize method and save the resulting image file to a new location.
+Frequently, you have numerous raw images of varying sizes, and the need arises to standardize their widths while maintaining their width-to-length ratio for web placement. With Aspose.Imaging, you can automate the resizing of these images before publishing them. You simply need to specify the desired image width and apply it to the folder containing your raw images, while having the option to convert image formats simultaneously.
 </p>
 
-Python code example: [howto resize image](resize-image).
+Python code examples: [howto resize image](resize-image).
 
 
 ### Crop an image
