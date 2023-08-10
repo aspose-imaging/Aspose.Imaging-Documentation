@@ -39,7 +39,7 @@ Java code example: [howto resize image](resize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In certain situations, images may have key subjects or specific individuals in photos that you want to isolate and position in the central region of the image. You can define a rectangular area for this designated area and achieve this image cropping using the methods provided by the Aspose.Imaging library.
+In certain situations, images may have key objects or specific figures in photos that you want to isolate and position in the central region of the image. You can define a rectangular area for this designated figure and achieve this image cropping using the methods provided by the Aspose.Imaging library.
 </p>
 
 Java code example: [howto crop image](crop-image).
@@ -62,14 +62,14 @@ The more examples, how to resize, crop and rotate images you can find in the [As
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Sometimes you need to remove a background from a photo and leave only human’s figures or other objects on a white field. Removing a picture background or photo background change are more complicated tasks than the basic image manipulations mentioned above. With Aspose.Imaging library you can effectively remove or change a photo background and embeds the library into your photo background editor application. The image library can automatically mask background pixels and set them to zero (white color) or another color. Additionally Imaging.Cloud API can be used for improving masking results. The Cloud API is used for detecting objects on a photo and applying detected objects’ bounds to the image more precisely.
+Another common need for image editing tools is the background removal process. Users might want to eliminate a background entirely or replace it with a different color or even make it transparent. This task is straightforward when the figures are positioned against a uniform background, but it becomes challenging when dealing with intricate backgrounds containing various other objects. The Aspose.Imaging library offers a list of methods to handle complex scenarios. For simpler cases, you can rely on automatic techniques provided by Aspose.Imaging. However, for more complex situations, you might need to initiate a programmatic request using the Aspose Cloud API to identify objects within images and subsequently extract them from the background.
 </p>
 
 Original image:
 
 <img src="images/original.webp" alt="Original image" width="639" height="424"/>
 
-Image with removed background:
+Image with automatically removed background:
 
 <img src="images/remove-background_auto.webp" alt="Image with removed background" width="640" height="425"/>
 

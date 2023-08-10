@@ -40,7 +40,7 @@ Python code examples: [howto resize image](resize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Images might include uninteresting sections, or the main subject might accidentally be positioned off-center within the photo. In such instances, the need to crop the images and eliminate undesired portions from the edges. Aspose.Imaging offers methods to facilitate image cropping by shifting and removing unwanted areas from the sides.
+Images might include uninteresting sections, or the main  might accidentally be positioned off-center within the photo. In such instances, the need to crop the images and eliminate undesired portions from the edges. Aspose.Imaging offers methods to facilitate image cropping by shifting and removing unwanted areas from the sides.
 </p>
 
 Python code example: [howto crop image](crop-image).
@@ -50,9 +50,7 @@ Python code example: [howto crop image](crop-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In some cases, you may have a lot of photos that are flipped vertically or horizontally, or rotated to the wrong orientation. It will take much time to flip it back manually, but thanks to Aspose.Imaging you can rotate images or flip them all at once.
-
-Original photos may have the wrong orientation due to a photographer had took photo shots with various camera rotations and embedded auto-rotation does not work properly. The information about picture orientation is usually written down in the image `EXIF` metadata by camera software and used for rotation. You can rotate images programmable by 90/180/270-degree angles or flip photos vertically or horizontally to fix this issue. In some cases, the photos were made with a mistake of horizon slop, the horizon line has not strongly horizontal. The program library gives you the possibility to rotate an image on a specific angle as well.
+In certain situations, you might encounter numerous photos that have been vertically or horizontally flipped, or rotated into incorrect orientations. Rotating each photo manually can be time-consuming but with the assistance of Aspose.Imaging, you can swiftly rotate or flip images collectively.
 </p>
 
 Python code example: [howto rotate image](rotate-image).
@@ -62,7 +60,7 @@ Python code example: [howto rotate image](rotate-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Sometimes you need to remove a background from a photo and leave only human’s figures or other objects on a white field. Removing a picture background or photo background change are more complicated tasks than the basic image manipulations mentioned above. With Aspose.Imaging library you can effectively remove or change a photo background and embeds the library into your photo background editor application. The image library can automatically mask background pixels and set them to zero (white color) or another color. Additionally Imaging.Cloud API can be used for improving masking results. The Cloud API is used for detecting objects on a photo and applying detected objects’ bounds to the image more precisely. Alternatively, you can indicate rectangle areas with assuming objects and the type of the object on the image in advance.
+One of the most frequently requested image operations users often wish to perform is background removal. You might want to remove a human figure or another object from its surroundings. For complex images containing multiple elements, Aspose.Imaging offers various methods involving automatic or manual tagging of objects to facilitate background removal. Through the software library, you can define rectangular areas and preliminary label objects and their categories to enhance the precision of background removal.
 </p>
 
 Original image:
