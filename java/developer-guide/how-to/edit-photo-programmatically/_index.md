@@ -49,13 +49,13 @@ Java code example: [howto crop image](crop-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Original photos may have the wrong orientation due to a photographer had took photo shots with various camera rotations and embedded auto-rotation does not work properly. The information about picture orientation is usually written down in the image `EXIF` metadata by camera software and used for rotation. You can rotate images programmable by 90/180/270-degree angles or flip photos vertically or horizontally to fix this issue. In some cases, the photos were made with a mistake of horizon slop, the horizon line has not strongly horizontal. The program library gives you the possibility to rotate an image on a specific angle as well.
+You might have a collection of images that you wish to rotate to a precise angle, either clockwise or counterclockwise. This could be necessary when a horizontal line within photos has an undesirable tilt. With the assistance of the Aspose.Imaging library, you can easily rotate images to any desired angle.
 </p>
 
 Java code example: [howto rotate image](rotate-image).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The more detailed description of resize, crop and rotate operations you can find in the [Aspose.Imaging official documentation](https://docs.aspose.com/imaging/java/crop-rotate-and-resize-images/).
+The more examples, how to resize, crop and rotate images you can find in the [Aspose.Imaging Developer's guide](https://docs.aspose.com/imaging/java/crop-rotate-and-resize-images/).
 
 
 ### Remove background

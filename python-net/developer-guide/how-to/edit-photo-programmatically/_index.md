@@ -50,6 +50,8 @@ Python code example: [howto crop image](crop-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In some cases, you may have a lot of photos that are flipped vertically or horizontally, or rotated to the wrong orientation. It will take much time to flip it back manually, but thanks to Aspose.Imaging you can rotate images or flip them all at once.
+
 Original photos may have the wrong orientation due to a photographer had took photo shots with various camera rotations and embedded auto-rotation does not work properly. The information about picture orientation is usually written down in the image `EXIF` metadata by camera software and used for rotation. You can rotate images programmable by 90/180/270-degree angles or flip photos vertically or horizontally to fix this issue. In some cases, the photos were made with a mistake of horizon slop, the horizon line has not strongly horizontal. The program library gives you the possibility to rotate an image on a specific angle as well.
 </p>
 
