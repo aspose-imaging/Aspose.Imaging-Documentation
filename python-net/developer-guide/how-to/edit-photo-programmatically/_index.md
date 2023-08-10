@@ -40,7 +40,7 @@ Python code examples: [howto resize image](resize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another widely used operation of edit an image is image cropping. If an image or photo has unwanted fields on the sides you need to cut it off. Also, you may want to crop a dedicated rectangle area of the photo. For example, the interesting area is located on some part of the whole image and you want to cut off only this particular piece. You can execute both types of cropping: image crop by shifts and image crop by a rectangle by using Aspose.Imaging. In the first case, you indicate the shifts from sides, in the second - the rectangle area to crop photo.
+Images might include uninteresting sections, or the main subject might accidentally be positioned off-center within the photo. In such instances, the need to crop the images and eliminate undesired portions from the edges. Aspose.Imaging offers methods to facilitate image cropping by shifting and removing unwanted areas from the sides.
 </p>
 
 Python code example: [howto crop image](crop-image).

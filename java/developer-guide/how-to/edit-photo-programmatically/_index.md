@@ -39,7 +39,7 @@ Java code example: [howto resize image](resize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another widely used operation of edit an image is image cropping. If an image or photo has unwanted fields on the sides you need to cut it off. Also, you may want to crop a dedicated rectangle area of the photo. For example, the interesting area is located on some part of the whole image and you want to cut off only this particular piece. You can execute both types of cropping: image crop by shifts and image crop by a rectangle by using Aspose.Imaging. In the first case, you indicate the shifts from sides, in the second - the rectangle area to crop photo.
+In certain situations, images may have key subjects or specific individuals in photos that you want to isolate and position in the central region of the image. You can define a rectangular area for this designated area and achieve this image cropping using the methods provided by the Aspose.Imaging library.
 </p>
 
 Java code example: [howto crop image](crop-image).
