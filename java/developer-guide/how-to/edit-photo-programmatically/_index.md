@@ -140,7 +140,7 @@ Java code example: [howto binarize image](binarize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Image dithering is used for adding some noise to pictures. This method can increase image quality after reducing the color palette for publishing on the web and creating a trilling visual effect. With the Aspose image library, you use the simple `Threshold` method or the more complex `FloydSteinberg` method, which uses nearest neighbors’ pixels intensity values for dithering.
+Preparing images for web publication can be a challenge, often resulting in undesirable quality problems when reducing the color palette of the images. However, utilizing the dithering method from the Aspose.Imaging tools can enhance image quality during such editing. There are various dithering options available, with the `FloydSteinberg` method being one of them, known for providing smoother results.
 </p>
 
 Example of image with `FloydSteinberg` dither method applied:

@@ -138,7 +138,7 @@ Python code example: [howto binarize image](binarize-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Image dithering is used for adding some noise to pictures. This method can increase image quality after reducing the color palette for publishing on the web and creating a trilling visual effect. With the Aspose image library, you use the simple `Threshold` method or the more complex `FloydSteinberg` method, which uses nearest neighbors’ pixels intensity values for dithering.
+When you convert an image for web publishing using a reduced color palette, you might encounter quality issues with the appearance of large monotone areas with distinct edges. To mitigate this effect, you can utilize the dithering technique offered by the Aspose image editing library, employing either a simple threshold method or a more sophisticated approach involving pixel approximation.
 </p>
 
 Example of image with `FloydSteinberg` dither method applied:
