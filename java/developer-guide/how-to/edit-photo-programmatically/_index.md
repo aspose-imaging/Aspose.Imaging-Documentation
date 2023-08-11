@@ -98,7 +98,7 @@ Java code example: [howto filter image](filter-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To combine several images into one image, you can use methods from the image library. It is possible to merge images by adding them to the resulting image in horizontal or vertical directions. This approach is suitable for creating large images, like wallpaper, consisting of many repeated small ones or you can create a collage from several different images.
+Aspose.Imaging for Java enables you to seamlessly combine multiple images either horizontally or vertically. This capability can be employed for crafting collages or even for generating larger wallpapers through the repetition of a pattern using smaller images.
 </p>
 
 Merged two images info one collage:

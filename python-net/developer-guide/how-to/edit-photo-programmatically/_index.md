@@ -96,7 +96,7 @@ Python code example: [howto filter image](filter-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To combine several images into one image you can use methods from the image library. It is possible to merge images by adding them to the resulting image in horizontal or vertical directions. This approach is suitable for creating large images, like wallpaper, consisting of many repeated small ones or you can create a collage from several different images.
+To craft collages comprising multiple images, you can leverage the merging function within Aspose.Imaging for Python. This feature allows you to position images adjacently, either horizontally or vertically, on the primary canvas. It's even possible to merge images of varying original formats, and subsequently save the resulting image in the desired new format.
 </p>
 
 Merged two images into one collage:
