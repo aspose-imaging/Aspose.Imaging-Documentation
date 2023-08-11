@@ -201,5 +201,5 @@ If you're interested in trying out the photo filters provided by the Aspose Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Imaging program library helps you to edit images and photos and facilitates the development of graphic manipulating applications and services. The image library provides you ready to use program methods to process images in your own way. Free online photo and images editor with photo filter is available at your convenience where you can try the most popular image editing operations and save the results in many image formats.
+Leveraging the Aspose.Imaging Java image editing library enables rapid development of new applications and services. The library's comprehensive feature set encompasses all contemporary demands for image editing and filter creation. With the Aspose library, you acquire the capability to programmatically manipulate a wide variety of raster and vector image formats.
 </p>

@@ -185,5 +185,5 @@ To experiment with the various image filters of Aspose.Imaging, you can use the 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Imaging program library helps you to edit images and photos and facilitates the development of graphic manipulating applications and services. The image library provides you ready to use program methods to process images in your own way. Free online photo and images editor with photo filter is available at your convenience where you can try the most popular image editing operations and save the results in many image formats.
+The Aspose.Imaging Python library empowers you to programmatically edit images and apply diverse filters to your photos. This readily available library supports an extensive list of modern features that speed up the image manipulation process. It can be seamlessly integrated into various products or can be used for novel image editing services development.
 </p>
