@@ -78,7 +78,7 @@ Python code example: [howto remove background](remove-background).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Applying filters to images is a very popular operation of image quality enhancement. You may need to filter photo to make it more sharp or on the contrary, blur them. You can quickly apply several filters using the Python program. Aspose.Imaging proposes a list of available filters for smoothing images with noise reduction, but preserving objects’ edges, changing brightness and contrast for reducing overexposure of photography or lightening too dark parts, and emphasizing details.
+You can swiftly improve your photo's appearance by applying a range of filters to enhance sharpness or reduce noise. With the Aspose.Imaging Python library, you have the option to select from a diverse range of filters to apply captivating effects to an image, such as motion effects or blur filters.
 </p>
 
 Original image:

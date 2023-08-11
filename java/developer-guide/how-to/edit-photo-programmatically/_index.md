@@ -80,7 +80,7 @@ Java code example: [howto remove background](remove-background).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Applying filters to images is a very popular operation of image quality enhancement. You may need to filter a photo to make it more sharp or on the contrary, blur them. You can quickly apply several filters using the Java program. Aspose.Imaging proposes a list of available filters for smoothing images with noise reduction, but preserving objects’ edges, changing brightness and contrast for reducing overexposure of photography or lightening too dark parts, and emphasizing details.
+Your photo will appear more captivating upon utilizing the Aspose.Imaging Java filters. These filters can be applied to entire images or specific rectangular areas. In the latter scenario, you'll realize an effect like to looking through a specialized glass placed in front of your photo. This glass either blurs or sharpens objects as observed through it.
 </p>
 
 Original image:
