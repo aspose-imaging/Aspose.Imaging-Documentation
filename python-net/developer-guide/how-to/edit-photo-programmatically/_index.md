@@ -162,7 +162,7 @@ Python code example: [howto adjust image](adjust-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You can not only edit existing images but create new ones and draw various shapes such as Lines, Ellipses, Rectangles, Arcs and Bezier shapes. First, you need to create an image surface with selected background color, then select a tool Pen to draw with a specific brush, color and width.
+With the Aspose image library for Python, you can also draw graphical elements like Lines or Ellipses on a canvas or directly onto other images. Additionally, you can print text on images using chosen fonts and styles. The library offers tools like Pens and Brushes, which come with various colors, widths, and drawing styles for your drawing needs.
 </p>
 
 Python code example: [howto drawing images](draw-image).

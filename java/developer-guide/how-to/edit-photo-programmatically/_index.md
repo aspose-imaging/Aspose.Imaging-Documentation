@@ -178,7 +178,7 @@ Java code example: [howto cartoonify image](cartoonify-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You can not only edit existing images but create new ones and draw various shapes such as Lines, Ellipses, Rectangles, Arcs and Bezier shapes. First, you need to create an image surface with selected background color, then select a tool Pen to draw with a specific brush, color and width.
+Aspose.Imaging provides you with the capability to draw a range of shapes such as Lines, Rectangles, Arcs, or Bezier curves. You can form a Path by connecting multiple sequential graphical elements, enabling you to create complex figures with diverse colors and styles. You can select a Pen object or allocate a Brush object for drawing, and easily configure drawing parameters.
 </p>
 
 Java code example: [howto drawing images](draw-image).
