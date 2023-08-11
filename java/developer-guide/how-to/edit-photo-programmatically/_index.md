@@ -154,7 +154,7 @@ Java code example: [howto dither image](dither-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Adjusting image brightness, contrast and gamma are often used operations for image editing before publishing. Pictures may look pale or different areas of the image could be too darkened or too lighten without properly adjusting these parameters. These image defects lead to picture details loss and the general effect of a website with such images will be weak. You can perform brightness, contrast or gamma correction by passing appropriate parameters to the image library method.
+A photo with excessively dark or light areas appears weak. Additionally, unwanted color dominance can diminish the overall image impression. Using the Aspose image library for Java to adjust image brightness, contrast, and gamma correction can significantly enhance the situation and attract more users to a website.
 </p>
 
 Java code example: [howto adjust image](adjust-image).

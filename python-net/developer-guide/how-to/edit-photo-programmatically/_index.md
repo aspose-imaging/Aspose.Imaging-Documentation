@@ -152,7 +152,7 @@ Python code example: [howto dither image](dither-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Adjusting image brightness, contrast and gamma are often used operations for image editing before publishing. Pictures may look pale or different areas of the image could be too darkened or too lighten without properly adjusting these parameters. These image defects lead to picture details loss and the general effect of a website with such images will be weak. You can perform brightness, contrast or gamma correction by passing appropriate parameters to the image library method.
+Typically, image editing involves adjusting parameters like brightness, contrast, or color gamma to enhance the initial pictures. Source photos might be excessively dark or light, resulting in lost image details. Adjusting these settings using Aspose.Imaging can enhance the image's impact and give it a more professional appearance.
 </p>
 
 Python code example: [howto adjust image](adjust-image).
