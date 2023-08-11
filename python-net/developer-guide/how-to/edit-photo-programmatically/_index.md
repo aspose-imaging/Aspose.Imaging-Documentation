@@ -124,7 +124,7 @@ Python code example: [howto grayscale image](grayscale-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another technique to convert color images to black and white is to binarize them. It means that each pixel of the image will be substituted to value 0 or 1 (white or black color) depending on the indicated threshold. The binarization useful for printing pictures in one black color without tint graduation. With the image library, you can select between fixed thresholds, use the average threshold value calculated from the neighbor pixels area with the `Bradley` method or automatically choice a threshold with the `Otsu` method.
+A more profound transformation of images involves converting them into pure black and white, a process known as binarization. In this technique, every pixel is assigned one of two binary values: 1 (black) or 0 (white), with no intermediary grayscale gradation. This yields a striking image that is well-suited for applications such as posters or book illustrations. Aspose.Imaging offers a variety of methods to facilitate the creation of black-and-white images from color originals. These options encompass straightforward threshold techniques as well as more sophisticated methods that consider the values of neighboring pixels.
 </p>
 
 Example of black and image with binarization threshold 100:

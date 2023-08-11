@@ -126,7 +126,7 @@ Java code example: [howto grayscale image](grayscale-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another technique to convert color images to black and white is to binarize them. It means that each pixel of the image will be substituted to value 0 or 1 (white or black color) depending on the indicated threshold. The binarization useful for printing pictures in one black color without tint graduation. With the image library, you can select between fixed thresholds, use the average threshold value calculated from the neighbor pixels area with the `Bradley` method or automatically choice a threshold with the `Otsu` method.
+You can transform a color image into black and white by replacing each pixel with one of two binary values based on its intensity. If the pixel intensity is greater or less than a predefined threshold, a new value is assigned. The Aspose library also offers alternative methods for applying binarization, allowing for smoother outcomes to be achieved.
 </p>
 
 Example of black and image with binarization threshold 100:
