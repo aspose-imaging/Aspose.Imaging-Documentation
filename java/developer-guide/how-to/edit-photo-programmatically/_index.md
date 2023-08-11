@@ -164,7 +164,7 @@ Java code example: [howto adjust image](adjust-image).
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Also, you can combine several image editing techniques and create new sophisticated visual effects, for example, the effect of a cartoon image. Cartoon-style images will decorate your publication and attract more users. The example below sequentially uses a list of methods such as `AdjustBrightness`, `BinarizeFixed`, `Filter`, `ReplaceColor`, `ApplyMask` and others applied to the original loaded images.
+Using Aspose.Imaging, you can seamlessly apply various image editing techniques to craft unique visual effects. For instance, you can transform a photo into a captivating cartoon-style image. This involves applying several filters, adjusting brightness, binarizing, color replacement, and applying a mask to the original photo. Below is an example of a Java code snippet and the resulting image, illustrating the implementation of the cartoonify filter.
 </p>
 
 Example of image with `Cartoonify` filter applied:
