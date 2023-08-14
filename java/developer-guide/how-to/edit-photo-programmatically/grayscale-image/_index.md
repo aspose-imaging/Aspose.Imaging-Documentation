@@ -12,9 +12,9 @@ keywords: [grayscale an image, grayscale method]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To create grayscale versions of your color images, you need to load images and apply
+If you need to transform your color photo to its grayscale representation you can apply
 <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#grayscale--">Grayscale method</a> of the
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/">RasterImage class</a> to them. It is also possible to convert vector images for grayscale by rasterizing them using `png` format:
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/">RasterImage class</a> to them. Vector images can be converted to  grayscale as well by rasterizing them to `png` format:
 </p>
 
 {{< gist "aspose-com-gists" "106a444035bb986e4e29211350868cbc" "grayscale-images.java" >}}

@@ -12,10 +12,10 @@ keywords: [resize an image, resizing an image, resizing photos, photo sizing, pi
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-For resizing an image, we are using the 
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#load-java.lang.String-">method Load</a> of the 
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/">class Image</a> to load an image into a cache memory. Then we apply 
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#resize-int-int-">Resize method</a> to the image with a new size by specifying desired height and width `300x300` in pixels and save the result to a new file.
+Before editing an image you need to load your image into cache memory using
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#load-java.lang.String-">method Load</a> of the Java
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/">class Image</a>. Next, apply 
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/image/#resize-int-int-">Resize method</a> to the image with a new size by selecting new height and width `300x300` in pixels and finally save the result to a file.
 </p>
 
 Example Java code:
@@ -23,12 +23,12 @@ Example Java code:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Additionally, you can make photo sizing proportionally the picture width or height and specify the resizing type by selecting `ResizeType.LanczosResample` parameter:
+You can make image sizing proportionally the image width or height by specifying the resizing type by selecting `ResizeType.LanczosResample` parameter:
 </p>
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "Examples-src-main-java-com-aspose-imaging-examples-ModifyingImages-ResizeImageWidthwithResizeTypeEnumeration-ResizeImageWidthwithResizeTypeEnumeration.java" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-There are several Resize types available for resizing photos. Please see the link to the table which describes the <a href="https://docs.aspose.com/imaging/java/crop-rotate-and-resize-images/#resizing-images--resizetype-enumeration">resize type parameters</a>.
+The available resize types are listed in the table of the <a href="https://docs.aspose.com/imaging/java/crop-rotate-and-resize-images/#resizing-images--resizetype-enumeration">Resize type parameters</a>.
 </p>

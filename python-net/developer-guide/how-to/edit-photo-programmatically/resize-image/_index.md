@@ -14,10 +14,10 @@ keywords: [resize an image, resizing an image, resizing photos, photo sizing, pi
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-For resizing an image, we are using the
-<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/#load_file_path_21">method Load</a> of the
-<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/">class Image</a> to load an image into cache memory. Then we apply
-<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/#resize_new_width_new_height_28">Resize method</a> to the image with a new size by specifying desired height and width `300x300` in pixels and specify the resizing type by selecting `ResizeType.LANCZOS_RESAMPLE` parameter.
+To resize an image, load your image with
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/#load_file_path_21">method Load</a> of the Python
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/">class Image</a>. Then you can apply the
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/image/#resize_new_width_new_height_28">Resize method</a> with specifying height and width (`300x300` px)  and selecting the resizing type `LANCZOS_RESAMPLE`.
 </p>
 
 Example Python code:
@@ -25,7 +25,7 @@ Example Python code:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-There are several Resize types available for resizing photos. Please see the link to the table which describes the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/resizetype/">resize type parameters</a>.
+Several resize types are available for resizing photos. Please refer to the table with descriptions of <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/resizetype/">Resize type parameters</a>.
 </p>
 
 
@@ -33,7 +33,7 @@ There are several Resize types available for resizing photos. Please see the lin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Additionally, you can make photo sizing proportionally the picture width or height:
+Also, you can use proportional resizing and specify only desired picture width or height:
 </p>
 
 {{< gist "aspose-com-gists" "e3ab4246a7061ee32df42c74051bdaff" "resize-image-proportionally.py" >}}

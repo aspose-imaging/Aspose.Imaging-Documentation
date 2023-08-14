@@ -12,7 +12,7 @@ keywords: [merge images, merging images]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Before merging images we need to calculate the total size of the resulting image by summing the total width or height of the images depending on the merge direction. The horizontal direction means that we will sum images widths and we will use direction values 0 in our example, and direction value 1 for the vertical direction. Then we create a new merge image with the calculated dimensions and white background color and place our images to it using <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_image_source_image_rect_58">draw_image method</a>.
+If you would like to merge images into one, you need to calculate the total size of the resulting image by summing the total width or height of the images depending on the merge direction. In the case of the horizontal direction, we will sum images widths and use a direction value equal to `0` in our example, and sum heights for the vertical direction with the value of `1`. Next, create a new merge image with the calculated dimensions and desired background color and place the images to it using <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/graphics/#draw_image_source_image_rect_58">draw_image method</a>.
 </p>
 
 {{< gist "aspose-com-gists" "d0728503653a0997a302ddc082221e30" "merge-photos-to-collage.py" >}}

@@ -12,9 +12,9 @@ keywords: [adjust an image, gamma corrections, image brightness, contrast correc
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To adjust an image brightness use the
-<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#adjust_brightness_brightness_1">adjust_brightness method</a> and set a brightness parameter between -255 and 255 to perform corrections. The same you can do with
-<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#adjust_contrast_contrast_2">adjust_contrast method</a> to make contrast corrections with parameter settings to a range from -100 and 100. If the image has a color hue, you can make gamma corrections by setting the Red, Green and Blue components coefficient or a general gamma coefficient with
+Adjusting an image's brightness can be done by
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#adjust_brightness_brightness_1">adjust_brightness method</a>, so you can set a brightness parameter between -255 and 255 to perform corrections. The same adjustments you can do with
+<a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#adjust_contrast_contrast_2">adjust_contrast method</a> to make contrast corrections with parameter settings to a range from -100 and 100. If the image has a color hue, you can make gamma corrections by setting the R, G and B components coefficient or a general gamma coefficient with
 <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#adjust_contrast_contrast_2">adjust_gamma method</a>:
 </p>
 

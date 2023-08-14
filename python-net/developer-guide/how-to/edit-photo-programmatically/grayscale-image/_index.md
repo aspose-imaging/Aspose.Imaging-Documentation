@@ -12,7 +12,7 @@ keywords: [grayscale an image, grayscale method]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To create grayscale versions of your color images, you need to load images and apply `Grayscale` method of the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/">RasterImage class</a> to them. It is also possible to convert vector images for grayscale by rasterizing them with using `png` format:
+You can convert color images to their grayscale versions by using `Grayscale` method of the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/">RasterImage class</a>. Also, you can convert vector images for grayscale by rasterizing them using `png` format:
 </p>
 
 {{< gist "aspose-com-gists" "d1b73e17e87dd83d5c125afae9c36c0b" "grayscale-images.py" >}}

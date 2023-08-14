@@ -12,9 +12,9 @@ keywords: [merge images, merging images]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Merging images can be in the horizontal or vertical direction and it is possible to save the combing image onto different formats. Before merging images we need to calculate the total size of the resulting image by summing the total width or height of the images depending on the merge direction. Then we create a new merge image with the calculated dimensions and combine our images into one.
+ You need to calculate the total size of the resulting image before merging. You can merge images in the horizontal or vertical direction. Depending on the merge direction, you will need to sum the total width or total height of the new images. Then create a new merge image with the calculated dimensions and put the images into the new one.
 </p>
 
 {{< gist "aspose-com-gists" "07be292db0a393dc95f153f84b28c069" "JPG-to-JPG-merge.java" >}}
 
-You can find more examples in the Aspose.Imaging documentation how to <a href="https://docs.aspose.com/imaging/java/merge-images/">merge images</a>.  
+You can find more Java code examples in the Aspose.Imaging documentation article <a href="https://docs.aspose.com/imaging/java/merge-images/">Merge images</a>. 

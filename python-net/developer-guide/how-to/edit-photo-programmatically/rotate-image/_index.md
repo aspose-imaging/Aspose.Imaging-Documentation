@@ -14,21 +14,21 @@ keywords: [rotate an image, rotating image, flip an image]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The first type of rotating image is a rotation to a fixed angle of 90/180/270-degree with or without a flip. You just need to load your image and apply the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#rotate_flip_rotate_flip_type_83">RotateFlip method</a> with a rotate type parameter. We use the type `ROTATE_270_FLIP_NONE` in this example:
+You can rotate an image to a fixed angle of 90/180/270-degree with or without a flip. Use <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rasterimage/#rotate_flip_rotate_flip_type_83">RotateFlip method</a> and specify `ROTATE_270_FLIP_NONE` type parameter to flip on 270 degrees without flip. Python code example:
 </p>
 
 {{< gist "aspose-com-gists" "e3ab4246a7061ee32df42c74051bdaff" "rotate-image.py" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-For a full list of available types please see the link to the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rotatefliptype/">rotate and flip types parameters</a> descriptions.
+Full list with all available rotate types you can find in the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/rotatefliptype/">Rotate and flip types parameters</a> descriptions.
 </p>
 
 ### Rotate an image to the arbitrary angle
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The second type is rotating for an arbitrary choice angle. The rotation angle value could be positive if a rotation is clockwise or negative for the opposite direction. In this case, the size of the original image could be changed after rotating the image, so you have to specify `Resize proportionally` boolean parameter to indicate should the resulting image resized proportionally or not. Additionally, you could specify the background color to fill empty corners of the rotated image.
+If you want to rotate an image to arbitrary choice angle, you can use the rotate method with specific rotation angle. The angle value can be positive if a rotation is clockwise or negative for the opposite direction. The size of the original image might be changed after rotating the image, so you have to specify `Resize proportionally` boolean parameter to indicate should the resulting image resized proportionally or not. In case you want to preserve the image size after rotating, you need to specify the background color to fill the empty corners of the rotated image.
 </p>
 
 {{< gist "aspose-com-gists" "e3ab4246a7061ee32df42c74051bdaff" "rotate-image-on-specific-angle.py" >}}

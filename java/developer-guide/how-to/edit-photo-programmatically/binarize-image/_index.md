@@ -12,9 +12,9 @@ keywords: [binarize an image, binarisation method, grayscaling method, method Br
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To binarize an image with a simple fixed binarisation method 
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeFixed-byte-">BinarizeFixed</a>, you need to set only one parameter - a threshold from 0 to 255. All pixels of the image that have an intensity greater than the indicated threshold will be assigned to value 255 (black color), or 0 (white color) otherwise. You can use a more precise grayscaling method `Bradly` 
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeBradley-double-">BinarizeBradley</a> to improve binarization quality. This method calculates the threshold adaptively based on the average intensity estimation of the surrounding area with size `s x s`. In this case, the resulting picture will have more smooth edges. Or you can use `Otsu` method 
+The simple binarization method with a fixed threshold
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeFixed-byte-">BinarizeFixed</a> is using only one parameter - a threshold with value from 0 to 255. All pixels in this case that have an intensity greater than the defined threshold will be set as a black color, or if less than the threshold, then to a white color. You can use a more precise binarize method `Bradly`
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeBradley-double-">BinarizeBradley</a> to improve binarization quality. Method `Bradly` use the threshold as an average estimation intensity of the surrounding area with size `s x s`. In this case, the resulting picture will have smooth edges. Also, you can use `Otsu` method
 <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeOtsu--">BinarizeOtsu</a> with automatic threshold:
 </p>
 

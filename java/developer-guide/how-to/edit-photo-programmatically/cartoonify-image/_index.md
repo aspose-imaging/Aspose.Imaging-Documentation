@@ -12,9 +12,9 @@ keywords: [cartoonify an image, cartoon style, convolution filter, select outlin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To convert an image to a cartoon style we will use various image editing methods. Detecting areas with similar colors is done by applying a convolution filter to blur the image with
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-">Filter method</a>, selecting outlines, binarize outlines with threshold 30 using
-<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeFixed-byte-">BinarizeFixed method</a>, and masking the image with
+Creating a cartoon-style image from your photo involves various image editing methods. You need to detect areas with similar colors by applying a convolution filter and blurring the image with
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-">Filter method</a>, also you need to select outlines and binarize outlines with threshold `30` by using
+<a href="https://reference.aspose.com/imaging/java/com.aspose.imaging/rasterimage/#binarizeFixed-byte-">BinarizeFixed method</a>, use image masking with
 <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.masking/imagemasking/#applyMask-com.aspose.imaging.RasterImage-com.aspose.imaging.RasterImage-com.aspose.imaging.masking.options.MaskingOptions-">ApplyMask method</a>:
 </p>
 
