@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/alpha-blending-image-filter/
 description: Alpha blending image filter application for image overlay on transparency layer above a background image. C# code example provided.
-keywords: [photo filter, image filter, overlay image, alpha blending, blend image, blend method, background image, overlay alpha, overlay layer, transparency level, opacity layer]
+keywords: [photo filter, image filter, overlay image, alpha blending, blend image, blend method, background image, overlay alpha, overlay layer, transparency level, opacity level]
 ---
 
 ## Alpha Blending Image Filter
