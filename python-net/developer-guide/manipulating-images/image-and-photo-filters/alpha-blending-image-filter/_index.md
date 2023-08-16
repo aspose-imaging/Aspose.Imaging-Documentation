@@ -2,7 +2,7 @@
 title: Alpha Blending Image Filter
 type: docs
 weight: 50
-url: /python-net/developer-guide/alpha-blending-image-filter/
+url: /python-net/developer-guide/manipulating-images/image-and-photo-filters/alpha-blending-image-filter/
 description:
 keywords: [photo filter, image filter, photo effect, picture filter, image overlay, alpha blending, image effect, blend image]
 ---
