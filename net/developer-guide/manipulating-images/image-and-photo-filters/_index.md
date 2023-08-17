@@ -3,7 +3,7 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/
-description: 
+description: Alpha blending image filter application for placing semi-transparent images on top of a background image.
 keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images]
 ---
 
