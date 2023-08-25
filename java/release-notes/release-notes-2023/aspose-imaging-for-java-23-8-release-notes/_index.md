@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-23-8-release-notes/
-title: Aspose.Imaging for JAVA 23.8 - Release notes
+title: Aspose.Imaging for Java 23.8 - Release notes
 ---
 
 ## Competitive features:
@@ -38,7 +38,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8501 Fix bugs with fonts when Svg export**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String baseFolder = "D:\\";
 String fileName = "1.svg";
@@ -59,7 +59,7 @@ for (int i = 0; i < iterationCount; i++)
 
 **IMAGINGJAVA-8500 Implement Magic Wand tool**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (RasterImage image = (RasterImage)Image.load("src.png"))
 {
@@ -87,7 +87,7 @@ try (RasterImage image = (RasterImage)Image.load("src.png"))
 
 **IMAGINGJAVA-8499 Improvement request for multi frame Gif to composite image formats export**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 Result files in archive Fixed.zip
 
@@ -195,7 +195,7 @@ private String getFileFormat (ImageOptionsBase options)
 
 **IMAGINGJAVA-8494 Saving of images with dimensions more than 65535 to Jpeg format works incorrect**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 PngOptions createOptions = new PngOptions();
 createOptions.setSource(new StreamSource());
@@ -212,7 +212,7 @@ Output:
 
 **IMAGINGJAVA-8493 Memory leak if Image.Dispose() hasn't been called**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 public void memLeak() throws IOException, InterruptedException
 {
@@ -267,7 +267,7 @@ public void codeSnippet(InputStream stream, List<WeakReference<Image>> images)
 
 **IMAGINGJAVA-8492 EPS -> SVG: InvalidOperationException**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.eps"))
 {
@@ -278,7 +278,7 @@ try (Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8491 Converting EPS -> SVG: IndexOutOfRangeException**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.eps"))
 {
@@ -289,7 +289,7 @@ try (Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8490 EPS load error**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.eps"))
 {
@@ -300,7 +300,7 @@ try (Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8489 Cannot conver the EPS image to SVG format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(Image image = Image.load("input.eps"))
 {
@@ -311,7 +311,7 @@ try(Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8488 Cannot convert the EPS  image to DXF**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(Image image = Image.load("input.eps"))
 {
@@ -322,7 +322,7 @@ try(Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8487 Cannot conver the EPS image to DXF format**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(Image image = Image.load("input.eps"))
 {
@@ -333,7 +333,7 @@ try(Image image = Image.load("input.eps"))
 
 **IMAGINGJAVA-8486 Can't convert EPS to PNG**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try(Image image = Image.load("VectorEPS_ByTailorBrands.eps"))
 {
