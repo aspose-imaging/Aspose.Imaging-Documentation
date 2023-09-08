@@ -30,34 +30,51 @@ The following are Aspose.Imaging's core features:
 ### **Feature List**
 #### **Image Creations**
 - Bmp
-- Tiff 
-- Jpeg (v2.3 now supports own codec)
-- Png (v2.5 now supports own codec)
+- Dicom
+- Dxf
+- Emf
+- Emfz (Compressed Emf)
 - Gif
-- Psd (v2.7 added Jpeg thumbnails encoding/decoding support)
-- Jpeg2000 (v2.8)
-- WebP
+- Html5
 - Ico
+- Jpeg (v2.3 now supports own codec)
+- Jpeg2000 (v2.8)
+- Apng (Animated PNG)
+- Pdf
+- Png (v2.5 now supports own codec)
+- Psd (v2.7 added Jpeg thumbnails encoding/decoding support)
+- Svg
+- Svgz (Compressed Svg)
+- Tga
+- Tiff
+- BigTiff
+- WebP
+- Wmf
+- Wmfz (Compressed Wmf)
 #### **Image Loading**
 - Bmp
-- Tiff
-- Jpeg
-- Png
-- Gif
-- Psd
-- Wmf
-- Emf
-- Jpeg2000 (v2.8)
-- Djvu
-- WebP
+- Cdr
+- Cmx
+- Dib
 - Dicom
-- Svg
+- Djvu
 - Dng
+- Emf
+- Eps
+- Gif
+- Ico
+- Jpeg
+- Jpeg2000 (v2.8)
 - ODG
 - OTG
-- Dib
-- Cmx
-- Ico
+- Apng (Animated PNG)
+- Png
+- Svg
+- Tga
+- Tiff
+- BigTiff
+- WebP
+- Wmf
 #### **Raw Data Processing**
 - Bmp (v2.4, partly only raw data load)
 - Gif
@@ -66,6 +83,7 @@ The following are Aspose.Imaging's core features:
 - Png
 - Psd
 - Tiff
+- BigTiff
 #### **Bmp Compression**
 - Rle
 #### **Psd Compressions**
@@ -97,7 +115,7 @@ The following are Aspose.Imaging's core features:
 - Scale    
 - Cache system    
 - Custom user images    
-- Sha-2 certificate (v2.0)
+- SHA2 certificate (v2.0)
 - Read/Write Exif data (v2.0)
 - Tiff data recovery (v2.2)
 - Dithering (v2.2)
@@ -113,4 +131,5 @@ The following are Aspose.Imaging's core features:
 #### **Image processing features**
 - Image masking
 - Image filters
-- *Image deskew*
+- Image deskew
+- Image resize

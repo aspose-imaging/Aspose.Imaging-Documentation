@@ -30,8 +30,10 @@ Aspose.Imaging works for only x64 versions of the above listed operating systems
 
 {{% /alert %}}
 
-### **System Requirements for Target Linux and macOS Platforms**
-
+### **System Requirements for Target Linux Platforms**
+- GNU libc >= 2.17<br/>
+  To get to know your version, you could execute a command<br/>
+  `ldd --version`
 - GCC-6 runtime libraries (or later).
 - libgdiplus: an Open Source implementation of the GDI+ API.
 - Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required.
