@@ -3,8 +3,8 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/
-description: Alpha blending image filter application for placing semi-transparent images on top of a background image.
-keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images]
+description: Alpha blending image filter for placing semi-transparent images on top of a background image. Magic wand tool for color area selection.
+keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images, magic wand, color selection]
 ---
 
 <style>
@@ -55,3 +55,22 @@ Beyond artistic applications, alpha blending image filter serves a crucial role 
 </figure>
 
 Example C# code: [alpha blending](alpha-blending-image-filter)
+
+
+## Magic wand tool
+
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/sample_magic_wand_tool.webp" alt="Original image before magic wand" width="640" height="360"/>
+    </div>
+    <div>
+        <img src="./images/magic_wand_tool.webp" alt="Magic wand tool color selection" width="640" height="360"/>
+    </div>
+</div>
+<figcaption>Magic wand tool color selection</figcaption>
+</figure>
+
+Example C# code: [magic wand](magic-wand-filter/)
