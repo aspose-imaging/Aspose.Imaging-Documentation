@@ -50,3 +50,8 @@ Graphic work involving images can be demanding and time-consuming, especially wh
 </figure>
 
 Example Python code: [alpha blending](alpha-blending-image-filter)
+
+
+## Magic wand tool
+
+Example Python code: [magic wand](magic-wand-filter/)

@@ -56,3 +56,9 @@ Example Java code: [alpha blending](alpha-blending-image-filter)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 However, this isn't the only reason to include alpha blending image effect in your arsenal of image manipulation tools. Using this image filter presents an excellent opportunity to introduce creativity into your work. For instance, you can achieve transparency effects by layering images with different opacity levels, transforming an ordinary portrait into a unique collage-like creation, and much more.
 </p>
+
+
+## Magic wand tool
+
+
+Example Java code: [magic wand](magic-wand-filter/)
