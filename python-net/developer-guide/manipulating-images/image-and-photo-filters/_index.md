@@ -54,4 +54,18 @@ Example Python code: [alpha blending](alpha-blending-image-filter)
 
 ## Magic wand tool
 
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/sample_ball.webp" alt="Magic wand tool original image" width="640" height="367"/>
+    </div>
+    <div>
+        <img src="./images/magic_wand_python.webp" alt="Magic wand tool select color" width="640" height="367"/>
+    </div>
+</div>
+<figcaption>Magic wand tool selecting color</figcaption>
+</figure>
+
 Example Python code: [magic wand](magic-wand-filter/)
