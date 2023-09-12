@@ -59,6 +59,15 @@ Example C# code: [alpha blending](alpha-blending-image-filter)
 
 ## Magic wand tool
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Working with images and photos often involves operations such as selecting a specific color area to adjust or replace with another. Without a tool like the Magic Wand, graphic designers would face extreme difficulty in selecting areas with complex outlines or multiple areas sharing a similar color. With the Magic Wand, you can simply choice on a point within a single-color area, and the tool will automatically select the entire area around it that shares a similar color. You can adjust the degree of color similarity by setting a threshold for color comparison. The areas selected using this method can be combined, subtracted from one another, or have the selection inverted. Feathering can also be applied to the edges of the areas to achieve a smooth transition.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the example shown in the image below, we selected the green background area around the shape, added yellow specks to the selection, and then removed the resulting mask from the original image. As a result, we will obtain a figure without a background, which can then be used for creating other graphic works.
+</p>
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
