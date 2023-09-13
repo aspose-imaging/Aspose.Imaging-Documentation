@@ -54,6 +54,10 @@ Example Python code: [alpha blending](alpha-blending-image-filter)
 
 ## Magic wand tool
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+A graphic designer often seeks to provide a fresh interpretation of a specific image by altering its colors or even replacing its main objects. However, what if the object's outline is intricate, and a simple cutout won't suffice? In such cases, the Magic Wand tool can prove invaluable, providing you with a flawless outline. Each color consists of various shades and tones. The Magic Wand function is crafted to not only identify areas of the same color but also regulate the degree of color similarity. This functionality enables you to automatically select regions within your image that share the same color and gives you the freedom to experiment with various image effects.
+</p>
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>

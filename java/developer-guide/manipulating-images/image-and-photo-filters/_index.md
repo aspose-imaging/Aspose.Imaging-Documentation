@@ -60,6 +60,11 @@ However, this isn't the only reason to include the alpha blending image effect i
 
 ## Magic wand tool
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The process of image editing resembles the work of an artist, but instead of a physical canvas and brushes, a designer's toolkit includes various functions, one of which is the Magic Wand Tool. It proves invaluable when dealing with areas of similar color tints. For instance, when editing a landscape where a vast portion of the canvas is filled with blue sky, the task may involve replacing specific tones with others. With the Magic Wand Tool, you can effortlessly highlight the tone you wish to adjust, and the tool will automatically select the desired areas. Furthermore, this function offers an option to fine-tune the degree of color tolerance. Besides its color-related capabilities, the Magic Wand Tool excels in selecting complex masks. Smoothing the edges ensures that the final image with the object appears more natural.
+</p>
+
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
 <div class="container">
