@@ -3,8 +3,8 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/
-description: Alpha blending image filter application for placing semi-transparent images on top of a background image.
-keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images]
+description: Alpha blending image filter for placing semi-transparent images on top of a background image. Magic Wand tool for color area selection.
+keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images, magic wand, color selection]
 ---
 
 <style>
@@ -55,3 +55,44 @@ Beyond artistic applications, alpha blending image filter serves a crucial role 
 </figure>
 
 Example C# code: [alpha blending](alpha-blending-image-filter)
+
+
+## Magic Wand tool
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Working with images and photos often involves operations such as selecting a specific color area to adjust or replace with another. Without a tool like the Magic Wand, graphic designers would face extreme difficulty in selecting areas with complex outlines or multiple areas sharing a similar color. With the Magic Wand, you can simply choice on a point within a single-color area, and the tool will automatically select the entire area around it that shares a similar color. 
+</p>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/sample_magic_wand_light_blue.webp" alt="Original image before magic wand" width="600" height="400"/>
+    </div>
+    <div>
+        <img src="./images/sample_magic_wand_net.webp" alt="Magic wand tool light-blue color selection" width="600" height="400"/>
+    </div>
+</div>
+<figcaption>Magic Wand tool: light-blue color selection</figcaption>
+</figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can adjust the degree of color similarity by setting a threshold for color comparison. The areas selected using this method can be combined, subtracted from one another, or have the selection inverted. Feathering can also be applied to the edges of the areas to achieve a smooth transition. In the example shown in the image below, we selected the green background area around the shape, added yellow specks to the selection, and then removed the resulting mask from the original image. As a result, we will obtain a figure without a background, which can then be used for creating other graphic works.
+</p>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/sample_magic_wand_tool.webp" alt="Original image before magic wand" width="640" height="360"/>
+    </div>
+    <div>
+        <img src="./images/magic_wand_tool.webp" alt="Magic wand tool green background color selection" width="640" height="360"/>
+    </div>
+</div>
+<figcaption>Magic Wand tool: green background color selection</figcaption>
+</figure>
+
+Example C# code: [magic wand](magic-wand-filter/)
