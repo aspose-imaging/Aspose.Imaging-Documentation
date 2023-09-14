@@ -1,13 +1,13 @@
 ---
-title: Magic Wand Tool Image Filter
+title: Magic Wand tool Image Filter
 type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/magic-wand-filter/
-description: Magic wand tool for color area selection. C# code example provided.
+description: Magic Wand tool for color area selection. C# code example provided.
 keywords: [photo filter, image filter, magic wand, color selection, apply mask]
 ---
 
-## Magic wand tool
+## Magic Wand tool
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

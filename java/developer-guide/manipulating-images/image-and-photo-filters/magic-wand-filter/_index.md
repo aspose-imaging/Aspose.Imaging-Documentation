@@ -1,17 +1,17 @@
 ---
-title: Magic Wand Tool Image Filter
+title: Magic Wand tool Image Filter
 type: docs
 weight: 50
 url: /java/developer-guide/manipulating-images/image-and-photo-filters/magic-wand-filter/
-description: Magic wand tool for color area selection. Java code example provided.
+description: Magic Wand tool for color area selection. Java code example provided.
 keywords: [photo filter, image filter, magic wand, color selection, masked region, apply mask, color comparison]
 ---
 
-## Magic wand tool
+## Magic Wand tool
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To create a mask corresponding to a specific color area, you can take advantage of the new Magic Wand Tool supported by the Aspose.Imaging library since the 23.8 release. Here's how you can use it:
+To create a mask corresponding to a specific color area, you can take advantage of the new Magic Wand tool supported by the Aspose.Imaging library since the 23.8 release. Here's how you can use it:
 
 1. Begin by loading an image or photo.
 2. Create a new mask by using the `select` method of the <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.magicwand/magicwandtool/">MagicWandTool</a> class.
@@ -22,7 +22,7 @@ To create a mask corresponding to a specific color area, you can take advantage 
 7. To achieve smoother edges for the resulting mask, you can apply the `Feathering` method, specifying the desired `setSize` parameter in pixels.
 8. Finally, apply the mask to the image and save the final image in a format supported by the Aspose.Imaging library.
 
-This process allows you to precisely select and mask specific color areas within your images or photos using the Magic Wand Tool in the Aspose.Imaging library.
+This process allows you to precisely select and mask specific color areas within your images or photos using the Magic Wand tool in the Aspose.Imaging library.
 </p>
 
 {{< gist "aspose-com-gists" "af8fa5e0ddd6a6b3c728ef316f1fc318" "magic-wand.java" >}}

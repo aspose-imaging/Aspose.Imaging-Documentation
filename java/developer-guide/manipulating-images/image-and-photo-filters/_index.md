@@ -3,8 +3,8 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /java/developer-guide/manipulating-images/image-and-photo-filters/
-description: Implementing image or photo effects for Java. Alpha blending image filter for creating watermark images with transparent overlay image logo.
-keywords: [photo filter, image filter, photo effect, overlay image, alpha blending, image effect, blend image, image manipulation, opacity levels]
+description: Implementing image or photo effects for Java. Alpha blending image filter for creating watermark images with transparent overlay image logo. Magic Wand tool for color selection.
+keywords: [photo filter, image filter, photo effect, overlay image, alpha blending, image effect, blend image, image manipulation, opacity levels, magic wand, color selection]
 ---
 
 
@@ -58,11 +58,29 @@ However, this isn't the only reason to include the alpha blending image effect i
 </p>
 
 
-## Magic wand tool
+## Magic Wand tool
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The process of image editing resembles the work of an artist, but instead of a physical canvas and brushes, a designer's toolkit includes various functions, one of which is the Magic Wand Tool. It proves invaluable when dealing with areas of similar color tints. For instance, when editing a landscape where a vast portion of the canvas is filled with blue sky, the task may involve replacing specific tones with others. With the Magic Wand Tool, you can effortlessly highlight the tone you wish to adjust, and the tool will automatically select the desired areas. Furthermore, this function offers an option to fine-tune the degree of color tolerance. Besides its color-related capabilities, the Magic Wand Tool excels in selecting complex masks. Smoothing the edges ensures that the final image with the object appears more natural.
+The process of image editing resembles the work of an artist, but instead of a physical canvas and brushes, a designer's toolkit includes various functions, one of which is the Magic Wand tool. It proves invaluable when dealing with areas of similar color tints. With the Magic Wand tool, you can effortlessly highlight the tone you wish to adjust, and the tool will automatically select the desired areas.
+</p>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/sample_magic_wand_blue.webp" alt="Magic Wand original image " width="600" height="400"/>
+    </div>
+    <div>
+        <img src="./images/sample_magic_wand_java.webp" alt="Magic Wand tool blue shape color selection" width="600" height="400"/>
+    </div>
+</div>
+<figcaption>Magic Wand tool: blue shape color selection</figcaption>
+</figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When editing a landscape where a vast portion of the canvas is filled with blue sky, the task may involve replacing specific tones with others. Magic Wand tool offers an option to fine-tune the degree of color tolerance. Besides its color-related capabilities, the tool excels in selecting complex masks. Smoothing the edges ensures that the final image with the object appears more natural.
 </p>
 
 <figure class="frame">
@@ -72,10 +90,10 @@ The process of image editing resembles the work of an artist, but instead of a p
         <img src="./images/sample_mountains.webp" alt="Magic wand original image " width="640" height="425"/>
     </div>
     <div>
-        <img src="./images/magic_wand_java.webp" alt="Magic wand tool color selection" width="640" height="425"/>
+        <img src="./images/magic_wand_java.webp" alt="Magic wand tool blue sky color selection" width="640" height="425"/>
     </div>
 </div>
-<figcaption>Magic wand tool color selection</figcaption>
+<figcaption>Magic Wand tool: blue sky color selection</figcaption>
 </figure>
 
 Example Java code: [magic wand](magic-wand-filter/)
