@@ -11,11 +11,12 @@ title: Aspose.Imaging for Python via .NET 23.9 - Release notes
 
 | **Key**         | **Summary**                                                                                                                                                              | **Category** |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| IMAGINGPYTHONNET-133 | Implement Remove watermark filter                                                                                                                                  | Feature      |
-| IMAGINGPYTHONNET-127 | Required palette is missing exception loading BMP                                                                                                                                  | Enhancement      |
-| IMAGINGPYTHONNET-128 | The GIF file loading issue                                                                                                                                  | Enhancement      |
-| IMAGINGPYTHONNET-130 | Exception on creating palette of large image                                                                                                                                  | Enhancement      |
-| IMAGINGPYTHONNET-126 | DICOM load issue                                                                                                                                  | Enhancement      |
+| IMAGINGPYTHONNET-133 | Implement Remove watermark filter                                                                                                                                   | Feature      |
+| IMAGINGPYTHONNET-127 | Required palette is missing exception loading BMP                                                                                                                   | Enhancement  |
+| IMAGINGPYTHONNET-128 | The GIF file loading issue                                                                                                                                          | Enhancement  |
+| IMAGINGPYTHONNET-130 | Exception on creating palette of large image                                                                                                                        | Enhancement  |
+| IMAGINGPYTHONNET-126 | DICOM load issue                                                                                                                                                    | Enhancement  |
+| IMAGINGPYTHONNET-109 | Extend the supported GLIBC version to at least 2.28, or preferably to 2.17                                                                                          | Enhancement  |
 
 ## Public API changes:
 
