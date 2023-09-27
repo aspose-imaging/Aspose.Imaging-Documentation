@@ -2,7 +2,7 @@
 type: docs
 weight: '60'
 url: /java/aspose-imaging-for-java-23-9-release-notes/
-title: Aspose.Imaging for JAVA 23.9 - Release notes
+title: Aspose.Imaging for Java 23.9 - Release notes
 ---
 
 ## Competitive features:
@@ -32,7 +32,7 @@ Please see corresponding cumulative [API changes for Aspose.Imaging for .NET 23.
 
 **IMAGINGJAVA-8545 Implement Remove watermark filter**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 String imageFilePath = "ball.png";
 String outputFilePath = "result.png";
@@ -54,7 +54,7 @@ try (Image image = Image.load(imageFilePath))
 
 **IMAGINGJAVA-8534 Exception on creating palette of large image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("large-tiff.TIFF"))
 {
@@ -67,7 +67,7 @@ try (Image image = Image.load("large-tiff.TIFF"))
 
 **IMAGINGJAVA-8533 Can't load EPS image**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("ground.eps"))
 {
@@ -78,7 +78,7 @@ try (Image image = Image.load("ground.eps"))
 
 **IMAGINGJAVA-8522 DICOM load issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("0008cc0a_niming.dcm"))
 {
@@ -89,7 +89,7 @@ try (Image image = Image.load("0008cc0a_niming.dcm"))
 
 **IMAGINGJAVA-8516 Required palette is missing exception loading BMP**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("Texture.bmp"))
 {
@@ -100,7 +100,7 @@ try (Image image = Image.load("Texture.bmp"))
 
 **IMAGINGJAVA-8512 The GIF file loading issue**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
 try (Image image = Image.load("input.gif"))
 {
