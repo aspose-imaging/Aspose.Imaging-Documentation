@@ -1,7 +1,7 @@
 ---
 type: docs
 weight: '60'
-url: /net/aspose-imaging-for-python-net-23-9-release-notes/
+url: /python-net/aspose-imaging-for-python-net-23-9-release-notes/
 title: Aspose.Imaging for Python via .NET 23.9 - Release notes
 ---
 
@@ -123,8 +123,8 @@ imageFilePath = "ball.png"
 outputFilePath = "result.png"
 with Image.load(imageFilePath) as image:
     pngImage = as_of(image, PngImage)
-    GraphicsPath mask = GraphicsPath()
-    Figure firstFigure = Figure()
+    mask = GraphicsPath()
+    firstFigure = Figure()
     firstFigure.add_shape(EllipseShape(RectangleF(350, 170, 570 - 350, 400 - 170)))
     mask.add_figure(firstFigure)
     options = ContentAwareFillWatermarkOptions(mask)
