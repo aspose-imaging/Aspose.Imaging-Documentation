@@ -28,7 +28,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for .NET Limitations](https://docs.aspose.com/imaging/net/known-issues/)
 - [Aspose.Imaging for .NET Release Notes](https://releases.aspose.com/imaging/net/release-notes/)
 - [Aspose.Imaging for .NET Product Page](https://products.aspose.com/imaging/net/)
-- [Aspose.Imaging for .NET New Releases]((https://releases.aspose.com/imaging/net/)
+- [Aspose.Imaging for .NET New Releases](https://releases.aspose.com/imaging/net/)
 - [Install Aspose.Imaging for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Imaging/)
 - [Aspose.Imaging for .NET API Reference Guide](https://reference.aspose.com/imaging/net)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET)
