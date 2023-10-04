@@ -24,8 +24,8 @@ The following are the links to some useful resources you may need to accomplish 
 
 - [Aspose.Imaging for JasperReports Online Documentation](/imaging/jasperreports/)
 - [Aspose.Imaging for JasperReports Features](/imaging/jasperreports/features-overview/)
-- [Aspose.Imaging for JasperReports Release Notes](/imaging/jasperreports/release-notes/)
+- [Aspose.Imaging for JasperReports Release Notes](https://releases.aspose.com/imaging/jasperreports/release-notes/)
 - [Aspose.Imaging for JasperReports Product Page](https://products.aspose.com/imaging/jasperreports/)
-- [Download Aspose.Imaging for JasperReports](https://downloads.aspose.com/imaging/jasperreports)
+- [Download Aspose.Imaging for JasperReports](https://releases.aspose.com/imaging/jasperreports/)
 - [Aspose.Imaging for JasperReports Free Support Forum](https://forum.aspose.com/c/imaging/14)
 - [Aspose.Imaging for JasperReports Paid Support Helpdesk](https://helpdesk.aspose.com/)

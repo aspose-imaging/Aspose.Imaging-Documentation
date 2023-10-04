@@ -4,10 +4,10 @@ type: docs
 weight: 20
 url: /java/
 is_root: true
-description: Java image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor. 
+description: Java image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor.
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 {{% image img="home_1.png" alt="Aspose.Imaging for Java Product Logo" %}}
 
@@ -17,7 +17,7 @@ Aspose.Imaging for Java is an easy-to-use, high-performance and well-documented 
 
 Aspose.Imaging for Java offers a broad spectrum of traditional image processing operations such as converting an image from one format to another, drawing native objects as well as GraphicsPaths and geometric transformations such as scaling, rotation and flipping. A demanding feature provided by Aspose.Imaging for Java is to manipulate multiple image frames or to read and write file formats which support multiple image frames.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## **Aspose.Imaging for Java Resources**
 
@@ -26,9 +26,9 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for Java Online Documentation](/imaging/java/)
 - [Aspose.Imaging for Java Features](/imaging/java/features/)
 - [Aspose.Imaging for Java Limitations](/imaging/java/known-issues/)
-- [Aspose.Imaging for Java Release Notes](/imaging/java/release-notes/)
-- [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/java/)
-- [Download Aspose.Imaging for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging)
+- [Aspose.Imaging for Java Release Notes](https://releases.aspose.com/imaging/java/release-notes/)
+- [Aspose.Imaging for Java Maven repository](https://releases.aspose.com/java/repo/com/aspose/aspose-imaging/)
+- [Download Aspose.Imaging for Java package](https://releases.aspose.com/imaging/java/)
 - [Install Aspose.Imaging for Java from Maven Repository](/imaging/java/installation/)
 - [Aspose.Imaging for Java API Reference Guide](https://reference.aspose.com/imaging/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Java)

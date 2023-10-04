@@ -4,10 +4,10 @@ type: docs
 weight: 10
 url: /net/
 is_root: true
-description: C# image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor. 
+description: C# image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor.
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 {{% image img="home_1.png" alt="Aspose.Imaging for .NET Product Logo" %}}
 
@@ -17,7 +17,7 @@ Aspose.Imaging for .NET provides a number of flexible routines for creating and 
 
 The component supports the most common raster file formats and offers a wide range of compression algorithms as well as numerous image processing operations. Image export and conversion is core to Aspose.Imaging's features. the component allows developers to, for example, convert images to thumbnails, or for easy sharing across an organization. Aspose.Imaging offers high speed processing through native byte access and a number of efficient algorithms. The component goes beyond conversions and lets developers draw objects using core functionality as well as more advanced functionality (based on Graphics Path). Aspose.Imaging has built-in cross platform portability. At the moment we support working in Mono as well. Aspose.Imaging for .NET Standard API is Linux compatible.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## **Aspose.Imaging for .NET Resources**
 
@@ -26,8 +26,9 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Imaging for .NET Online Documentation](https://docs.aspose.com/imaging/net/)
 - [Aspose.Imaging for .NET Features](https://docs.aspose.com/imaging/net/features/)
 - [Aspose.Imaging for .NET Limitations](https://docs.aspose.com/imaging/net/known-issues/)
-- [Aspose.Imaging for .NET Release Notes](https://docs.aspose.com/imaging/net/release-notes/)
+- [Aspose.Imaging for .NET Release Notes](https://releases.aspose.com/imaging/net/release-notes/)
 - [Aspose.Imaging for .NET Product Page](https://products.aspose.com/imaging/net/)
+- [Aspose.Imaging for .NET New Releases]((https://releases.aspose.com/imaging/net/)
 - [Install Aspose.Imaging for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Imaging/)
 - [Aspose.Imaging for .NET API Reference Guide](https://reference.aspose.com/imaging/net)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET)
