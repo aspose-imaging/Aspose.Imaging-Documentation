@@ -96,3 +96,5 @@ You can adjust the degree of color similarity by setting a threshold for color c
 </figure>
 
 Example C# code: [magic wand](magic-wand-filter/)
+
+## Remove watermark

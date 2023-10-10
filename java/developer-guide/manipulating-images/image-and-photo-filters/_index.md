@@ -97,3 +97,5 @@ When editing a landscape where a vast portion of the canvas is filled with blue 
 </figure>
 
 Example Java code: [magic wand](magic-wand-filter/)
+
+## Remove watermark
