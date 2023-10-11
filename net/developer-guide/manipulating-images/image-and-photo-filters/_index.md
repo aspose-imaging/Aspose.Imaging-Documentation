@@ -98,3 +98,17 @@ You can adjust the degree of color similarity by setting a threshold for color c
 Example C# code: [magic wand](magic-wand-filter/)
 
 ## Remove watermark
+
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/ball_sample_image.webp" alt="Original image before removal" width="640" height="360"/>
+    </div>
+    <div>
+        <img src="./images/ball_image_removal_result.webp" alt="Image after watemark removal" width="640" height="360"/>
+    </div>
+</div>
+<figcaption>Watermark removal example</figcaption>
+</figure>
