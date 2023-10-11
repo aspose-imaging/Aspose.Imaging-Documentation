@@ -93,3 +93,6 @@ Each color consists of various shades and tones. The Magic Wand tool is crafted 
 Example Python code: [magic wand](magic-wand-filter/)
 
 ## Remove watermark
+
+
+Example Python code: [remove watermark](remove-watermark-filter/)

@@ -112,3 +112,5 @@ Example C# code: [magic wand](magic-wand-filter/)
 </div>
 <figcaption>Watermark removal example</figcaption>
 </figure>
+
+Example C# code: [remove watermark](remove-watermark-filter/)

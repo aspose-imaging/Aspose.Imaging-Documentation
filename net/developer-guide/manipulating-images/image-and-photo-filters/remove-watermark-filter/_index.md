@@ -8,3 +8,9 @@ keywords: [photo filter, image filter, remove watermark]
 ---
 
 ## Remove watermark
+
+<a href="https://reference.aspose.com/imaging/net/aspose.imaging.watermark.options/">Aspose.Imaging.Watermark.Options</a>
+
+<a href="https://reference.aspose.com/imaging/net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/">ContentAwareFillWatermarkOptions</a>
+
+<a href="https://reference.aspose.com/imaging/net/aspose.imaging.watermark/watermarkremover/paintover/">WatermarkRemover.PaintOver method</a>
