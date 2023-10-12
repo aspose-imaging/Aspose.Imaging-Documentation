@@ -92,7 +92,19 @@ Each color consists of various shades and tones. The Magic Wand tool is crafted 
 
 Example Python code: [magic wand](magic-wand-filter/)
 
-## Remove watermark
+## Remove watermark image filter
 
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/shore_watermark.webp" alt="Image sample with watermark" width="640" height="400"/>
+    </div>
+    <div>
+        <img src="./images/shore_watermark_removed.webp" alt="Image after watermark removed" width="640" height="400"/>
+    </div>
+</div>
+<figcaption>Image example with Remove watermark filter</figcaption>
+</figure>
 
 Example Python code: [remove watermark](remove-watermark-filter/)

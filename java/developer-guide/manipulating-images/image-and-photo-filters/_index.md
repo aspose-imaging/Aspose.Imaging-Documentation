@@ -98,6 +98,19 @@ When editing a landscape where a vast portion of the canvas is filled with blue 
 
 Example Java code: [magic wand](magic-wand-filter/)
 
-## Remove watermark
+## Remove watermark image filter
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/mountains_watermark.webp" alt="Image with watermark" width="639" height="424"/>
+    </div>
+    <div>
+        <img src="./images/mountains_watermark_removed.webp" alt="Image after watermark removal" width="639" height="424"/>
+    </div>
+</div>
+<figcaption>Watermark removal image filter example</figcaption>
+</figure>
 
 Example Java code: [remove watermark](remove-watermark-filter/)
