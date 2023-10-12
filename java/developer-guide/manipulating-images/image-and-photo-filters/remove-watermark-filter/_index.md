@@ -12,3 +12,8 @@ keywords: [photo filter, image filter, remove watermark]
 <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.watermark/watermarkremover/">WatermarkRemover</a>
 
 <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.watermark.options/watermarkoptions/">WatermarkOptions</a>
+
+
+Java code example:
+
+{{< gist "aspose-com-gists" "3899d43a1ee9b6ada0bf45acacef8412" "RemoveWatermarkFilter.java" >}}

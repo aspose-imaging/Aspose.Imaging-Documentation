@@ -12,3 +12,8 @@ keywords: [image effect, image filter, remove watermark]
 <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging.watermark/watermarkremover/">WatermarkRemover Class</a>
 
 <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/">ContentAwareFillWatermarkOptions Class</a>
+
+
+Python code example:
+
+{{< gist "aspose-com-gists" "bdeef81eec0653b2096497be988d01ec" "RemoveWatermarkFilter.py" >}}

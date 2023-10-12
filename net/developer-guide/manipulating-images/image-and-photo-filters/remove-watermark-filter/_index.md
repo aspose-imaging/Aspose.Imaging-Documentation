@@ -25,3 +25,5 @@ After creating the watermark mask with the ellipse shape, we utilize the <a href
 </p>
 
 C# code example:
+
+{{< gist "aspose-com-gists" "5f0197ade4ee961e53bbf40ba834eefe" "RemoveWatermarkFilter.cs" >}}
