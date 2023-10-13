@@ -3,8 +3,8 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /net/developer-guide/manipulating-images/image-and-photo-filters/
-description: Alpha blending image filter for placing semi-transparent images on top of a background image. Magic Wand tool for color area selection.
-keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images, magic wand, color selection]
+description: Aspose.Imaging graphic library for .NET (C#) supports Alpha blending image filter for placing semi-transparent images on top of a background image. Magic Wand tool for color area selection. Watermark removal filter automatically fills the marked area with similar image fragments.
+keywords: [photo filter, image filter, photo effect, image overlay, alpha blending, image effect, blend image, watermarking images, magic wand, color selection, watermark removal, remove watermark]
 ---
 
 <style>
@@ -99,6 +99,15 @@ Example C# code: [magic wand](magic-wand-filter/)
 
 ## Remove watermark image filter
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Certain smartphones and cameras can add watermarks to photos as they capture them. These watermarks can include manufacturer logos or device model names. If you need to share these photos without these unwanted marks, you can use the Watermark Removal image filter.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To effectively remove these watermarks, you need to define the area where the mark is located by indicating its coordinates. Utilizing the available image data, the algorithm will automatically replace the watermark area with similar fragments. In the image filter options, you can choose between the `Content-Aware Fill` or the `Telea` watermark removal algorithm. Furthermore, you can specify the number of attempts to remove the watermark. In this scenario, the algorithm will determine the best result.
+</p>
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
