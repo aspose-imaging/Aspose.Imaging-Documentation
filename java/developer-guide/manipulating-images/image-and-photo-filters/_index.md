@@ -3,7 +3,7 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /java/developer-guide/manipulating-images/image-and-photo-filters/
-description: Implementing image or photo effects for Java. Alpha blending image filter for creating watermark images with transparent overlay image logo. Magic Wand tool for color selection.
+description: Aspose.Imaging graphic library implements image and photo effects for Java. Alpha blending image filter for creating watermark images with transparent overlay image logo. Magic Wand tool for color selection. Watermark removal image filter.
 keywords: [photo filter, image filter, photo effect, overlay image, alpha blending, image effect, blend image, image manipulation, opacity levels, magic wand, color selection]
 ---
 
@@ -97,3 +97,30 @@ When editing a landscape where a vast portion of the canvas is filled with blue 
 </figure>
 
 Example Java code: [magic wand](magic-wand-filter/)
+
+## Remove watermark image filter
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Adding watermarks to photos is a common practice in image processing. However, there are instances where the opposite, and more intricate, task becomes necessary - removing watermarks. Your images might be disfigured by the inclusion of technical data that needs to be eliminated before publication. In such cases, employing a watermark removal image filter is a highly effective solution.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Remove watermark filter is designed to automatically remove watermarks, but for optimal usage, you must initially define the coordinates of the watermark's location. The filter offers a range of removal mode settings. You can select the algorithm to be employed for filling the watermark area and specify the maximum number of attempts. It's worth noting that increasing the number of attempts enhances the final result but demands more computational resources.
+</p>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/mountains_watermark.webp" alt="Image with watermark" width="639" height="424"/>
+    </div>
+    <div>
+        <img src="./images/mountains_watermark_removed.webp" alt="Image after watermark removal" width="639" height="424"/>
+    </div>
+</div>
+<figcaption>Watermark removal image filter example</figcaption>
+</figure>
+
+Example Java code: [remove watermark](remove-watermark-filter/)

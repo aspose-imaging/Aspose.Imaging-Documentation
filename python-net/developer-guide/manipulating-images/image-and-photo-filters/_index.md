@@ -3,8 +3,8 @@ title: Image and Photo Filters
 type: docs
 weight: 50
 url: /python-net/developer-guide/manipulating-images/image-and-photo-filters/
-description: Creating overlay images with alpha blending image filter. Watermark image with company logo. Magic Wand tool for color selection.
-keywords: [image filter, photo effects, overlay images, alpha blending, image effect, blending image, watermark images, magic wand, color selection]
+description: Aspose.Imagig graphic library for Python supports various image and photo filters. Creating overlay images with alpha blending image filter. Watermark image with company logo and Remove watermark image filter. Magic Wand tool for color selection.
+keywords: [image filter, photo effects, overlay images, alpha blending, image effect, blending image, watermark images, magic wand, color selection, remove watermark]
 ---
 
 <style>
@@ -91,3 +91,29 @@ Each color consists of various shades and tones. The Magic Wand tool is crafted 
 </figure>
 
 Example Python code: [magic wand](magic-wand-filter/)
+
+## Remove watermark image filter
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Designers and researchers often encounter images that have been previously watermarked. The presence of a watermark doesn't render the images or photos irreparably damaged. Watermarks can be effectively removed using the Watermark removal image filter.
+</p>
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Utilizing the Remove watermark filter requires the exact definition of the watermark's location on the image. You can describe multiple free-form areas, from simple rectangles to more intricate shapes. Furthermore, there's the flexibility to choose specific algorithms for reconstructing the removed area based on adjacent image fragments. Additionally, you have the option to configure the maximum number of attempts for filling the watermark area, thus enabling the selection of the most optimal result.
+</p>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./images/shore_watermark.webp" alt="Image sample with watermark" width="640" height="400"/>
+    </div>
+    <div>
+        <img src="./images/shore_watermark_removed.webp" alt="Image after watermark removed" width="640" height="400"/>
+    </div>
+</div>
+<figcaption>Image example with Remove watermark filter</figcaption>
+</figure>
+
+Example Python code: [remove watermark](remove-watermark-filter/)
