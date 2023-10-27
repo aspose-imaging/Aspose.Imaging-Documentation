@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /python-net/
 is_root: true
-description: Python image processing library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor.
+description: Another Python Imaging Library provides a number of flexible routines for creating and manipulating images programmatically and does not need any image editor.
 ---
 
 {{% alert color="primary" %}}
@@ -12,6 +12,9 @@ description: Python image processing library provides a number of flexible routi
 {{% image img="home_1.png" alt="Aspose.Imaging for Python via .NET Product Logo" %}}
 
 **Welcome to Aspose.Imaging for Python via .NET**
+
+- What is Aspose.Imaging for Python via .NET? 
+- This is Another Python Imaging Library. Just try it.
 
 Aspose.Imaging for Python via .NET provides a number of flexible routines for creating and manipulating images within Python applications. It functions independently of other graphics applications and does not demand that an image editor is installed on the machine. Aspose.Imaging extends the native support for image formats and image processing functions for Python. Aspose.Imaging allows developers to manipulate images within their own programs, quickly and easily.
 

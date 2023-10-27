@@ -11,55 +11,37 @@ Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/
 ### **Specify Maven Repository Configuration**
 First you need to specify Aspose Maven Repository configuration / location in your Maven pom.xml as follows:
 
-{{< highlight java >}}
+{{< highlight xml >}}
 
  <repositories>
-
     <repository>
-
         <id>AsposeJavaAPI</id>
-
         <name>Aspose Java API</name>
-
         <url>https://repository.aspose.com/repo/</url>
-
     </repository>
-
 </repositories>
 
 {{< /highlight >}}
 ### **Define Aspose.Imaging for Java API Dependency**
 Then define Aspose.Imaging for Java API dependency in your pom.xml as follows:
 
-{{< highlight java >}}
+{{< highlight xml >}}
 
  <dependencies>
-
     <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-imaging</artifactId>
-
-        <version>22.4</version>
-
+        <version>23.10</version>
         <classifier>jdk16</classifier>
-
    </dependency>
 
    <!-- if you need a documentation, please add the following dependency. For example it could be useful for IDE. -->
    <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-imaging</artifactId>
-
-        <version>22.4</version>
-
+        <version>23.10</version>
         <classifier>javadoc</classifier>
-
    </dependency>
-
 </dependencies>
 
 {{< /highlight >}}

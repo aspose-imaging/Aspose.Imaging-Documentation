@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 weight: 10
 url: /python-net/introduction/
-description: The Programmer's Guide contains information that is essential to know when using the Python Image Processing and Manipulation Library API in Python applications.
+description: The Programmer's Guide contains information that is essential to know when using the Image-Processing Python Library API in Python applications.
 ---
 
 The Programmer's Guide contains information that is essential to know when building Python and other applications with Aspose.Imaging for Python via .NET. This section explains key programming concepts, and has code samples and detailed explanations.
