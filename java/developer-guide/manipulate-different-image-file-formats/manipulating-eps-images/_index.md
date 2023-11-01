@@ -11,7 +11,10 @@ keywords: [Encapsulated Postscript, graphic library for Java, EPS images, export
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-PostScript documents have been adopted for combining text, graphics, and images into graphic files since the 1980s. The combined data is saved in the Encapsulated Postscript format (<a href="https://docs.fileformat.com/page-description-language/eps/">EPS</a>). EPS files are supported by many vector editing applications and remain popular for creating graphic documents. With the Aspose.Imaging graphic library for Java, you can rapidly develop applications or services to manipulate EPS images. You can easily load EPS files and convert them into other image vector or raster formats such as SVG, PNG, PDF, or PSD. In the Java code example provided, we export EPS images to SVG and PNG formats by using the `Save` method on the loaded EPS image object. For converting to the PNG format, we specify `PngColorType.Grayscale` as an additional option for a Grayscale PNG palette.
+PostScript documents have been adopted for combining text, graphics, and images into graphic files since the 1980s. The combined data is saved in the Encapsulated Postscript format (<a href="https://docs.fileformat.com/page-description-language/eps/">EPS</a>). EPS files are supported by many vector editing applications and remain popular for creating graphic documents. With the Aspose.Imaging graphic library for Java, you can rapidly develop applications or services to manipulate EPS images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can easily load EPS files and convert them into other image vector or raster formats such as SVG, PNG, PDF, or PSD. In the Java code example provided, we export EPS images to SVG and PNG formats by using the `Save` method on the loaded EPS image object. For converting to the PNG format, we specify `PngColorType.Grayscale` as an additional option for a Grayscale PNG palette.
 </p>
 
 {{< gist "aspose-com-gists" "b3691dae7cbfae29eda2e3c45d75c514" "export-eps-to-other-format.java" >}}
