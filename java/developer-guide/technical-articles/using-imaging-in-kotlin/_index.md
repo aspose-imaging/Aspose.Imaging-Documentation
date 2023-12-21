@@ -11,7 +11,7 @@ keywords: Kotlin applications, Aspose.Imaging for Java, export svg to png in Kot
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In the dynamic landscape of software development, the synergy between programming languages is a powerful force. Kotlin, known for its conciseness and interoperability with Java, opens doors for developers seeking to enhance their applications with sophisticated features. The Aspose.Imaging graphic library is applicable for both desktop and server applications. As of version 23.12, it does not support the Android platform, but support for it will be included in the upcoming releases.
+In the dynamic landscape of software development, the synergy between programming languages is a powerful force. Kotlin, known for its conciseness and interoperability with Java, opens doors for developers seeking to enhance their applications with sophisticated features. The Aspose.Imaging graphic library is applicable for both desktop and server applications. For now, it does not support the Android platform, but support for it will be included in the upcoming releases.
 </p>
 
 <p align='justify'>
