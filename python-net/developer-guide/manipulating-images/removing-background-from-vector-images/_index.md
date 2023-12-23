@@ -51,3 +51,5 @@ keywords: remove background from vector images, remove background from EMF, remo
 </div>
 <figcaption>Removing background from WMF vector image</figcaption>
 </figure>
+
+{{< gist "aspose-com-gists" "291380aac991e0869dbabba3e60f5225" "remove-background-from-vector-images.py" >}}
