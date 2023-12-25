@@ -25,7 +25,7 @@ or
 `pip3 install aspose-imaging-python-net`
 
 ## **Working in Non-Windows Environment**
-As Aspose.Imaging for Python via .NET based on .NET Core 3.1 platform, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. However, there are some following operations which we recommend our customers to perform, in order to get better results while using features of Aspose.Imaging for Python via .NET:
+As Aspose.Imaging for Python via .NET based on .NET Core 6.0 platform, so it can be used in Core Applications running in Linux like operating systems. We are constantly working over improving the .NET Core support in our API. However, there are some following operations which we recommend our customers to perform, in order to get better results while using features of Aspose.Imaging for Python via .NET:
 
 Please install:
 
@@ -53,12 +53,12 @@ dotnet --list-runtimes
 ```
 Output
 > ....
-> Microsoft.NETCore.App 3.1.32 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+> Microsoft.NETCore.App 6.0.xxx [/usr/share/dotnet/shared/Microsoft.NETCore.App]
 > ....
 
-*The version of NETCore.App must be >= 3.1*
+*The version of NETCore.App must be >= 6.0*
 
-If the `dotnet` command is not found, you need to install dotnet-sdk-3.1 package.
+If the `dotnet` command is not found, you need to install dotnet-sdk-6.0 package.
 
 
 ### Ubuntu Linux
@@ -67,7 +67,7 @@ sudo apt-get install -y libssl1.1 wget python3 python3-pip
 wget https://packages.microsoft.com/config/ubuntu/<your version>/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb && rm packages-microsoft-prod.deb
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-3.1
+sudo apt-get install -y dotnet-sdk-6.0
 sudo apt-get install -y libgdiplus libfontconfig1 xfonts-utils
 sudo apt-get install -y ttf-mscorefonts-installer
 pip3 install wheel
@@ -96,7 +96,7 @@ rm ./libssl1.0-dev_1.0.2n-1ubuntu5.13_amd64.deb
 ```
 rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
 yum update -y
-yum install -y python3.8 python3-pip dotnet-sdk-5.0 dotnet-sdk-3.1
+yum install -y python3.8 python3-pip dotnet-sdk-6.0
 yum install -y epel-release
 yum install -y libgdiplus
 yum groupinstall -y "fonts"

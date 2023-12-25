@@ -9,7 +9,7 @@ description: Python image processing library core features includes read and wri
 
 ## **Supported Platforms**
 
-The platforms Aspose.Imaging for Python via .NET can be used on Windows x64 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
+The platforms Aspose.Imaging for Python via .NET can be used on Windows/Linux/MacOS with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
 
 - GCC-6 runtime libraries (or later)
 - Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
