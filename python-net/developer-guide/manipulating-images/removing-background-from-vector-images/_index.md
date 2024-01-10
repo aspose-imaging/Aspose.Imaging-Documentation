@@ -73,7 +73,7 @@ Below is an example of a Windows Metafile (WMF) vector image featuring a map dra
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Python code example below demonstrates the image processing for background removal. To automate this process for vector images, you can list all the desired source file names and specify the `RemoveBackgroundSettings` for each. Then, pass these file lists and settings to the function, and utilize the `removeBackground()` method. The resulting images in this example are saved in the PNG raster image format with a transparent background:
+The Python code example below demonstrates the image processing for background removal. To automate this process for vector images, you can list all the desired source file names and specify the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/removebackgroundsettings/">`RemoveBackgroundSettings`</a> for each. Then, pass these file lists and settings to the function, and utilize the <a href="https://reference.aspose.com/imaging/python-net/aspose.imaging/vectorimage/#remove_background_settings_29">`removeBackground()` method</a>. The resulting images in this example are saved in the PNG raster image format with a transparent background:
 </p>
 
 {{< gist "aspose-com-gists" "291380aac991e0869dbabba3e60f5225" "remove-background-from-vector-images.py" >}}
