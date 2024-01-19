@@ -9,14 +9,25 @@ keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, sha
 
 ## Sharpen Kernel Filter
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To reach a Sharpen image effect, define a kernel matrix that intensifies pixel values relative to their surroundings. In this example, the central element is assigned a value five times that of its surroundings, with a subtraction made for the four adjacent pixels (upper, down, left, and right). This ensures that the total sum of coefficients remains at 1, preserving the original brightness. The effect is more pronounced when neighboring pixels differ, emphasizing the contrast between pixels and enhancing the image's sharpness.
+</p>
+
 ```cs
 // sharpen 3x3 kernel
+double[,] customKernel = new double[,]
 {
     {  0, -1,  0 },
     { -1,  5, -1 },
     {  0, -1,  0 },
 };
 ```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The Sharpen effect enhances an image by emphasizing pixel contrasts, resulting in improved image detail and overall visual clarity.
+</p>
 
 <style>
    .frame {
@@ -68,7 +79,7 @@ keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, sha
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Emboss3x3," "GetBlurBox" with customizable size settings, "GetBlurMotion" with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Sharpen3x3" and "Sharpen5x5" with different kernel matrix sizes. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

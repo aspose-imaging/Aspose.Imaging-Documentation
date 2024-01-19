@@ -4,18 +4,19 @@ type: docs
 weight: 55
 url: /net/developer-guide/manipulating-images/kernel-filters/blur-filter/
 description: Aspose.Imaging graphic library for .NET (C#) supports kernel filters such Blur as well as custom kernels.
-keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, blur image, blur filter, blurbox filter, kernel matrix, convolution operation, custom kernel filter]
+keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, blur image, blur filter, blur box filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## BlurBox Kernel Filter
+## Blur Box Kernel Filter
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-By populating the kernel matrix with equal elements and ensuring a total sum of 1, you can compute the mean value of the surrounding pixel area with a size of 5x5. This process effectively helps eliminate noise and results in a 'Blur Box' image effect.
+By filling the kernel matrix with uniform elements and ensuring a total sum of 1, you can determine the average value of the surrounding pixel area with a size of 5x5. The resulting pixel value is then computed as the sum of 1/25 values from all surrounding pixels. This particular kernel matrix is recognized as a 'Blur Box'. Increasing the dimensions of the matrix will intensify the blurring effect.
 </p>
 
 ```cs
-// BlurBox 5x5 kernel
+// Blur Box 5x5 kernel
+double[,] customKernel = new double[,]
 {
     { 0.04, 0.04, 0.04, 0.04, 0.04,},
     { 0.04, 0.04, 0.04, 0.04, 0.04,},
@@ -24,6 +25,10 @@ By populating the kernel matrix with equal elements and ensuring a total sum of 
     { 0.04, 0.04, 0.04, 0.04, 0.04,},
 };
 ```
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+This process results in a gradual transition between neighboring pixel values, effectively blurring the image, helping eliminate noise, reducing sharpness and creating a smooth, vague appearance.
+</p>
 
 <style>
    .frame {
@@ -65,17 +70,17 @@ By populating the kernel matrix with equal elements and ensuring a total sum of 
         <img src="../template-landscape.webp" alt="Original photo before emboss filter" width="640" height="400"/>
     </div>
     <div>
-        <img src="./blur-box-5x5-kernel-filter.webp" alt="BlurBox 5x5 kernel filter" width="640" height="400"/>
+        <img src="./blur-box-5x5-kernel-filter.webp" alt="Blur Box 5x5 kernel filter" width="640" height="400"/>
     </div>
 </div>
-<figcaption>BlurBox kernel filter</figcaption>
+<figcaption>Blur Box kernel filter</figcaption>
 </figure>
 
 ## C# code example
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Emboss3x3," "GetBlurBox" with customizable size settings, "GetBlurMotion" with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as <strong>GetBlurBox()</strong> with size settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

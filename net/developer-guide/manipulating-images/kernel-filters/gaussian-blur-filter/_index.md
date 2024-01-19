@@ -7,7 +7,12 @@ description: Aspose.Imaging graphic library for .NET (C#) supports kernel filter
 keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, blur image, blur filter, Gaussian blur, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Gaussian Blur kernel Filter
+## Gaussian Blur Kernel Filter
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Unlike common <a href="../blur-filter/">BlurBox image filters</a> using a box or averaging filter, applies a simple average to the pixel values in a defined neighborhood. This results in a uniform and straightforward blurring effect, where each pixel contributes equally to its neighbors. On the other hand, Gaussian blur employs a Gaussian distribution to determine the weights of pixels in the neighborhood. This means that pixels closer to the center have higher weights, creating a smoother and more natural blurring effect. To emulate the Gaussian distribution, the following 3x3 matrix can be used:
+</p>
 
 ```cs
 // gaussian blur 3x3 kernel
@@ -17,6 +22,25 @@ keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, blu
   {1, 2, 1,},
 };
 ```
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To preserve the luminosity of the source image, all elements are divided by 16, which represents the sum of the matrix elements.
+</p>
+
+```cs
+// gaussian blur 3x3 kernel /16
+double[,] customKernel = new double[,]
+{
+  { 0.0625, 0.125,  0.0625,},
+  { 0.125,   0.25,   0.125,},
+  { 0.0625, 0.125,  0.0625,},
+};
+```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Gaussian blur tends to produce a more visually appealing and realistic result compared to the uniform blurring of common blur filters.
+</p>
 
 <style>
    .frame {
@@ -69,7 +93,7 @@ keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, blu
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Emboss3x3," "GetBlurBox" with customizable size settings, "GetBlurMotion" with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as <strong>GetGaussian()</strong> method with adjustable size and sigma value of Gauss distribution. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

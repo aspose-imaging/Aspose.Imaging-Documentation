@@ -7,16 +7,34 @@ description: Aspose.Imaging graphic library for .NET (C#) supports kernel filter
 keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, deconvolution filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Deconvolution Filter
+## Deconvolution Kernel Filter
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Deconvolution serves as the inverse matrix operation to a convolution filter. If a convolution transformation is applied, such as with the <a href="../gaussian-blur-filter/">Gaussian blur kernel filter</a>, attempting to reverse this operation cannot fully restore the original image due to the averaging of pixel values and the loss of some details. However, deconvolution is valuable for image restoration and deblurring.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the example below we apply the Gaussian blur convolution filter and then restore the original image with Deconvolution filer:
+</p>
 
 ```cs
-// gaussian convolution kernel
+// gaussian 3x3 convolution kernel
 {
   {1, 2, 1,},
   {2, 4, 2,},
   {1, 2, 1,},
 };
 ```
+
+```cs
+DeconvolutionFilterOptions(ConvolutionFilter.GetGaussian(Size, Sigma))
+```
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The restored image is not identical to the original, but it exhibits more details after the deblurring process.
+</p>
 
 <style>
    .frame {
@@ -68,7 +86,7 @@ keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, dec
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Emboss3x3," "GetBlurBox" with customizable size settings, "GetBlurMotion" with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The full C# code example below shows the usage of the Aspose.Imaging .NET API. You can utilize the `ConvolutionFilter` class with "GetGaussian" blurring method and subsequently deblur using the <strong>DeconvolutionFilterOptions</strong>. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

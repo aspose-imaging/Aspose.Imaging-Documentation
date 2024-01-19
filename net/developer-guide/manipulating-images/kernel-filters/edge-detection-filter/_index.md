@@ -7,10 +7,18 @@ description: Aspose.Imaging graphic library for .NET (C#) supports kernel filter
 keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, edge detection filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Edge Detection Kernel Filter
+## Edge Detection Custom Kernel Filter
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The custom kernel filter for edge detection shares similarities with the <a href="../sharpen-filter/">Sharpen filter</a> but with a notable distinction: the total sum of matrix elements equals zero. Consequently, the resulting image appears almost black, except for pixels that deviate from their neighbors. These pixels typically reside at the boundaries between distinct areas or edges.
+</p>
 
-Edge detection custom kernel filter:
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In this example, the central pixel value is compared to its surrounding pixels. It is possible to define a custom kernel to specifically identify edges in either horizontal or vertical directions.
+</p>
+
 ```cs
 // edge detection kernel
 double[,] customKernel = new double[,]
@@ -20,6 +28,12 @@ double[,] customKernel = new double[,]
     { -1, -1, -1,},
 }
 ```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Ultimately, applying the filter results in retaining only the contours of the image against a black background.
+</p>
+
 <style>
    .frame {
     border: 2px solid darkgray;
@@ -70,7 +84,7 @@ double[,] customKernel = new double[,]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Emboss3x3," "GetBlurBox" with customizable size settings, "GetBlurMotion" with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters, as well as <strong>custom kernel</strong> matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
