@@ -7,15 +7,19 @@ description: Aspose.Imaging graphic library for Java supports kernel filters suc
 keywords: [photo filter Java, image filter Java, photo effect Java, kernel filter, blur image, blur filter, Gaussian blur, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Gaussian Blur Kernel Filter
+## Gaussian Blur Kernel Filter in Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- Unlike common <a href="../blur-filter/">BlurBox image filters</a> using a box or averaging filter, applies a simple average to the pixel values in a defined neighborhood. This results in a uniform and straightforward blurring effect, where each pixel contributes equally to its neighbors. On the other hand, Gaussian blur employs a Gaussian distribution to determine the weights of pixels in the neighborhood. This means that pixels closer to the center have higher weights, creating a smoother and more natural blurring effect. To emulate the Gaussian distribution, the following 3x3 matrix can be used:
+Diverging from typical <a href="../blur-filter/">Blur Box image filters</a>, which employ an averaging filter, the simple average applied to pixel values in a defined neighborhood results in a uniform and straightforward blurring effect. In such scenario, each pixel contributes equally to its neighboring pixels.
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In contrast, Gaussian blur utilizes a Gaussian distribution to ascertain the weights of pixels within the neighborhood. This implies that pixels closer to the center hold higher weights, leading to a smoother and more natural blurring effect. To simulate the Gaussian distribution, the following 3x3 matrix can be employed:
 </p>
 
-```cs
-// gaussian blur 3x3 kernel
+```java
+// gaussian blur 3x3 kernel matrix
 {
   {1, 2, 1,},
   {2, 4, 2,},
@@ -24,12 +28,11 @@ keywords: [photo filter Java, image filter Java, photo effect Java, kernel filte
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To preserve the luminosity of the source image, all elements are divided by 16, which represents the sum of the matrix elements.
+To maintain the brightness of the source image, all elements are divided by 16, a value that corresponds to the sum of the matrix elements.
 </p>
 
-```cs
-// gaussian blur 3x3 kernel /16
-double[,] customKernel = new double[,]
+```java
+// gaussian blur 3x3 kernel matrix /16
 {
   { 0.0625, 0.125,  0.0625,},
   { 0.125,   0.25,   0.125,},
@@ -39,7 +42,7 @@ double[,] customKernel = new double[,]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Gaussian blur tends to produce a more visually appealing and realistic result compared to the uniform blurring of common blur filters.
+Gaussian blur filter tends to yield a visually appealing and smooth result, surpassing the uniform blurring effect produced by blur box filters.
 </p>
 
 <style>
@@ -79,10 +82,10 @@ Gaussian blur tends to produce a more visually appealing and realistic result co
 </div>
 <div class="container">
     <div>
-        <img src="../template-building.webp" alt="Original landscape image" width="640" height="480"/>
+        <img src="../template-building.webp" alt="Original photo image" width="640" height="480"/>
     </div>
     <div>
-        <img src="./gaussian-blur-kernel-filter.webp" alt="Gaussian blur kernel filter" width="640" height="480"/>
+        <img src="./gaussian-blur-kernel-filter.webp" alt="Gaussian blur kernel filter in Java" width="640" height="480"/>
     </div>
 </div>
 <figcaption>Gaussian blur kernel filter</figcaption>
@@ -93,7 +96,7 @@ Gaussian blur tends to produce a more visually appealing and realistic result co
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Java code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as <strong>GetGaussian()</strong> method with adjustable size and sigma value of Gauss distribution. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Java code example demonstrates the utilization of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including the <strong>GetGaussian()</strong> method with adjustable size and sigma value for the Gauss distribution. Moreover, you retain the flexibility to craft your personalized kernel matrix. Within this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

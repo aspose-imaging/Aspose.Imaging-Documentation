@@ -7,26 +7,25 @@ description: Aspose.Imaging graphic library for Java supports kernel filters suc
 keywords: [photo filter Java, image filter Java, photo effect Java, kernel filter, emboss image, kernel matrix, convolution operation,  custom kernel filter]
 ---
 
-## Emboss Kernel Filter
+## Emboss Kernel Filter in Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, we manipulate pixel values based on their surrounding counterparts. The resulting pixel values are proportionally diminished relative to the values of the top-left surrounding pixels and increased in correspondence to the bottom-right corner surroundings. Essentially, brighter top-left pixels lead to a greater decrease in value, while a brighter bottom-right pixel results in an increase in value. The maximum value of 255 represents white, and 0 corresponds to black color. If the result exceeds 255, it is capped at 255, and values below 0 are adjusted to 0. The sum of all matrix coefficients remains equal to 1, ensuring that the overall brightness of the image stays constant.
+In this instance, we manipulate pixel values based on their adjacent counterparts. The resultant pixel values are proportionally reduced concerning the values of the left neighboring pixels and elevated by the surroundings on the right side. Substantially, brighter left pixels lead to a more significant decrease in value, while a brighter right pixel results in an increase in value. The maximum value of 255 denotes white, and 0 corresponds to black. If the outcome surpasses 255, it is capped at 255, and values below 0 are adjusted to 0. The total sum of all matrix coefficients remains constant at 1, ensuring that the overall brightness of the image remains consistent.
 </p>
 
-```cs
-// emboss3x3 kernel
-double[,] customKernel = new double[,]
+```java
+// emboss3x3 custom kernel
 {
-    { -2, -1,  0, },
-    { -1,  1,  1, },
-    {  0,  1,  2, },
+    { -1,  0,  1, },
+    { -2,  1,  2, },
+    { -1,  0,  1, },
 };
 ```
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Hence, the image edges and contours are visually enhanced, acquiring more shadow from the top-left side and increased light from the bottom-right side. This image effect, known as the "Emboss" filter, relates the appearance of the image being embossed or elevated from the background. The result is a visual illusion of depth and texture.
+As a result, the visual enhancement of image edges and contours occurs, with excessive shadow from the dark side and increased light on the bright side. This particular image effect, recognized as the "Emboss" filter, imparts the impression of the image being embossed or raised from the background. The outcome creates a visual illusion of depth and texture.
 </p>
 
 <style>
@@ -69,7 +68,7 @@ Hence, the image edges and contours are visually enhanced, acquiring more shadow
         <img src="../template-building.webp" alt="Original photo before emboss filter" width="640" height="480"/>
     </div>
     <div>
-        <img src="./emboss3x3-kernel-filter.webp" alt="Emboss 3x3 kernel filter" width="640" height="480"/>
+        <img src="./emboss3x3-kernel-filter.webp" alt="Emboss 3x3 custom kernel filter in Java" width="640" height="480"/>
     </div>
 </div>
 <figcaption>Emboss 3x3 kernel filter</figcaption>
@@ -80,7 +79,7 @@ Hence, the image edges and contours are visually enhanced, acquiring more shadow
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Java code example demonstrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters "Emboss3x3" and "Emboss5x5" with different kernel matrix sizes. Additionally, you have the flexibility to create your custom kernel matrix. In this code example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Java code example showcases the utilization of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters such as "Emboss3x3" and "Emboss5x5," each with distinct kernel matrix sizes. Moreover, you retain the flexibility to craft your personalized kernel matrix. Within this code snippet, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

@@ -7,16 +7,15 @@ description: Aspose.Imaging graphic library for Java supports kernel filters suc
 keywords: [photo filter Java, image filter Java, photo effect Java, kernel filter, blur image, MotionBlur filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Motion Blur Custom Kernel Filter
+## Motion Blur Custom Kernel Filter in Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You have the option to design a custom kernel with elements positioned, for instance, exclusively along one diagonal. In such a scenario, the pixel value is determined by the weighted average of these pixels, producing the 'Motion Blur' image effect. Higher element weights contribute more to the final pixel value in the Motion Blur image effect. Maintaining a total sum of elements equal to 1 preserves the original picture's brightness. The flexibility to place elements in various directions allows for the creation of different movement effects in the image.
+You can choose to create a custom kernel with elements arranged, for example, in a vertical orientation. In this situation, the pixel value is computed based on the weighted average of these pixels, resulting in the 'Motion Blur' image effect. Higher weights assigned to elements have a more pronounced impact on the final pixel value in the Motion Blur image effect. Ensuring the total sum of elements is equal to 1 helps preserve the original image's brightness. The ability to position elements in different directions provides flexibility for generating various motion effects in the image.
 </p>
 
-```cs
-// custom MotionBlur 5x5 kernel
-double[,] customKernel = new double[,]
+```java
+// custom vertical MotionBlur 5x5 kernel
 {
   { 0, 0, 0.25, 0, 0 },
   { 0, 0, 0.2,  0, 0 },
@@ -24,17 +23,10 @@ double[,] customKernel = new double[,]
   { 0, 0, 0.2,  0, 0 },
   { 0, 0, 0.25, 0, 0 },
 };
-{
-  { 0,    0,    0,    0,    0   },
-  { 0,    0,    0,    0,    0   },
-  { 0.25, 0.2,  0.1,  0.2, 0.25 },
-  { 0,    0,    0,    0,    0   },
-  { 0,    0,    0,    0,    0   },
-};
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This effect simulates the appearance of camera movement during photo capture in a diagonal direction, creating the illusion of motion in the image.
+This effect emulates the visual impression of camera movement occurring during photo capture in a vertical direction. It generates the illusion of motion within the image.
 </p>
 
 <style>
@@ -74,10 +66,10 @@ This effect simulates the appearance of camera movement during photo capture in 
 </div>
 <div class="container">
     <div>
-        <img src="../template-building.webp" alt="Original photo before emboss filter" width="640" height="480"/>
+        <img src="../template-building.webp" alt="Original photo before blur filter" width="640" height="480"/>
     </div>
     <div>
-        <img src="./custom-motion-blur-kernel-filter.webp" alt="Custom Motion blur 5x5 45grad kernel filter" width="640" height="480"/>
+        <img src="./custom-motion-blur-kernel-filter.webp" alt="Custom Motion blur 5x5 kernel filter in Java" width="640" height="480"/>
     </div>
 </div>
 <figcaption>Custom MotionBlur kernel filter</figcaption>
@@ -88,7 +80,7 @@ This effect simulates the appearance of camera movement during photo capture in 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Java code example shows the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters <strong>GetBlurMotion()</strong> with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Java code example illustrates the application of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including the <strong>GetBlurMotion()</strong> method with adjustable size and angle settings. Furthermore, you retain the flexibility to craft your personalized kernel matrix. Within this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

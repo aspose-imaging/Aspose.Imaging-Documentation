@@ -7,19 +7,17 @@ description: Aspose.Imaging graphic library for Java supports kernel filters suc
 keywords: [photo filter Java, image filter Java, photo effect Java, kernel filter, edge detection filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Edge Detection Custom Kernel Filter
+## Edge Detection Custom Kernel Filter in Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The custom kernel filter for edge detection shares similarities with the <a href="../sharpen-filter/">Sharpen filter</a> but with a notable distinction: the total sum of matrix elements equals zero. Consequently, the resulting image appears almost black, except for pixels that deviate from their neighbors. These pixels typically reside at the boundaries between distinct areas or edges.
+The custom kernel filter designed for edge detection bears a resemblance to the <a href="../sharpen-filter/">Sharpen filter</a>, with a notable difference: the sum of all matrix elements is set to zero. As a result, the generated image appears nearly black overall, except for pixels that exhibit variations from their neighboring counterparts. Typically, these deviating pixels are located at the boundaries between different regions or edges.
 </p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, the central pixel value is compared to its surrounding pixels. It is possible to define a custom kernel to specifically identify edges in either horizontal or vertical directions.
+In this example, the central pixel value is compared to its surrounding pixels in horizontal and vertical directions.
 </p>
-
-Edge detection:
 
 ```java
 // horizontal edge detection
@@ -45,7 +43,7 @@ Edge detection:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Ultimately, applying the filter results in retaining only the contours of the image against a black background.
+Eventually, the application of the filter leads to preserving solely the outlines of the image set against a black background.
 </p>
 
 <style>
@@ -85,10 +83,10 @@ Ultimately, applying the filter results in retaining only the contours of the im
 </div>
 <div class="container">
     <div>
-        <img src="./horizontal-edge-kernel-filter.webp" alt="Horizontal edges 5x5 kernel filter detection" width="640" height="480"/>
+        <img src="./horizontal-edge-kernel-filter.webp" alt="Horizontal edges 5x5 kernel filter detection in Java" width="640" height="480"/>
     </div>
     <div>
-        <img src="./vertical-edge-kernel-filter.webp" alt="Vertical edges 5x5 kernel filter detection" width="640" height="480"/>
+        <img src="./vertical-edge-kernel-filter.webp" alt="Vertical edges 5x5 kernel filter detection in Java" width="640" height="480"/>
     </div>
 </div>
 <figcaption>Edge detection kernel filter</figcaption>
@@ -98,7 +96,7 @@ Ultimately, applying the filter results in retaining only the contours of the im
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Java code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters, as well as <strong>custom kernel</strong> matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Java code example demonstrates how to utilize the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, along with a <strong>custom kernel</strong> matrix. In this scenario, templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
