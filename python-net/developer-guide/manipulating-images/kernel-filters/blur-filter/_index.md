@@ -7,26 +7,26 @@ description: Aspose.Imaging graphic library for Python supports kernel filters s
 keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, blur image, blur filter, blur box filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Blur Box Kernel Filter
+## Blur Box Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-By filling the kernel matrix with uniform elements and ensuring a total sum of 1, you can determine the average value of the surrounding pixel area with a size of 5x5. The resulting pixel value is then computed as the sum of 1/25 values from all surrounding pixels. This particular kernel matrix is recognized as a 'Blur Box'. Increasing the dimensions of the matrix will intensify the blurring effect.
+Filling the kernel matrix with uniform elements and maintaining a cumulative sum of 1 allows for the calculation of the average value within the surrounding pixel area, utilizing a 5x5 matrix. The resulting pixel value is determined by summing the 1/25 values or 4% from all adjacent pixels. This specific kernel matrix is identified as a 'Blur Box.' The augmentation of matrix dimensions enhances the blurring effect proportionally.
 </p>
 
 ```python
-# Blur Box 5x5 kernel
+# Blur Box 5x5 uniform kernel
 [
     [ 0.04, 0.04, 0.04, 0.04, 0.04,],
     [ 0.04, 0.04, 0.04, 0.04, 0.04,],
     [ 0.04, 0.04, 0.04, 0.04, 0.04,],
     [ 0.04, 0.04, 0.04, 0.04, 0.04,],
     [ 0.04, 0.04, 0.04, 0.04, 0.04,],
-];
+]
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This process results in a gradual transition between neighboring pixel values, effectively blurring the image, helping eliminate noise, reducing sharpness and creating a smooth, vague appearance.
+This process initiates a gradual change in pixel values among neighboring elements, effectively introducing a blur to the image. It assists in reducing noise, lowering sharpness, and yielding a soft, indistinct visual outcome.
 </p>
 
 <style>
@@ -66,10 +66,10 @@ This process results in a gradual transition between neighboring pixel values, e
 </div>
 <div class="container">
     <div>
-        <img src="../template-vector-svg.webp" alt="Original vector photo kernel filter" width="793" />
+        <img src="../template-vector-svg.webp" alt="Original vector image" width="793" />
     </div>
     <div>
-        <img src="./blur-box-5x5-kernel-filter.svg.webp" alt="Blur Box 5x5 kernel filter" width="793" />
+        <img src="./blur-box-5x5-kernel-filter.svg.webp" alt="Blur Box 5x5 uniform kernel filter in Python" width="793" />
     </div>
 </div>
 <figcaption>Blur Box kernel filter</figcaption>
@@ -79,7 +79,7 @@ This process results in a gradual transition between neighboring pixel values, e
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Python code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as <strong>GetBlurBox()</strong> with size settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Python code example demonstrates the utilization of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including <strong>GetBlurBox()</strong> with adjustable size settings. Furthermore, you retain the flexibility to craft your personalized kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

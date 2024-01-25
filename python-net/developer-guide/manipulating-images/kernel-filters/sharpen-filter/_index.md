@@ -3,30 +3,29 @@ title: Sharpen Filters
 type: docs
 weight: 55
 url: /python-net/developer-guide/manipulating-images/kernel-filters/sharpen-filter/
-description: Aspose.Imaging graphic library for .NET (C#) supports kernel filters such as Sharpen, as well as custom kernels.
-keywords: [photo filter C#, image filter C#, photo effect C#, kernel filter, sharpen image, sharpen filter, kernel matrix, convolution operation, custom kernel filter]
+description: Aspose.Imaging graphic library for Python supports kernel filters such as Sharpen, as well as custom kernels.
+keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, sharpen image, sharpen filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Sharpen Kernel Filter
+## Sharpen Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To reach a Sharpen image effect, define a kernel matrix that intensifies pixel values relative to their surroundings. In this example, the central element is assigned a value five times that of its surroundings, with a subtraction made for the four adjacent pixels (upper, down, left, and right). This ensures that the total sum of coefficients remains at 1, preserving the original brightness. The effect is more pronounced when neighboring pixels differ, emphasizing the contrast between pixels and enhancing the image's sharpness.
+You can achieve a Sharpen image effect by establishing a kernel matrix that amplifies pixel values in comparison to their surroundings. In this instance, the central element is allocated a value five times greater than its adjacent pixels, accompanied by a subtraction for the four surrounding pixels. This configuration ensures that the cumulative sum of coefficients remains at 1, conserving the original brightness. The impact is more noticeable when neighboring pixels exhibit variations, accentuating the contrast between pixels and elevating the sharpness of the image.
 </p>
 
-```cs
-// sharpen 3x3 kernel
-double[,] customKernel = new double[,]
-{
-    {  0, -1,  0 },
-    { -1,  5, -1 },
-    {  0, -1,  0 },
-};
+```python
+## sharpen 3x3 kernel
+[
+    [  0, -1,  0 ],
+    [ -1,  5, -1 ],
+    [  0, -1,  0 ],
+]
 ```
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Sharpen effect enhances an image by emphasizing pixel contrasts, resulting in improved image detail and overall visual clarity.
+The Sharpen effect improves an image by accentuating pixel contrasts, leading to enhanced image detail and better overall visual clarity.
 </p>
 
 <style>
@@ -66,20 +65,20 @@ The Sharpen effect enhances an image by emphasizing pixel contrasts, resulting i
 </div>
 <div class="container">
     <div>
-        <img src="../template-vector-svg.webp" alt="Original landscape image" width="793" />
+        <img src="../template-vector-svg.webp" alt="Original vector image" width="793" />
     </div>
     <div>
-        <img src="./sharpen-3x3-kernel-filter.svg.webp" alt="Sharpen 3x3 kernel filter" width="793" />
+        <img src="./sharpen-3x3-kernel-filter.svg.webp" alt="Sharpen 3x3 kernel filter in Python" width="793" />
     </div>
 </div>
 <figcaption>Sharpen kernel filter</figcaption>
 </figure>
 
-## C# code example
+## Python code example
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following C# code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as "Sharpen3x3" and "Sharpen5x5" with different kernel matrix sizes. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Python code example showcases how to utilize the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters like "Sharpen3x3" and "Sharpen5x5" with varying kernel matrix sizes. Moreover, you retain the freedom to craft your personalized kernel matrix. In this instance, image templates in PNG and SVG formats are loaded from the "templates" directory, and a set of filters are executed from a predetermined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

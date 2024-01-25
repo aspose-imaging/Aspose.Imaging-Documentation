@@ -7,39 +7,29 @@ description: Aspose.Imaging graphic library for Python supports kernel filters s
 keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, blur image, blur filter, Gaussian blur, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Gaussian Blur Kernel Filter
+## Gaussian Blur Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- Unlike common <a href="../blur-filter/">BlurBox image filters</a> using a box or averaging filter, applies a simple average to the pixel values in a defined neighborhood. This results in a uniform and straightforward blurring effect, where each pixel contributes equally to its neighbors. On the other hand, Gaussian blur employs a Gaussian distribution to determine the weights of pixels in the neighborhood. This means that pixels closer to the center have higher weights, creating a smoother and more natural blurring effect. To emulate the Gaussian distribution, the following 3x3 matrix can be used:
+The <a href="../blur-filter/">Blur Box image filters</a> use pixel values averaging based on a uniform distribution, the alternative approach employs a pixel-wise average within a specified neighborhood. In contrast to a Blur Box, the Gaussian blur leverages a Gaussian distribution, intricately assigning weights to pixels based on their proximity to the center. This results in a more refined and natural blurring effect, as pixels nearer to the center carry higher weights. The following 5x5 matrix can be used for the Gaussian approximation:
 </p>
 
-```cs
-// gaussian blur 3x3 kernel
-{
-  {1, 2, 1,},
-  {2, 4, 2,},
-  {1, 2, 1,},
-};
-```
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To preserve the luminosity of the source image, all elements are divided by 16, which represents the sum of the matrix elements.
-</p>
-
-```cs
-// gaussian blur 3x3 kernel /16
-double[,] customKernel = new double[,]
-{
-  { 0.0625, 0.125,  0.0625,},
-  { 0.125,   0.25,   0.125,},
-  { 0.0625, 0.125,  0.0625,},
-};
+```python
+# gaussian blur 5x5 kernel
+[
+ [1, 4,  6,  4,  1],
+ [4, 16, 24, 16, 4],
+ [6, 24, 36, 24, 6],
+ [4, 16, 24, 16, 4],
+ [1, 4,  6,  4,  1],
+]
 ```
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Gaussian blur tends to produce a more visually appealing and realistic result compared to the uniform blurring of common blur filters.
+To maintain the luminosity of the source image, it is imperative to divide all elements by 256, representing the sum of the matrix elements.
+
+Gaussian blur, in contrast to the uniform blurring observed in typical blur filters, tends to yield a visually more appealing and realistic result.
 </p>
 
 <style>
@@ -79,10 +69,10 @@ Gaussian blur tends to produce a more visually appealing and realistic result co
 </div>
 <div class="container">
     <div>
-        <img src="../template-vector-svg.webp" alt="Original landscape image" width="793" />
+        <img src="../template-vector-svg.webp" alt="Original vector image" width="793" />
     </div>
     <div>
-        <img src="./gaussian-blur-kernel-filter.svg.webp" alt="Gaussian blur kernel filter" width="793" />
+        <img src="./gaussian-blur-kernel-filter.svg.webp" alt="Gaussian blur 5x5 kernel filter in Python" width="793" />
     </div>
 </div>
 <figcaption>Gaussian blur kernel filter</figcaption>
@@ -93,7 +83,7 @@ Gaussian blur tends to produce a more visually appealing and realistic result co
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Python code example illustrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters such as <strong>GetGaussian()</strong> method with adjustable size and sigma value of Gauss distribution. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Python code example serves as an illustration of the Aspose.Imaging Python API's usage. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including the <strong>GetGaussian()</strong> method with customizable size and sigma values for Gaussian distribution. Moreover, you retain the flexibility to craft your personalized kernel matrix. Within this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

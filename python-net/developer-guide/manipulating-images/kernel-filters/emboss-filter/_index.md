@@ -7,26 +7,25 @@ description: Aspose.Imaging graphic library for Python supports kernel filters s
 keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, emboss image, kernel matrix, convolution operation,  custom kernel filter]
 ---
 
-## Emboss Kernel Filter
+## Emboss Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, we manipulate pixel values based on their surrounding counterparts. The resulting pixel values are proportionally diminished relative to the values of the top-left surrounding pixels and increased in correspondence to the bottom-right corner surroundings. Essentially, brighter top-left pixels lead to a greater decrease in value, while a brighter bottom-right pixel results in an increase in value. The maximum value of 255 represents white, and 0 corresponds to black color. If the result exceeds 255, it is capped at 255, and values below 0 are adjusted to 0. The sum of all matrix coefficients remains equal to 1, ensuring that the overall brightness of the image stays constant.
+In this particular case, we manipulate the values of pixels based on their proximity to neighboring pixels. The outcome involves a proportional increase in pixel values about the upper surrounding pixels and a decrease corresponding to the bottom surroundings. In essence, pixels at the top with a brighter presence lead to a more pronounced increase, while those at the bottom, with a higher brightness, result in a decrease. The numerical scale has a range from 0 to 255, where 255 represents pure white and 0 corresponds to black color. Should the outcome exceed 255, it sets to the cap at 255, and values dipping below 0 meet the threshold of 0. The cumulative sum of all matrix coefficients maintains equality to 1, ensuring a constant image brightness.
 </p>
 
-```cs
-// emboss3x3 kernel
-double[,] customKernel = new double[,]
-{
-    { -2, -1,  0, },
-    { -1,  1,  1, },
-    {  0,  1,  2, },
-};
+```python
+# emboss3x3 horizontal custom kernel
+[
+    [  2,  3,  2, ],
+    [  0,  1,  0, ],
+    [ -2, -3, -2, ],
+]
 ```
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Hence, the image edges and contours are visually enhanced, acquiring more shadow from the top-left side and increased light from the bottom-right side. This image effect, known as the "Emboss" filter, relates the appearance of the image being embossed or elevated from the background. The result is a visual illusion of depth and texture.
+Consequently, the edges and contours of the image undergo a visual enhancement, gaining additional shadowing from the bottom side and heightened illumination from the upper side. This particular image effect, recognized as the "Emboss" filter, imparts an appearance alike to the image being raised from the background. The outcome yields a captivating visual illusion with a sense of depth and texture.
 </p>
 
 <style>
@@ -80,7 +79,7 @@ Hence, the image edges and contours are visually enhanced, acquiring more shadow
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Python code example demonstrates the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters "Emboss3x3" and "Emboss5x5" with different kernel matrix sizes. Additionally, you have the flexibility to create your custom kernel matrix. In this code example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The presented Python code exemplifies the utilization of the Aspose.Imaging Python API. Use the `ConvolutionFilter` class, which provides pre-defined kernel filters like "Emboss3x3" and "Emboss5x5," each with distinct kernel matrix sizes. Moreover, you retain the flexibility to craft your custom kernel matrix. Within this code snippet, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

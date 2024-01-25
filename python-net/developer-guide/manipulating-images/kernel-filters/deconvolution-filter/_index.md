@@ -7,33 +7,33 @@ description: Aspose.Imaging graphic library for Python supports kernel filters s
 keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, deconvolution filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Deconvolution Kernel Filter
+## Deconvolution Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Deconvolution serves as the inverse matrix operation to a convolution filter. If a convolution transformation is applied, such as with the <a href="../gaussian-blur-filter/">Gaussian blur kernel filter</a>, attempting to reverse this operation cannot fully restore the original image due to the averaging of pixel values and the loss of some details. However, deconvolution is valuable for image restoration and deblurring.
+A deconvolution filter acts as the inverse matrix operation to a convolution operation. When applying a convolution transformation, such as using a <a href="../gaussian-blur-filter/">Gaussian blur kernel filter</a>, attempting to reverse this operation cannot fully restore the original image. This limitation arises from the averaging of pixel values during convolution, resulting in the loss of certain details. However, deconvolution is crucial in image restoration and deblurring processes.
 </p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In the example below we apply the Gaussian blur convolution filter and then restore the original image with Deconvolution filer:
+In the presented example, we initially apply a Gaussian blur convolution filter and then proceed to restore the original image using a Deconvolution filter:
 </p>
 
-```cs
-// gaussian 3x3 convolution kernel
-{
-  {1, 2, 1,},
-  {2, 4, 2,},
-  {1, 2, 1,},
-};
+```python
+## gaussian blur 3x3 convolution kernel
+[
+  [1, 2, 1,],
+  [2, 4, 2,],
+  [1, 2, 1,],
+]
 ```
 
-```cs
+```python
 DeconvolutionFilterOptions(ConvolutionFilter.GetGaussian(Size, Sigma))
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The restored image is not identical to the original, but it exhibits more details after the deblurring process.
+The processed image may not be identical to the original, it does reveal more details following the deblurring process.
 </p>
 
 <style>
@@ -76,7 +76,7 @@ The restored image is not identical to the original, but it exhibits more detail
         <img src="../template-vector-svg.webp" alt="Original vector image" width="793"/>
     </div>
     <div>
-        <img src="./deconvolution-custom-kernel-filter-svg.webp" alt="Deconvolution Gaussian blur kernel filter" width="793"/>
+        <img src="./deconvolution-custom-kernel-filter-svg.webp" alt="Deconvolution Gaussian blur kernel filter in Python" width="793"/>
     </div>
 </div>
 <figcaption>Deconvolution kernel filter</figcaption>
@@ -86,7 +86,7 @@ The restored image is not identical to the original, but it exhibits more detail
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The full Python code example below shows the usage of the Aspose.Imaging .NET API. You can utilize the `ConvolutionFilter` class with "GetGaussian" blurring method and subsequently deblur using the <strong>DeconvolutionFilterOptions</strong>. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The comprehensive Python code example below demonstrates the application of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class with the "GetGaussian" blurring method and then proceed to deblur using the <strong>DeconvolutionFilterOptions</strong>. In this illustration, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}

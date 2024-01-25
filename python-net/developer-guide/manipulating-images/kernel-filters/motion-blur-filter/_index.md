@@ -7,27 +7,28 @@ description: Aspose.Imaging graphic library for Python supports kernel filters s
 keywords: [photo filter Python, image filter Python, photo effect Python, kernel filter, blur image, MotionBlur filter, kernel matrix, convolution operation, custom kernel filter]
 ---
 
-## Motion Blur Custom Kernel Filter
+## Motion Blur Custom Kernel Filter in Python
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You have the option to design a custom kernel with elements positioned, for instance, exclusively along one diagonal. In such a scenario, the pixel value is determined by the weighted average of these pixels, producing the 'Motion Blur' image effect. Higher element weights contribute more to the final pixel value in the Motion Blur image effect. Maintaining a total sum of elements equal to 1 preserves the original picture's brightness. The flexibility to place elements in various directions allows for the creation of different movement effects in the image.
+You can create a custom kernel by placing elements in a specific way, like along a horizontal line. In this setup, the central pixel value is figured out by looking at the average of these pixels, creating the 'Motion Blur' effect. When certain elements have higher importance, they impact the final pixel value more in the Motion Blur effect. Making sure the total of all these elements adds up to 1 helps keep the original brightness of the picture. The freedom to arrange elements in different directions lets you make various motion effects in the image.
 </p>
 
-```cs
-// custom MotionBlur 5x5 kernel
-double[,] customKernel = new double[,]
-{
-  { 0.25, 0,   0,   0,   0    },
-  { 0,    0.2, 0,   0,   0    },
-  { 0,    0,   0.1, 0,   0    },
-  { 0,    0,   0,   0.2, 0    },
-  { 0,    0,   0,    0,  0.25 },
-};
+```python
+# custom MotionBlur horizontal 7x7 kernel
+[
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+  [ 0.15, 0.15, 0.15, 0.1,  0.15, 0.15, 0.15],
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+  [ 0,    0,    0,    0,    0,   0,    0    ],
+]
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This effect simulates the appearance of camera movement during photo capture in a diagonal direction, creating the illusion of motion in the image.
+This effect imitates the case of a camera moving horizontally while capturing a photo, generating the illusion of motion in the image.
 </p>
 
 <style>
@@ -67,10 +68,10 @@ This effect simulates the appearance of camera movement during photo capture in 
 </div>
 <div class="container">
     <div>
-        <img src="../template-vector-svg.webp" alt="Original photo before emboss filter" width="793"/>
+        <img src="../template-vector-svg.webp" alt="Original vector image" width="793"/>
     </div>
     <div>
-        <img src="./custom-motion-blur-kernel-filter.svg.webp" alt="Custom Motion blur 5x5 45grad kernel filter" width="793" />
+        <img src="./custom-motion-blur-kernel-filter.svg.webp" alt="Custom Motion blur 7x7 horizontal kernel filter in Python" width="793" />
     </div>
 </div>
 <figcaption>Custom MotionBlur kernel filter</figcaption>
@@ -81,7 +82,7 @@ This effect simulates the appearance of camera movement during photo capture in 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The following Python code example shows the usage of the Aspose.Imaging .NET API. You can employ the `ConvolutionFilter` class, which offers predefined kernel filters <strong>GetBlurMotion()</strong> with adjustable size and angle settings. Additionally, you have the flexibility to create your custom kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
+The provided Python code example demonstrates how to utilize the Aspose.Imaging Python API. You can use the `ConvolutionFilter` class, which provides pre-defined kernel filters like <strong>GetBlurMotion()</strong> with customizable size and angle parameters. Moreover, you retain the freedom to design your custom kernel matrix. In this instance, templates in PNG and SVG formats are loaded from the "templates" directory, and a set of filters is implemented from a predefined list.
 </p>
 
 {{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
