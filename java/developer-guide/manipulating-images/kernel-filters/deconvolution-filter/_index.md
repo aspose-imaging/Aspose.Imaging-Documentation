@@ -89,4 +89,4 @@ While the restored image may not precisely match the original, it does reveal mo
 The comprehensive Java code example provided below demonstrates the application of the Aspose.Imaging for Java API. Employ the `ConvolutionFilter` class with the "GetGaussian" blurring method and then proceed to deblur using the <strong>DeconvolutionFilterOptions</strong>. In this illustration, image templates in PNG and SVG formats are loaded from the "templates" folder, and filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "62fbf25d357f9630abcc20d79d5947b2" "kernel-filters.java" >}}

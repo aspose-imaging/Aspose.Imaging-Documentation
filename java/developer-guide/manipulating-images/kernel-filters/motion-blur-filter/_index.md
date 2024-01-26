@@ -83,4 +83,4 @@ This effect emulates the visual impression of camera movement occurring during p
 The provided Java code example illustrates the application of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including the <strong>GetBlurMotion()</strong> method with adjustable size and angle settings. Furthermore, you retain the flexibility to craft your personalized kernel matrix. Within this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "62fbf25d357f9630abcc20d79d5947b2" "kernel-filters.java" >}}

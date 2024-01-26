@@ -82,4 +82,4 @@ As a result, the visual enhancement of image edges and contours occurs, with exc
 The provided Java code example showcases the utilization of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters such as "Emboss3x3" and "Emboss5x5," each with distinct kernel matrix sizes. Moreover, you retain the flexibility to craft your personalized kernel matrix. Within this code snippet, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "62fbf25d357f9630abcc20d79d5947b2" "kernel-filters.java" >}}

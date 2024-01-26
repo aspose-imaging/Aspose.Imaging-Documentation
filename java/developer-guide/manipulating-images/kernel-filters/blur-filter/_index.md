@@ -80,4 +80,4 @@ This procedure leads to a gradual shift in pixel values between neighboring elem
 Illustrating the utilization of the Aspose.Imaging API for Java, the subsequent code example showcases the use of the `ConvolutionFilter` class. This class provides pre-defined kernel filters, including <strong>GetBlurBox()</strong> with adjustable size settings. Moreover, you retain the option to craft your personalized kernel matrix. In this instance, templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters is applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "62fbf25d357f9630abcc20d79d5947b2" "kernel-filters.java" >}}

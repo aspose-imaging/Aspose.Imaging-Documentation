@@ -81,4 +81,4 @@ The Sharpen effect enhances an image by highlighting pixel contrasts, leading to
 The provided Java code example demonstrates the utilization of the Aspose.Imaging for Java API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including "Sharpen3x3" and "Sharpen5x5," each with different kernel matrix sizes. Moreover, you retain the flexibility to craft your custom kernel matrix. Within this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "62fbf25d357f9630abcc20d79d5947b2" "kernel-filters.java" >}}
