@@ -29,7 +29,7 @@ In the presented example, we initially apply a Gaussian blur convolution filter 
 ```
 
 ```python
-DeconvolutionFilterOptions(ConvolutionFilter.GetGaussian(Size, Sigma))
+DeconvolutionFilterOptions(ConvolutionFilter.get_gaussian(size, sigma))
 ```
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -86,7 +86,7 @@ The processed image may not be identical to the original, it does reveal more de
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The comprehensive Python code example below demonstrates the application of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class with the "GetGaussian" blurring method and then proceed to deblur using the <strong>DeconvolutionFilterOptions</strong>. In this illustration, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
+The comprehensive Python code example below demonstrates the application of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class with the <strong>get_gaussian()</strong> blurring method and then proceed to deblur using the <strong>DeconvolutionFilterOptions</strong>. In this illustration, image templates in raster PNG and vector SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}

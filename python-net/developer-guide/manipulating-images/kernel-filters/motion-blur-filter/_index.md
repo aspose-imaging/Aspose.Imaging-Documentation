@@ -82,7 +82,7 @@ This effect imitates the case of a camera moving horizontally while capturing a 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The provided Python code example demonstrates how to utilize the Aspose.Imaging Python API. You can use the `ConvolutionFilter` class, which provides pre-defined kernel filters like <strong>GetBlurMotion()</strong> with customizable size and angle parameters. Moreover, you retain the freedom to design your custom kernel matrix. In this instance, templates in PNG and SVG formats are loaded from the "templates" directory, and a set of filters is implemented from a predefined list.
+The provided Python code example demonstrates how to utilize the Aspose.Imaging Python API. You can use the `ConvolutionFilter` class, which provides pre-defined kernel filters like <strong>get_blur_motion()</strong> with customizable size and angle parameters. Moreover, you retain the freedom to design your custom kernel matrix. In this instance, image templates in raster PNG and as well as vector SVG formats are loaded from the "templates" directory, and a set of filters is applied from the `kernel_filters` list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}

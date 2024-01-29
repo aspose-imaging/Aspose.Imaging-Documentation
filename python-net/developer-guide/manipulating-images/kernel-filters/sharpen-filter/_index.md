@@ -78,7 +78,7 @@ The Sharpen effect improves an image by accentuating pixel contrasts, leading to
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The provided Python code example showcases how to utilize the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters like "Sharpen3x3" and "Sharpen5x5" with varying kernel matrix sizes. Moreover, you retain the freedom to craft your personalized kernel matrix. In this instance, image templates in PNG and SVG formats are loaded from the "templates" directory, and a set of filters are executed from a predetermined list.
+The provided Python code example showcases how to utilize the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters like <strong>get_sharpen_3x3()</strong> and <strong>get_sharpen_5x5()</strong> methods. Moreover, you retain the freedom to craft your custom kernel matrix. In this case, image templates in raster PNG and as well as vector SVG formats are loaded from the "templates" directory, and a set of filters is applied from the `kernel_filters` list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}

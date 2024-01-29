@@ -79,7 +79,7 @@ Consequently, the edges and contours of the image undergo a visual enhancement, 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The presented Python code exemplifies the utilization of the Aspose.Imaging Python API. Use the `ConvolutionFilter` class, which provides pre-defined kernel filters like "Emboss3x3" and "Emboss5x5," each with distinct kernel matrix sizes. Moreover, you retain the flexibility to craft your custom kernel matrix. Within this code snippet, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
+The presented Python code exemplifies the utilization of the Aspose.Imaging Python API. Use the `ConvolutionFilter` class, which provides pre-defined kernel filters like <strong>get_emboss_3x3()</strong> and <strong>get_emboss_5x5()</strong> methods with different matrix sizes. Moreover, you retain the flexibility to craft your custom kernel matrix. Within this code snippet, image templates in raster PNG and as well as vector SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}

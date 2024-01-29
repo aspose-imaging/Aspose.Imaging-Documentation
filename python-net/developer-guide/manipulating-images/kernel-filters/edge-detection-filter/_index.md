@@ -83,7 +83,7 @@ In the end, the application of the filter culminates in preserving only the cont
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The provided Python code example showcases the utilization of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, alongside the option to incorporate a <strong>custom kernel</strong> matrix. In this instance, image templates in PNG and SVG formats are loaded from the "templates" folder, and a range of filters are applied from a predefined list.
+The provided Python code example showcases the utilization of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, alongside the option to incorporate a `<strong>custom_kernel</strong>` matrix. In this instance, image templates in raster PNG and as well as vector SVG formats are loaded from the "templates" folder, and a range of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}

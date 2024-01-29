@@ -79,7 +79,7 @@ This process initiates a gradual change in pixel values among neighboring elemen
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The provided Python code example demonstrates the utilization of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including <strong>GetBlurBox()</strong> with adjustable size settings. Furthermore, you retain the flexibility to craft your personalized kernel matrix. In this example, image templates in PNG and SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
+The provided Python code example demonstrates the utilization of the Aspose.Imaging Python API. Utilize the `ConvolutionFilter` class, which provides pre-defined kernel filters, including <strong>get_blur_box()</strong> with adjustable size settings. Furthermore, you retain the flexibility to craft your custom kernel matrix. In this example, image templates in raster PNG and vector SVG formats are loaded from the "templates" folder, and a set of filters are applied from a predefined list.
 </p>
 
-{{< gist "aspose-com-gists" "a1e5930122ddaf08d6960cb18782d55f" "kernel-filters.cs" >}}
+{{< gist "aspose-com-gists" "ff91f0a36b9bf6eae152d95791eb3bcc" "kernel-filters.py" >}}
