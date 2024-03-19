@@ -1,8 +1,8 @@
 ---
-title: Aspose.Imaging .NET Animation Maker Plugin
+title: Animation Maker Licensing Plugin
 type: docs
 weight: 20
-url: /net/aspose-imaging-net-plugins-features/animation-maker/
+url: /net/aspose-imaging-net-licensing-plugins/animation-maker/
 ---
 
 

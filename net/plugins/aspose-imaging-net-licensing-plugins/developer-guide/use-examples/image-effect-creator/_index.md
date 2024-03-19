@@ -1,8 +1,8 @@
 ---
-title: Aspose.Imaging .NET Image Effect Creator Plugin
+title: Image Effect Creator Licensing Plugin
 type: docs
 weight: 20
-url: /net/aspose-imaging-net-plugins-features/image-effect-creator/
+url: /net/aspose-imaging-net-licensing-plugins/image-effect-creator/
 ---
 
 

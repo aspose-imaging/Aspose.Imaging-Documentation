@@ -1,8 +1,8 @@
 ---
-title: Aspose.Imaging .NET Image Rotate and Flip Plugin
+title: Image Rotate and Flip Licensing Plugin
 type: docs
 weight: 20
-url: /net/aspose-imaging-net-plugins-features/image-rotate-and-flip/
+url: /net/aspose-imaging-net-licensing-plugins/image-rotate-and-flip/
 ---
 
 

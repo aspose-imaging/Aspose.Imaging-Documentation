@@ -1,8 +1,8 @@
 ---
-title: Aspose.Imaging .NET Photo Album Maker Plugin
+title: Photo Album Maker Licensing Plugin
 type: docs
 weight: 20
-url: /net/aspose-imaging-net-plugins-features/photo-album-maker/
+url: /net/aspose-imaging-net-licensing-plugins/photo-album-maker/
 ---
 
 
