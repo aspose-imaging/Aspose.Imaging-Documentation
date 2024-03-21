@@ -3,6 +3,8 @@ title: Photo Album Maker Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/photo-album-maker/
+description: Create photo albums in C# with the Photo Album Maker Plugin, seamlessly combining images and photos into multi-page albums, enabling the creation of multi-page files in various formats such as PDF and TIFF.
+keywords: create photo album in C#, Photo Album Maker Plugin, combine images and photos, multi-page albums, create multi-page file, create PDF with images, create muti-page TIFF
 ---
 
 <p align='justify'>

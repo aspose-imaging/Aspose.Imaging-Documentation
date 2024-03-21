@@ -3,6 +3,8 @@ title: Image Effect Creator Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/image-effect-creator/
+description: Enhance your images with the Image Effect Creator Plugin in C#, enabling seamless application of filters, including grayscale effect, and fine-tuning image parameters like brightness, contrast, and color gamma.
+keywords: image and photo effects in C#, apply filters, enhance images, adjust image parameters, smooth images, Image Effect Creator Plugin, grayscale effect, adjust image brightness and contrast, color gamma
 ---
 
 <p align='justify'>

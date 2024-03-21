@@ -3,6 +3,8 @@ title: Image Cropper Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/image-cropper/
+description: Crop images in C# with the Image Cropper plugin offering precise cropping of rectangular areas and fragments
+keywords: crop images in C#, Image Cropper plugin, crop rectangle area, cropping application, crop fragments
 ---
 
 <p align='justify'>

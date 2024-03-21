@@ -3,6 +3,8 @@ title: Animation Maker Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/animation-maker/
+description: Animations in C# with Animation Maker, offering precise control over animation parameters and frame durations, perfect for generating animated GIF.
+keywords: Animation Maker plugin, make animations, create animations in C#, animated GIF, animation parameters, frame duration
 ---
 
 <p align='justify'>

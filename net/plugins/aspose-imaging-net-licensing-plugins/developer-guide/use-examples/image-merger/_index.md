@@ -3,6 +3,8 @@ title: Image Merger Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/image-merger/
+description: Combine images into stunning photo collages using the Image Merger plugin in C#, allowing seamless merging in both horizontal and vertical layouts
+keywords: merge images in C#, Image Merger plugin, create photo collage, combining images, merge operation, Merge Application, merge in horizontal and vertical layouts
 ---
 
 <p align='justify'>

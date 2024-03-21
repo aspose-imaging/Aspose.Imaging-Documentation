@@ -3,6 +3,8 @@ title: Image Resizer Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/image-resizer/
+description: Modify image dimensions and control resolution in C# with the Image Resizer plugin, offering seamless resizing capabilities for adjusting image sizes
+keywords: resize images in C#, adjust image sizes, control image resolution, Image Resizer plugin, modify image dimensions, resize application
 ---
 
 <p align='justify'>

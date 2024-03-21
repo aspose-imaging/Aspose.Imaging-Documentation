@@ -3,6 +3,8 @@ title: Image Compressor Licensing Plugin
 type: docs
 weight: 20
 url: /net/aspose-imaging-net-licensing-plugins/image-compressor/
+description: Reduce image sizes in C# using Image Compressor with flexible compression options for raster or vector images
+keywords: Compress images in C#, Image Compressor plugin, optimize image sizes, compression options, compressing raster or vector, Webp compression, compression settings, lossless compression, customize image quality, compression application
 ---
 
 <p align='justify'>
