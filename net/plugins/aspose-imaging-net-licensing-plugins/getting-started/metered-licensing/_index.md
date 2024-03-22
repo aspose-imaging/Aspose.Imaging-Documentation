@@ -8,11 +8,14 @@ description: Using the C# Image Processing Library licensing plugin to apply a m
 
 {{% alert color="primary" %}} 
 
-Aspose.Imaging licensing plugins introduce the capability for developers to apply a metered key, which represents a new licensing mechanism. This new method will complement the existing licensing approach. Customers who prefer to be billed based on their usage of the API features can opt for metered licensing. For further information, please consult the [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Imaging licensing plugins introduce the capability for developers to apply a metered key, which represents a new licensing mechanism. The plugin licensing model imposes a restriction where only one plugin can be licensed within a single application instance. If entry points beyond the defined scope of the licensed plugin are utilized, the application automatically transitions to a trial operating mode. This ensures compliance with licensing terms while offering users the opportunity to explore additional functionalities through the trial mode. For further information, please consult the <a href="https://purchase.aspose.com/faqs/licensing/metered">Metered Licensing FAQ</a> section.
+</p>
 
 {{% /alert %}} 
 
-## **Metered Licensing**
+## **Metered Plugin Licensing**
 
 Below are the straightforward steps to utilize the Metered class:
 
@@ -25,10 +28,10 @@ Below are the straightforward steps to utilize the Metered class:
 Here's a sample code illustrating how to set the metered public and private keys:
 
 ```cs
-// Valid Animation plugin license use example
+// Valid plugin license use example
 Metered license = new Metered();
-// Only  metered plug-in license is supported
+// Only one metered plug-in license is supported
 license.SetMeteredKey("<your public key>", "<your private key>");
 ```    
 
-Please see more Plugin Licensing [Use C# examples](/imaging/net/plugins/developer-guide/use-examples/).
+Please see more Plugin Licensing [Use examples in C#](/imaging/net/plugins/developer-guide/use-examples/).

@@ -4,116 +4,32 @@ second_title: Aspose.Imaging for .NET Licensing Plugins
 type: docs
 weight: 30
 url: /net/plugins/aspose-imaging-net-licensing-plugins/features/
-description: C# Plugins Licensing Features of image processing library supports reading and writing images, drawing images, processing images and converting between formats.
+description: C# Plugins Licensing Features of image processing library supports converting between formats, compress, merge, resize, crop, rotate and flip, deskew, make animations, create photo albums and apply photo effects.
+keywords: convert images, compress images, merge images, resize images, crop images, rotate and flip images, deskew scanned documents, make animations, create photo albums, apply photo effects
 ---
 
 ## **Plugins Licensing Features**
 
-The licensing features for the C# Plugins of the Aspose.Imaging graphic library includes:
+The C# Plugins Licensing Features of the Aspose.Imaging library supports a comprehensive array of functionalities, including:
 
-- **Read and Write Images:** Full support for reading and writing images in various formats, ensuring compatibility and flexibility in handling image files.
+- **Convert Between Formats:** Seamlessly convert images between various formats to ensure compatibility and versatility.
 
-- **Draw Images:** Capability to draw on images, enabling metadata, adding text, shapes, or other elements to enhance visual content.
+- **Compress Images:** Reduce image sizes while maintaining quality, offering control over compression parameters for optimized storage and transmission.
 
-- **Process Images:** Comprehensive image processing capabilities, allowing for various operations such as resizing, rotating, cropping, filtering, and adjusting parameters like brightness, contrast, and color balance.
+- **Merge Photos into Collages:** Combine multiple images into captivating photo collages, enabling creative visual compositions.
 
-- **Convert Between Formats:** Seamless conversion between different image formats, facilitating interoperability and enabling users to work with images in their preferred formats.
+- **Resize Images and Photos:** Adjust image dimensions to desired sizes while preserving aspect ratios, facilitating efficient handling and display.
 
-These plugin licensing features empower developers with the tools needed to efficiently manipulate images, ensuring flexibility, compatibility, and comprehensive functionality within their applications.
+- **Crop Images:** Precisely crop images to desired fragments, enabling focused visual content and enhancing composition.
 
-### **Feature List**
+- **Make Animations:** Generate animations from images, offering dynamic visual experiences and storytelling capabilities.
 
-#### **Image Creations**
-- Bmp
-- Tiff 
-- Jpeg (v2.3 now supports own codec)
-- Png (v2.5 now supports own codec)
-- Gif
-- PSD (v2.7 added Jpeg thumbnails encoding/decoding support)
-- Jpeg2000 (v2.8)
-- WebP
-- Ico
+- **Create Photo Albums:** Compile diverse images into cohesive photo albums, supporting multi-page formats such as TIFF and PDF for organized presentation and archiving.
 
-#### **Image Loading**
-- Bmp
-- Tiff
-- Jpeg
-- Png
-- Gif
-- Psd
-- Wmf
-- Emf
-- Jpeg2000 (v2.8)
-- Djvu
-- WebP
-- Dicom
-- Svg
-- Dng
-- ODG
-- OTG
-- Dib
-- Cmx
-- Ico
+- **Rotate and Flip Images:** Rotate images to fixed or arbitrary angles and flip them horizontally or vertically, ensuring correct orientation and alignment.
 
-#### **Raw Data Processing**
-- Bmp (v2.4, partly only raw data load)
-- Gif
-- Jpeg
-- Jpeg2000
-- Png
-- Psd
-- Tiff
+- **Apply Photo Effects:** Enhance images with various effects, such as smoothing filters and adjustments to brightness, contrast, and color gamma parameters, enabling artistic expression and visual enhancement.
 
-#### **Bmp Compression**
-- RLE
+- **Deskew Scanned Documents:** Automatically correct skew and normalize angles in scanned documents, ensuring readability and professional presentation.
 
-#### **Psd Compressions**
-- RLE
-- Uncompressed
-
-#### **Tiff Compressions**
-- CCITT3
-- CCITT4
-- RLE
-- Uncompressed
-- Lzw
-- Deflate (v2.6)
-- Loading others (on below of GDI+)
-- Jpeg (only 8 bps)
-- Tiff color spaces
-- RGB
-- CMYK
-- CIELAB
-- YCrCb
-
-#### **Tiff color spaces**
-- RGB    
-- CMYK (reading only) (v2.1)
-- CIELAB (reading only) (v2.1)
-- YCrCb    
-
-#### **Drawing Features**
-- Large images    
-- Rotate    
-- Flip    
-- Scale    
-- Cache system    
-- Custom user images    
-- Sha-2 certificate (v2.0)
-- Read/Write EXIF data (v2.0)
-- Tiff data recovery (v2.2)
-- Dithering (v2.2)
-- Dual sign (v2.3)
-- Crop (v2.3)
-- Vector to raster export    
-- Brightness, contrast, gamma update (v2.6)
-- Xmp data support
-- Drawing and filling of basic shapes (Line, Polygon, Rectangle, Cubic Bezier, Curve, Arc, Ellipse, Pie, Path)
-- Clear
-- Clipping to rectangular region (Implemented clipping to image boundaries for existing drawing algorithms)
-- Matrix transformations (Matrix transformations are implemented partially, mostly for internal needs of the drawing engine)
-
-#### **Image processing features**
-- Image masking
-- Image filters
-- Image deskew
+These licensing features provide developers with a robust toolkit for image processing and manipulation, empowering them to create versatile and engaging applications with ease.
