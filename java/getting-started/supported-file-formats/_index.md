@@ -39,6 +39,6 @@ description: Java image processing library supports file formats including BMP, 
 |[SVGZ](https://docs.fileformat.com/image/svgz/)|Compressed svg file format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TGA](https://docs.fileformat.com/image/tga/)|Truevision TGA (TARGA)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Version 6.0*|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[WEBP](https://docs.fileformat.com/image/webp/)| |{{< emoticons/tick >}}| |
+|[WEBP](https://docs.fileformat.com/image/webp/)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WMF](https://docs.fileformat.com/image/wmf/)|Revision 13.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WMZ](https://docs.fileformat.com/image/wmz/)|Compressed wmf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
