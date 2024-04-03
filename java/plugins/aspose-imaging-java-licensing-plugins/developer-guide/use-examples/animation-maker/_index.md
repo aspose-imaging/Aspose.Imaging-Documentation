@@ -14,7 +14,7 @@ Leverage the Animation Maker Licensing Plugin to easily generate animations from
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-You can create animations from various image files in different formats from <a href="/imaging/java/supported-file-formats/">the supported image formats list</a>. These images can seamlessly be incorporated into the output file, such as an animated GIF format. You maintain full control over animation parameters, enabling you to define the desired frame duration and overall duration. Before saving the animated GIF file to the output, loaded images can be effortlessly added using the <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.gif/gifimage/#addPage-com.aspose.imaging.RasterImage-">addPage() method</a> of the `gifImage` class.
+You can create animations from various image files in different formats from <a href="/imaging/java/supported-file-formats/">the supported image formats list</a>. These images can seamlessly be incorporated into the output file, such as an animated GIF format. You maintain full control over animation parameters, enabling you to define the desired frame duration and overall duration. Before saving the animated GIF file to the output, loaded images can be effortlessly added using the <a href="https://reference.aspose.com/imaging/java/com.aspose.imaging.fileformats.gif/gifimage/#addPage-com.aspose.imaging.RasterImage-">addPage() method</a> of the `GifImage` class.
 </p>
 
 {{< gist "aspose-com-gists" "ca07fcdabe6005fdfc326e4e2b9cda07" "animation-maker-plugin-example.java" >}}
