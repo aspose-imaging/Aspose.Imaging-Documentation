@@ -13,6 +13,11 @@ description: Using the C# Image Processing Library licensing plugin to apply a m
 Aspose.Imaging licensing plugins introduce the capability for developers to apply a metered key, which represents a new licensing mechanism. The plugin licensing model imposes a restriction where only one plugin can be licensed within a single application instance. If entry points beyond the defined scope of the licensed plugin are utilized, the application automatically transitions to a trial operating mode. This ensures compliance with licensing terms while offering users the opportunity to explore additional functionalities through the trial mode. For further information, please consult the <a href="https://purchase.aspose.com/faqs/licensing/metered">Metered Licensing FAQ</a> section.
 </p>
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To obtain licenses, kindly visit the <a href="https://purchase.aspose.org/imaging">Aspose Purchase portal</a>.
+</p>
+
 {{% /alert %}} 
 
 ## **Metered Plugin Licensing**
