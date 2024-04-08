@@ -65,3 +65,40 @@ Kernel filters are essential for image processing, offering a plethora of effect
 </p>
 
 For additional details, explore the <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-2-release-notes/">Aspose.Imaging 24.2 release notes</a>.
+
+
+## Aspose.Imaging for .NET 23.12
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Discover enhanced capabilities with our latest release. Introducing powerful additions to our API arsenal: `RemoveBackground` and `ChangeBackground` functionalities now support vector image processing, empowering seamless manipulation of visual elements. Experience smoother workflows as we resolve critical issues encountered during PNG export processes. Fixed `System.NullReferenceException` errors when exporting loaded PNGs with 64 bpp to 32 bpp, ensuring seamless transitions and flawless output. Moreover, streamline your operations with optimized `DataStreamSupporter.Save` functionalities, eliminating interruptions in your export procedures. Additionally, we've addressed conversion challenges, ensuring smooth transitions from EMF files to PDF formats. Fixed issues when you resize PNG images, enhancing your image management capabilities. Plus, enjoy uninterrupted functionality as EMF files seamlessly convert to SVG even in trial mode.
+</p>
+
+### New Feature - Remove and Change Background for Vector Images
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Imaging for .NET now offers robust background removal capabilities not only for raster images but also for vector formats like SVG, EMF, and CDR. Unlike raster images, background removal in vector files involves identifying and isolating objects without underlying shapes considered part of the background. The library allows you to specify a background color for removal, excluding foreground elements of the same color. Additionally, targeted background removal within specific areas of the image is possible. Removed backgrounds with the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/vectorimage/removebackground/">RemoveBackground() method</a> of `VectorImage` class, can be replaced with a new color or saved as foreground shapes on a transparent layer, providing flexibility and precision in image editing. To access C# code snippets and image examples illustrating background removal before and after, please refer to our Developer Guide article <a href="https://docs.aspose.com/imaging/net/removing-background-from-vector-images/">"Remove background from vector images in C#"</a>. It contains detailed demonstrations that will guide you through the process effectively.
+</p>
+
+Upgrade today and increase efficiency in your image processing workflows. You can find additional insights and explanations in the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-12-release-notes/">Aspose.Imaging 23.12 release notes</a>.
+
+## Aspose.Imaging for .NET 23.11
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Experience enhanced versatility with our latest update. Seamlessly implement text styles such as italic and underline in CDR format, enriching your design possibilities with greater flexibility and precision. Streamline your workflows with improved PNG to PSD conversions, ensuring seamless transitions and preserving image integrity. We've resolved issues opening CMX files and converting them to PNG format. Additionally, EMF files are accurately converted to PNG, eliminating discrepancies and preserving visual quality. Fixed `System.NullReferenceException` errors encountered during specific CDR to PNG conversions, ensuring smooth and reliable operations. Furthermore, experience smoother SVG to PNG conversions as we address underlying issues, ensuring consistent and reliable outcomes.
+</p>
+
+### New Feature - Italic and Underline Text Styles in CDR Format
+
+```cs
+var baseFolder = "D:\\";
+FontSettings.SetFontsFolder(Path.Combine(baseFolder, "Fonts"));
+using (var image = Image.Load(Path.Combine(baseFolder, "Test.cdr")))
+{
+    image.Save(Path.Combine(baseFolder, "Test.cdr.jpg"));
+}
+```
+
+## Aspose.Imaging for .NET 23.10
