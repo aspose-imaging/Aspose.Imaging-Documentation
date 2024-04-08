@@ -20,15 +20,15 @@ Enhance your API capabilities with the latest update! Now you can effortlessly a
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-With the most recent update, you now can modify DICOM image tags. You can achieve this by updating an existing tag using the UpdateTag() method, adding a new tag with AddTag(), or completely removing a tag using the RemoveTag() method. Below is a C# code example demonstrating how to load a DICOM image, edit its tags, and then save the edited output images.
+With the most recent update, you now can modify DICOM image tags. You can achieve this by updating an existing tag using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.dicom/dicomimageinfo/updatetagat/">UpdateTagAt() method</a>, adding a new tag with <a href="https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.dicom/dicomimageinfo/addtag/">AddTag() methid</a>, or completely removing a tag using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.dicom/dicomimageinfo/removetagat/">RemoveTagAt() method</a>. Below is a C# code example demonstrating how to load a DICOM image, edit its tags, and then save the edited output images.
 </p>
 
 ```cs
 using (DicomImage image = (DicomImage)Image.Load("ttfm.dcm"))
 {
-    image.FileInfo.UpdateTag("Patient's Name", "Test Patient");
+    image.FileInfo.UpdateTagAt(33, "Test Patient"); // "Patient's Name"
     image.FileInfo.AddTag("Angular View Vector", 234);
-    image.FileInfo.RemoveTag("Station Name");
+    image.FileInfo.RemoveTagAt(29); // "Station Name"
 
     image.Save("output.dcm");
 }
