@@ -252,3 +252,147 @@ Please explore our Developers Guide article <a href="https://docs.aspose.com/ima
 </p>
 
 For more information about the release, please visit the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-7-release-notes/">Aspose.Imaging 23.7 release notes</a>.
+
+## Aspose.Imaging for .NET 23.6
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+With our latest update, we've addressed several key issues to provide you with a smoother and more reliable workflow. Firstly, we've resolved the occurrence of evaluation watermarks being inadvertently added to output files when converting DCM images. Furthermore, we've tackled a `NullReferenceException` error that occurred when converting EMF files to SVG format. This fix ensures that your conversions proceed smoothly and without interruption. Additionally, we've addressed a regression issue where EXIF data was missing, leading to exceptions during image processing. With this fix in place, you can rest assured that your images will retain their metadata intact, allowing for more accurate organization and management.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+With the release of version 23.6, Aspose.Imaging for .NET now fully supports <a href="https://products.aspose.com/drawing/net/">Aspose.Drawing</a> for .NET7 configuration as the default graphics engine. This integration brings a host of benefits, including advanced rendering capabilities, improved efficiency and compatibility.
+</p>
+
+For further details about the release, please visit the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-6-release-notes/">Aspose.Imaging 23.6 release notes</a>.
+
+## Aspose.Imaging for .NET 23.5
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We're pleased to unveil our latest Imaging graphic library update, introducing a range of enhancements tailored to optimize your image processing workflows. Among the notable additions are support for tiled TIFF writing, rectifying the incorrect orientation issue with WMF rendering, and ensuring accurate arrow rendering when converting SVG files to PDF format. Additionally, we now support TIFF files with CMYK Alpha color mode, as well as seamless conversion of PNG images to TIFF while preserving CMYK colorspace and transparency. Furthermore, we've addressed exceptions encountered during PNG file rendering to PNG format. Experience enhanced efficiency and precision in your image processing tasks with our latest release.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We've introduced support for .NET7 configuration, providing you with even greater flexibility and compatibility in your development environment. Now, you can seamlessly integrate our Imaging library into your .NET7 projects.
+</p>
+
+### New Feature - TIFF Tiled Writing
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The tiled TIFF writing feature empowers you to efficiently handle large images with ease. Below is a sample C# code demonstrating how to load and save tiled TIFF files:
+</p>
+
+```cs
+using var image = Image.Load("tiled-tiff.tiff") as TiffImage;
+
+var page = image.Pages[0] as TiffFrame;
+if (page.FrameOptions.IsTiled)
+{
+    Console.WriteLine("Tiff is tiled");
+}
+
+image.Save("output-tiled.tiff");
+```
+
+For additional details about the release, please refer to the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-5-release-notes/">Aspose.Imaging 23.5 release notes</a>.
+
+## Aspose.Imaging for .NET 23.4
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Introducing our latest release, packed with enhancements to elevate your image processing workflows. Key highlights include support for rendering image raw data from EPS files, providing greater flexibility and control over your designs. Additionally, we've removed the usage of unsafe `BinaryFormatter`, ensuring improved security and reliability in serialization tasks. Addressing compatibility concerns, we've resolved DICOM loading issues under ARM64 mode, ensuring seamless operations across different platforms. Furthermore, we've rectified export inconsistencies, such as bottom-right shifted content in EMF images exported to PNG format and incorrect text offsets in EMF formulas rasterization. Plus, we've addressed issues related to object disposal after ICO image conversion, ensuring smoother transitions throughout your workflow. Upgrade now to experience these enhancements and optimize your image processing endeavors.
+</p>
+
+### New Feature - Image Raw Data Rendering from EPS
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The rendering of image raw data from EPS files provides enhanced flexibility and control over your image rendering process. Below is a code example in C# of exporting EPS files to PNG format:
+</p>
+
+```cs
+var options = new EpsLoadOptions { PreviewExportFormat = EpsPreviewFormat.PostScriptRendering, };
+using (var image = Image.Load("input.eps", options))
+{
+    image.Save("output.png");
+}
+```
+
+For further information, please consult the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-4-release-notes/">Aspose.Imaging 23.4 release notes</a>.
+
+## Aspose.Imaging for .NET 23.3
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Announcing our latest release, featuring a range of enhancements to elevate your image processing experience. With added support for BigTIFF, handling larger image files is now more seamless than ever. Also, we've fixed compatibility issues when resultant PNG files opened in Photoshop. Additionally, we've addressed a specific issue on Linux systems where attempting to convert EMZ files resulted in a "Cannot access a closed file" error. Furthermore, improvements have been made to the functionality of `WmfImage.Crop`, resolving inaccuracies and preventing exceptions with certain files. Upgrade now to access these enhancements and optimize your image processing workflows.
+</p>
+
+### New Feature - BigTIFF Image Support
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+With the <a href="https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.bigtiff/bigtiffimage/">BigTiffImage class</a> implementation, you can now effortlessly handle larger image files with ease. Here's an example of loading and exporting BigTIFF images in C#:
+</p>
+
+```cs
+var inputPath = "input-BigTIFF.tif";
+var outputPath = "output-BigTIFF.tif";
+
+using (var image = Image.Load(inputPath) as BigTiffImage)
+{
+    image.Save(outputPath, new BigTiffOptions(TiffExpectedFormat.TiffLzwRgba));
+}
+```
+
+For more detailed information, please check the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-3-release-notes/">Aspose.Imaging 23.3 release notes</a>.
+
+## Aspose.Imaging for .NET 23.2
+
+
+### New Feature - Plugin Licensing
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Imaging now introduces Plugin licensing, enabling access to specific features and functions tailored to your needs. With support for .NET Standard 2.0 and higher configurations, you can now acquire licenses for the exact capabilities you require. Our Plugin licensing system ensures you get precisely what you need, maximizing efficiency and minimizing unnecessary costs.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To acquire Plugin licenses or learn more about available options, please visit our <a href="https://purchase.aspose.org/imaging">Purchase page</a>. Additionally, detailed descriptions of available plugins can be found in the <a href="/imaging/net/aspose-imaging-net-licensing-plugins/">Licensing Plugins Documentation</a>. This provides you with comprehensive information to make informed decisions about which plugins best suit your requirements.
+</p>
+
+Example of using Licensing plugin in C#:
+```cs
+// Valid plugin license use example
+Metered license = new Metered();
+// Only one metered plug-in license is supported
+license.SetMeteredKey("<your public key>", "<your private key>");
+```
+
+### New Feature - Export Indexed PNG Images with Transparency
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The latest release introduced the ability to maintain transparency when indexing PNG images. Here's a C# code example illustrating how to load a PNG image with an alpha channel and save it with indexed colors while preserving transparency:
+</p>
+
+```cs
+using (RasterImage image = (RasterImage)Image.Load("input_png_with_alpha.png"))
+{
+    PngOptions options = new PngOptions()
+    {
+        CompressionLevel = 9,
+        ColorType = PngColorType.IndexedColor,
+        Palette = ColorPaletteHelper.GetCloseTransparentImagePalette(image, 256),
+        FilterType = PngFilterType.Avg,
+    };
+
+    image.Save("input_png_with_alpha.png.png", options);
+}
+```
+
+For further insights, please review the <a href="https://releases.aspose.com/imaging/net/release-notes/2023/aspose-imaging-for-net-23-2-release-notes/">Aspose.Imaging 23.2 release notes</a>.
