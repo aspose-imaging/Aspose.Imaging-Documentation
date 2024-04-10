@@ -17,7 +17,16 @@ This page highlights the new features and enhancements introduced in recent rele
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Enhance your API capabilities with the latest update! Now you can effortlessly adjust Dicom tags via our public API, empowering seamless integration and customization. Experience improved PNG loading, including support for files with unexpected end of file (EOF), alongside optimized PNG loader performance. Convert DJVU files to PDF with ease, ensuring the first page is not blank. Plus, tackle EMF to PDF conversions effortlessly with text wrapping enhancements. We resolve issues with converting CDR images to DXF format. Enjoy smoother EPS to SVG exports with fixes for processing errors and missing text. Witness a significant performance boost in exporting large SVG files. Get ready for enhanced productivity with our latest PS (EPS) file export fixes. Upgrade now and streamline your workflow with precision and efficiency!
+Enhance your API capabilities with the latest update:
+
+- **Adjust Dicom tags** effortlessly via our public API for seamless integration and customization.
+- Experience **improved PNG loading**, now supporting files with unexpected end of file (EOF) and optimized PNG loader performance.
+- **Convert DJVU** files to PDF effortlessly, ensuring the first page is not blank.
+- Effortlessly tackle **EMF to PDF conversions** with enhanced text wrapping.
+- Resolve issues with **converting CDR images** to DXF format.
+- Enjoy smoother **EPS to SVG exports** with fixes for processing errors and missing text.
+- Witness a significant performance boost when exporting **large SVG** files.
+- Enhance productivity with our latest **PS (EPS) file export** fixes.
 </p>
 
 ### New Feature - Edit DICOM Image Tags
@@ -45,7 +54,12 @@ Please visit the <a href="https://releases.aspose.com/imaging/net/release-notes/
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Improve your document conversion experience with our latest enhancements! Our updated conversion system seamlessly transforms TIFF files with different horizontal and vertical resolutions into PDFs, ensuring precise preservation without distortion. Additionally, we've addressed unauthorized access exceptions encountered when loading read-only image files, guaranteeing a secure and uninterrupted workflow. Embrace these advancements today to optimize your document management processes.
+Improve your document conversion experience with our latest enhancements:
+
+- Seamlessly **transform TIFF** files with varying horizontal and vertical resolutions into PDFs, ensuring precise preservation without distortion.
+- Address unauthorized access exceptions when **loading read-only image** files, guaranteeing a secure and uninterrupted workflow.
+
+Embrace these advancements today to optimize your document management processes.
 </p>
 
 For further details, please explore the <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-3-release-notes/">Aspose.Imaging 24.3 release notes</a>.
@@ -54,7 +68,17 @@ For further details, please explore the <a href="https://releases.aspose.com/ima
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Maximize your productivity with our latest release. Harness the power of kernel filters with our enhanced support, delivering stunning image and photo effects capabilities. Seamlessly integrate VSIX files into your workflow with improved recognition as SVG images. Addressing conversion challenges, we've resolved errors encountered when converting EPS images to PDF, ensuring a seamless transition. Additionally, we've tackled export issues with EPS to JPG conversions, guaranteeing faultless output quality. Experience enhanced efficiency as MSO files are now accurately recognized as SVG images. Moreover, streamline your memory usage during vector format rendering with our optimized processes. With precise step-by-step loading and rendering of each record, encounter no obstacles in your workflow. Embrace these advancements today and elevate your document management experience to new heights.
+Maximize your productivity with our latest release enchantments:
+
+- Elevate your productivity with our latest release, featuring enhanced support for **kernel filters**, enabling stunning image and photo effects.
+- Seamlessly integrate **VSIX files** into your workflow with improved recognition as SVG images.
+- Resolve errors encountered during **EPS to PDF conversions**, ensuring a seamless transition.
+- Guarantee faultless output quality with resolved export issues during **EPS to JPG conversions**.
+- Accurately **recognize MSO files** as SVG images, enhancing efficiency in document management.
+- Optimize memory usage during **vector format rendering**, enhancing overall performance.
+- Experience seamless workflow with precise step-by-step loading and rendering of each record.
+
+Embrace these advancements today and elevate your document management experience to new heights.
 </p>
 
 ### New Feature - Kernel Filters Support
@@ -71,7 +95,15 @@ For additional details, explore the <a href="https://releases.aspose.com/imaging
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Discover enhanced capabilities with our latest release. Introducing powerful additions to our API arsenal: `RemoveBackground` and `ChangeBackground` functionalities now support vector image processing, empowering seamless manipulation of visual elements. Experience smoother workflows as we resolve critical issues encountered during PNG export processes. Fixed `System.NullReferenceException` errors when exporting loaded PNGs with 64 bpp to 32 bpp, ensuring seamless transitions and flawless output. Moreover, streamline your operations with optimized `DataStreamSupporter.Save` functionalities, eliminating interruptions in your export procedures. Additionally, we've addressed conversion challenges, ensuring smooth transitions from EMF files to PDF formats. Fixed issues when you resize PNG images, enhancing your image management capabilities. Plus, enjoy uninterrupted functionality as EMF files seamlessly convert to SVG even in trial mode.
+Discover enhanced capabilities with our latest release. Introducing powerful additions to our API arsenal: 
+
+- `RemoveBackground` and `ChangeBackground` functionalities now support **vector image processing**, enabling seamless manipulation of visual elements.
+- Experience smoother workflows as critical issues encountered during **PNG export** processes are resolved.
+- Fixed `System.NullReferenceException` errors when exporting loaded **PNGs with 64 bpp to 32 bpp**, ensuring flawless output.
+- Streamline your operations with optimized `DataStreamSupporter.Save` functionalities, eliminating interruptions in your export procedures.
+- Addressed conversion challenges, ensuring smooth transitions from **EMF files to PDF** formats.
+- Fixed issues related to **resizing PNG** images, enhancing image management capabilities.
+- Enjoy uninterrupted functionality as EMF files seamlessly **convert to SVG** even in trial mode.
 </p>
 
 ### New Feature - Remove and Change Background for Vector Images
@@ -87,7 +119,14 @@ Upgrade today and increase efficiency in your image processing workflows. You ca
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Experience enhanced versatility with our latest update. Seamlessly implement text styles such as `italic` and `underline` in CDR format, enriching your design possibilities with greater flexibility. Streamline your workflows with improved PNG to PSD conversions, ensuring seamless transitions and preserving image integrity. We've resolved issues opening CMX files and converting them to PNG format. Additionally, EMF files are accurately converted to PNG, eliminating discrepancies and preserving visual quality. Fixed `System.NullReferenceException` errors encountered during specific CDR to PNG conversions, ensuring smooth and reliable operations. Furthermore, experience smoother SVG to PNG conversions as we address underlying issues, ensuring consistent and reliable outcomes.
+Experience enhanced versatility with our latest update:
+
+- Seamlessly implement text styles such as **`italic` and `underline` in CDR format**, enhancing design possibilities with greater flexibility.
+- Streamline workflows with improved **PNG to PSD conversions**, ensuring seamless transitions and preserving image integrity.
+- Resolve issues **opening CMX files** and converting them to PNG format.
+- Accurately **convert EMF files to PNG**, eliminating discrepancies and preserving visual quality.
+- Fix `System.NullReferenceException` errors encountered during specific **CDR to PNG conversions**, ensuring smooth and reliable operations.
+- Experience smoother **SVG to PNG conversions** as underlying issues are addressed, ensuring consistent and reliable outcomes.
 </p>
 
 ### New Feature - Italic and Underline Text Styles in CDR Format
@@ -129,7 +168,14 @@ For further details, please consult the <a href="https://releases.aspose.com/ima
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introducing the latest advancements in Aspsoe.Imaging version 23.10, designed to streamline your image processing workflows while enhancing performance and reliability. Among the notable updates is the implementation of a <strong>Remove Watermark filter</strong>, empowering users to effortlessly eliminate unwanted overlays and refine images. Additionally, we've addressed issues such as the "Required palette is missing" exception encountered during BMP loading, ensuring uninterrupted workflows. Furthermore, enhancements have been made to address GIF file loading issues, providing a smoother user experience. Our team has also resolved exceptions occurring during palette creation for large images, ensuring stability in image processing tasks. Moreover, improvements have been made to DICOM file loading to ensure accurate rendering and reliable data retrieval. Lastly, we've resolved errors encountered when inheriting custom classes from Image, ensuring seamless integration and compatibility.
+Introducing the latest advancements in Aspsoe.Imaging version 23.10, designed to streamline your image processing workflows while enhancing performance and reliability:
+
+- Introducing a **Remove Watermark filter**, allowing users to effortlessly eliminate unwanted overlays and refine images.
+- Address the "Required palette is missing" exception encountered during **BMP loading**, ensuring uninterrupted workflows.
+- Enhancements made to address **GIF file loading** issues, providing a smoother user experience.
+- Resolve exceptions occurring during palette **creation for large images**, ensuring stability in image processing tasks.
+- Improve **DICOM file loading** to ensure accurate rendering and reliable data retrieval.
+- Resolve errors encountered when inheriting **custom classes from Image**, ensuring seamless integration and compatibility.
 </p>
 
 <em>Please note: With this release, we've made changes regarding the .NET 5 configuration. Aspose.Imaging version 23.10 will no longer support .NET 5 configurations.</em>
@@ -179,7 +225,12 @@ For more in-depth information, please refer to the <a href="https://releases.asp
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Our latest update introduced the implementation of the <strong>Magic Wand tool</strong>, offering precise selection capabilities to refine your designs with ease. Furthermore, we've diligently addressed bugs related to font rendering during SVG exports, ensuring that your text elements retain their intended appearance without compromise. In addition, our team has resolved issues pertaining to the saving of images with dimensions exceeding 65535 pixels to JPEG format, guaranteeing accurate and reliable output for your high-resolution projects. Moreover, we've implemented improvements for exporting multi-frame GIFs to composite image formats, providing a seamless and efficient workflow for handling animated content.
+In our latest update:
+
+- Introducing the **Magic Wand tool**, offering precise selection capabilities to refine designs with ease.
+- Address bugs related to font rendering during **SVG exports**, ensuring text elements retain their intended appearance.
+- Resolve issues saving images with dimensions **exceeding 65535 pixels to JPEG** format, guaranteeing accurate output for high-resolution projects.
+- Implement improvements for **exporting multi-frame GIFs** to composite image formats, enhancing workflow efficiency for handling animated content.
 </p>
 
 ### New Feature - Magic Wand tool
@@ -224,7 +275,12 @@ If you require more detailed information, we recommend you refer to the <a href=
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-With the addition of the alpha blending feature for `RasterImage`, you now have even greater control over transparency and layering in your projects, allowing for more dynamic compositions and effects. Additionally, we've resolved issues related to EMF export errors, ensuring seamless compatibility. Furthermore, our team has diligently addressed concerns regarding the CCITT G3 1D decoder, ensuring that it functions properly and delivers reliable results. Moreover, we've made improvements to the synchronization of page management and format-specific collections for multi-page images, enhancing the consistency and efficiency of your image processing tasks.
+In our latest update, we've introduced several significant improvements and features:
+
+- The addition of the **alpha blending** feature for `RasterImage` provides greater control over transparency and layering in projects, enabling dynamic compositions and effects.
+- Resolve **EMF export** errors, ensuring seamless compatibility.
+- Address concerns regarding the **CCITT G3 1D decoder** to ensure proper functionality and reliable results.
+- Improve synchronization of page management and format-specific collections for **multi-page images**, enhancing consistency and efficiency in image processing tasks.
 </p>
 
 <em>Please note: In line with our commitment to advancing technology, we have discontinued support for configurations utilizing .NET 2.0, .NET 3.5, and .NET 3.5 client profile since Aspose.Imaging version 23.7.</em>
@@ -257,7 +313,11 @@ For more information about the release, please visit the <a href="https://releas
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-With our latest update, we've addressed several key issues to provide you with a smoother and more reliable workflow. Firstly, we've resolved the occurrence of evaluation watermarks being inadvertently added to output files when converting DCM images. Furthermore, we've tackled a `NullReferenceException` error that occurred when converting EMF files to SVG format. This fix ensures that your conversions proceed smoothly and without interruption. Additionally, we've addressed a regression issue where EXIF data was missing, leading to exceptions during image processing. With this fix in place, you can rest assured that your images will retain their metadata intact, allowing for more accurate organization and management.
+With our latest update, we've addressed several key issues to provide you with a smoother and more reliable workflow:
+
+- Resolve the occurrence of evaluation **watermarks** inadvertently added to output files when **converting DCM** images.
+- Tackle a `NullReferenceException` error encountered when **converting EMF files to SVG format**, ensuring smooth conversions.
+- Address a regression issue where **EXIF data** was missing, ensuring images retain metadata for accurate organization and management.
 </p>
 
 <p align='justify'>
@@ -271,12 +331,17 @@ For further details about the release, please visit the <a href="https://release
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-We're pleased to unveil our latest Imaging graphic library update, introducing a range of enhancements tailored to optimize your image processing workflows. Among the notable additions are support for tiled TIFF writing, rectifying the incorrect orientation issue with WMF rendering, and ensuring accurate arrow rendering when converting SVG files to PDF format. Additionally, we now support TIFF files with CMYK Alpha color mode, as well as seamless conversion of PNG images to TIFF while preserving CMYK colorspace and transparency. Furthermore, we've addressed exceptions encountered during PNG file rendering to PNG format. Experience enhanced efficiency and precision in your image processing tasks with our latest release.
+We're pleased to unveil our latest Imaging graphic library update, introducing a range of enhancements tailored to optimize your image processing workflows:
+
+- Support for **tiled TIFF writing** and rectification of incorrect orientation issues with WMF rendering.
+- Ensure accurate arrow rendering when **converting SVG files to PDF** format.
+- Support for **TIFF files with CMYK Alpha color** mode and seamless conversion of PNG images to TIFF with preserved CMYK colorspace and transparency.
+- Address exceptions encountered during **PNG file rendering** to PNG format.
 </p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-We've introduced support for .NET7 configuration, providing you with even greater flexibility and compatibility in your development environment. Now, you can seamlessly integrate our Imaging library into your .NET7 projects.
+We've introduced support for <strong>.NET7 configuration</strong>, providing you with even greater flexibility and compatibility in your development environment. Now, you can seamlessly integrate our Imaging library into your .NET7 projects.
 </p>
 
 ### New Feature - TIFF Tiled Writing
@@ -304,7 +369,13 @@ For additional details about the release, please refer to the <a href="https://r
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introducing our latest release, packed with enhancements to elevate your image processing workflows. Key highlights include support for rendering image raw data from EPS files, providing greater flexibility and control over your designs. Additionally, we've removed the usage of unsafe `BinaryFormatter`, ensuring improved security and reliability in serialization tasks. Addressing compatibility concerns, we've resolved DICOM loading issues under ARM64 mode, ensuring seamless operations across different platforms. Furthermore, we've rectified export inconsistencies, such as bottom-right shifted content in EMF images exported to PNG format and incorrect text offsets in EMF formulas rasterization. Plus, we've addressed issues related to object disposal after ICO image conversion, ensuring smoother transitions throughout your workflow. Upgrade now to experience these enhancements and optimize your image processing endeavors.
+Introducing our latest release, packed with enhancements to elevate your image processing workflows:
+
+- Support for **rendering image raw data from EPS** files provides greater flexibility and control over designs.
+- Removal of unsafe `BinaryFormatter` ensures improved security and reliability in serialization tasks.
+- Resolve **DICOM loading** issues under ARM64 mode for seamless operations across platforms.
+- Rectify export inconsistencies, including bottom-right shifted content in **EMF images exported to PNG** format and incorrect text offsets in **EMF formulas rasterization**.
+- Address issues related to object disposal after **ICO image conversion**, ensuring smoother transitions throughout workflows.
 </p>
 
 ### New Feature - Image Raw Data Rendering from EPS
@@ -328,7 +399,12 @@ For further information, please consult the <a href="https://releases.aspose.com
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Announcing our latest release, featuring a range of enhancements to elevate your image processing experience. With added support for BigTIFF, handling larger image files is now more seamless than ever. Also, we've fixed compatibility issues when resultant PNG files opened in Photoshop. Additionally, we've addressed a specific issue on Linux systems where attempting to convert EMZ files resulted in a "Cannot access a closed file" error. Furthermore, improvements have been made to the functionality of `WmfImage.Crop`, resolving inaccuracies and preventing exceptions with certain files. Upgrade now to access these enhancements and optimize your image processing workflows.
+Announcing our latest release, featuring a range of enhancements to elevate your image processing experience:
+
+- Added **support for BigTIFF** makes handling larger image files more seamless than ever.
+- Fixed compatibility issues when resultant **PNG files opened in Photoshop**.
+- Addressed a specific issue on Linux systems where **converting EMZ** files resulted in a "Cannot access a closed file" error.
+- Improvements made to the functionality of `WmfImage.Crop`, resolving inaccuracies and preventing exceptions with certain files.
 </p>
 
 ### New Feature - BigTIFF Image Support
@@ -352,6 +428,19 @@ For more detailed information, please check the <a href="https://releases.aspose
 
 ## Aspose.Imaging for .NET 23.2
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We're excited to introduce our new release in 2023, which includes enhancements designed to elevate your image processing experience:
+
+- Introducing **plug-in licensing** development for enhanced flexibility and management.
+- Preserve **transparency in indexed PNG** images for seamless integration.
+- Address bug in **ICO to PDF export** process for improved reliability.
+- Optimize conversion speed in `RasterImage.ToBitmap()` method for faster performance.
+- Resolve **SVG export** issue for accurate rendering and compatibility.
+- Fix image export failure when **converting DCM to PNG** format.
+- Ensure text preservation when **converting from SVG to JPG** format.
+- Improve color retention in **TIFF to PDF conversion** process.
+</p>
 
 ### New Feature - Plugin Licensing
 
