@@ -3,8 +3,8 @@ title: What's New in Aspose.Imaging for .NET
 type: docs
 weight: 5
 url: /net/what-s-new-in-aspose-imaging-for-net/
-keywords: C# image library, C# image processing
-description: C# image processing library supports most common raster file formats and offers a wide range of compression algorithms, image export and image conversion.
+keywords: C# image library, C# image processing, raster file formats, compression algorithms, image conversion, image enhancements, public API features, graphic API capabilities, imaging graphic library, edit DICOM, tiled TIFF, kernel filters
+description: Discover the latest advancements in Aspose.Imaging, C# image processing library designed to streamline your workflow. Explore enhanced capabilities for seamless image export and conversion, allowing for effortless manipulation of images.
 ---
 
 {{% alert color="primary" %}}
