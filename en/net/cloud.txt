@@ -1,0 +1,2 @@
+ImagingApi api = new ImagingApi("imaging.cloud",
+                    "imaging.cloud", "https://api-qa.aspose.cloud");
