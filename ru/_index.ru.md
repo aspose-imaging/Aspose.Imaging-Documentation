@@ -2,7 +2,7 @@
 title: Aspose.Imaging Product Family
 type: docs
 weight: 10
-url: /
+url: /ru/
 ---
 
 {{% alert color="primary" %}}
@@ -21,12 +21,12 @@ The component supports the most common raster file formats and offers a wide ran
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for .NET Online Documentation](/imaging/net/)
-- [Aspose.Imaging for .NET Features](/imaging/net/features/)
-- [Aspose.Imaging for .NET Limitations](/imaging/net/known-issues/)
-- [Aspose.Imaging for .NET Release Notes](https://releases.aspose.com/imaging/net/release-notes/)
-- [Aspose.Imaging for .NET Product Page](https://products.aspose.com/imaging/net/)
-- [Aspose.Imaging for .NET New Releases](https://releases.aspose.com/imaging/net/)
+- [Aspose.Imaging for .NET Online Documentation](/imaging/ru/net/)
+- [Aspose.Imaging for .NET Features](/imaging/ru/net/features/)
+- [Aspose.Imaging for .NET Limitations](/imaging/ru/net/known-issues/)
+- [Aspose.Imaging for .NET Release Notes](https://releases.aspose.com/imaging/ru/net/release-notes/)
+- [Aspose.Imaging for .NET Product Page](https://products.aspose.com/imaging/ru/net/)
+- [Aspose.Imaging for .NET New Releases](https://releases.aspose.com/imaging/ru/net/)
 - [Install Aspose.Imaging for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Imaging/)
 - [Aspose.Imaging for .NET API Reference Guide](https://reference.aspose.com/imaging/net)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET)
@@ -50,12 +50,12 @@ The component supports the most common raster file formats and offers a wide ran
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for Python via .NET Online Documentation](/imaging/python-net/)
-- [Aspose.Imaging for Python via .NET Features](/imaging/python-net/features/)
-- [Aspose.Imaging for Python via .NET Limitations](/imaging/python-net/known-issues/)
-- [Aspose.Imaging for Python via .NET Release Notes](https://releases.aspose.com/imaging/python-net/release-notes/)
-- [Aspose.Imaging for Python via .NET Product Page](https://products.aspose.com/imaging/python-net/)
-- [Aspose.Imaging for Python via .NET New Releases](https://releases.aspose.com/imaging/python-net/)
+- [Aspose.Imaging for Python via .NET Online Documentation](/imaging/ru/python-net/)
+- [Aspose.Imaging for Python via .NET Features](/imaging/ru/python-net/features/)
+- [Aspose.Imaging for Python via .NET Limitations](/imaging/ru/python-net/known-issues/)
+- [Aspose.Imaging for Python via .NET Release Notes](https://releases.aspose.com/imaging/ru/python-net/release-notes/)
+- [Aspose.Imaging for Python via .NET Product Page](https://products.aspose.com/imaging/ru/python-net/)
+- [Aspose.Imaging for Python via .NET New Releases](https://releases.aspose.com/imaging/ru/python-net/)
 - [Install Aspose.Imaging for Python via .NET PyPi Package](https://test.pypi.org/project/aspose.imaging/)
 - [Aspose.Imaging for Python via .NET API Reference Guide](https://reference.aspose.com/imaging/python-net)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose-Imaging-For-Python)
@@ -79,14 +79,14 @@ Aspose.Imaging for Java offers a broad spectrum of traditional image processing 
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Imaging for Java Online Documentation](/imaging/java/)
-- [Aspose.Imaging for Java Features](/imaging/java/features/)
-- [Aspose.Imaging for Java Limitations](/imaging/java/known-issues/)
-- [Aspose.Imaging for Java Release Notes](https://releases.aspose.com/imaging/java/release-notes/)
-- [Aspose.Imaging for Java Maven repository](https://releases.aspose.com/java/repo/com/aspose/aspose-imaging/)
-- [Download Aspose.Imaging for Java package](https://releases.aspose.com/imaging/java/)
-- [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/java/)
-- [Install Aspose.Imaging for Java from Maven Repository](/imaging/java/installation/)
+- [Aspose.Imaging for Java Online Documentation](/imaging/ru/java/)
+- [Aspose.Imaging for Java Features](/imaging/ru/java/features/)
+- [Aspose.Imaging for Java Limitations](/imaging/ru/java/known-issues/)
+- [Aspose.Imaging for Java Release Notes](https://releases.aspose.com/imaging/ru/java/release-notes/)
+- [Aspose.Imaging for Java Maven repository](https://releases.aspose.com/ru/java/repo/com/aspose/aspose-imaging/)
+- [Download Aspose.Imaging for Java package](https://releases.aspose.com/imaging/ru/java/)
+- [Aspose.Imaging for Java Product Page](https://products.aspose.com/imaging/ru/java/)
+- [Install Aspose.Imaging for Java from Maven Repository](/imaging/ru/java/installation/)
 - [Aspose.Imaging for Java API Reference Guide](https://reference.aspose.com/imaging/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-Java)
 - [Aspose.Imaging for Java Free Support Forum](https://forum.aspose.com/c/imaging/14)
