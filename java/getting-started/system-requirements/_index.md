@@ -12,7 +12,7 @@ Aspose.Imaging for Java can be virtually run in any OS where Java is installed.
 
 - Windows (since 7)
 - Linux
-- MacOS
+- macOS (amd64/arm64)
 - Any OS where Java is installed.
 
 Aspose.Imaging works for both x86 and x64 versions of the above listed operating systems.

@@ -31,7 +31,7 @@ Then define Aspose.Imaging for Java API dependency in your pom.xml as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-imaging</artifactId>
-        <version>23.10</version>
+        <version>24.6</version>
         <classifier>jdk16</classifier>
    </dependency>
 
@@ -39,7 +39,7 @@ Then define Aspose.Imaging for Java API dependency in your pom.xml as follows:
    <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-imaging</artifactId>
-        <version>23.10</version>
+        <version>24.6</version>
         <classifier>javadoc</classifier>
    </dependency>
 </dependencies>
