@@ -13,6 +13,50 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for .NET 24.6
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Exciting updates in Aspose.Imaging:
+
+- **HEIC Format Support**: As of version 24.6, Aspose.Imaging now supports <a href="https://www.nuget.org/packages/Aspose.Imaging.HEIC.Adapter">Aspose.Imaging.Heic.Adapter</a>, enabling the loading of HEIC formats and conversion to various supported formats.
+- **ExifData Transfer**: Seamlessly transfer ExifData between supported formats during export for enhanced metadata handling.
+- **Emfplus Text Alignment** Fix: Bugs affecting text alignment in Emfplus have been resolved for improved rendering accuracy.
+- Enhanced Format Detection: All unknown formats detected after **identifying SVG** are now recognized as SVG for streamlined processing.
+- **Transparent PNG to TIFF** Deflate RGB: Transparency preservation in PNG to TIFF Deflate RGB conversion now ensures transparent colors remain white, not black.
+- **DICOM Export** Issue Resolution: We've addressed issues related to DICOM export for smoother workflow operations.
+- **DICOM to PDF Conversion** Fix: Convert DICOM images to PDF seamlessly with resolved conversion issues.
+- **DICOM to JPEG Conversion**: Easily convert DICOM images to JPEG format without encountering any conversion barriers.
+</p>
+
+### New Feature - Enhanced ExifData Transfer on Export
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In our latest update, we are pleased to announce a powerful new feature: the ability to transfer ExifData between supporting formats during export. With this enhancement, you can now seamlessly preserve and transfer Exif metadata when exporting images to compatible formats. Whether you're converting images for web use, archiving, or sharing, this feature ensures that crucial metadata such as camera settings, date/time information, and location data remain intact, enhancing the overall usability and fidelity of exported images. Say goodbye to lost metadata and hello to a more streamlined and efficient workflow with our enhanced ExifData transfer functionality.
+</p>
+
+For further details, please refer to the provided <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-6-release-notes/">Aspose.Imaging 24.6 release notes</a>.
+
+## Aspose.Imaging for .NET 24.5
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We're thrilled to announce the latest updates to Aspose.Imaging, packed with enhancements and fixes to streamline your imaging experience. Here's what's new:
+
+- Seamless **Integration with NET8** Configuration: Aspose.Imaging now supports NET8 configuration, ensuring smoother performance.
+- **Enhanced EPS Compatibility**: We've resolved a range of EPS-related issues, including **font rendering** extensions and functionality improvements.
+- Smooth **EPS to PNG Conversion**: We've fixed the EPS to PNG export issue for seamless conversions.
+- Perfect GIF Output: Our update ensures **saving GIF files** produces perfectly rendered outputs.
+- Precise **EmfPlus Rendering**: Experience accurate EmfPlus rendering with our bug fixes, ensuring images display correctly.
+- Improved **EPS to SVG Conversion**: Incorrect EPS to SVG conversions are a thing of the past with our latest enhancements.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-5-release-notes/">Aspose.Imaging 24.5 release notes</a>.
+
+
 ## Aspose.Imaging for .NET 24.4
 
 <p align='justify'>
