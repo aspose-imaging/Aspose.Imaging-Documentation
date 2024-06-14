@@ -29,8 +29,14 @@ Exciting updates in Aspose.Imaging:
 - **DICOM to JPEG Conversion**: Easily convert DICOM images to JPEG format without encountering any conversion barriers.
 </p>
 
-### New Feature - ExifData transferring on export
+### New Feature - Enhanced ExifData Transfer on Export
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In our latest update, we are pleased to announce a powerful new feature: the ability to transfer ExifData between supporting formats during export. With this enhancement, you can now seamlessly preserve and transfer Exif metadata when exporting images to compatible formats. Whether you're converting images for web use, archiving, or sharing, this feature ensures that crucial metadata such as camera settings, date/time information, and location data remain intact, enhancing the overall usability and fidelity of exported images. Say goodbye to lost metadata and hello to a more streamlined and efficient workflow with our enhanced ExifData transfer functionality.
+</p>
+
+For further details, please refer to the provided <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-6-release-notes/">Aspose.Imaging 24.6 release notes</a>.
 
 ## Aspose.Imaging for .NET 24.5
 
@@ -48,7 +54,7 @@ We're thrilled to announce the latest updates to Aspose.Imaging, packed with enh
 Upgrade to the latest version of today to experience these enhancements and more.
 </p>
 
-For additional information, kindly review the accompanying  <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-5-release-notes/">Aspose.Imaging 24.5 release notes</a>.
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/net/release-notes/2024/aspose-imaging-for-net-24-5-release-notes/">Aspose.Imaging 24.5 release notes</a>.
 
 
 ## Aspose.Imaging for .NET 24.4
