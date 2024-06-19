@@ -26,6 +26,7 @@ description: C# image processing library supports file formats including BMP, GI
 |[EMZ](https://docs.fileformat.com/image/emz/)|Compressed emf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EPS](https://docs.fileformat.com/page-description-language/eps/)| |{{< emoticons/tick >}}| |
 |[GIF](https://docs.fileformat.com/image/gif/)|Version 89a|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[HEIC](https://github.com/openize-imaging/Openize.HEIC-for-.NET)|I-slice images (ITU-T H.265) **|{{< emoticons/tick >}}| |
 |[HTML5 canvas](https://docs.fileformat.com/web/html/)|Html5 canvas element| |{{< emoticons/tick >}}|
 |[ICO](https://docs.fileformat.com/image/ico/)|Version 1.0 and later|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|CCITT Rec. T.81 (1992 E)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -42,3 +43,5 @@ description: C# image processing library supports file formats including BMP, GI
 |[WEBP](https://docs.fileformat.com/image/webp/)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WMF](https://docs.fileformat.com/image/wmf/)|Revision 13.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WMZ](https://docs.fileformat.com/image/wmz/)|Compressed wmf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+
+** HEIC file format support is implemented using Openize.Heic that is distributed under [Openize.Heic License](https://raw.githubusercontent.com/openize-imaging/Openize.HEIC-for-.NET/main/LICENSE)
