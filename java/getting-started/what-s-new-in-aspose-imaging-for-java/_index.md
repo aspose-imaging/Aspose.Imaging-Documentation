@@ -13,6 +13,45 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for Java 24.6
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Exciting updates in Aspose.Imaging:
+
+- **ExifData Transfer**: Seamlessly transfer ExifData between supported formats during export for enhanced metadata handling.
+- **Emfplus Text Alignment** Fix: Bugs affecting text alignment in Emfplus have been resolved for improved rendering accuracy.
+- Enhanced Format Detection: All unknown formats detected after **identifying SVG** are now recognized as SVG for streamlined processing.
+- **Transparent PNG to TIFF** Deflate RGB: Transparency preservation in PNG to TIFF Deflate RGB conversion now ensures transparent colors remain white, not black.
+- **DICOM Export** Issue Resolution: We've addressed issues related to DICOM export for smoother workflow operations.
+- **DICOM to PDF Conversion** Fix: Convert DICOM images to PDF seamlessly with resolved conversion issues.
+- **DICOM to JPEG Conversion**: Easily convert DICOM images to JPEG format without encountering any conversion barriers.
+</p>
+
+### New Feature - ExifData transferring on export
+
+
+For additional information, kindly review the accompanying  <a href="https://releases.aspose.com/imaging/java/release-notes/2024/aspose-imaging-for-java-24-6-release-notes/">Aspose.Imaging 24.6 release notes</a>.
+
+
+## Aspose.Imaging for Java 24.5
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We're thrilled to announce the latest updates to Aspose.Imaging, packed with enhancements and fixes to streamline your imaging experience. Here's what's new:
+
+- Seamless **Integration with NET8** Configuration: Aspose.Imaging now supports NET8 configuration, ensuring smoother performance.
+- **Enhanced EPS Compatibility**: We've resolved a range of EPS-related issues, including **font rendering** extensions and functionality improvements.
+- Smooth **EPS to PNG Conversion**: We've fixed the EPS to PNG export issue for seamless conversions.
+- Perfect GIF Output: Our update ensures **saving GIF files** produces perfectly rendered outputs.
+- Precise **EmfPlus Rendering**: Experience accurate EmfPlus rendering with our bug fixes, ensuring images display correctly.
+- Improved **EPS to SVG Conversion**: Incorrect EPS to SVG conversions are a thing of the past with our latest enhancements.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying  <a href="https://releases.aspose.com/imaging/java/release-notes/2024/aspose-imaging-for-java-24-5-release-notes/">Aspose.Imaging 24.5 release notes</a>.
+
 ## Aspose.Imaging for Java 24.4
 
 <p align='justify'>

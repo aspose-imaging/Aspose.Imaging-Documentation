@@ -9,7 +9,7 @@ description: Another Python Imaging Library provides a number of flexible routin
 
 {{% alert color="primary" %}}
 
-{{% image img="home_1.png" alt="Aspose.Imaging for Python via .NET Product Logo" %}}
+{{% image img="home_4.png" alt="Aspose.Imaging for Python via .NET Product Logo" %}}
 
 **Welcome to Aspose.Imaging for Python via .NET**
 

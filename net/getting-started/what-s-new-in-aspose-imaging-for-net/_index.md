@@ -212,7 +212,7 @@ For further details, please consult the <a href="https://releases.aspose.com/ima
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Introducing the latest advancements in Aspsoe.Imaging version 23.10, designed to streamline your image processing workflows while enhancing performance and reliability:
+Introducing the latest advancements in Aspose.Imaging version 23.10, designed to streamline your image processing workflows while enhancing performance and reliability:
 
 - Introducing a **Remove Watermark filter**, allowing users to effortlessly eliminate unwanted overlays and refine images.
 - Address the "Required palette is missing" exception encountered during **BMP loading**, ensuring uninterrupted workflows.
