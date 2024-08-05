@@ -13,6 +13,21 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+
+## Aspose.Imaging for Java 24.7
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 24.7:
+
+- Support Dicom YBR 422.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/java/release-notes/2024/aspose-imaging-for-java-24-7-release-notes/">Aspose.Imaging 24.7 release notes</a>.
+
+
 ## Aspose.Imaging for Java 24.6
 
 <p align='justify'>

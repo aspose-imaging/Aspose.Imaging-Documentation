@@ -7,6 +7,21 @@ keywords: Python image library, Python image processing, raster file formats, co
 description: Discover the latest advancements in Aspose.Imaging, Python image processing library designed to streamline your workflow. Explore enhanced capabilities for seamless image export and conversion, allowing for effortless manipulation of images.
 ---
 
+
+## Aspose.Imaging for Python via .NET 24.7
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 24.7:
+
+- Support Dicom YBR 422.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2024/aspose-imaging-for-python-net-24-7-release-notes/">Aspose.Imaging 24.7 release notes</a>.
+
+
 ## Aspose.Imaging for Python via .NET 24.6
 
 <p align='justify'>
