@@ -26,7 +26,7 @@ description: C# image processing library supports file formats including BMP, GI
 |[EMZ](https://docs.fileformat.com/image/emz/)|Compressed emf format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EPS](https://docs.fileformat.com/page-description-language/eps/)| |{{< emoticons/tick >}}| |
 |[GIF](https://docs.fileformat.com/image/gif/)|Version 89a|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[HEIC](https://github.com/fileformat-heic/FileFormat.HEIC-for-.NET)|I-slice images (ITU-T H.265) **|{{< emoticons/tick >}}| |
+|[HEIC](https://www.nuget.org/packages/Aspose.Imaging.HEIC.Adapter)|I-slice images (ITU-T H.265) **|{{< emoticons/tick >}}| |
 |[HTML5 canvas](https://docs.fileformat.com/web/html/)|Html5 canvas element| |{{< emoticons/tick >}}|
 |[ICO](https://docs.fileformat.com/image/ico/)|Version 1.0 and later|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|CCITT Rec. T.81 (1992 E)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
