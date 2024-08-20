@@ -8,6 +8,21 @@ description: Discover the latest advancements in Aspose.Imaging, Python image pr
 ---
 
 
+## Aspose.Imaging for Python via .NET 24.8
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 24.8:
+
+- Support Python 3.12
+- Add ability to load image from URL.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2024/aspose-imaging-for-python-net-24-8-release-notes/">Aspose.Imaging 24.8 release notes</a>.
+
+
 ## Aspose.Imaging for Python via .NET 24.7
 
 <p align='justify'>
