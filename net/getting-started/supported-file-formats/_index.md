@@ -13,6 +13,7 @@ description: C# image processing library supports file formats including BMP, GI
 |**File format**|**Supported versions**|**Load**|**Save**|
 | :- | :- | :- | :- |
 |[APNG](https://docs.fileformat.com/image/apng/)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AVIF](https://docs.fileformat.com/image/avif/)|Version 1.0+|{{< emoticons/tick >}}| |
 |[BIGTIFF](https://www.awaresystems.be/imaging/tiff/bigtiff.html)|Version 6.0*|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|BMP Specification v5|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[CDR](https://docs.fileformat.com/image/cdr/)|Version X7, X6 (3-x5 not completely)|{{< emoticons/tick >}}| |
