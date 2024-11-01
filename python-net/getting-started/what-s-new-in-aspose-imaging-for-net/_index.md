@@ -8,6 +8,25 @@ description: Discover the latest advancements in Aspose.Imaging, Python image pr
 ---
 
 
+## Aspose.Imaging for Python via .NET 24.11
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 24.11:
+
+- Support AVIF file format;
+- Implement SVG vector effect non-scaling-stroke.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2024/aspose-imaging-for-python-net-24-11-release-notes/">Aspose.Imaging 24.11 release notes</a>.
+
+
+## Aspose.Imaging for Python via .NET 24.10
+
+This release has not been released.
+
 ## Aspose.Imaging for Python via .NET 24.9
 
 <p align='justify'>
