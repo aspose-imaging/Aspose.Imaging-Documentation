@@ -16,6 +16,7 @@ Updates in Aspose.Imaging 24.11:
 
 - Support AVIF file format;
 - Implement SVG vector effect non-scaling-stroke.
+- Preserve transparency on APNG to GIF conversion;
 
 Upgrade to the latest version of today to experience these enhancements and more.
 </p>
