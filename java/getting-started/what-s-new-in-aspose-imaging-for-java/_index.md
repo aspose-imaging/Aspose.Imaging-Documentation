@@ -13,6 +13,20 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for .NET 24.12
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 24.12:
+
+- Unify usage of common operations (crop, rotate etc) for all formats;
+- Support batch mode for all exportable multi page formats via PageExportingAction.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/java/release-notes/2024/aspose-imaging-for-java-24-12-release-notes/">Aspose.Imaging 24.12 release notes</a>.
+
 ## Aspose.Imaging for Java 24.11
 
 <p align='justify'>
