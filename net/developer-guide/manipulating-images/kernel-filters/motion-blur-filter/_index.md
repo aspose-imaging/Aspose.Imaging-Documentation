@@ -30,6 +30,51 @@ double[,] customKernel = new double[,]
 This effect simulates the appearance of camera movement during photo capture in a diagonal direction, creating the illusion of motion in the image.
 </p>
 
+<style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .marginauto {
+    margin: 10px auto 20px;
+    display: block;
+   }
+   .frame figcaption {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   }
+</style>
+
+<figure class="frame">
+<div class="container">
+    <div>
+        <figcaption>Original image</figcaption>
+    </div>
+    <div>
+        <figcaption>MotionBlur filter</figcaption>
+    </div>
+</div>
+<div class="container">
+    <div>
+        <img src="../template-landscape.webp" alt="Original vector image" width="793"/>
+    </div>
+    <div>
+        <img src="./custom-motion-blur-kernel-filter.webp" alt="Custom Motion blur 7x7 horizontal kernel filter in Python" width="793" />
+    </div>
+</div>
+<figcaption>Custom MotionBlur kernel filter</figcaption>
+</figure>
 
 ## C# code example
 
