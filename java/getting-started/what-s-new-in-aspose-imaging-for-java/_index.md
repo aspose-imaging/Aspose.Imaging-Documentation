@@ -13,6 +13,23 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for Java 25.4
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.4:
+
+- Auto adjustment of image brightness.
+
+Exciting updates in Aspose.Imaging:
+
+- **HEIC Format Support**: As of version 25.4, Aspose.Imaging now supports <a href="https://products.aspose.com/imaging/adapters/java/">Aspose.Imaging.Heic.Adapter</a>, enabling the loading of HEIC formats and conversion to various supported formats.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/java/release-notes/2025/aspose-imaging-for-java-25-4-release-notes/">Aspose.Imaging 25.4 release notes</a>.
+
 ## Aspose.Imaging for Java 25.3
 
 <p align='justify'>
