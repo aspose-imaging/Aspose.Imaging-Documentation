@@ -12,6 +12,33 @@ description: Discover the latest advancements in Aspose.Imaging, Java image proc
 This page highlights the new features and enhancements introduced in recent releases of Aspose.Imaging graphic library. Your feedback is invaluable to us as we strive to improve our product. We greatly appreciate it if you take a moment to provide your insights on different aspects and complete the <a href="https://forms.gle/VVJS9gK6izFSmR1R8">Aspose.Imaging for Java feedback form</a>.
 
 {{% /alert %}}
+
+## Aspose.Imaging for Java 25.6
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.6:
+
+- PNG CompressionLevel is now used when saving image.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/java/release-notes/2025/aspose-imaging-for-java-25-6-release-notes/">Aspose.Imaging 25.6 release notes</a>.
+
+## Aspose.Imaging for Java 25.5
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.5:
+
+- Corrupted text drawing when using LineAlligment.Center;
+- Explore the CDR version 25.10 and fix rendering errors in the provided file.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/java/release-notes/2025/aspose-imaging-for-java-25-5-release-notes/">Aspose.Imaging 25.5 release notes</a>.
 
 ## Aspose.Imaging for Java 25.4
 

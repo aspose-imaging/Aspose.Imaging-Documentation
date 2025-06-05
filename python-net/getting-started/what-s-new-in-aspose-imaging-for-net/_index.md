@@ -7,6 +7,33 @@ keywords: Python image library, Python image processing, raster file formats, co
 description: Discover the latest advancements in Aspose.Imaging, Python image processing library designed to streamline your workflow. Explore enhanced capabilities for seamless image export and conversion, allowing for effortless manipulation of images.
 ---
 
+## Aspose.Imaging for Python via .NET 25.6
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.6:
+
+- PNG CompressionLevel is now used when saving image.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2025/aspose-imaging-for-python-net-25-6-release-notes/">Aspose.Imaging 25.6 release notes</a>.
+
+## Aspose.Imaging for Python via .NET 25.5
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.5:
+
+- Corrupted text drawing when using LineAlligment.Center;
+- Explore the CDR version 25.10 and fix rendering errors in the provided file.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2025/aspose-imaging-for-python-net-25-5-release-notes/">Aspose.Imaging 25.5 release notes</a>.
+
 ## Aspose.Imaging for Python via .NET 25.4
 
 <p align='justify'>
