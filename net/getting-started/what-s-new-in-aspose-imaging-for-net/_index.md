@@ -13,6 +13,20 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for .NET 25.7
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.7:
+
+- Extend support of Dicom format;
+- Support of common graphics engine for svg, emf, wmf formats.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/net/release-notes/2025/aspose-imaging-for-net-25-7-release-notes/">Aspose.Imaging 25.7 release notes</a>.
+
 ## Aspose.Imaging for .NET 25.6
 
 <p align='justify'>
