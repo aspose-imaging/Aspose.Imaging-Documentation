@@ -15,18 +15,7 @@ Aspose.Imaging for Python via .NET is a wrapper of Aspose.Imaging for .NET, that
 ## Feature Differences
 
 Due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.<br>
-**Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as**
-
-- [IPartialArgb32PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb32pixelloader/)
-- [IPartialArgb64PixelLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/ipartialargb64pixelloader/)
-- [IImageLoader](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloader/)
-- [IImageLoaderDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageloaderdescriptor/)
-- [IImageExporter](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporter/)
-- [IImageExporterDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimageexporterdescriptor/)
-- [IImageCreator](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreator/)
-- [IImageCreatorDescriptor](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/iimagecreatordescriptor/)
-- [IColorPalette](https://reference2.aspose.com/imaging/python-net/api-reference/aspose.imaging/icolorpalette/)
-- and other interfaces and callbacks/delegates
+**Implementation of classes/delegates is not supported yet, that is why it is not possible to use callbacks such as**
 
 ## Casting Aspose.Imaging Objects in Python
 
