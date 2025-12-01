@@ -4,8 +4,6 @@ linktitle: Convert EMF to WMF
 type: docs
 weight: 30
 url: /net/convert-emf-to-wmf/
-description: Demonstrates how to convert an EMF file to WMF format with Aspose.Imaging for .NET.
-keywords: emf wmf conversion c#
 ---
 
 # Convert EMF to WMF
