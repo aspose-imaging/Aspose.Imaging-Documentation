@@ -8,6 +8,32 @@ description: Discover the latest advancements in Aspose.Imaging, Python image pr
 ---
 
 
+## Aspose.Imaging for Python via .NET 25.12
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.12:
+
+- Implement the ability to support filters in rendering.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2025/aspose-imaging-for-python-net-25-12-release-notes/">Aspose.Imaging 25.12 release notes</a>.
+
+## Aspose.Imaging for Python via .NET 25.10
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.10:
+
+- Extend Exif metadata support for raster image formats.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/python-net/release-notes/2025/aspose-imaging-for-python-net-25-10-release-notes/">Aspose.Imaging 25.10 release notes</a>.
+
 ## Aspose.Imaging for Python via .NET 25.9
 
 <p align='justify'>
