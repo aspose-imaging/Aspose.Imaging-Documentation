@@ -13,6 +13,19 @@ This page highlights the new features and enhancements introduced in recent rele
 
 {{% /alert %}}
 
+## Aspose.Imaging for .NET 25.12
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Updates in Aspose.Imaging 25.12:
+
+- Speed up Jpeg2000 processing.
+
+Upgrade to the latest version of today to experience these enhancements and more.
+</p>
+
+For additional information, kindly review the accompanying <a href="https://releases.aspose.com/imaging/net/release-notes/2025/aspose-imaging-for-net-25-12-release-notes/">Aspose.Imaging 25.12 release notes</a>.
+
 ## Aspose.Imaging for .NET 25.11
 
 <p align='justify'>
