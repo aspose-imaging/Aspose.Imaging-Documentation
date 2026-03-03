@@ -56,7 +56,7 @@ Due to the fact that Aspose.Imaging for Python via .NET is based on .NET assembl
 
 ### Arrays
 
-Actually returning arrays are classes that support standard access to their elements using `array[index]`, but they do not support the `len()` function. Instead, their size could be gotten using the property `length`.
+Actually returning arrays are classes that support standard access to their elements using `array[index]`, and they support the `len()` function. 
 **Supported methods/properties**
 - Method `index()`
 - Method `count()`
@@ -65,11 +65,10 @@ Actually returning arrays are classes that support standard access to their elem
 - Method `copy()`
 - Method `contains()`
 - Iterator `__iter__`
-- Property `length` 
 
 ``` python
 pixels = image.load_argb_32_pixels(Rectangle(10, 10, 20, 20))
-print("The length of pixels is", pixels.length) # can not be used `len(pixels)`
+print("The length of pixels is", len(pixels)
 # or you can do like this
 list_copy = list(pixels)
 print("The length of list_copy is", len(list_copy)) 
@@ -78,7 +77,7 @@ print("The length of list_copy is", len(list_copy))
 Arrays might be converted into standard Python lists by calling `list(pixels)`, but it takes time and more memory to copy all elements.
 
 ### Lists
-Returning list are classes that support the following methods. But they do not support the `len()` function. Instead, their size could be gotten using the property `length`.
+Returning list are classes that support the following methods. And they support the `len()` function.
 
 **Supported methods/properties**
 - Method `pop()`
@@ -92,7 +91,6 @@ Returning list are classes that support the following methods. But they do not s
 - Method `clear()`
 - Method `contains()`
 - Iterator `__iter__`
-- Property `length` 
 
 Lists might be converted into standard Python lists by calling `list()`, but it takes time and more memory to copy all elements.
 
